@@ -1,0 +1,119 @@
+{
+  "@context": "https://schema.org",
+  "@type": "NailSalon",
+  "name": "Athena's Beauty",
+  "description": "Luxury nail artistry in Denton, TX specializing in builder gel, Gel-X extensions, acrylic sculpting, and trending custom designs.",
+  "url": "https://athenas-beauty.com",
+  "telephone": "+1-940-435-1332",
+  "email": "athena@athenas-beauty.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Denton",
+    "addressLocality": "Denton",
+    "addressRegion": "TX",
+    "postalCode": "76201",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "33.2148",
+    "longitude": "-97.1331"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "09:00",
+      "closes": "19:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "10:00",
+      "closes": "17:00"
+    }
+  ],
+  "priceRange": "$$",
+  "paymentAccepted": ["Cash", "Credit Card"],
+  "currenciesAccepted": "USD",
+  "areaServed": {
+    "@type": "City",
+    "name": "Denton",
+    "containedInPlace": {
+      "@type": "State",
+      "name": "Texas"
+    }
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Nail Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Builder Gel Nails",
+          "description": "Strong, lightweight nail enhancement"
+        },
+        "price": "60.00",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Gel-X Extensions",
+          "description": "Soft gel nail extensions"
+        },
+        "price": "70.00",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Acrylic Nails",
+          "description": "Classic acrylic nail extensions"
+        },
+        "price": "55.00",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Dip Powder Nails",
+          "description": "Odor-free, lightweight powder manicure"
+        },
+        "price": "45.00",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Custom Nail Art",
+          "description": "Hand-painted nail designs and artwork"
+        },
+        "price": "65.00",
+        "priceCurrency": "USD"
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "35",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "sameAs": [
+    "https://www.instagram.com/athenasbeauty.denton",
+    "https://www.tiktok.com/@athenasbeauty.denton",
+    "https://nailsbyatenad.booksy.com"
+  ],
+  "image": [
+    "https://athenas-beauty.com/logo.png",
+    "https://athenas-beauty.com/work3.jpg"
+  ]
+}
