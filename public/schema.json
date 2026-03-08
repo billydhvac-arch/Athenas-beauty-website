@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "NailSalon",
   "name": "Athena's Beauty",
-  "description": "Luxury nail artistry in Denton, TX specializing in builder gel, Gel-X extensions, acrylic sculpting, and trending custom designs.",
+  "description": "Premium nail salon in Denton, TX specializing in builder gel nails, acrylic full sets, Gel-X extensions, dip powder, and custom nail art. Serving UNT students and Denton professionals.",
   "url": "https://athenas-beauty.com",
   "telephone": "+1-940-435-1332",
   "email": "athena@athenas-beauty.com",
@@ -34,7 +34,7 @@
     }
   ],
   "priceRange": "$$",
-  "paymentAccepted": ["Cash", "Credit Card"],
+  "paymentAccepted": ["Cash", "Credit Card", "Debit Card"],
   "currenciesAccepted": "USD",
   "areaServed": {
     "@type": "City",
@@ -53,7 +53,7 @@
         "itemOffered": {
           "@type": "Service",
           "name": "Builder Gel Nails",
-          "description": "Strong, lightweight nail enhancement"
+          "description": "Strong, lightweight nail enhancement perfect for natural-looking nails"
         },
         "price": "60.00",
         "priceCurrency": "USD"
@@ -62,18 +62,8 @@
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Gel-X Extensions",
-          "description": "Soft gel nail extensions"
-        },
-        "price": "70.00",
-        "priceCurrency": "USD"
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Acrylic Nails",
-          "description": "Classic acrylic nail extensions"
+          "name": "Acrylic Full Sets",
+          "description": "Classic acrylic nail extensions with custom art options"
         },
         "price": "55.00",
         "priceCurrency": "USD"
@@ -82,10 +72,10 @@
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Dip Powder Nails",
-          "description": "Odor-free, lightweight powder manicure"
+          "name": "Gel-X Extensions",
+          "description": "Soft gel nail extensions - lightweight and comfortable"
         },
-        "price": "45.00",
+        "price": "65.00",
         "priceCurrency": "USD"
       },
       {
@@ -93,9 +83,19 @@
         "itemOffered": {
           "@type": "Service",
           "name": "Custom Nail Art",
-          "description": "Hand-painted nail designs and artwork"
+          "description": "Hand-painted designs, chrome effects, and artistic nail creations"
         },
         "price": "65.00",
+        "priceCurrency": "USD"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Dip Powder Nails",
+          "description": "Long-lasting powder manicure without UV light"
+        },
+        "price": "45.00",
         "priceCurrency": "USD"
       }
     ]

@@ -1,7 +1,7 @@
 import { useRef, useLayoutEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Star, Quote } from 'lucide-react';
+import { Star, Quote, Calendar } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -87,10 +87,13 @@ const TestimonialsSection = ({ className = '' }: TestimonialsSectionProps) => {
       <div className="w-full px-6 lg:px-12">
         {/* Header */}
         <div ref={headerRef} className="text-center mb-16">
-          <h2 className="font-heading font-bold headline-lg text-black uppercase mb-4">
-            CLIENT <span className="text-gold">LOVE</span>
+          <h2 className="font-heading font-bold text-3xl lg:text-4xl xl:text-5xl text-black uppercase mb-4">
+            CLIENT <span className="text-gold">LOVE</span> IN DENTON
           </h2>
-          <div className="flex items-center justify-center gap-2 mb-4">
+          <p className="font-body text-sm lg:text-base text-text-secondary max-w-xl mx-auto mb-4">
+            See why Athena's Beauty is Denton's top choice for builder gel, acrylics, and custom nail art.
+          </p>
+          <div className="flex items-center justify-center gap-2">
             <div className="flex">
               {[...Array(5)].map((_, i) => (
                 <Star key={i} size={20} className="fill-gold text-gold" />
@@ -136,7 +139,14 @@ const TestimonialsSection = ({ className = '' }: TestimonialsSectionProps) => {
         </div>
 
         {/* View All Reviews CTA */}
-        <div className="mt-12 text-center">
+        <div className="mt-12 text-center flex flex-col sm:flex-row items-center justify-center gap-4">
+          <button
+            onClick={openBooksy}
+            className="bg-black text-gold font-body font-medium text-sm px-8 py-4 rounded-full btn-hover flex items-center gap-2"
+          >
+            <Calendar size={18} />
+            Book Your Appointment
+          </button>
           <button
             onClick={openBooksy}
             className="inline-flex items-center gap-2 text-gold font-body text-sm hover:underline"

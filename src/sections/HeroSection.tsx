@@ -89,9 +89,9 @@ const HeroSection = ({ className = '' }: HeroSectionProps) => {
 
           {/* Subheadline */}
           <p className="font-body text-sm lg:text-base text-text-secondary mb-5 lg:mb-6 max-w-md mx-auto lg:mx-0 text-center lg:text-left px-2 lg:px-0">
-            Luxury nail artistry in Denton, TX.
+            Award-winning nail salon in Denton, Texas, serving UNT students and local professionals.
             <br className="hidden sm:block" />
-            Builder gel, Gel-X extensions, acrylic sculpting, and trending custom designs.
+            Specializing in builder gel nails, acrylic full sets, Gel-X extensions, and custom nail art.
           </p>
 
           {/* CTAs */}
@@ -116,7 +116,7 @@ const HeroSection = ({ className = '' }: HeroSectionProps) => {
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-2 sm:gap-4 text-text-secondary">
             <div className="flex items-center gap-1.5">
               <MapPin size={14} className="text-gold" />
-              <span className="font-body text-xs">Denton, TX</span>
+              <span className="font-body text-xs">Denton, TX • Near UNT</span>
             </div>
             <a href="tel:9404351332" className="flex items-center gap-1.5 hover:text-gold transition-colors">
               <Phone size={14} className="text-gold" />

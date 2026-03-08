@@ -3,7 +3,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://athenas-beauty.com/</loc>
-    <lastmod>2026-03-08</lastmod>
+    <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -11,28 +11,28 @@
   <!-- Services Page -->
   <url>
     <loc>https://athenas-beauty.com/#services-page</loc>
-    <lastmod>2026-03-08</lastmod>
+    <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
-  <!-- Blog Page -->
+  <!-- Blog Index -->
   <url>
     <loc>https://athenas-beauty.com/#blog</loc>
-    <lastmod>2026-03-08</lastmod>
+    <lastmod>2026-03-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
-  <!-- Individual Blog Posts -->
+  <!-- Individual Blog Posts - SEO Optimized for Denton Nail Services -->
   <url>
     <loc>https://athenas-beauty.com/#blog</loc>
-    <lastmod>2026-03-08</lastmod>
+    <lastmod>2026-03-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
-  <!-- Builder Gel Blog Post -->
+  <!-- Builder Gel Nails Blog Post -->
   <url>
     <loc>https://athenas-beauty.com/#blog</loc>
     <lastmod>2026-02-28</lastmod>
@@ -40,7 +40,7 @@
     <priority>0.7</priority>
   </url>
   
-  <!-- Gel-X Blog Post -->
+  <!-- Gel-X Extensions Blog Post -->
   <url>
     <loc>https://athenas-beauty.com/#blog</loc>
     <lastmod>2026-03-06</lastmod>
@@ -72,7 +72,7 @@
     <priority>0.7</priority>
   </url>
   
-  <!-- Builder Gel vs Acrylic Blog Post -->
+  <!-- Builder Gel vs Acrylic Comparison Blog Post -->
   <url>
     <loc>https://athenas-beauty.com/#blog</loc>
     <lastmod>2026-03-03</lastmod>

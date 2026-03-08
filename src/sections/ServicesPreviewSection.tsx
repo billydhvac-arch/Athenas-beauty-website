@@ -101,11 +101,11 @@ const ServicesPreviewSection = ({ className = '' }: ServicesPreviewSectionProps)
         {/* Header */}
         <div ref={headerRef} className="text-center mb-10 lg:mb-16">
           <h2 className="font-heading font-bold text-3xl lg:text-4xl xl:text-5xl text-black uppercase mb-3 lg:mb-4">
-            POPULAR <span className="text-gold">SERVICES</span>
+            PREMIUM <span className="text-gold">NAIL SERVICES</span> IN DENTON
           </h2>
           <p className="font-body text-sm lg:text-base text-text-secondary max-w-2xl mx-auto px-4">
-            From builder gel to custom art, we offer a full range of nail services 
-            to keep your nails looking their best.
+            From builder gel to custom nail art, our Denton studio offers a full range of luxury nail services 
+            designed to keep your nails healthy, strong, and beautiful.
           </p>
         </div>
 
