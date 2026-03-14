@@ -10,6 +10,7 @@ interface Service {
   category: string[];
   image: string;
   popular?: boolean;
+  galleryLink?: string;
 }
 
 const services: Service[] = [
@@ -42,6 +43,7 @@ const services: Service[] = [
     category: ['Acrylic', 'Dip', 'Art', 'Design'],
     image: '/nail-artwork.jpg',
     popular: true,
+    galleryLink: '#acrylic-gallery',
   },
   {
     id: '4',
@@ -109,6 +111,7 @@ const services: Service[] = [
     category: ['Builder Gel', 'Structure', 'Strengthening', 'Nail Art'],
     image: '/builder-gel-hero.jpg',
     popular: true,
+    galleryLink: '#builder-gel-gallery',
   },
   // DIP POWDER
   {
@@ -119,6 +122,7 @@ const services: Service[] = [
     duration: '2h',
     category: ['Dip', 'Powder', 'Natural'],
     image: '/work8.jpg',
+    galleryLink: '#dip-gallery',
   },
   // FRENCH & OMBRE
   {
@@ -373,6 +377,14 @@ const ServicesPage = () => {
                 </div>
 
                 {/* CTA */}
+                {service.galleryLink && (
+                  <a
+                    href={service.galleryLink}
+                    className="w-full mb-2 bg-gold/20 text-gold-dark font-body font-medium text-sm py-2 rounded-full hover:bg-gold hover:text-black transition-colors flex items-center justify-center gap-2"
+                  >
+                    View Gallery
+                  </a>
+                )}
                 <button
                   onClick={openBooksy}
                   className="w-full bg-black text-gold font-body font-medium text-sm py-3 rounded-full btn-hover flex items-center justify-center gap-2"
