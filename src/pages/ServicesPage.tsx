@@ -196,7 +196,7 @@ const services: Service[] = [
     price: '$13.00',
     duration: '45min',
     category: ['Polish', 'Quick', 'Natural'],
-    image: '/work3.jpg',
+    image: '/polish-change.jpg',
   },
   // REPAIR
   {
