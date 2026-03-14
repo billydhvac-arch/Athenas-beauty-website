@@ -215,7 +215,7 @@ const services: Service[] = [
     price: '$12.00',
     duration: '45min',
     category: ['Removal', 'Prep'],
-    image: '/work3.jpg',
+    image: '/removal.jpg',
   },
 ];
 
@@ -330,7 +330,7 @@ const ServicesPage = () => {
                 <img
                   src={service.image}
                   alt={service.name}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                 />
                 {service.popular && (
                   <div className="absolute top-3 left-3 bg-gold text-black text-xs font-body font-medium px-3 py-1 rounded-full flex items-center gap-1">
