@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ArrowLeft, X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface GalleryImage {
@@ -72,6 +72,43 @@ const dipGalleryImages: GalleryImage[] = [
 const DipGalleryPage = () => {
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
+
+  // SEO Meta Tags
+  useEffect(() => {
+    document.title = 'Dip Powder Nail Art Gallery | Athena\'s Beauty | Denton, TX';
+    
+    let metaDescription = document.querySelector('meta[name="description"]');
+    if (!metaDescription) {
+      metaDescription = document.createElement('meta');
+      metaDescription.setAttribute('name', 'description');
+      document.head.appendChild(metaDescription);
+    }
+    metaDescription.setAttribute('content', 'Explore our dip powder nail gallery in Denton, TX. Odor-free, lightweight designs that last 3-4 weeks. French tips, shimmer finishes & custom art at Athena\'s Beauty.');
+    
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonical);
+    }
+    canonical.setAttribute('href', 'https://athenas-beauty.com/#dip-gallery');
+    
+    let ogTitle = document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.setAttribute('content', 'Dip Powder Nail Art Gallery | Athena\'s Beauty | Denton, TX');
+    
+    let ogDesc = document.querySelector('meta[property="og:description"]');
+    if (ogDesc) ogDesc.setAttribute('content', 'Explore stunning dip powder nail designs. Odor-free, long-lasting manicures in Denton, TX.');
+    
+    window.scrollTo(0, 0);
+    
+    return () => {
+      document.title = 'Athena\'s Beauty | Premium Nail Salon in Denton, TX | Builder Gel, Acrylics & Custom Nail Art';
+      if (metaDescription) metaDescription.setAttribute('content', 'Award-winning nail salon in Denton, TX specializing in builder gel nails, acrylic full sets, Gel-X extensions, and custom nail art. Book your appointment today for luxury nail services near UNT.');
+      if (canonical) canonical.setAttribute('href', 'https://athenas-beauty.com');
+      if (ogTitle) ogTitle.setAttribute('content', 'Athena\'s Beauty | Premium Nail Salon in Denton, TX');
+      if (ogDesc) ogDesc.setAttribute('content', 'Luxury nail artistry in Denton, TX. Specializing in builder gel, acrylics, Gel-X extensions & custom nail art. Book online via Booksy.');
+    };
+  }, []);
 
   const allTags = Array.from(new Set(dipGalleryImages.flatMap(img => img.tags)));
   

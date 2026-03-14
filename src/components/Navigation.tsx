@@ -22,12 +22,34 @@ const Navigation = () => {
   ];
 
   const scrollToSection = (href: string) => {
-    if (href.startsWith('#')) {
+    // If we're not on the home page, navigate to home first
+    const currentHash = window.location.hash;
+    if (currentHash && currentHash !== '' && !href.startsWith(currentHash)) {
+      window.location.hash = '';
+      // Wait for navigation then scroll
+      setTimeout(() => {
+        const element = document.querySelector(href);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else {
       const element = document.querySelector(href);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
       }
     }
+    setIsMobileMenuOpen(false);
+  };
+
+  const goToHome = () => {
+    window.location.hash = '';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setIsMobileMenuOpen(false);
+  };
+
+  const goToServices = () => {
+    window.location.hash = 'services-page';
     setIsMobileMenuOpen(false);
   };
 
@@ -84,8 +106,7 @@ const Navigation = () => {
               href="#"
               onClick={(e) => {
                 e.preventDefault();
-                window.location.hash = '';
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+                goToHome();
               }}
               className="flex items-center justify-center"
             >
