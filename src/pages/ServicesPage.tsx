@@ -103,11 +103,11 @@ const services: Service[] = [
   {
     id: '10',
     name: 'Builder Gel',
-    description: 'Strong, lightweight nail enhancement that builds natural nail strength without bulk. Perfect for growing healthy nails.',
+    description: 'Strong, lightweight nail enhancement that builds natural nail strength without bulk. Perfect for growing healthy nails with custom art options.',
     price: '$60.00+',
     duration: '3h',
-    category: ['Builder Gel', 'Structure', 'Strengthening'],
-    image: '/work1.jpg',
+    category: ['Builder Gel', 'Structure', 'Strengthening', 'Nail Art'],
+    image: '/builder-gel-hero.jpg',
     popular: true,
   },
   // DIP POWDER
