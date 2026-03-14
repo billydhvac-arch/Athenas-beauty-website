@@ -40,7 +40,7 @@ const services: Service[] = [
     price: '$65.00+',
     duration: '2h 30min',
     category: ['Acrylic', 'Dip', 'Art', 'Design'],
-    image: '/work5.jpg',
+    image: '/nail-artwork.jpg',
     popular: true,
   },
   {
