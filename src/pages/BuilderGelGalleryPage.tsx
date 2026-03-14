@@ -98,13 +98,13 @@ const BuilderGelGalleryPage = () => {
       {/* Header */}
       <div className="bg-black text-white py-8 px-4">
         <div className="max-w-7xl mx-auto">
-          <a 
-            href="#services-page" 
+          <button 
+            onClick={() => window.location.hash = 'services-page'}
             className="inline-flex items-center gap-2 text-gold hover:text-white transition-colors mb-4"
           >
             <ArrowLeft size={20} />
             Back to Services
-          </a>
+          </button>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl">
             Builder Gel <span className="text-gold">Art Gallery</span>
           </h1>
