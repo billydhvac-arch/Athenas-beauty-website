@@ -68,7 +68,7 @@ const services: Service[] = [
     price: '$65.00+',
     duration: '2h 55min',
     category: ['Acrylic', 'Shape', 'Trendy'],
-    image: '/work7.jpg',
+    image: '/duck-nails.jpg',
   },
   // GEL-X SERVICES
   {
