@@ -13,9 +13,9 @@ const builderGelGalleryImages: GalleryImage[] = [
   {
     id: '1',
     src: '/builder-gel-hero.jpg',
-    title: 'Builder Gel with Shimmer',
-    description: 'Strong, lightweight builder gel with beautiful bronze shimmer finish',
-    tags: ['Shimmer', 'Builder Gel', 'Strong'],
+    title: 'Blue Cat Eye Design',
+    description: 'Stunning blue cat eye builder gel with silver accents and chrome details',
+    tags: ['Cat Eye', 'Blue', 'Chrome', 'Trendy'],
   },
   {
     id: '2',
