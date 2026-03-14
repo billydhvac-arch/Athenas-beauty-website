@@ -97,7 +97,7 @@ const services: Service[] = [
     price: '$75.00',
     duration: '3h',
     category: ['Gel-X', 'Extensions', 'Soft Gel', 'Long'],
-    image: '/work2.jpg',
+    image: '/gelx-long.jpg',
   },
   // BUILDER GEL
   {
