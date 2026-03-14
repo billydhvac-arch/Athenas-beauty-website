@@ -125,6 +125,42 @@ const Navigation = () => {
               >
                 Blog
               </button>
+              
+              {/* Gallery Dropdown */}
+              <div className="relative group">
+                <button
+                  className={`font-body text-sm transition-colors duration-200 flex items-center gap-1 ${
+                    isScrolled 
+                      ? 'text-white/90 hover:text-gold' 
+                      : 'text-black hover:text-gold'
+                  }`}
+                >
+                  Gallery
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-2">
+                  <a
+                    href="#acrylic-gallery"
+                    className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors"
+                  >
+                    Acrylic Art
+                  </a>
+                  <a
+                    href="#dip-gallery"
+                    className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors"
+                  >
+                    Dip Powder
+                  </a>
+                  <a
+                    href="#builder-gel-gallery"
+                    className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors"
+                  >
+                    Builder Gel
+                  </a>
+                </div>
+              </div>
               <button
                 onClick={goToDashboard}
                 className={`font-body text-xs transition-colors duration-200 opacity-50 hover:opacity-100 ${
@@ -203,6 +239,35 @@ const Navigation = () => {
           >
             Blog
           </button>
+          
+          {/* Mobile Gallery Links */}
+          <div className="border-t border-white/20 pt-4 mt-2 w-full max-w-xs">
+            <p className="text-white/50 text-sm mb-3 text-center">Galleries</p>
+            <div className="flex flex-col gap-3">
+              <a
+                href="#acrylic-gallery"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="font-heading text-lg text-white/80 hover:text-gold transition-colors duration-200"
+              >
+                Acrylic Art
+              </a>
+              <a
+                href="#dip-gallery"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="font-heading text-lg text-white/80 hover:text-gold transition-colors duration-200"
+              >
+                Dip Powder
+              </a>
+              <a
+                href="#builder-gel-gallery"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="font-heading text-lg text-white/80 hover:text-gold transition-colors duration-200"
+              >
+                Builder Gel
+              </a>
+            </div>
+          </div>
+          
           <button
             onClick={openBooksy}
             className="bg-gold text-black font-body font-medium text-lg px-8 py-3 rounded-full btn-hover mt-4"
