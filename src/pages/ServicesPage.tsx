@@ -87,7 +87,7 @@ const services: Service[] = [
     price: '$70.00+',
     duration: '3h',
     category: ['Gel-X', 'Extensions', 'Soft Gel'],
-    image: '/hero_portrait.jpg',
+    image: '/work3.jpg',
     popular: true,
   },
   {
