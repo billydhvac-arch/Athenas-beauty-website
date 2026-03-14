@@ -50,7 +50,7 @@ const services: Service[] = [
     price: '$55.00+',
     duration: '1h 55min',
     category: ['Acrylic', 'Toes', 'Extensions'],
-    image: '/work8.jpg',
+    image: '/acrylic-toes.jpg',
   },
   {
     id: '5',
