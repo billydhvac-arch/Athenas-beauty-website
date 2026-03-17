@@ -9,73 +9,73 @@ interface GalleryImage {
   tags: string[];
 }
 
-const builderGelGalleryImages: GalleryImage[] = [
+const gelXGalleryImages: GalleryImage[] = [
   {
     id: '1',
-    src: '/builder-gel-hero.jpg',
-    title: 'Blue Cat Eye Design',
-    description: 'Stunning blue cat eye builder gel with silver accents and chrome details',
-    tags: ['Cat Eye', 'Blue', 'Chrome', 'Trendy'],
-  },
-  {
-    id: '2',
-    src: '/builder-gel-thumb.jpg',
-    title: 'Builder Gel Detail Work',
-    description: 'Close-up of builder gel application showing smooth, flawless finish',
-    tags: ['Detail', 'Smooth', 'Professional'],
-  },
-  {
-    id: '3',
-    src: '/work9.jpg',
-    title: 'Builder Gel Cat Eye Design',
-    description: 'Beautiful cat eye effect on builder gel base with mesmerizing magnetic shimmer',
-    tags: ['Cat Eye', 'Shimmer', 'Builder Gel', 'Elegant'],
-  },
-  {
-    id: '4',
-    src: '/work5.jpg',
-    title: 'Builder Gel Art Design',
-    description: 'Builder gel base with custom hand-painted art and embellishments',
-    tags: ['Art', 'Custom', 'Embellished'],
+    src: '/work8.jpg',
+    title: 'Long Gel-X Custom Art with Hand Made 3D',
+    description: 'Stunning long Gel-X extensions featuring intricate custom artwork with hand-crafted 3D elements for a bold, artistic statement',
+    tags: ['Gel-X', '3D Art', 'Long Nails', 'Custom', 'Hand Made'],
   },
   // Placeholder images for future uploads
   {
-    id: '5',
+    id: '2',
     src: '/work1.jpg',
-    title: 'Builder Gel Gallery Sample 5',
-    description: 'More builder gel art coming soon - upload your work!',
+    title: 'Gel-X Gallery Sample 2',
+    description: 'More Gel-X art coming soon - upload your work!',
+    tags: ['Coming Soon'],
+  },
+  {
+    id: '3',
+    src: '/work2.jpg',
+    title: 'Gel-X Gallery Sample 3',
+    description: 'More Gel-X art coming soon - upload your work!',
+    tags: ['Coming Soon'],
+  },
+  {
+    id: '4',
+    src: '/work3.jpg',
+    title: 'Gel-X Gallery Sample 4',
+    description: 'More Gel-X art coming soon - upload your work!',
+    tags: ['Coming Soon'],
+  },
+  {
+    id: '5',
+    src: '/work4.jpg',
+    title: 'Gel-X Gallery Sample 5',
+    description: 'More Gel-X art coming soon - upload your work!',
     tags: ['Coming Soon'],
   },
   {
     id: '6',
-    src: '/work2.jpg',
-    title: 'Builder Gel Gallery Sample 6',
-    description: 'More builder gel art coming soon - upload your work!',
+    src: '/work5.jpg',
+    title: 'Gel-X Gallery Sample 6',
+    description: 'More Gel-X art coming soon - upload your work!',
     tags: ['Coming Soon'],
   },
   {
     id: '7',
-    src: '/work3.jpg',
-    title: 'Builder Gel Gallery Sample 7',
-    description: 'More builder gel art coming soon - upload your work!',
+    src: '/work7.jpg',
+    title: 'Gel-X Gallery Sample 7',
+    description: 'More Gel-X art coming soon - upload your work!',
     tags: ['Coming Soon'],
   },
   {
     id: '8',
-    src: '/work4.jpg',
-    title: 'Builder Gel Gallery Sample 8',
-    description: 'More builder gel art coming soon - upload your work!',
+    src: '/builder-gel-hero.jpg',
+    title: 'Gel-X Gallery Sample 8',
+    description: 'More Gel-X art coming soon - upload your work!',
     tags: ['Coming Soon'],
   },
 ];
 
-const BuilderGelGalleryPage = () => {
+const GelXGalleryPage = () => {
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
 
   // SEO Meta Tags
   useEffect(() => {
-    document.title = 'Builder Gel Nail Art Gallery | Athena\'s Beauty | Denton, TX';
+    document.title = 'Gel-X Extensions Nail Art Gallery | Athena\'s Beauty | Denton, TX';
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -83,7 +83,7 @@ const BuilderGelGalleryPage = () => {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'View our builder gel nail gallery in Denton, TX. Strong, lightweight enhancements with cat eye, shimmer & custom art. Perfect for healthy nail growth at Athena\'s Beauty.');
+    metaDescription.setAttribute('content', 'Explore our Gel-X extensions nail gallery in Denton, TX. Lightweight, natural-looking extensions with stunning custom nail art. Book your Gel-X appointment at Athena\'s Beauty.');
     
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -91,13 +91,13 @@ const BuilderGelGalleryPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/#builder-gel-gallery');
+    canonical.setAttribute('href', 'https://athenas-beauty.com/#gelx-gallery');
     
     let ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) ogTitle.setAttribute('content', 'Builder Gel Nail Art Gallery | Athena\'s Beauty | Denton, TX');
+    if (ogTitle) ogTitle.setAttribute('content', 'Gel-X Extensions Nail Art Gallery | Athena\'s Beauty | Denton, TX');
     
     let ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc) ogDesc.setAttribute('content', 'Discover builder gel nail designs. Strong yet lightweight, perfect for nail art & healthy growth in Denton, TX.');
+    if (ogDesc) ogDesc.setAttribute('content', 'Discover lightweight Gel-X extensions with custom nail art. Natural feel, beautiful designs at Athena\'s Beauty in Denton, TX.');
     
     window.scrollTo(0, 0);
     
@@ -110,11 +110,11 @@ const BuilderGelGalleryPage = () => {
     };
   }, []);
 
-  const allTags = Array.from(new Set(builderGelGalleryImages.flatMap(img => img.tags)));
+  const allTags = Array.from(new Set(gelXGalleryImages.flatMap(img => img.tags)));
   
   const filteredImages = selectedTag 
-    ? builderGelGalleryImages.filter(img => img.tags.includes(selectedTag))
-    : builderGelGalleryImages;
+    ? gelXGalleryImages.filter(img => img.tags.includes(selectedTag))
+    : gelXGalleryImages;
 
   const handlePrevImage = () => {
     if (!selectedImage) return;
@@ -143,11 +143,11 @@ const BuilderGelGalleryPage = () => {
             Back to Services
           </button>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl">
-            Builder Gel <span className="text-gold">Art Gallery</span>
+            Gel-X <span className="text-gold">Art Gallery</span>
           </h1>
           <p className="text-white/70 mt-4 max-w-2xl text-lg">
-            Discover the versatility of builder gel. Strong yet lightweight, perfect for 
-            natural nail strengthening and stunning nail art creations.
+            Discover the beauty of Gel-X extensions. Lightweight, natural-looking, 
+            and perfect for custom nail art creations.
           </p>
         </div>
       </div>
@@ -271,10 +271,10 @@ const BuilderGelGalleryPage = () => {
       <div className="bg-black text-white py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-serif text-3xl md:text-4xl mb-4">
-            Ready for <span className="text-gold">Builder Gel</span>?
+            Ready for <span className="text-gold">Gel-X Extensions</span>?
           </h2>
           <p className="text-white/70 mb-8 text-lg">
-            Strong, lightweight, and perfect for growing healthy nails. Book your builder gel appointment today!
+            Lightweight, natural-looking, and perfect for custom nail art. Book your Gel-X appointment today!
           </p>
           <a 
             href="#book" 
@@ -288,4 +288,4 @@ const BuilderGelGalleryPage = () => {
   );
 };
 
-export default BuilderGelGalleryPage;
+export default GelXGalleryPage;

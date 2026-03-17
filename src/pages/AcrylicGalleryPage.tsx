@@ -20,16 +20,16 @@ const acrylicGalleryImages: GalleryImage[] = [
   {
     id: '2',
     src: '/nail-artwork.jpg',
-    title: '3D Seashell Art Design',
-    description: 'Intricate 3D seashell and ocean-inspired nail art on stiletto acrylics',
-    tags: ['3D Art', 'Seashell', 'Stiletto', 'Custom'],
+    title: 'Acrylic Ocean Custom Art with 3D',
+    description: 'Intricate 3D seashell and ocean-inspired nail art on stiletto acrylics. Custom hand-made 3D elements.',
+    tags: ['3D Art', 'Seashell', 'Stiletto', 'Custom', 'Ocean'],
   },
   {
     id: '3',
-    src: '/work4.jpg',
-    title: 'French Tip Acrylic Fill',
-    description: 'Classic French tip maintenance with crisp white tips',
-    tags: ['Fill', 'French', 'White Tips'],
+    src: '/work5.jpg',
+    title: 'Acrylic with 3D Work & Chrome Design',
+    description: 'Stunning acrylic set featuring 3D embellishments and chrome detailing for a bold, modern look',
+    tags: ['3D Art', 'Chrome', 'Embellished', 'Modern'],
   },
   {
     id: '4',
@@ -62,7 +62,7 @@ const acrylicGalleryImages: GalleryImage[] = [
   },
   {
     id: '8',
-    src: '/work5.jpg',
+    src: '/work4.jpg',
     title: 'Acrylic Gallery Sample 8',
     description: 'More acrylic art coming soon - upload your work!',
     tags: ['Coming Soon'],
@@ -142,7 +142,7 @@ const AcrylicGalleryPage = () => {
       <div className="bg-black text-white py-8 px-4">
         <div className="max-w-7xl mx-auto">
           <button 
-            onClick={() => window.location.hash = 'services-page'}
+            onClick={() => window.location.hash = 'services'}
             className="inline-flex items-center gap-2 text-gold hover:text-white transition-colors mb-4"
           >
             <ArrowLeft size={20} />

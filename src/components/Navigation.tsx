@@ -48,11 +48,6 @@ const Navigation = () => {
     setIsMobileMenuOpen(false);
   };
 
-  const goToServices = () => {
-    window.location.hash = 'services-page';
-    setIsMobileMenuOpen(false);
-  };
-
   const goToBlog = () => {
     window.location.hash = 'blog';
     setIsMobileMenuOpen(false);

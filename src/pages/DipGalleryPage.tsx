@@ -10,60 +10,60 @@ interface GalleryImage {
 }
 
 const dipGalleryImages: GalleryImage[] = [
+  // Placeholder images - NO ACTUAL DIP POWDER WORK TO DISPLAY YET
   {
     id: '1',
-    src: '/work8.jpg',
-    title: 'Classic Dip Powder Set',
-    description: 'Natural-looking dip powder nails with smooth, durable finish',
-    tags: ['Classic', 'Natural', 'Full Set'],
+    src: '/builder-gel-hero.jpg',
+    title: 'Dip Powder Gallery - Coming Soon',
+    description: 'Stunning dip powder nail art coming soon. Check back for updates!',
+    tags: ['Coming Soon'],
   },
   {
     id: '2',
-    src: '/nail-artwork.jpg',
-    title: 'Dip with Custom Art',
-    description: 'Dip powder base with hand-painted art and embellishments',
-    tags: ['Art', 'Custom', 'Embellished'],
+    src: '/builder-gel-thumb.jpg',
+    title: 'Dip Powder Designs - Coming Soon',
+    description: 'Beautiful dip powder manicures coming to our gallery soon.',
+    tags: ['Coming Soon'],
   },
   {
     id: '3',
-    src: '/work5.jpg',
-    title: 'French Dip Nails',
-    description: 'Classic French tip achieved with dip powder technique',
-    tags: ['French', 'White Tips', 'Elegant'],
+    src: '/work1.jpg',
+    title: 'Dip Powder Art - Coming Soon',
+    description: 'More dip powder art coming soon - upload your work!',
+    tags: ['Coming Soon'],
   },
   {
     id: '4',
-    src: '/work9.jpg',
-    title: 'Bronze Shimmer Dip',
-    description: 'Warm bronze shimmer dip powder with gold accents',
-    tags: ['Shimmer', 'Bronze', 'Gold Accents'],
+    src: '/work2.jpg',
+    title: 'Dip Powder Gallery Sample - Coming Soon',
+    description: 'More dip powder art coming soon - upload your work!',
+    tags: ['Coming Soon'],
   },
-  // Placeholder images for future uploads
   {
     id: '5',
-    src: '/builder-gel-hero.jpg',
-    title: 'Dip Gallery Sample 5',
+    src: '/work3.jpg',
+    title: 'Dip Powder Gallery Sample - Coming Soon',
     description: 'More dip powder art coming soon - upload your work!',
     tags: ['Coming Soon'],
   },
   {
     id: '6',
-    src: '/builder-gel-thumb.jpg',
-    title: 'Dip Gallery Sample 6',
+    src: '/work4.jpg',
+    title: 'Dip Powder Gallery Sample - Coming Soon',
     description: 'More dip powder art coming soon - upload your work!',
     tags: ['Coming Soon'],
   },
   {
     id: '7',
-    src: '/work1.jpg',
-    title: 'Dip Gallery Sample 7',
+    src: '/work7.jpg',
+    title: 'Dip Powder Gallery Sample - Coming Soon',
     description: 'More dip powder art coming soon - upload your work!',
     tags: ['Coming Soon'],
   },
   {
     id: '8',
-    src: '/work2.jpg',
-    title: 'Dip Gallery Sample 8',
+    src: '/work8.jpg',
+    title: 'Dip Powder Gallery Sample - Coming Soon',
     description: 'More dip powder art coming soon - upload your work!',
     tags: ['Coming Soon'],
   },
@@ -136,7 +136,7 @@ const DipGalleryPage = () => {
       <div className="bg-black text-white py-8 px-4">
         <div className="max-w-7xl mx-auto">
           <button 
-            onClick={() => window.location.hash = 'services-page'}
+            onClick={() => window.location.hash = 'services'}
             className="inline-flex items-center gap-2 text-gold hover:text-white transition-colors mb-4"
           >
             <ArrowLeft size={20} />
