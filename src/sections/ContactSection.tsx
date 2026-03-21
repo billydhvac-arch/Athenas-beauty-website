@@ -298,6 +298,26 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                 </p>
               </div>
             </a>
+
+            {/* Yelp */}
+            <a
+              href="https://www.yelp.com/biz/athenas-beauty-denton"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 w-full p-4 rounded-xl bg-off-white hover:bg-red-50 transition-colors mt-3 border border-red-100"
+            >
+              <svg className="w-6 h-6 text-red-600" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.5 14.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm-9 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.5-7c-1.93 0-3.5 1.57-3.5 3.5h7c0-1.93-1.57-3.5-3.5-3.5z"/>
+              </svg>
+              <div className="text-left">
+                <p className="font-body text-sm text-black font-medium">
+                  Review us on Yelp
+                </p>
+                <p className="font-body text-xs text-text-secondary">
+                  Find us on Yelp
+                </p>
+              </div>
+            </a>
           </div>
         </div>
 
