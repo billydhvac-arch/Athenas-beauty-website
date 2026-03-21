@@ -319,6 +319,26 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
               </div>
             </a>
 
+            {/* Google Business */}
+            <a
+              href="https://maps.app.goo.gl/3rwQNmMHv8U8Q7Hn6?g_st=ic"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 w-full p-4 rounded-xl bg-off-white hover:bg-blue-50 transition-colors mt-3 border border-blue-100"
+            >
+              <svg className="w-6 h-6 text-blue-600" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+              </svg>
+              <div className="text-left">
+                <p className="font-body text-sm text-black font-medium">
+                  Review on Google
+                </p>
+                <p className="font-body text-xs text-text-secondary">
+                  Leave a Google review
+                </p>
+              </div>
+            </a>
+
             {/* Yelp */}
             <a
               href="https://www.yelp.com/biz/athenas-beauty-denton"
