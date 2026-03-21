@@ -26,6 +26,131 @@ const blogPosts: BlogPost[] = [
     featured: true,
   },
   {
+    id: 'chrome-french-acrylic-2026',
+    title: 'Chrome French Acrylic Nails in Denton, TX: The Trend Everyone Is Requesting',
+    excerpt: 'Chrome French acrylic overlays are taking over social media. Discover why this copper chrome French tip design is the most requested look at Athena\'s Beauty in Denton, TX.',
+    content: `Chrome French acrylic nails have become one of the most requested nail designs at Athena's Beauty in Denton, TX — and it's easy to see why. This stunning combination of classic French tips with modern chrome finishes creates a look that's both timeless and on-trend.
+
+The design featured here showcases a beautiful copper chrome French tip over an acrylic overlay, proving that you don't need long nails to make a statement. Short, square nails with this metallic twist are taking over Instagram and TikTok feeds everywhere.
+
+![Chrome French Acrylic Overlay - Copper Tips on Natural Pink Base](/chrome-french-acrylic.jpg)
+
+*Chrome French acrylic overlay with copper chrome tips — created at Athena's Beauty, Denton TX*
+
+What Are Chrome French Nails?
+
+Chrome French nails combine the classic elegance of French manicures with high-shine metallic chrome powder. The result is a modern twist on a timeless style that catches the light beautifully and photographs exceptionally well.
+
+This technique works beautifully on:
+• Acrylic overlays (like shown here)
+• Builder gel nails
+• Gel-X extensions
+• Natural nails with gel polish
+
+The key difference from a standard French manicure is the chrome powder applied to the tip area, creating that mirror-like metallic finish that has become so popular in 2026.
+
+Why Chrome French Is Dominating 2026
+
+Clients searching for chrome French nails in Denton, TX often tell us they've seen this look all over social media. Here's why it's trending:
+
+✨ Universally flattering — Works on all skin tones and nail shapes
+✨ Versatile for any occasion — Professional enough for work, stunning for events
+✨ Photographs beautifully — The chrome catches light in ways regular polish can't
+✨ Longer lasting — Chrome powder sealed under top coat lasts 3+ weeks
+✨ Endless color options — Rose gold, silver, copper, holographic, and more
+
+The Copper Chrome Trend
+
+While silver and gold chrome have been popular for years, copper chrome has emerged as the unexpected star of 2026. This warm, burnt-orange metallic tone feels:
+
+• Fresh and different from typical chrome choices
+• Seasonally versatile (works for spring through fall)
+• Complementary to gold and silver jewelry
+• Perfect for clients who want something unique
+
+The design shown here pairs copper chrome tips with a natural pink acrylic overlay base — a combination that's elegant without being over-the-top.
+
+Chrome French on Acrylic Overlay: The Perfect Combo
+
+For clients wanting chrome French nails in Denton, acrylic overlays provide an excellent foundation. Here's why:
+
+Smooth Surface
+Acrylic creates a perfectly smooth canvas for chrome application, ensuring that mirror-like finish with no imperfections.
+
+Added Strength
+The overlay strengthens natural nails, making them less prone to breaking — especially important for maintaining that crisp French tip line.
+
+Versatile Length
+Acrylic overlays work beautifully on short to medium-length nails, making this trend accessible to everyone.
+
+Long-Lasting Results
+When properly sealed, chrome French designs on acrylic can last 3-4 weeks without chipping or fading.
+
+Who Should Get Chrome French Acrylic Nails?
+
+This design is perfect for:
+
+• Brides looking for elegant wedding nails
+• Professionals who want polish that lasts through busy weeks
+• Students at UNT who want Instagram-worthy nails
+• Anyone tired of boring French manicures
+• Clients attending special events or photo shoots
+
+The short square shape shown here is particularly popular because it's practical for everyday activities while still looking sophisticated.
+
+How Chrome French Is Applied
+
+The process for creating chrome French acrylic nails involves several careful steps:
+
+Step 1: Nail Prep — Natural nails are cleaned, shaped, and prepped for acrylic application.
+
+Step 2: Acrylic Overlay — A thin layer of acrylic is applied for strength and a smooth surface.
+
+Step 3: French Application — The pink/nude base is applied, followed by white or colored tip product.
+
+Step 4: Chrome Application — Chrome powder is burnished onto the tip area using a sponge applicator.
+
+Step 5: Sealing — A high-quality no-wipe top coat seals the chrome for lasting shine.
+
+Caring for Chrome French Nails
+
+To keep your chrome French acrylic nails looking beautiful:
+
+• Apply cuticle oil daily to maintain flexibility
+• Wear gloves when cleaning to protect the chrome finish
+• Avoid picking at the edges (this can lift the chrome)
+• Schedule fills every 2-3 weeks to maintain the crisp French line
+• Moisturize hands regularly for an overall polished look
+
+Chrome French Color Ideas
+
+While copper chrome is having a moment, clients at Athena's Beauty also love:
+
+• Classic silver chrome — Clean, futuristic, goes with everything
+• Rose gold chrome — Feminine and universally flattering
+• Holographic chrome — For clients who want maximum impact
+• Gold chrome — Luxurious and timeless
+• Blue or purple chrome — Bold choices for creative personalities
+
+Chrome French Nails in Denton, TX
+
+For clients searching for chrome French nails in Denton, TX, Athena's Beauty specializes in creating these trending designs with precision and artistry.
+
+By using high-quality chrome powders and proper sealing techniques, we ensure your chrome French manicure stays mirror-shiny for weeks.
+
+You can [explore all available nail services here](#services-page).
+
+Or [book your appointment today](#book) to experience chrome French acrylic nails at Athena's Beauty.
+
+Author
+
+Athena is the founder of Athena's Beauty, a custom nail studio in Denton, Texas specializing in chrome nail art, builder gel, Gel-X extensions, acrylic sculpting, dip powder nails, and detailed custom nail artistry.`,
+    date: 'March 21, 2026',
+    readTime: '6 min read',
+    category: 'Trends',
+    image: '/chrome-french-acrylic.jpg',
+  },
+  {
     id: '2',
     title: 'Builder Gel vs Acrylic Nails: Which One Is Right for You?',
     excerpt: 'When choosing a nail enhancement, many clients ask the same question: builder gel or acrylic nails — which one is better? Both options can create beautiful, long-lasting nail sets, but they offer different benefits depending on your style, lifestyle, and nail goals.',
