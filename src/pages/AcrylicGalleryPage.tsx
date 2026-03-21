@@ -11,6 +11,13 @@ interface GalleryImage {
 
 const acrylicGalleryImages: GalleryImage[] = [
   {
+    id: 'chrome-french-1',
+    src: '/chrome-french-acrylic.jpg',
+    title: 'Copper Chrome French Tips',
+    description: 'Trending chrome French acrylic overlay with stunning copper metallic tips on natural pink base. Short square shape perfect for everyday wear.',
+    tags: ['Chrome', 'French Tips', 'Trending', 'Acrylic Overlay', 'Short Nails'],
+  },
+  {
     id: '1',
     src: '/work1.jpg',
     title: 'Classic Pink Acrylic Set',
