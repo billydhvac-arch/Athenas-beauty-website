@@ -25,6 +25,13 @@ const acrylicGalleryImages: GalleryImage[] = [
     tags: ['French Tips', 'Crystals', 'Charms', 'Long Nails', 'Coquette', 'Red', 'Summer', 'Trending'],
   },
   {
+    id: 'short-white-gold-chrome',
+    src: '/short-white-gold-chrome.jpg',
+    title: 'Short White Acrylic with Gold Chrome Accents',
+    description: 'Elegant short acrylic nails in milky white with luxury gold chrome detailing and delicate gold studs. Minimalist nail art perfect for everyday wear in Denton, TX.',
+    tags: ['Short Nails', 'Gold Chrome', 'Minimalist', 'White', 'Elegant', 'Everyday'],
+  },
+  {
     id: 'chrome-french-1',
     src: '/chrome-french-acrylic.jpg',
     title: 'Copper Chrome French Tips',
