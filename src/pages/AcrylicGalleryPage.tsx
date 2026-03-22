@@ -18,6 +18,13 @@ const acrylicGalleryImages: GalleryImage[] = [
     tags: ['French Tips', '3D Art', 'Charms', 'Long Nails', 'Coquette', 'Trending'],
   },
   {
+    id: 'long-french-cherry-crystals',
+    src: '/long-french-cherry-crystals.jpg',
+    title: 'Long French Cherry Charms with Red Crystals',
+    description: 'Luxury long acrylic French nails featuring classic white tips, vibrant red crystal embellishments, and 3D cherry charms. Trending coquette nail art perfect for summer in Denton, TX.',
+    tags: ['French Tips', 'Crystals', 'Charms', 'Long Nails', 'Coquette', 'Red', 'Summer', 'Trending'],
+  },
+  {
     id: 'chrome-french-1',
     src: '/chrome-french-acrylic.jpg',
     title: 'Copper Chrome French Tips',
