@@ -32,6 +32,13 @@ const acrylicGalleryImages: GalleryImage[] = [
     tags: ['Short Nails', 'Gold Chrome', 'Minimalist', 'White', 'Elegant', 'Everyday'],
   },
   {
+    id: 'short-french-zebra',
+    src: '/short-french-zebra.jpg',
+    title: 'Short French Tips with Zebra Print',
+    description: 'Playful short acrylic French nails featuring classic white tips with bold zebra print accents. Fun animal print nail art for trendy clients in Denton, TX.',
+    tags: ['French Tips', 'Zebra Print', 'Animal Print', 'Short Nails', 'Trendy', 'Fun'],
+  },
+  {
     id: 'chrome-french-1',
     src: '/chrome-french-acrylic.jpg',
     title: 'Copper Chrome French Tips',
