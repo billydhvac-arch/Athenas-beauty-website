@@ -11,6 +11,13 @@ interface GalleryImage {
 
 const acrylicGalleryImages: GalleryImage[] = [
   {
+    id: 'long-french-charms-1',
+    src: '/long-acrylic-french-charms.jpg',
+    title: 'Long Pink French with 3D Bows',
+    description: 'Stunning long acrylic French tips with pink glitter accents, 3D bow charms, and rhinestone details. The perfect coquette manicure for spring 2026.',
+    tags: ['French Tips', '3D Art', 'Charms', 'Long Nails', 'Coquette', 'Trending'],
+  },
+  {
     id: 'chrome-french-1',
     src: '/chrome-french-acrylic.jpg',
     title: 'Copper Chrome French Tips',
