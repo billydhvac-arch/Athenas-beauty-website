@@ -69,14 +69,14 @@ const acrylicGalleryImages: GalleryImage[] = [
   },
   {
     id: '7',
-    src: '/work3.jpg',
+    src: '/work4.jpg',
     title: 'Acrylic Gallery Sample 7',
     description: 'More acrylic art coming soon - upload your work!',
     tags: ['Coming Soon'],
   },
   {
     id: '8',
-    src: '/work4.jpg',
+    src: '/work6.jpg',
     title: 'Acrylic Gallery Sample 8',
     description: 'More acrylic art coming soon - upload your work!',
     tags: ['Coming Soon'],
