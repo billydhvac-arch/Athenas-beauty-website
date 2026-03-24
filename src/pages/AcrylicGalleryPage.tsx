@@ -11,6 +11,13 @@ interface GalleryImage {
 
 const acrylicGalleryImages: GalleryImage[] = [
   {
+    id: 'acrylic-french-charms-1',
+    src: '/acrylic-french-charms.jpg',
+    title: 'Acrylic Custom French with Charms',
+    description: 'Elegant acrylic French tips adorned with delicate 3D charms and embellishments. Custom nail art perfect for special occasions at Athena\'s Beauty in Denton, TX.',
+    tags: ['French Tips', 'Charms', '3D Art', 'Custom', 'Elegant', 'Acrylic'],
+  },
+  {
     id: 'long-french-charms-1',
     src: '/long-acrylic-french-charms.jpg',
     title: 'Long Pink French with 3D Bows',
