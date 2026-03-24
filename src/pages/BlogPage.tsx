@@ -156,13 +156,13 @@ Athena is the founder of Athena's Beauty, a custom nail studio in Denton, Texas 
     excerpt: 'Worried about typing, texting, or daily tasks with long nails? Learn practical tips for wearing long acrylics and Gel-X extensions comfortably — without sacrificing your lifestyle.',
     content: `Long nails are stunning, but many clients at Athena's Beauty in Denton ask the same question: "How do I actually LIVE with these?" Whether you're a UNT student typing papers, a professional working on a computer all day, or just someone who wants gorgeous nails without the hassle, this guide will show you how to wear long nails daily with confidence.
 
-The Gold Standard: Nude Gel-X with Gold Foil
+The Statement Look: Long Stiletto with Custom Ocean Art
 
-The design featured in this post showcases elegant medium-length Gel-X extensions in a soft nude blush with delicate gold foil leaf details and French tip accents. This is the perfect example of "wearable luxury" — glamorous enough for special occasions, practical enough for everyday life.
+The design featured in this post showcases dramatic long stiletto acrylics with intricate custom ocean-inspired artwork and hand-crafted 3D seashell elements. This is the perfect example of bold, artistic nails that still work for everyday life when you know the tricks.
 
-![Gel-X Nude with Gold Foil Accents](/gelx-nude-gold-foil.jpg)
+![Acrylic Ocean Custom Art with 3D Seashells](/nail-artwork.jpg)
 
-*Gel-X nude extensions with gold foil detailing — beautiful AND functional*
+*Long stiletto acrylics with custom ocean art and 3D seashell details — bold AND wearable*
 
 Why Length Matters: Finding Your Sweet Spot
 
@@ -178,13 +178,13 @@ At Athena's Beauty, we believe beautiful nails shouldn't limit your life. The ke
 • Visible length without being dramatic
 • Can handle most daily tasks with minor adjustments
 • Perfect for nail art and designs
-• The length shown in our gold foil design above
+• Great for transitioning to longer lengths
 
-**Long (The "Statement Maker")**
-• True extension past the fingertip
-• Requires adaptation period
-• Best for special occasions or those experienced with extensions
-• Absolutely stunning for events and photos
+**Long Stiletto (The "Statement Maker")**
+• Dramatic extension past the fingertip
+• Requires adaptation period but makes a bold statement
+• Best for those experienced with extensions or willing to learn
+• Absolutely stunning for creative designs like the ocean art shown here
 
 Mastering Daily Tasks with Long Nails
 
@@ -257,13 +257,13 @@ The most important tip? Do what works for YOU. Some of our Denton clients wear l
 
 Ready to Try Long Nails?
 
-Book your appointment at Athena's Beauty in Denton, TX. We'll help you choose the perfect length and design for your lifestyle — whether that's subtle gold foil accents or bold statement nails. Walk-ins aren't accepted (appointment only for the best experience), so message us to schedule your transformation.
+Book your appointment at Athena's Beauty in Denton, TX. We'll help you choose the perfect length and design for your lifestyle — whether that's subtle elegance or bold ocean art with 3D seashells. Walk-ins aren't accepted (appointment only for the best experience), so message us to schedule your transformation.
 
 **Pro Tip:** First-time extension clients often do best starting with medium length. You can always go longer at your next fill once you've mastered the basics!`,
     date: 'March 24, 2026',
     readTime: '6 min read',
     category: 'Tips & Care',
-    image: '/gelx-nude-gold-foil.jpg',
+    image: '/nail-artwork.jpg',
     featured: true,
   },
   {
