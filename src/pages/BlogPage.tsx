@@ -267,6 +267,128 @@ Book your appointment at Athena's Beauty in Denton, TX. We'll help you choose th
     featured: true,
   },
   {
+    id: 'wedding-nails-denton-tx',
+    title: 'Wedding Nails in Denton, TX: Elegant Designs for Your Big Day',
+    excerpt: 'From classic French tips to luxurious gold accents, discover the perfect wedding nail designs for brides in Denton. Featuring timeless elegance with modern touches.',
+    content: `Your wedding day is one of the most photographed moments of your life — and your hands will be front and center. From exchanging rings to holding your bouquet, your nails deserve special attention. At Athena's Beauty in Denton, TX, we specialize in creating wedding nail designs that complement your dress, match your aesthetic, and photograph beautifully.
+
+Timeless Elegance: Nude Gel-X with Gold Foil
+
+The design featured here showcases the perfect wedding nail look: elegant medium-length Gel-X extensions in soft nude blush with delicate gold foil leaf details. This sophisticated combination works with any wedding theme, from rustic barn ceremonies to black-tie ballroom affairs.
+
+![Gel-X Nude with Gold Foil Accents](/gelx-nude-gold-foil.jpg)
+
+*Nude Gel-X with gold foil accents — the perfect wedding day manicure*
+
+Why Gold Foil Is Perfect for Wedding Nails
+
+Gold has long been associated with weddings — representing prosperity, warmth, and timeless beauty. When incorporated into your nail design through delicate foil accents, it adds:
+
+✨ **Photogenic shimmer** — Catches candlelight and camera flashes beautifully
+✨ **Versatility** — Complements both silver and gold jewelry
+✨ **Timeless appeal** — Won't look dated in photos decades from now
+✨ **Subtle luxury** — Elegant without being overwhelming
+
+Popular Wedding Nail Trends for 2026
+
+**The Classic French (Reimagined)**
+French tips never go out of style, but today's brides are adding modern twists: ultra-thin white lines, micro French tips, or subtle shimmer. Perfect for the bride who wants timeless elegance.
+
+**Soft Metallics**
+Rose gold, champagne, and soft gold tones are dominating wedding nail trends. These metallics add sophistication without competing with your ring.
+
+**3D Floral Accents**
+Delicate hand-painted flowers or 3D floral appliqués add romance and femininity. Popular choices include baby's breath, roses, or vines that match your bouquet.
+
+**The "Clean Girl" Aesthetic**
+Natural-looking nails with perfect cuticles, subtle pink tones, and a high-gloss finish. This minimalist approach emphasizes healthy, beautiful nails.
+
+**Pearl Details**
+Tiny pearl embellishments add vintage romance and pair beautifully with pearl jewelry or accessories.
+
+When to Book Your Wedding Nails
+
+Timing is everything for wedding day nails:
+
+**2-3 Days Before the Wedding**
+This is the sweet spot — your nails will be fresh and flawless, but you'll have time to adjust to the length and get comfortable with them.
+
+**Trial Run (Optional but Recommended)**
+Schedule a trial 2-3 months before your wedding to test the design, length, and shape. This is especially important if you're new to extensions.
+
+**Engagement Photos**
+Don't forget about your hands before the big day! Many brides book a fresh set for engagement photos too.
+
+Matching Your Nails to Your Wedding Style
+
+**Classic/Traditional Wedding**
+Opt for French tips, soft pinks, or the gold foil design featured here. Timeless elegance that won't distract from your dress.
+
+**Boho/Rustic Wedding**
+Consider earthy tones, subtle florals, or nude bases with organic textures. Matte finishes can complement a laid-back vibe.
+
+**Glamorous/Black-Tie Wedding**
+Go bold with chrome finishes, crystals, or dramatic shapes. Stiletto or coffin shapes add extra drama.
+
+**Minimalist/Modern Wedding**
+Clean lines, negative space designs, or monochrome looks. Think architectural and sophisticated.
+
+Wedding Nail Care Timeline
+
+**3 Months Before:**
+Start taking biotin supplements and using cuticle oil daily. Healthy nails start from within.
+
+**1 Month Before:**
+Book your trial appointment. Test the exact design you want and wear it for a few days.
+
+**1 Week Before:**
+Hydrate your hands and nails. Avoid any activities that could damage your nails.
+
+**2-3 Days Before:**
+Get your final wedding day manicure. Schedule this as one of your last beauty appointments.
+
+**Day Of:**
+Apply cuticle oil in the morning, but avoid hand lotion right before photos (it can look greasy).
+
+Bridal Party Nail Coordination
+
+Many brides choose to treat their bridal party to matching or complementary nails. Consider:
+
+- **Matching designs** — Everyone gets the same look
+- **Coordinated palette** — Different designs in the same color family
+- **Accent nails** — Bride gets the full design, bridesmaids get simplified versions
+- **Mother of the bride/groom** — Classic, sophisticated designs that photograph well
+
+Questions to Ask Your Nail Artist
+
+When booking your wedding nails at Athena's Beauty, consider asking:
+
+• "Will this design last through the honeymoon?"
+• "How should I prepare my nails before the appointment?"
+• "What's the best shape for my hands and engagement ring?"
+• "Can you match a specific color from my dress/swatch?"
+
+Real Brides, Real Reviews
+
+*"Athena did my wedding nails and they were absolutely perfect. The gold foil detail matched my jewelry perfectly and they lasted through my entire 10-day honeymoon!"* — Jessica M.
+
+*"I was so nervous about getting extensions for the first time for my wedding, but Athena made me feel so comfortable. The nude with gold accents photographed beautifully."* — Amanda R.
+
+Book Your Wedding Nails at Athena's Beauty
+
+Ready to say "I do" to perfect wedding nails? Book your appointment at Athena's Beauty in Denton, TX. We recommend scheduling your wedding day manicure 2-3 days before your ceremony for the freshest, most flawless results.
+
+**Location:** 500 N Bell Ave, Suite 109, Denton, TX 76209
+**Booking:** Appointment only — message us to schedule your bridal nail consultation
+
+Congratulations on your upcoming wedding! We can't wait to be part of your special day.`,
+    date: 'March 24, 2026',
+    readTime: '7 min read',
+    category: 'Inspiration',
+    image: '/gelx-nude-gold-foil.jpg',
+    featured: true,
+  },
+  {
     id: '2',
     title: 'Builder Gel vs Acrylic Nails: Which One Is Right for You?',
     excerpt: 'When choosing a nail enhancement, many clients ask the same question: builder gel or acrylic nails — which one is better? Both options can create beautiful, long-lasting nail sets, but they offer different benefits depending on your style, lifestyle, and nail goals.',
