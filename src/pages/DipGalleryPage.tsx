@@ -46,6 +46,13 @@ const dipGalleryImages: GalleryImage[] = [
     description: 'Trendy filter-style dip powder nails created at Athena\'s Beauty in Denton, TX. Features a unique filtered color effect with smooth dip powder application for a flawless, long-lasting manicure that stays chip-free for 3-4 weeks.',
     tags: ['Dip Powder', 'Filter', 'Trendy', 'Color Effect', 'Denton TX'],
   },
+  {
+    id: '6',
+    src: '/dip-short-gold-foil.jpg',
+    title: 'Short Dip Powder Nails with Gold Foil | Denton TX',
+    description: 'Elegant short dip powder nails with luxurious gold foil accents, created at Athena\'s Beauty in Denton, TX. Features a sophisticated gold foil design on durable dip powder for a chic, long-lasting manicure perfect for everyday wear.',
+    tags: ['Dip Powder', 'Short Nails', 'Gold Foil', 'Elegant', 'Denton TX'],
+  },
 ];
 
 const DipGalleryPage = () => {
