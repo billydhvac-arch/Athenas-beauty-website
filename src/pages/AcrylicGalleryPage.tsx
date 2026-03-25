@@ -95,6 +95,13 @@ const acrylicGalleryImages: GalleryImage[] = [
     tags: ['Acrylic', 'Custom Design', 'Nail Art', 'Denton TX'],
   },
   {
+    id: 'acrylic-3d-flower-charm-1',
+    src: '/acrylic-3d-flower-charm.jpg',
+    title: '3D Acrylic Flower Charm Nails | Denton TX',
+    description: 'Stunning acrylic nails with intricate 3D flower charms created at Athena\'s Beauty in Denton, TX. Features delicate hand-sculpted floral 3D art on durable acrylic nails for a beautiful, dimensional manicure.',
+    tags: ['Acrylic', '3D Art', 'Flower', 'Charms', 'Floral', 'Denton TX'],
+  },
+  {
     id: '1',
     src: '/work1.jpg',
     title: 'Classic Pink Acrylic Set',
