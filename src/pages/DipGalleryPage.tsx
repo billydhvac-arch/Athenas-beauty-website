@@ -39,8 +39,16 @@ const dipGalleryImages: GalleryImage[] = [
     description: 'Vibrant multicolor dip powder nails featuring shirt scare pattern, expertly applied at Athena\'s Beauty in Denton, TX. Bold dip powder design with multiple colors that stays vibrant for 3-4 weeks with no UV light needed.',
     tags: ['Dip Powder', 'Multicolor', 'Colorful', 'Pattern', 'Denton TX'],
   },
-]; = () => {
-  const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
+  {
+    id: '5',
+    src: '/dip-filter-design.jpg',
+    title: 'Filter Dip Powder Nails | Denton TX Nail Salon',
+    description: 'Trendy filter-style dip powder nails created at Athena\'s Beauty in Denton, TX. Features a unique filtered color effect with smooth dip powder application for a flawless, long-lasting manicure that stays chip-free for 3-4 weeks.',
+    tags: ['Dip Powder', 'Filter', 'Trendy', 'Color Effect', 'Denton TX'],
+  },
+];
+
+const DipGalleryPage = () => {
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
 
   // SEO Meta Tags
