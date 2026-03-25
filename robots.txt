@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://athenas-beauty.com/sitemap.xml
+
+# Disallow admin/dashboard routes
+Disallow: /dashboard
+
+# Allow all other content
+Allow: /blog
+Allow: /services
+Allow: /#best-work
+Allow: /#services
+Allow: /#book
+
+# Crawl delay for bots
+Crawl-delay: 1
