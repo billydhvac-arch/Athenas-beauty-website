@@ -10,20 +10,27 @@ interface GalleryImage {
 }
 
 const dipGalleryImages: GalleryImage[] = [
-  // Real dip powder work
+  // Real dip powder work - SEO optimized for Denton TX nail salon
   {
     id: '1',
     src: '/black-galaxy-dip.jpg',
-    title: 'Black Galaxy Dip Nails',
-    description: 'Stunning black galaxy dip powder nails with cosmic shimmer and depth.',
-    tags: ['Dip Powder', 'Galaxy', 'Black', 'Shimmer'],
+    title: 'Black Galaxy Dip Powder Nails | Denton TX',
+    description: 'Stunning black galaxy dip powder nails created at Athena\'s Beauty in Denton, TX. Features cosmic shimmer and depth with long-lasting dip powder formula that lasts 3-4 weeks without chipping.',
+    tags: ['Dip Powder', 'Galaxy', 'Black', 'Shimmer', 'Denton TX'],
   },
   {
     id: '2',
     src: '/dip-nails-2.jpg',
-    title: 'Dip Powder Design',
-    description: 'Beautiful dip powder manicure with custom design.',
-    tags: ['Dip Powder', 'Custom Design'],
+    title: 'Custom Dip Powder Nail Art | Denton Nail Salon',
+    description: 'Beautiful custom dip powder manicure by Athena\'s Beauty, the premier nail salon in Denton, TX. Odor-free dip powder application with unique custom design that maintains its shine for weeks.',
+    tags: ['Dip Powder', 'Custom Design', 'Nail Art', 'Denton TX'],
+  },
+  {
+    id: '3',
+    src: '/dip-french-charms.jpg',
+    title: 'French Dip Nails with Charms | Denton TX Nail Artist',
+    description: 'Elegant French tip dip powder nails accented with delicate charms, crafted by Athena\'s Beauty in Denton, Texas. Classic French manicure meets modern dip powder technology for a durable, chip-free finish that lasts 3-4 weeks.',
+    tags: ['Dip Powder', 'French Tips', 'Charms', 'French Manicure', 'Denton TX'],
   },
 ];
 
