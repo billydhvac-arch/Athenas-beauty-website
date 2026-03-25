@@ -88,6 +88,13 @@ const acrylicGalleryImages: GalleryImage[] = [
     tags: ['Acrylic', 'Custom Design', 'Nail Art', 'Denton TX'],
   },
   {
+    id: 'acrylic-custom-design-2',
+    src: '/acrylic-custom-design-2.jpg',
+    title: 'Custom Acrylic Nail Design | Denton TX Nail Salon',
+    description: 'Another stunning custom acrylic nail design from Athena\'s Beauty in Denton, TX. Features intricate artistic details on durable acrylic nails for a unique, long-lasting manicure.',
+    tags: ['Acrylic', 'Custom Design', 'Nail Art', 'Denton TX'],
+  },
+  {
     id: '1',
     src: '/work1.jpg',
     title: 'Classic Pink Acrylic Set',
