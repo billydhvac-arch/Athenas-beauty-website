@@ -18,6 +18,13 @@ const dipGalleryImages: GalleryImage[] = [
     description: 'Stunning black galaxy dip powder nails with cosmic shimmer and depth.',
     tags: ['Dip Powder', 'Galaxy', 'Black', 'Shimmer'],
   },
+  {
+    id: '2',
+    src: '/dip-nails-2.jpg',
+    title: 'Dip Powder Design',
+    description: 'Beautiful dip powder manicure with custom design.',
+    tags: ['Dip Powder', 'Custom Design'],
+  },
 ];
 
 const DipGalleryPage = () => {
