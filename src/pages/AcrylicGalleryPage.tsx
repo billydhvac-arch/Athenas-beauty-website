@@ -53,6 +53,13 @@ const acrylicGalleryImages: GalleryImage[] = [
     tags: ['Chrome', 'French Tips', 'Trending', 'Acrylic Overlay', 'Short Nails'],
   },
   {
+    id: 'clear-acrylic-marble-1',
+    src: '/clear-acrylic-marble.jpg',
+    title: 'Clear Acrylic Marble Nails | Denton TX Nail Salon',
+    description: 'Stunning clear acrylic nails with elegant marble design, expertly crafted at Athena\'s Beauty in Denton, TX. Features translucent acrylic with beautiful marble veining for a sophisticated, modern look that lasts.',
+    tags: ['Clear Acrylic', 'Marble', 'Elegant', 'Modern', 'Translucent', 'Denton TX'],
+  },
+  {
     id: '1',
     src: '/work1.jpg',
     title: 'Classic Pink Acrylic Set',
