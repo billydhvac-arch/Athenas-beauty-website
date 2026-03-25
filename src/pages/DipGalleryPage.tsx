@@ -10,62 +10,13 @@ interface GalleryImage {
 }
 
 const dipGalleryImages: GalleryImage[] = [
-  // Placeholder images - NO ACTUAL DIP POWDER WORK TO DISPLAY YET
+  // Real dip powder work
   {
     id: '1',
-    src: '/builder-gel-hero.jpg',
-    title: 'Dip Powder Gallery - Coming Soon',
-    description: 'Stunning dip powder nail art coming soon. Check back for updates!',
-    tags: ['Coming Soon'],
-  },
-  {
-    id: '2',
-    src: '/builder-gel-thumb.jpg',
-    title: 'Dip Powder Designs - Coming Soon',
-    description: 'Beautiful dip powder manicures coming to our gallery soon.',
-    tags: ['Coming Soon'],
-  },
-  {
-    id: '3',
-    src: '/work1.jpg',
-    title: 'Dip Powder Art - Coming Soon',
-    description: 'More dip powder art coming soon - upload your work!',
-    tags: ['Coming Soon'],
-  },
-  {
-    id: '4',
-    src: '/work2.jpg',
-    title: 'Dip Powder Gallery Sample - Coming Soon',
-    description: 'More dip powder art coming soon - upload your work!',
-    tags: ['Coming Soon'],
-  },
-  {
-    id: '5',
-    src: '/work3.jpg',
-    title: 'Dip Powder Gallery Sample - Coming Soon',
-    description: 'More dip powder art coming soon - upload your work!',
-    tags: ['Coming Soon'],
-  },
-  {
-    id: '6',
-    src: '/work4.jpg',
-    title: 'Dip Powder Gallery Sample - Coming Soon',
-    description: 'More dip powder art coming soon - upload your work!',
-    tags: ['Coming Soon'],
-  },
-  {
-    id: '7',
-    src: '/work7.jpg',
-    title: 'Dip Powder Gallery Sample - Coming Soon',
-    description: 'More dip powder art coming soon - upload your work!',
-    tags: ['Coming Soon'],
-  },
-  {
-    id: '8',
-    src: '/work8.jpg',
-    title: 'Dip Powder Gallery Sample - Coming Soon',
-    description: 'More dip powder art coming soon - upload your work!',
-    tags: ['Coming Soon'],
+    src: '/black-galaxy-dip.jpg',
+    title: 'Black Galaxy Dip Nails',
+    description: 'Stunning black galaxy dip powder nails with cosmic shimmer and depth.',
+    tags: ['Dip Powder', 'Galaxy', 'Black', 'Shimmer'],
   },
 ];
 
@@ -214,6 +165,19 @@ const DipGalleryPage = () => {
             </div>
           ))}
         </div>
+        
+        {/* Empty State - No Images */}
+        {filteredImages.length === 0 && (
+          <div className="text-center py-16">
+            <p className="text-gray-500 text-lg">No images found with the selected filter.</p>
+            <button
+              onClick={() => setSelectedTag(null)}
+              className="mt-4 text-gold hover:underline"
+            >
+              Show all images
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Lightbox */}
