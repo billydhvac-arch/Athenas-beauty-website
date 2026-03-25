@@ -23,7 +23,6 @@ const blogPosts: BlogPost[] = [
     readTime: '4 min read',
     category: 'Trends',
     image: '/work5.jpg',
-    featured: true,
   },
   {
     id: 'chrome-french-acrylic-2026',
@@ -264,6 +263,161 @@ Book your appointment at Athena's Beauty in Denton, TX. We'll help you choose th
     readTime: '6 min read',
     category: 'Tips & Care',
     image: '/nail-artwork.jpg',
+  },
+  {
+    id: 'hand-drawn-bubble-acrylic',
+    title: 'Hand-Drawn Bubble Acrylic Nails in Denton, TX: The Whimsical Trend You Need to Try',
+    excerpt: 'Discover the dreamy, ethereal hand-drawn bubble nail design taking over Instagram. Featuring delicate white line work, celestial accents, and rhinestone details on a nude base — exclusively at Athena\'s Beauty in Denton, TX.',
+    content: `There's something magical about nails that look like they were painted by an artist's hand — because they were. The hand-drawn bubble design featured here is one of the most requested looks at Athena's Beauty in Denton, TX, and it's easy to see why this ethereal, whimsical style has captured the hearts of nail art lovers everywhere.
+
+Ethereal Elegance: Hand-Drawn Bubble Design with Celestial Accents
+
+The design showcased in this post features delicate hand-painted white bubbles, swirling line work, and tiny star accents scattered across a soft nude base. Subtle rhinestone embellishments add just the right amount of sparkle, creating a look that's dreamy without being over-the-top.
+
+![Hand-Drawn Bubble Acrylic Design with Celestial Accents](/hand-drawn-bubble-acrylic.jpg)
+
+*Hand-drawn bubble design with white line work, stars, and rhinestone details — created at Athena's Beauty, Denton TX*
+
+What Is the Hand-Drawn Bubble Nail Trend?
+
+Hand-drawn bubble nails are a free-form nail art technique where the artist creates organic, bubble-like circles and abstract line work directly on the nail. Unlike sticker decals or stamps, each bubble is painted by hand, making every nail set completely unique.
+
+The trend draws inspiration from:
+• Soap bubbles catching light
+• Celestial star maps and constellations
+• Abstract minimalist art
+• Ethereal, dreamy aesthetics popular on Pinterest and TikTok
+
+This style works beautifully on:
+• Acrylic overlays (as shown here)
+• Builder gel nails
+• Gel-X extensions
+• Natural nails with gel polish
+
+Why Hand-Drawn Bubble Nails Are Trending in 2026
+
+Clients searching for hand-drawn nail art in Denton, TX often tell us they've seen this look on social media and fell in love with its artistic, one-of-a-kind appeal. Here's why this trend is dominating:
+
+✨ **Completely unique** — No two sets are ever identical
+✨ **Instagram-worthy** — Photographs beautifully with its delicate details
+✨ **Versatile aesthetic** — Works for both casual and formal occasions
+✨ **Artistic expression** — Shows off the nail artist's skill and creativity
+✨ **Ethereal vibe** — Perfect for those who love dreamy, whimsical styles
+
+The nude base keeps it professional enough for work or school, while the artistic details make it special enough for events and celebrations.
+
+The Art Behind Hand-Drawn Bubble Designs
+
+Creating this look requires more than just technical skill — it requires an artistic eye. Here's how it's done:
+
+**The Bubble Technique**
+Using a fine detail brush, the artist paints imperfect, organic circles of varying sizes. The bubbles overlap and cluster naturally, just like real bubbles or soap suds.
+
+**Line Work & Swirls**
+Delicate white lines connect and swirl around the bubbles, adding movement and visual interest. Some lines form abstract shapes; others simply flow across the nail.
+
+**Celestial Accents**
+Tiny hand-painted stars, crosses, or dots add a cosmic, magical quality to the design. These details catch the light and draw the eye.
+
+**Rhinestone Embellishments**
+Strategically placed rhinestones add dimension and sparkle without overwhelming the delicate line work. They catch light and create subtle glamour.
+
+The result is a design that feels both intentional and effortless — like you captured a moment of magic on your nails.
+
+The Nude Base: Why It Works
+
+The soft nude/pink base shown here isn't just a neutral choice — it's strategic:
+
+**Lengthens the Look of Fingers**
+Nude tones that match your skin tone create a seamless, elongating effect.
+
+**Keeps Focus on the Art**
+The simple base allows the white line work and details to stand out.
+
+**Professional Yet Playful**
+Nude bases are workplace-appropriate, while the artistic details express personality.
+
+**Universally Flattering**
+Nude tones complement every skin tone and work year-round.
+
+Who Should Get Hand-Drawn Bubble Nails?
+
+This design is perfect for:
+
+• **Creative professionals** who want artistic nails that aren't too loud
+• **UNT and TWU students** looking for Instagram-worthy nail art
+• **Brides and bridesmaids** seeking ethereal, romantic wedding nails
+• **Anyone tired of basic manicures** who wants something truly unique
+• **Nail art enthusiasts** who appreciate hand-painted details
+• **Those who love celestial/aesthetic vibes** — stars, bubbles, dreamy themes
+
+The medium-length almond shape shown here is particularly popular because it's practical for everyday activities while still providing enough canvas for artistic details.
+
+Hand-Drawn Bubble Design on Acrylic Overlay
+
+For the design featured here, an acrylic overlay provides the perfect foundation:
+
+**Smooth Canvas**
+Acrylic creates a perfectly smooth surface for fine line work, ensuring crisp details.
+
+**Added Strength**
+The overlay protects natural nails, allowing them to grow underneath while you enjoy your art.
+
+**Long-Lasting Art**
+When properly sealed under a high-quality top coat, hand-painted designs can last 3+ weeks.
+
+**Shape Versatility**
+Acrylic overlays work beautifully on short to medium-length nails in any shape.
+
+Customizing Your Bubble Design
+
+While the classic look features white bubbles on nude, this design is highly customizable:
+
+**Color Variations**
+• Black bubbles on nude for a more graphic look
+• Pastel bubbles (lavender, mint, blush) for a soft aesthetic
+• Metallic bubbles in gold or silver for luxury vibes
+• Colored line work to match an outfit or theme
+
+**Accent Options**
+• Add more rhinestones or crystals for extra sparkle
+• Include hand-painted florals mixed with bubbles
+• Try chrome accents instead of rhinestones
+• Add tiny pearls for a vintage feel
+
+**Shape & Length Combinations**
+• Short square for a minimalist approach
+• Medium almond (shown here) for the perfect balance
+• Long coffin for maximum canvas space
+• Stiletto for edgy, dramatic flair
+
+Caring for Hand-Drawn Nail Art
+
+To keep your bubble design looking fresh:
+
+• Apply cuticle oil daily to maintain nail flexibility
+• Wear gloves when cleaning to protect the art
+• Avoid picking at the nail edges
+• Schedule fills every 2-3 weeks to maintain the design
+• Moisturize hands regularly for a polished overall look
+
+Where to Get Hand-Drawn Bubble Nails in Denton, TX
+
+For clients searching for hand-drawn nail art in Denton, TX, Athena's Beauty specializes in creating these intricate, artistic designs with precision and creativity.
+
+Every bubble is painted by hand — no stickers, no shortcuts. This commitment to artistry means you get a truly one-of-a-kind set that reflects both your style and the artist's vision.
+
+You can [explore all available nail services here](#services-page).
+
+Or [book your appointment today](#book) to experience hand-drawn bubble acrylic nails at Athena's Beauty.
+
+Author
+
+Athena is the founder of Athena's Beauty, a custom nail studio in Denton, Texas specializing in hand-drawn nail art, builder gel, Gel-X extensions, acrylic sculpting, dip powder nails, and detailed custom nail artistry.`,
+    date: 'March 26, 2026',
+    readTime: '6 min read',
+    category: 'Trends',
+    image: '/hand-drawn-bubble-acrylic.jpg',
     featured: true,
   },
   {
@@ -386,7 +540,7 @@ Congratulations on your upcoming wedding! We can't wait to be part of your speci
     readTime: '7 min read',
     category: 'Inspiration',
     image: '/gelx-nude-gold-foil.jpg',
-    featured: true,
+    featured: false,
   },
   {
     id: '2',
