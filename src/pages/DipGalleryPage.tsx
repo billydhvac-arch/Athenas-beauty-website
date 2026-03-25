@@ -49,6 +49,7 @@ const dipGalleryImages: GalleryImage[] = [
 ];
 
 const DipGalleryPage = () => {
+  const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
 
   // SEO Meta Tags
