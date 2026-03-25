@@ -60,13 +60,6 @@ const acrylicGalleryImages: GalleryImage[] = [
     tags: ['Clear Acrylic', 'Marble', 'Elegant', 'Modern', 'Translucent', 'Denton TX'],
   },
   {
-    id: 'acrylic-marble-2',
-    src: '/acrylic-marble-2.jpg',
-    title: 'Acrylic Marble Design | Denton TX Nail Artist',
-    description: 'Beautiful acrylic marble nail design created at Athena\'s Beauty in Denton, TX. Features stunning marble pattern on durable acrylic nails for a luxurious, long-lasting manicure.',
-    tags: ['Acrylic', 'Marble', 'Design', 'Luxury', 'Denton TX'],
-  },
-  {
     id: 'acrylic-halloween-1',
     src: '/acrylic-halloween.jpg',
     title: 'Halloween Acrylic Nails | Denton TX Nail Salon',
