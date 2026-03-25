@@ -102,6 +102,13 @@ const acrylicGalleryImages: GalleryImage[] = [
     tags: ['Acrylic', '3D Art', 'Flower', 'Charms', 'Floral', 'Denton TX'],
   },
   {
+    id: 'acrylic-hand-drawn-bubble-1',
+    src: '/acrylic-hand-drawn-bubble.jpg',
+    title: 'Hand Drawn Bubble Acrylic Nails | Denton TX Nail Artist',
+    description: 'Unique hand drawn bubble design acrylic nails crafted at Athena\'s Beauty in Denton, TX. Features artistic bubble patterns hand-painted on durable acrylic nails for a playful, creative manicure that lasts.',
+    tags: ['Acrylic', 'Hand Drawn', 'Bubble Design', 'Artistic', 'Denton TX'],
+  },
+  {
     id: '1',
     src: '/work1.jpg',
     title: 'Classic Pink Acrylic Set',
