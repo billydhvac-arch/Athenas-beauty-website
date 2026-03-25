@@ -32,9 +32,14 @@ const dipGalleryImages: GalleryImage[] = [
     description: 'Elegant French tip dip powder nails accented with delicate charms, crafted by Athena\'s Beauty in Denton, Texas. Classic French manicure meets modern dip powder technology for a durable, chip-free finish that lasts 3-4 weeks.',
     tags: ['Dip Powder', 'French Tips', 'Charms', 'French Manicure', 'Denton TX'],
   },
-];
-
-const DipGalleryPage = () => {
+  {
+    id: '4',
+    src: '/dip-multicolor-shirt-scare.jpg',
+    title: 'Multicolor Dip Powder Nails | Denton TX Nail Salon',
+    description: 'Vibrant multicolor dip powder nails featuring shirt scare pattern, expertly applied at Athena\'s Beauty in Denton, TX. Bold dip powder design with multiple colors that stays vibrant for 3-4 weeks with no UV light needed.',
+    tags: ['Dip Powder', 'Multicolor', 'Colorful', 'Pattern', 'Denton TX'],
+  },
+]; = () => {
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
 
