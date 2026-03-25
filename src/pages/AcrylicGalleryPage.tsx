@@ -74,6 +74,13 @@ const acrylicGalleryImages: GalleryImage[] = [
     tags: ['Acrylic', 'Halloween', 'Custom Design', 'Seasonal', 'Denton TX'],
   },
   {
+    id: 'acrylic-halloween-custom-2',
+    src: '/acrylic-halloween-custom-2.jpg',
+    title: 'Halloween Custom Acrylic Design | Denton TX',
+    description: 'Another stunning custom Halloween-themed acrylic nail design from Athena\'s Beauty in Denton, TX. Features intricate spooky art on durable acrylic nails, ideal for Halloween festivities.',
+    tags: ['Acrylic', 'Halloween', 'Custom Design', 'Seasonal', 'Denton TX'],
+  },
+  {
     id: '1',
     src: '/work1.jpg',
     title: 'Classic Pink Acrylic Set',
