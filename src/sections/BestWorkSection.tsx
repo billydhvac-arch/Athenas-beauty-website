@@ -14,55 +14,55 @@ const BestWorkSection = ({ className = '' }: BestWorkSectionProps) => {
   const headerRef = useRef<HTMLDivElement>(null);
   const gridRef = useRef<HTMLDivElement>(null);
 
-  // Athena's actual nail art work
+  // Curated showcase of Athena's best nail art work
   const works = [
     {
       id: 1,
-      image: '/work1.jpg',
-      title: 'French with Art',
-      category: '$65+',
+      image: '/hand-drawn-bubble-acrylic.jpg',
+      title: 'Hand-Drawn Bubble Art',
+      category: 'Acrylic Overlay',
     },
     {
       id: 2,
-      image: '/work2.jpg',
-      title: 'Blue Marble & Flowers',
-      category: 'Custom Art',
+      image: '/chrome-french-acrylic.jpg',
+      title: 'Copper Chrome French',
+      category: 'Trending 2026',
     },
     {
       id: 3,
-      image: '/work3.jpg',
-      title: 'Gold French Tips',
-      category: '$55+',
+      image: '/long-french-cherry-crystals.jpg',
+      title: 'Cherry French Crystals',
+      category: 'Gel-X Long',
     },
     {
       id: 4,
-      image: '/work4.jpg',
-      title: 'Teal Marble',
+      image: '/dip-french-charms.jpg',
+      title: 'French with Charms',
       category: 'Dip Powder',
     },
     {
       id: 5,
-      image: '/work5.jpg',
-      title: 'Chrome Hearts',
-      category: 'Acrylic',
+      image: '/gelx-nude-gold-foil.jpg',
+      title: 'Gold Foil Elegance',
+      category: 'Wedding Ready',
     },
     {
       id: 6,
-      image: '/work6.jpg',
+      image: '/black-galaxy-dip.jpg',
+      title: 'Black Galaxy Dip',
+      category: 'Shimmer Finish',
+    },
+    {
+      id: 7,
+      image: '/acrylic-3d-flower-charm.jpg',
       title: '3D Flower Art',
       category: 'Custom Design',
     },
     {
-      id: 7,
-      image: '/work7.jpg',
-      title: 'Beach Theme',
-      category: 'Gel-X Long',
-    },
-    {
       id: 8,
-      image: '/work8.jpg',
-      title: 'Intricate Design',
-      category: 'Acrylic with Art',
+      image: '/short-white-gold-chrome.jpg',
+      title: 'Minimalist Gold',
+      category: 'Short & Chic',
     },
   ];
 
