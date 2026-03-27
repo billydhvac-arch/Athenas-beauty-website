@@ -33,6 +33,13 @@ const dipGalleryImages: GalleryImage[] = [
     tags: ['Dip Powder', 'Mommy Daughter', 'Brown', 'Family', 'Matching Nails', 'Almond Shape', 'Denton TX'],
   },
   {
+    id: 'dip-christmas-glitter-1',
+    src: '/dip-christmas-glitter.jpg',
+    title: 'Christmas Glitter Dip Powder Nails | Denton TX',
+    description: 'Festive holiday dip powder nails featuring alternating red and green glitter on each nail, beautifully captured in front of a sparkling Christmas tree at Athena\'s Beauty in Denton, TX. Perfect Christmas manicure with long-lasting dip powder formula that shines throughout the holiday season.',
+    tags: ['Dip Powder', 'Christmas', 'Holiday', 'Glitter', 'Red', 'Green', 'Festive', 'Winter', 'Denton TX'],
+  },
+  {
     id: '1',
     src: '/black-galaxy-dip.jpg',
     title: 'Black Galaxy Dip Powder Nails | Denton TX',
