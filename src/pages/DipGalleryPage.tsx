@@ -19,6 +19,13 @@ const dipGalleryImages: GalleryImage[] = [
     tags: ['Dip Powder', 'Glitter', 'Green', 'Fun', 'Accent Nail', 'Denton TX'],
   },
   {
+    id: 'dip-burgundy-glitter-1',
+    src: '/dip-burgundy-glitter.jpg',
+    title: 'Burgundy Glitter Dip Powder Nails | Denton TX',
+    description: 'Elegant burgundy glitter dip powder nails with rich shimmer finish, crafted at Athena\'s Beauty in Denton, TX. Stunning deep red glitter design perfect for fall and winter seasons. Long-lasting dip powder formula maintains its sparkle for 3-4 weeks without chipping.',
+    tags: ['Dip Powder', 'Glitter', 'Burgundy', 'Elegant', 'Fall', 'Winter', 'Denton TX'],
+  },
+  {
     id: '1',
     src: '/black-galaxy-dip.jpg',
     title: 'Black Galaxy Dip Powder Nails | Denton TX',
