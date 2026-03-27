@@ -18,6 +18,13 @@ const acrylicGalleryImages: GalleryImage[] = [
     tags: ['Almond Shape', 'Rhinestones', 'Nude', 'Elegant', 'Crystals', 'Acrylic'],
   },
   {
+    id: 'acrylic-almond-candy-cane-1',
+    src: '/acrylic-almond-candy-cane.jpg',
+    title: 'Almond Candy Cane Acrylic Nails | Denton TX',
+    description: 'Festive almond-shaped acrylic nails featuring hand-painted candy cane swirl design in classic red and white. Perfect holiday nail art created at Athena\'s Beauty in Denton, TX. Custom hand-drawn pattern on durable acrylic for a seasonal, eye-catching manicure.',
+    tags: ['Almond Shape', 'Candy Cane', 'Holiday', 'Hand Drawn', 'Red', 'White', 'Festive'],
+  },
+  {
     id: 'acrylic-french-charms-1',
     src: '/acrylic-french-charms.jpg',
     title: 'Acrylic Custom French with Charms',
