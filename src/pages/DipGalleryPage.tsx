@@ -40,6 +40,13 @@ const dipGalleryImages: GalleryImage[] = [
     tags: ['Dip Powder', 'Christmas', 'Holiday', 'Glitter', 'Red', 'Green', 'Festive', 'Winter', 'Denton TX'],
   },
   {
+    id: 'dip-abstract-colorful-1',
+    src: '/dip-abstract-colorful.jpg',
+    title: 'Abstract Colorful Dip Powder Nails | Denton TX',
+    description: 'Artistic abstract dip powder nails featuring vibrant splashes of red, blue, and yellow on a clean white base with elegant gold accents. Modern, creative nail art crafted at Athena\'s Beauty in Denton, TX. Each nail is a unique mini canvas — perfect for clients who want a bold, gallery-worthy manicure that lasts 3-4 weeks.',
+    tags: ['Dip Powder', 'Abstract', 'Colorful', 'Artistic', 'Gold Accents', 'Modern', 'Creative', 'Denton TX'],
+  },
+  {
     id: '1',
     src: '/black-galaxy-dip.jpg',
     title: 'Black Galaxy Dip Powder Nails | Denton TX',
