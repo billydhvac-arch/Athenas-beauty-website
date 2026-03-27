@@ -12,6 +12,13 @@ interface GalleryImage {
 const dipGalleryImages: GalleryImage[] = [
   // Real dip powder work - SEO optimized for Denton TX nail salon
   {
+    id: 'dip-sour-apple-glitter-1',
+    src: '/dip-sour-apple-glitter.jpg',
+    title: 'Sour Apple Glitter Dip Powder Nails | Denton TX',
+    description: 'Playful green glitter dip powder nails with solid green accent nail, inspired by sour apple candy. Fun, vibrant design created at Athena\'s Beauty in Denton, TX. Features sparkling glitter dip with a bold accent for a unique, eye-catching manicure that lasts 3-4 weeks.',
+    tags: ['Dip Powder', 'Glitter', 'Green', 'Fun', 'Accent Nail', 'Denton TX'],
+  },
+  {
     id: '1',
     src: '/black-galaxy-dip.jpg',
     title: 'Black Galaxy Dip Powder Nails | Denton TX',
