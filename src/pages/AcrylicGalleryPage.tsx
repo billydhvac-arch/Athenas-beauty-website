@@ -11,6 +11,13 @@ interface GalleryImage {
 
 const acrylicGalleryImages: GalleryImage[] = [
   {
+    id: 'acrylic-almond-rhinestone-1',
+    src: '/acrylic-almond-rhinestone.jpg',
+    title: 'Almond Acrylic with Rhinestone Accents',
+    description: 'Elegant almond-shaped acrylic nails with nude base and scattered rhinestone embellishments. Delicate crystal accents create a sophisticated, sparkling look perfect for any occasion at Athena\'s Beauty in Denton, TX.',
+    tags: ['Almond Shape', 'Rhinestones', 'Nude', 'Elegant', 'Crystals', 'Acrylic'],
+  },
+  {
     id: 'acrylic-french-charms-1',
     src: '/acrylic-french-charms.jpg',
     title: 'Acrylic Custom French with Charms',
