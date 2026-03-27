@@ -26,6 +26,13 @@ const dipGalleryImages: GalleryImage[] = [
     tags: ['Dip Powder', 'Glitter', 'Burgundy', 'Elegant', 'Fall', 'Winter', 'Denton TX'],
   },
   {
+    id: 'dip-mommy-daughter-brown-1',
+    src: '/dip-mommy-daughter-brown.jpg',
+    title: 'Mommy & Daughter Matching Brown Dip Nails | Denton TX',
+    description: 'Sweet mommy-daughter matching manicure featuring rich chocolate brown dip powder nails at Athena\'s Beauty in Denton, TX. Two adult almond-shaped hands with matching tiny toddler nails — perfect for a special bonding experience.',
+    tags: ['Dip Powder', 'Mommy Daughter', 'Brown', 'Family', 'Matching Nails', 'Almond Shape', 'Denton TX'],
+  },
+  {
     id: '1',
     src: '/black-galaxy-dip.jpg',
     title: 'Black Galaxy Dip Powder Nails | Denton TX',
