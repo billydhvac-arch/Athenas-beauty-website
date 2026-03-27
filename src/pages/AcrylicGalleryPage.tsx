@@ -25,6 +25,13 @@ const acrylicGalleryImages: GalleryImage[] = [
     tags: ['Almond Shape', 'Candy Cane', 'Holiday', 'Hand Drawn', 'Red', 'White', 'Festive'],
   },
   {
+    id: 'acrylic-square-french-blue-1',
+    src: '/acrylic-square-french-blue.jpg',
+    title: 'Square French Acrylic Nails with Blue Tips | Denton TX',
+    description: 'Classic square-shaped acrylic nails with elegant French tip design featuring crisp light blue tips on a natural nude base. Clean, timeless manicure crafted at Athena\'s Beauty in Denton, TX. Perfect for everyday wear or special occasions with a modern twist on the traditional French.',
+    tags: ['Square Shape', 'French Tips', 'Blue', 'Classic', 'Elegant', 'Everyday', 'Acrylic'],
+  },
+  {
     id: 'acrylic-french-charms-1',
     src: '/acrylic-french-charms.jpg',
     title: 'Acrylic Custom French with Charms',
