@@ -130,6 +130,13 @@ const acrylicGalleryImages: GalleryImage[] = [
     tags: ['Acrylic', 'Hand Drawn', 'Bubble Design', 'Artistic', 'Denton TX'],
   },
   {
+    id: 'acrylic-christmas-green-poinsettia-1',
+    src: '/acrylic-christmas-green-poinsettia.jpg',
+    title: 'Christmas Green Acrylic with Poinsettia & Snowflakes',
+    description: 'Festive almond-shaped acrylic nails featuring deep emerald green with hand-painted white snowflakes, silver glitter accents, and delicate red poinsettia designs on shimmering white base. Perfect holiday nail art for the season.',
+    tags: ['Acrylic', 'Christmas', 'Holiday', 'Green', 'Snowflakes', 'Poinsettia', 'Glitter', 'Hand Drawn'],
+  },
+  {
     id: '1',
     src: '/work1.jpg',
     title: 'Classic Pink Acrylic Set',
@@ -163,28 +170,6 @@ const acrylicGalleryImages: GalleryImage[] = [
     title: 'Acrylic Art Design',
     description: 'Custom acrylic artwork with detailed design elements',
     tags: ['Art', 'Custom Design'],
-  },
-  // Placeholder images for future uploads
-  {
-    id: '6',
-    src: '/work2.jpg',
-    title: 'Acrylic Gallery Sample 6',
-    description: 'More acrylic art coming soon - upload your work!',
-    tags: ['Coming Soon'],
-  },
-  {
-    id: '7',
-    src: '/work4.jpg',
-    title: 'Acrylic Gallery Sample 7',
-    description: 'More acrylic art coming soon - upload your work!',
-    tags: ['Coming Soon'],
-  },
-  {
-    id: '8',
-    src: '/work6.jpg',
-    title: 'Acrylic Gallery Sample 8',
-    description: 'More acrylic art coming soon - upload your work!',
-    tags: ['Coming Soon'],
   },
 ];
 
