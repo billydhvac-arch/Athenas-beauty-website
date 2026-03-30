@@ -51,20 +51,6 @@ const gelXGalleryImages: GalleryImage[] = [
   },
   {
     id: '6',
-    src: '/gelx-new-1.jpg',
-    title: 'Gel-X Pink Gradient Design',
-    description: 'Beautiful Gel-X extensions with soft pink gradient and elegant finish',
-    tags: ['Gel-X', 'Pink', 'Gradient', 'Elegant'],
-  },
-  {
-    id: '7',
-    src: '/gelx-new-2.jpg',
-    title: 'Gel-X Natural Pink Finish',
-    description: 'Natural-looking Gel-X extensions with subtle pink tone for everyday elegance',
-    tags: ['Gel-X', 'Natural', 'Pink', 'Elegant', 'Subtle'],
-  },
-  {
-    id: '8',
     src: '/gelx-stained-glass-cherry.jpg',
     title: 'Gel-X Stained Glass Cherry Blossom',
     description: 'Elegant Gel-X extensions featuring intricate stained glass style artwork with cherry blossoms, geometric gemstone accents, and sage green shimmer bases',
