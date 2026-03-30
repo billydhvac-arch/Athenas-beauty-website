@@ -15,6 +15,118 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+    id: 'stained-glass-cherry-blossom-2026',
+    title: 'Stained Glass Cherry Blossom Nails: Spring 2026\'s Most Artistic Trend',
+    excerpt: 'Discover the intricate art of stained glass nail design featuring delicate cherry blossoms and geometric accents — the perfect spring look for nail art lovers in Denton, TX.',
+    content: `When spring arrives in Denton, Texas, there's nothing quite like celebrating the season with cherry blossoms. But this year at Athena's Beauty, we're taking the cherry blossom trend to an entirely new level — with stained glass nail art that looks like it belongs in a cathedral window.
+
+Stained glass nail art is one of the most technically demanding styles in the industry. It requires steady hands, precise line work, and an artist's eye for color placement. The cherry blossom variation we're showcasing here combines the delicate beauty of sakura flowers with bold geometric patterns, creating a look that's both feminine and architectural.
+
+![Stained Glass Cherry Blossom Full Set - Gel-X Extensions with Hand-Painted Art](/gelx-stained-glass-cherry.jpg)
+
+*Full stained glass cherry blossom set with sage shimmer bases — created at Athena's Beauty, Denton TX*
+
+## The Art of Stained Glass Nails
+
+Stained glass nail art mimics the look of actual stained glass windows. The technique involves:
+
+• Creating bold black outlines that define each "panel" or section
+• Filling those sections with translucent or shimmer colors
+• Adding dimensional details that catch the light
+• Layering colors to create depth and richness
+
+The result is nails that look like miniature works of art — wearable masterpieces that change appearance as you move your hands.
+
+![Stained Glass Cherry Blossom Detail - Close-Up of Hand-Painted Flowers](/blog-stained-glass-cherry-detail.jpg)
+
+*Close-up detail of the cherry blossom nail — notice the intricate petal work and shimmer finish*
+
+## Why Cherry Blossoms?
+
+Cherry blossoms (sakura) hold special meaning:
+
+• **Beauty in impermanence** — They remind us to appreciate fleeting moments
+• **Spring renewal** — A symbol of new beginnings and fresh starts
+• **Feminine elegance** — Soft, delicate, yet striking
+• **Cultural significance** — Revered in both Japanese and Korean traditions
+
+When rendered in stained glass style, cherry blossoms gain an extra dimension of artistry. The black outlines add definition while the translucent colors create an ethereal glow.
+
+![Stained Glass Geometric Detail - Color Panels and Gold Accents](/blog-stained-glass-geo-detail.jpg)
+
+*Geometric stained glass detail showing color blocking and gold accents*
+
+## The Color Story: Sage, Coral, and Gold
+
+This particular set uses a sophisticated color palette:
+
+**Sage Green Shimmer** — The base on several nails evokes fresh spring leaves and new growth. The shimmer adds movement and catches light beautifully.
+
+**Coral and Pink** — The cherry blossoms feature warm coral tones that complement a wide range of skin tones. The shimmer finish makes the petals appear to glow.
+
+**Gold Accents** — Small gold circles add warmth and luxury, like lead came in real stained glass windows.
+
+**Black Outlines** — The bold black lines define each element and give that authentic stained glass window appearance.
+
+## The Process: Creating Stained Glass Nail Art
+
+Creating this look requires multiple steps and considerable skill:
+
+**Step 1: Extension Prep** — This set uses Gel-X extensions, providing the perfect canvas for detailed artwork.
+
+**Step 2: Base Application** — Sage shimmer gel is applied as the base color on accent nails.
+
+**Step 3: Line Work** — Using a fine detail brush, black gel is carefully painted to create the outlines. This requires immense steadiness — one wobble ruins the whole design.
+
+**Step 4: Color Filling** — Each "panel" is filled with carefully chosen colors, often applied in thin layers to achieve translucency.
+
+**Step 5: Detailing** — Fine details like flower centers, gold accents, and shimmer highlights are added.
+
+**Step 6: Encapsulation** — The art is sealed under a clear builder layer to protect it, then finished with high-gloss top coat.
+
+The entire process takes 2-3 hours — but the result lasts 3-4 weeks.
+
+## Who Should Get Stained Glass Nails?
+
+This design is perfect for:
+
+• **Art lovers** — If you appreciate fine art and craftsmanship
+• **Spring enthusiasts** — Cherry blossoms are the ultimate spring symbol
+• **Unique style seekers** — This isn't a design you'll see on everyone
+• **Special occasions** — Weddings, proms, graduations, or milestone celebrations
+• **Photography lovers** — These nails photograph incredibly well
+
+## Caring for Detailed Nail Art
+
+To keep your stained glass cherry blossom nails looking perfect:
+
+• Apply cuticle oil daily to maintain flexibility
+• Wear gloves when cleaning or doing dishes
+• Avoid using your nails as tools (opening cans, scratching labels)
+• Moisturize regularly — healthy hands make nail art look even better
+• Schedule fills every 2-3 weeks to maintain the crisp design
+
+## Stained Glass Nail Art in Denton, TX
+
+For clients searching for detailed nail art in Denton, TX, Athena's Beauty specializes in custom designs like this stained glass cherry blossom set.
+
+Our approach combines technical precision with artistic vision. We don't just paint nails — we create wearable art.
+
+You can [explore all available nail services here](#services-page).
+
+Or [book your appointment today](#book) to experience custom stained glass nail art at Athena's Beauty.
+
+---
+
+*Author*
+
+*Athena is the founder of Athena's Beauty, a custom nail studio in Denton, Texas specializing in detailed nail artistry, builder gel, Gel-X extensions, acrylic sculpting, dip powder nails, and trending designs like chrome French and stained glass.*`,
+    date: 'March 30, 2026',
+    readTime: '7 min read',
+    category: 'Nail Art',
+    image: '/gelx-stained-glass-cherry.jpg',
+  },
+  {
     id: '1',
     title: '5 Nail Trends Taking Over 2026',
     excerpt: 'From chrome finishes to 3D floral designs, discover the hottest nail trends that are dominating social media this year.',

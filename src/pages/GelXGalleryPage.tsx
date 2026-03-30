@@ -63,6 +63,13 @@ const gelXGalleryImages: GalleryImage[] = [
     description: 'Natural-looking Gel-X extensions with subtle pink tone for everyday elegance',
     tags: ['Gel-X', 'Natural', 'Pink', 'Elegant', 'Subtle'],
   },
+  {
+    id: '8',
+    src: '/gelx-stained-glass-cherry.jpg',
+    title: 'Gel-X Stained Glass Cherry Blossom',
+    description: 'Elegant Gel-X extensions featuring intricate stained glass style artwork with cherry blossoms, geometric gemstone accents, and sage green shimmer bases',
+    tags: ['Gel-X', 'Stained Glass', 'Cherry Blossom', 'Hand Drawn', 'Geometric', 'Sage', 'Spring'],
+  },
 ];
 
 const GelXGalleryPage = () => {
