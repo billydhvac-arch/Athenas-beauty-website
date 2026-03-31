@@ -80,7 +80,7 @@ By Appointment Only
 
 💬 Message me if you'd like a day I'm closed - I can often work out a time to see you!`,
 
-  'walk-in': `❌ **No Walk-ins Accepted**
+  'walk-in': `✅ **Accepting New Clients**
 
 We operate by **appointment only** to ensure each client gets the dedicated time and attention they deserve.
 

@@ -139,7 +139,7 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                     By Appointment Only
                   </p>
                   <p className="font-body text-xs text-text-secondary">
-                    No walk-ins accepted
+                    Accepting new clients
                   </p>
                 </div>
               </div>
