@@ -10,6 +10,7 @@ import BestWorkSection from './sections/BestWorkSection';
 import WhySection from './sections/WhySection';
 import ServicesPreviewSection from './sections/ServicesPreviewSection';
 import TestimonialsSection from './sections/TestimonialsSection';
+import FAQSection from './sections/FAQSection';
 import FinalCTASection from './sections/FinalCTASection';
 import ContactSection from './sections/ContactSection';
 import ServicesPage from './pages/ServicesPage';
@@ -184,6 +185,7 @@ function App() {
         <WhySection />
         <ServicesPreviewSection />
         <TestimonialsSection />
+        <FAQSection />
         <FinalCTASection />
         <ContactSection />
       </main>
