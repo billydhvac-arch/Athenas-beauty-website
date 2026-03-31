@@ -9,7 +9,7 @@ interface FAQItem {
 const faqs: FAQItem[] = [
   {
     question: "How much does builder gel cost in Denton, TX?",
-    answer: "Builder gel services in Denton typically range from $55-$70+. At Athena's Beauty, our builder gel full sets start at $70, which includes meticulous prep, custom shaping, and premium gel application that lasts 3-4 weeks. We don't rush — each set receives the detailed attention it deserves."
+    answer: "Builder gel services in Denton typically range from $55-$70+. At Athena's Beauty, our builder gel full sets start at $60, which includes meticulous prep, custom shaping, and premium gel application that lasts 3-4 weeks. We don't rush — each set receives the detailed attention it deserves."
   },
   {
     question: "What is the best nail salon experience in Denton, TX?",
@@ -21,7 +21,7 @@ const faqs: FAQItem[] = [
   },
   {
     question: "What are Gel-X nails and how much do they cost in Denton?",
-    answer: "Gel-X is a soft gel extension system that's lighter and more flexible than acrylic. In Denton, Gel-X full sets typically range from $65-$85. At Athena's Beauty, we specialize in Gel-X for clients who want length without the heaviness of traditional acrylics — perfect for natural-looking extensions that last."
+    answer: "Gel-X is a soft gel extension system that's lighter and more flexible than acrylic. In Denton, Gel-X full sets typically start at $65-$85+. At Athena's Beauty, we specialize in Gel-X for clients who want length without the heaviness of traditional acrylics — perfect for natural-looking extensions that last."
   },
   {
     question: "Acrylic vs Builder Gel: Which is better in Denton?",
