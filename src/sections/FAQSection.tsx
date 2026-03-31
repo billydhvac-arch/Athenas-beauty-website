@@ -100,10 +100,10 @@ function FAQSection() {
             Still have questions?
           </p>
           <a
-            href="#contact"
+            href="tel:940-435-1332"
             className="inline-flex items-center gap-2 px-8 py-4 bg-deep-brown text-off-white font-medium rounded-full hover:bg-deep-brown/90 transition-colors"
           >
-            Message Us Directly
+            Call or Text: 940-435-1332
           </a>
         </div>
       </div>
