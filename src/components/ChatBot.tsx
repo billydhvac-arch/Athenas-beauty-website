@@ -70,8 +70,9 @@ All prices are starting points and may vary based on length, design complexity, 
 💡 **Tip**: Book 48 hours in advance for best availability!`,
 
   'location': `📍 **Address:**
-500 N Bell Ave, Suite 109
-Denton, TX 76209
+2640 W University Dr, Suite 1266
+Denton, TX 76201
+Salons by JC, Suite #19
 
 🕐 **Hours:**
 By Appointment Only
@@ -112,8 +113,9 @@ We don't have set business hours - we schedule appointments based on availabilit
 • **Booking:** nailsbyatenad.booksy.com
 
 📍 **Location:**
-500 N Bell Ave, Suite 109
-Denton, TX 76209
+2640 W University Dr, Suite 1266
+Denton, TX 76201
+Salons by JC, Suite #19
 
 I typically respond within a few hours! 💅`,
 

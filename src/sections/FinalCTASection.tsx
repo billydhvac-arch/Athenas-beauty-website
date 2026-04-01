@@ -72,8 +72,9 @@ const FinalCTASection = ({ className = '' }: FinalCTASectionProps) => {
           <div className="mb-8">
             <p className="font-body text-white/60 text-sm mb-1">Visit us at:</p>
             <p className="font-body text-white font-medium">
-              500 N Bell Ave, Suite 109, Denton, TX 76209
+              2640 W University Dr, Suite 1266, Denton, TX 76201
             </p>
+            <p className="font-body text-white/60 text-sm">Salons by JC, Suite #19</p>
           </div>
 
           {/* CTAs */}
