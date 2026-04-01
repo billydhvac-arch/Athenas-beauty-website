@@ -132,7 +132,7 @@ Same artist. Same passion. Same commitment to quality. Just a fresh new suite in
     date: 'April 1, 2026',
     readTime: '5 min read',
     category: 'News',
-    image: '/work3.jpg',
+    image: '/new-location-salons-by-jc.jpg',
     featured: true,
   },
   {
