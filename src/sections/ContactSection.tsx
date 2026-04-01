@@ -153,15 +153,20 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
               </div>
             </div>
 
-            {/* Map Placeholder */}
-            <div className="mt-6 rounded-2xl overflow-hidden h-32 bg-black/5 flex items-center justify-center border border-gold/10">
+            {/* Map Link */}
+            <a
+              href="https://maps.google.com/?q=2640+W+University+Dr+Suite+1266+Denton+TX+76201"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 rounded-2xl overflow-hidden h-32 bg-black/5 flex items-center justify-center border border-gold/10 hover:bg-black/10 transition-colors cursor-pointer"
+            >
               <div className="text-center">
                 <MapPin size={24} className="text-gold mx-auto mb-2" />
                 <p className="font-body text-xs text-text-secondary">
                   View on Google Maps
                 </p>
               </div>
-            </div>
+            </a>
           </div>
 
           {/* Column 2: Contact Form */}
