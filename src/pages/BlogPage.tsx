@@ -25,9 +25,9 @@ Athena's Beauty is thrilled to announce our new location inside **Salons by JC a
 ## Our New Address
 
 **Athena's Beauty at Salons by JC**  
-2880 FM 2181, Suite 150  
-Denton, TX 76210  
-(Inside Razor Ranch shopping center)
+2640 W University Dr, Suite 1266  
+Denton, TX 76201  
+(Inside Salons by JC, Suite #19)
 
 ## Why Razor Ranch?
 
@@ -100,7 +100,7 @@ Ready to visit our new suite? Booking is easy:
 
 📅 **Book online:** [nailsbyatenad.booksy.com](https://nailsbyatenad.booksy.com)  
 📞 **Call or text:** (940) 435-1332  
-📍 **Address:** 2880 FM 2181, Suite 150, Denton, TX 76210 (Salons by JC at Razor Ranch)
+📍 **Address:** 2640 W University Dr, Suite 1266, Denton, TX 76201 (Salons by JC, Suite #19)
 
 We recommend booking 2-3 days in advance, especially for weekend appointments. Walk-ins are not accepted — appointment only to ensure every client receives dedicated, uninterrupted service.
 
