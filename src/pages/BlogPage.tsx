@@ -765,7 +765,7 @@ Book Your Wedding Nails at Athena's Beauty
 
 Ready to say "I do" to perfect wedding nails? Book your appointment at Athena's Beauty in Denton, TX. We recommend scheduling your wedding day manicure 2-3 days before your ceremony for the freshest, most flawless results.
 
-**Location:** 500 N Bell Ave, Suite 109, Denton, TX 76209
+**Location:** 2640 W University Dr, Suite 1266, Denton, TX 76201 (Salons by JC, Suite #19)
 **Booking:** Appointment only — message us to schedule your bridal nail consultation
 
 Congratulations on your upcoming wedding! We can't wait to be part of your special day.`,
