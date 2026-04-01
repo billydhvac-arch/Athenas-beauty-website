@@ -113,9 +113,14 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
               <div className="flex items-start gap-3">
                 <MapPin size={18} className="text-gold mt-1 flex-shrink-0" />
                 <div>
-                  <p className="font-body text-sm text-black font-medium">
+                  <a
+                    href="https://maps.google.com/?q=2640+W+University+Dr+Suite+1266+Denton+TX+76201"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-body text-sm text-black font-medium hover:text-gold transition-colors"
+                  >
                     2640 W University Dr, Suite 1266
-                  </p>
+                  </a>
                   <p className="font-body text-sm text-text-secondary">
                     Salons by JC Suite #19
                   </p>
