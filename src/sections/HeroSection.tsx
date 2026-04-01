@@ -89,7 +89,7 @@ const HeroSection = ({ className = '' }: HeroSectionProps) => {
 
           {/* Subheadline */}
           <p className="font-body text-sm lg:text-base text-text-secondary mb-5 lg:mb-6 max-w-md mx-auto lg:mx-0 text-center lg:text-left px-2 lg:px-0">
-            Award-winning nail salon in Denton, Texas, serving UNT students and local professionals.
+            Premium nail salon in Denton, Texas, serving UNT students and local professionals.
             <br className="hidden sm:block" />
             Specializing in builder gel nails, acrylic full sets, Gel-X extensions, and custom nail art.
           </p>
