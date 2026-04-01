@@ -27,7 +27,7 @@ Athena's Beauty is thrilled to announce our new location inside **Salons by JC a
 **Athena's Beauty at Salons by JC**  
 2640 W University Dr, Suite 1266  
 Denton, TX 76201  
-(Inside Salons by JC, Suite #19)
+(Inside Salons by JC, Room #19)
 
 ## Why Razor Ranch?
 
@@ -100,7 +100,7 @@ Ready to visit our new suite? Booking is easy:
 
 📅 **Book online:** [nailsbyatenad.booksy.com](https://nailsbyatenad.booksy.com)  
 📞 **Call or text:** (940) 435-1332  
-📍 **Address:** 2640 W University Dr, Suite 1266, Denton, TX 76201 (Salons by JC, Suite #19)
+📍 **Address:** 2640 W University Dr, Suite 1266, Denton, TX 76201 (Salons by JC, Room #19)
 
 We recommend booking 2-3 days in advance, especially for weekend appointments. Walk-ins are not accepted — appointment only to ensure every client receives dedicated, uninterrupted service.
 
@@ -765,7 +765,7 @@ Book Your Wedding Nails at Athena's Beauty
 
 Ready to say "I do" to perfect wedding nails? Book your appointment at Athena's Beauty in Denton, TX. We recommend scheduling your wedding day manicure 2-3 days before your ceremony for the freshest, most flawless results.
 
-**Location:** 2640 W University Dr, Suite 1266, Denton, TX 76201 (Salons by JC, Suite #19)
+**Location:** 2640 W University Dr, Suite 1266, Denton, TX 76201 (Salons by JC, Room #19)
 **Booking:** Appointment only — message us to schedule your bridal nail consultation
 
 Congratulations on your upcoming wedding! We can't wait to be part of your special day.`,

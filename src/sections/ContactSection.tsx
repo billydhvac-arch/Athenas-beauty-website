@@ -122,7 +122,7 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                     2640 W University Dr, Suite 1266
                   </a>
                   <p className="font-body text-sm text-text-secondary">
-                    Salons by JC Suite #19
+                    Salons by JC Room #19
                   </p>
                   <p className="font-body text-sm text-text-secondary">
                     Denton, TX 76201

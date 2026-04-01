@@ -72,7 +72,7 @@ All prices are starting points and may vary based on length, design complexity, 
   'location': `📍 **Address:**
 2640 W University Dr, Suite 1266
 Denton, TX 76201
-Salons by JC, Suite #19
+Salons by JC, Room #19
 
 🕐 **Hours:**
 By Appointment Only
@@ -115,7 +115,7 @@ We don't have set business hours - we schedule appointments based on availabilit
 📍 **Location:**
 2640 W University Dr, Suite 1266
 Denton, TX 76201
-Salons by JC, Suite #19
+Salons by JC, Room #19
 
 I typically respond within a few hours! 💅`,
 
