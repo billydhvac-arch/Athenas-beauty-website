@@ -114,10 +114,13 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                 <MapPin size={18} className="text-gold mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-body text-sm text-black font-medium">
-                    500 N Bell Ave, Suite 109
+                    2880 FM 2181, Suite 150
                   </p>
                   <p className="font-body text-sm text-text-secondary">
-                    Denton, TX 76209
+                    Salons by JC at Razor Ranch
+                  </p>
+                  <p className="font-body text-sm text-text-secondary">
+                    Denton, TX 76210
                   </p>
                 </div>
               </div>

@@ -15,6 +15,127 @@ interface BlogPost {
 
 const blogPosts: BlogPost[] = [
   {
+    id: 'new-location-razor-ranch-denton-2026',
+    title: "We've Moved! Athena's Beauty Now at Salons by JC in Razor Ranch, Denton",
+    excerpt: "Exciting news! Athena's Beauty has relocated to a beautiful new suite inside Salons by JC at Razor Ranch in Denton, TX. Same luxury nail services, convenient new location near UNT and TWU.",
+    content: `**Big news for nail lovers in Denton, TX — we've moved!**
+
+Athena's Beauty is thrilled to announce our new location inside **Salons by JC at Razor Ranch** in Denton, Texas. After serving the Denton community from our previous location, we're excited to offer the same premium nail artistry in a fresh, upscale suite that's even more convenient for our clients.
+
+## Our New Address
+
+**Athena's Beauty at Salons by JC**  
+2880 FM 2181, Suite 150  
+Denton, TX 76210  
+(Inside Razor Ranch shopping center)
+
+## Why Razor Ranch?
+
+Razor Ranch has become one of Denton's premier destinations for shopping, dining, and professional services. Located near the intersection of FM 2181 and I-35E, our new suite offers:
+
+✅ **Easy access from I-35E** — Just minutes from downtown Denton  
+✅ **Close to UNT and TWU** — Perfect for students and staff  
+✅ **Ample parking** — No more circling for a spot  
+✅ **Upscale environment** — Salons by JC provides a luxury suite experience  
+✅ **Nearby amenities** — Grab coffee or run errands before or after your appointment
+
+## Same Services, New Suite
+
+While our address has changed, everything you love about Athena's Beauty remains the same:
+
+• **Builder gel nails** — Strong, natural-looking enhancements
+• **Acrylic full sets & fills** — Classic durability with modern artistry
+• **Gel-X extensions** — Lightweight, comfortable length
+• **Custom nail art** — Hand-painted designs, chrome effects, 3D elements
+• **Dip powder nails** — Durable, vibrant color options
+• **Manicures & pedicures** — Classic services with luxury touches
+
+## Finding Us at Salons by JC
+
+Salons by JC is a professional salon suite concept where independent beauty professionals operate their own businesses within a shared, upscale space. When you arrive at Razor Ranch:
+
+1. Look for the **Salons by JC** entrance near the center of the shopping complex
+2. Check in at the front desk — they'll direct you to **Suite 150**
+3. Look for **Athena's Beauty** on the suite directory
+4. Relax and enjoy your nail service!
+
+## Serving the Denton Community
+
+Our move to Razor Ranch puts us even closer to the heart of Denton's vibrant community. Whether you're a:
+
+• **UNT student** looking for nail art before a big event
+• **TWU faculty or staff** needing a quick manicure between classes
+• **Denton local** who appreciates quality nail artistry
+• **Bridal party** preparing for a wedding
+• **New client** searching for "nail salon near me" in Denton
+
+We're here to serve you with the same dedication to quality and creativity that has earned us 35+ five-star reviews.
+
+## What Clients Are Saying
+
+*"The new location is so much easier to get to! I love that I can grab lunch at one of the nearby restaurants after my appointment."* — Sarah M.
+
+*"Athena's new suite at Salons by JC is beautiful — private, relaxing, and so convenient from the highway."* — Jessica T.
+
+*"I come from Corinth for my nails, and the new Razor Ranch location shaves 10 minutes off my drive. Plus, the parking is much better!"* — Amanda R.
+
+## SEO Keywords & Local Search
+
+If you're searching for nail services in the Denton area, here are some terms that will help you find us at our new location:
+
+• **Nail salon Razor Ranch Denton**
+• **Nail salon near UNT**
+• **Nail salon near TWU**
+• **Salons by JC Denton**
+• **Nail art Denton TX**
+• **Builder gel nails Denton**
+• **Gel-X extensions Denton**
+• **Acrylic nails Denton**
+• **Nail salon FM 2181**
+• **Best nail salon Denton TX**
+
+## Book Your Appointment
+
+Ready to visit our new suite? Booking is easy:
+
+📅 **Book online:** [nailsbyatenad.booksy.com](https://nailsbyatenad.booksy.com)  
+📞 **Call or text:** (940) 435-1332  
+📍 **Address:** 2880 FM 2181, Suite 150, Denton, TX 76210 (Salons by JC at Razor Ranch)
+
+We recommend booking 2-3 days in advance, especially for weekend appointments. Walk-ins are not accepted — appointment only to ensure every client receives dedicated, uninterrupted service.
+
+## Follow Us for Updates
+
+Stay connected with Athena's Beauty for:
+
+• New nail art designs and trends
+• Before & after transformations
+• Behind-the-scenes content from our new suite
+• Special offers and promotions
+• Updates on availability
+
+**Instagram:** [@nails_by_atenad](https://instagram.com/nails_by_atenad)  
+**TikTok:** [@nails_by_atenad](https://tiktok.com/@nails_by_atenad)  
+**Facebook:** [Athena's Beauty](https://www.facebook.com/share/1X96F8gqea)
+
+## See You at Razor Ranch!
+
+We're excited to welcome you to our new home at Salons by JC in Razor Ranch. Whether you're a returning client or discovering Athena's Beauty for the first time, we can't wait to create beautiful nails for you in our new space.
+
+Same artist. Same passion. Same commitment to quality. Just a fresh new suite in a more convenient location.
+
+**Book your appointment today and experience the new Athena's Beauty!**
+
+---
+
+*Athena's Beauty is a custom nail studio in Denton, TX specializing in builder gel, acrylics, Gel-X extensions, dip powder, and detailed custom nail art. Now located at Salons by JC in Razor Ranch.*`,
+    date: 'April 1, 2026',
+    readTime: '5 min read',
+    category: 'News',
+    image: '/work3.jpg',
+    featured: true,
+  },
+  {
     id: 'stained-glass-cherry-blossom-2026',
     title: 'Stained Glass Cherry Blossom Nails: Spring 2026\'s Most Artistic Trend',
     excerpt: 'Discover the intricate art of stained glass nail design featuring delicate cherry blossoms and geometric accents — the perfect spring look for nail art lovers in Denton, TX.',
