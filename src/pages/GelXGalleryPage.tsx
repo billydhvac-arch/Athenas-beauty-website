@@ -22,13 +22,6 @@ const gelXGalleryImages: GalleryImage[] = [
     tags: ['Gel-X', '3D Art', 'Long Nails', 'Custom', 'Hand Made'],
   },
   {
-    id: '7',
-    src: '/gelx-citrus-orange-slices.jpg',
-    title: 'Gel-X Citrus Orange Slice Nail Art',
-    description: 'Vibrant summer Gel-X extensions featuring hand-painted orange citrus slices, peachy pink marble swirls, and delicate white dot accents on a coral gradient base',
-    tags: ['Gel-X', 'Citrus', 'Orange', 'Fruit Nails', 'Summer', 'Hand Painted', 'Marble', 'Coral'],
-  },
-  {
     id: '2',
     src: '/gelx-tiger-amber.jpg',
     title: 'Gel-X Tiger Print with Amber Gemstones',

@@ -9,7 +9,7 @@ interface GalleryImage {
   tags: string[];
 }
 
-// Cache-bust: v2 - 2 cat eye images only
+// Cache-bust: v3 - added citrus builder gel
 const builderGelGalleryImages: GalleryImage[] = [
   {
     id: '1',
@@ -24,6 +24,13 @@ const builderGelGalleryImages: GalleryImage[] = [
     title: 'Builder Gel Cat Eye Design',
     description: 'Beautiful cat eye effect on builder gel base with mesmerizing magnetic shimmer',
     tags: ['Cat Eye', 'Shimmer', 'Builder Gel', 'Elegant'],
+  },
+  {
+    id: '3',
+    src: '/gelx-citrus-orange-slices.jpg',
+    title: 'Builder Gel Citrus Orange Slice Art',
+    description: 'Vibrant summer builder gel nails featuring hand-painted orange citrus slices, peachy pink marble swirls, and delicate white dot accents on a coral gradient base',
+    tags: ['Builder Gel', 'Citrus', 'Orange', 'Fruit Nails', 'Summer', 'Hand Painted', 'Marble', 'Coral'],
   },
 ];
 
