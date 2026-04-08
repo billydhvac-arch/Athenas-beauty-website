@@ -11,6 +11,13 @@ interface GalleryImage {
 
 const acrylicGalleryImages: GalleryImage[] = [
   {
+    id: 'acrylic-rainbow-gold-foil-1',
+    src: '/acrylic-rainbow-gold-foil.jpg',
+    title: 'Rainbow Stiletto Acrylic Nails with Gold Foil | Denton TX',
+    description: 'Vibrant stiletto acrylic nails featuring a nude base with diagonal rainbow color blocking in orange, purple, blue, green, yellow, and pink. Each colorful section is edged with luxury gold foil accents for a high-end finish. Custom nail art created at Athena\'s Beauty in Denton, TX — perfect for clients who love bold, artistic manicures with a touch of glamour.',
+    tags: ['Stiletto', 'Rainbow', 'Gold Foil', 'Color Block', 'Bold', 'Artistic', 'Acrylic', 'Denton TX'],
+  },
+  {
     id: 'acrylic-almond-rhinestone-1',
     src: '/acrylic-almond-rhinestone.jpg',
     title: 'Almond Acrylic with Rhinestone Accents',
