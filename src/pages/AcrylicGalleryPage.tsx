@@ -11,6 +11,13 @@ interface GalleryImage {
 
 const acrylicGalleryImages: GalleryImage[] = [
   {
+    id: 'acrylic-coral-floral-pedicure-1',
+    src: '/acrylic-coral-floral-pedicure.jpg',
+    title: 'Coral Acrylic Nails & Acrylic Pedicure with Floral Nail Art | Denton, TX',
+    description: 'Bold and vibrant coral coffin acrylic nails paired with a matching acrylic pedicure finished in high-gloss gel polish. This custom set features hand-painted floral nail art accents on both hands and toes, delivering a cohesive, head-to-toe look. Designed with precise shaping, clean cuticle work, and long-lasting durability—perfect for clients seeking custom acrylic nails and pedicures in Denton, TX.',
+    tags: ['Coral', 'Coffin Shape', 'Floral', 'Hand Painted', 'Pedicure', 'Matching Set', 'Gel Polish', 'Acrylic', 'Denton TX'],
+  },
+  {
     id: 'acrylic-rainbow-gold-foil-1',
     src: '/acrylic-rainbow-gold-foil.jpg',
     title: 'Rainbow Stiletto Acrylic Nails with Gold Foil | Denton TX',
