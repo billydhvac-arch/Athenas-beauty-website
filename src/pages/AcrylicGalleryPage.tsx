@@ -11,6 +11,13 @@ interface GalleryImage {
 
 const acrylicGalleryImages: GalleryImage[] = [
   {
+    id: 'acrylic-red-french-rhinestone-matching-1',
+    src: '/acrylic-red-french-rhinestone-matching-set.jpg',
+    title: 'Red French Tip Acrylic Nails & Matching Pedicure with Rhinestones | Denton, TX',
+    description: 'Classic red French tip acrylic nails paired with a matching red French pedicure, featuring sparkling rhinestone accents on select nails for a touch of glamour. This cohesive hand-and-toe set delivers timeless elegance with a bold summer twist — perfect for clients seeking matching mani-pedi combos in Denton, TX. Crafted with precise shaping and long-lasting acrylic for durability and shine.',
+    tags: ['Red', 'French Tips', 'Rhinestones', 'Pedicure', 'Matching Set', 'Acrylic', 'Classic', 'Summer', 'Denton TX'],
+  },
+  {
     id: 'acrylic-coral-floral-pedicure-1',
     src: '/acrylic-coral-floral-pedicure.jpg',
     title: 'Coral Acrylic Nails & Acrylic Pedicure with Floral Nail Art | Denton, TX',
