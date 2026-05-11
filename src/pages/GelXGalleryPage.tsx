@@ -10,10 +10,17 @@ interface GalleryImage {
 }
 
 // INTENTIONAL_SYNTAX_ERROR_FORCE_REBUILD
-const FORCE_REBUILD_VAR = "BUILD_20250319_008";
+const FORCE_REBUILD_VAR = "BUILD_20250511_009";
 console.log('FORCE_REBUILD_VAR:', FORCE_REBUILD_VAR);
 
 const gelXGalleryImages: GalleryImage[] = [
+  {
+    id: 'gelx-pepper-ann-character-art-1',
+    src: '/gelx-pepper-ann-character-art.jpg',
+    title: 'Gel-X Pepper Ann Cartoon Character Nail Art | Hand-Painted Custom Design Denton, TX',
+    description: 'Showstopping long Gel-X extensions featuring hand-painted characters from the beloved animated series Pepper Ann. Each nail showcases a different cartoon character rendered in vibrant, detailed freehand nail art — from the iconic title character to her memorable friends. This custom Gel-X set transforms nostalgic pop culture into wearable art, perfect for clients seeking unique character-themed nail designs in Denton, TX. Crafted with precision Gel-X application for lightweight, durable wear and artistic hand-painting that brings your favorite cartoons to life.',
+    tags: ['Gel-X', 'Character Art', 'Hand Painted', 'Cartoon Nails', 'Pop Culture', 'Pepper Ann', 'Long Nails', 'Custom Design', 'Denton TX'],
+  },
   {
     id: '1',
     src: '/work8.jpg',
