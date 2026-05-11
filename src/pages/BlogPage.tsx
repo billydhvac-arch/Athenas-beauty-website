@@ -136,6 +136,187 @@ Same artist. Same passion. Same commitment to quality. Just a fresh new suite in
     featured: true,
   },
   {
+    id: 'summer-pedicures-denton-tx-2026',
+    title: 'Summer Pedicures in Denton, TX: Get Sandal-Ready with Custom Foot Care',
+    excerpt: 'Sandal season is here. Discover why summer pedicures are essential foot care, not just a luxury — from trending toe colors to matching mani-pedi combos at Athena\'s Beauty in Denton, TX.',
+    content: `After months of hiding inside boots and sneakers, summer in Denton, TX means one thing: your feet are about to be visible again. Pool days at Ray Roberts Lake, sandals at the UNT campus, graduation parties, wedding season, and casual patio nights at restaurants along FM 2181 — your toes are going to be on display.
+
+If your last pedicure was before winter, you\'re not alone. But here\'s the truth most people overlook: summer pedicures aren\'t just about looking good. They\'re about foot health, confidence, and giving your feet the reset they deserve after months of neglect.
+
+![Coral Acrylic Nails & Acrylic Pedicure with Floral Nail Art | Denton, TX](/acrylic-coral-floral-pedicure.jpg)
+
+*Matching coral acrylic mani-pedi with hand-painted floral nail art — created at Athena\'s Beauty, Denton TX*
+
+## Why Summer Pedicures Are Essential, Not Optional
+
+Your feet carry you through every single day. By summer, they\'ve endured tight boots, sweaty socks, dry winter air, and a lot of friction. Here\'s what a professional summer pedicure actually does for you:
+
+**Removes Dead Skin Buildup**
+Winter dries out feet faster than any other season. Calluses thicken, heels crack, and dead skin layers accumulate. A professional pedicure includes proper exfoliation that restores smooth, healthy skin — something a foot file at home can\'t replicate safely.
+
+**Prevents Ingrown Toenails**
+Ingrowns are common after winter because toenails have been compressed in tight footwear for months. A licensed nail technician shapes nails correctly, preventing painful ingrowns before sandal season fully kicks in.
+
+**Catches Early Foot Issues**
+A professional sees your feet up close. Early signs of fungus, nail discoloration, or skin conditions are often spotted during a pedicure before they become serious problems.
+
+**Boosts Confidence**
+This isn\'t vanity — it\'s psychology. Walking into a summer event, graduation party, or wedding with polished, cared-for feet changes how you feel in open-toed shoes. Confidence is visible.
+
+## Popular Summer Pedicure Colors & Designs
+
+Summer toe trends are different from hand trends. Toes are smaller, the canvas is compact, and the color needs to pop against skin tones, sandals, and summer outfits. Here are the shades dominating summer 2026:
+
+**Coral & Peach**
+Warm, vibrant, universally flattering. Coral toes look stunning against tanned skin and complement gold jewelry. The matching mani-pedi set shown above features a rich coral base that\'s perfect for summer.
+
+**Chrome Toes**
+Chrome isn\'t just for fingers anymore. Silver, gold, and rose gold chrome toes are exploding on TikTok and Instagram. The mirror finish catches sunlight beautifully and photographs incredibly well for summer events.
+
+**French Tips (Reimagined)**
+Classic white French tips remain a summer staple, but clients at Athena\'s Beauty are requesting micro French tips, colored tips (coral, mint, lavender), and chrome French toes for a modern twist.
+
+**Neon Accents**
+Summer is the one season where neon shines. Bright pinks, electric oranges, and lime greens make a statement at the pool or beach. These work best as solid colors or paired with neutral bases.
+
+**Nude & Blush**
+For clients who want understated elegance, soft nude and blush tones elongate the look of toes and pair effortlessly with any sandal color. Add subtle shimmer or gold foil for a touch of luxury.
+
+**Floral & Art Details**
+The hand-painted floral details shown on the coral pedicure above are increasingly requested for summer weddings, bridal showers, and special events. Even a single accent toe with delicate art elevates the entire look.
+
+## Matching Mani-Pedi Combos: The Ultimate Summer Flex
+
+There\'s something about matching nails and toes that feels intentional. It signals that you care about details — and summer is the season where both are visible at the same time.
+
+The set featured here shows exactly why matching mani-pedis work so well:
+
+• **Color cohesion** — Coral on hands and toes creates a unified look
+• **Design consistency** — Hand-painted florals on both sets tie everything together
+• **Photogenic impact** — Matching sets photograph beautifully for events and social media
+• **Elevated presentation** — Shows intentionality that clients and guests notice
+
+Popular matching combinations for summer 2026:
+
+• Coral base + white floral accents
+• Chrome French tips (hands and toes)
+• Nude shimmer + gold foil details
+• Soft pink + micro white French lines
+• Builder gel overlay on hands, matching gel polish on toes
+
+## The Pedicure Process at Athena\'s Beauty
+
+Not all pedicures are equal. At Athena\'s Beauty in Denton, TX, every pedicure is performed with the same attention to detail as our nail art services.
+
+**Step 1: Sanitized Foot Soak**
+Feet are soaked in a warm, sanitizing bath to soften skin and relax the client. Our tools are fully sanitized between every single client — no exceptions.
+
+**Step 2: Cuticle Care & Nail Shaping**
+Cuticles are gently pushed back (never cut improperly), and toenails are shaped to prevent ingrowns. The shape is customized to your natural nail growth pattern.
+
+**Step 3: Exfoliation & Callus Removal**
+Dead skin is exfoliated and calluses are carefully reduced. This isn\'t about making feet "perfect" — it\'s about restoring healthy, comfortable skin.
+
+**Step 4: Massage & Moisturization**
+Feet and lower legs are massaged with premium lotion to improve circulation and lock in hydration. This is especially important after dry winter months.
+
+**Step 5: Polish or Nail Art Application**
+Your choice of gel polish, regular polish, or custom nail art is applied with precision. Toes are smaller than fingers, so every stroke matters.
+
+**Step 6: Drying & Finishing**
+Gel polish is cured under an LED lamp for a chip-resistant, glossy finish that lasts 3+ weeks — perfect for summer\'s active schedule.
+
+## Summer Pedicure Longevity: Making It Last
+
+Denton\'s summer heat, pool chlorine, lake water, and sandal friction all test your pedicure\'s durability. Here\'s how to extend the life of your summer pedicure:
+
+**Apply Cuticle Oil Daily**
+Cuticle oil isn\'t just for hands. A drop on each toe daily keeps the nail bed flexible and prevents polish from chipping at the edges.
+
+**Wear Flip-Flops in Public Showers**
+Gym showers, pool decks, and lake house bathrooms are common sources of nail fungus. Protect your investment.
+
+**Moisturize Feet Nightly**
+Summer sandals expose feet to sun and air, which dries skin faster. A quick lotion application before bed maintains smoothness between appointments.
+
+**Avoid Picking at Polish**
+When polish starts to lift at the edge, it\'s tempting to peel it. Resist — peeling removes layers of nail and causes damage.
+
+**Schedule Every 3-4 Weeks**
+For gel polish pedicures, 3-4 weeks is the sweet spot. Waiting longer allows overgrowth and increases risk of lifting or chipping.
+
+## When to Book Your Summer Pedicure in Denton
+
+Timing matters. Here\'s the ideal schedule for Denton\'s summer calendar:
+
+**Late May — Early June**
+The first pedicure of summer. Reset your feet after winter, establish your summer color, and get ahead of sandal season.
+
+**Mid-June — July**
+A refresh before peak summer. If you have vacations, lake trips, or UNT summer events planned, book a week before.
+
+**Late July — August**
+Back-to-school prep for UNT and TWU students. A fresh pedicure before the fall semester starts signals a clean reset.
+
+**Event-Specific Timing**
+For weddings, bridal showers, graduation parties, or formal events: book your pedicure 2-3 days before the event for the freshest, most flawless results.
+
+## Pedicures for Special Summer Events in Denton
+
+Summer in Denton brings specific occasions where pedicures matter:
+
+**UNT & TWU Graduation Parties**
+Graduation season means photos, open-toed shoes, and celebrating. Matching coral or gold-accented toes complement cap-and-gown photos beautifully.
+
+**Lake Days at Ray Roberts**
+Lake days mean sandals, dock photos, and exposed feet. A chrome or bright summer color photographs well against water and sand.
+
+**Wedding Season**
+Summer weddings in Denton are common. Whether you\'re the bride, bridesmaid, or guest, nude gel toes with gold foil or micro French lines are universally elegant.
+
+**Date Nights & Patio Dining**
+Restaurants along University Drive and the Square mean sandals and open-toed heels. Polished toes complete the outfit.
+
+## Why Choose Athena\'s Beauty for Your Summer Pedicure?
+
+Clients searching for pedicures in Denton, TX often have the same complaint about big-box salons: rushed service, reused tools, and minimal attention. At Athena\'s Beauty, the approach is different.
+
+**Licensed Professional**
+Athena is fully licensed and trained. Pedicures aren\'t delegated to junior staff or rushed between clients.
+
+**Sanitized Tools**
+Every tool is properly sanitized between clients. No exceptions. No shortcuts.
+
+**Premium Products**
+We use high-quality gel polishes, lotions, and exfoliants that outperform drugstore alternatives.
+
+**Custom Nail Art**
+Want florals on your toes? Chrome accents? Matching hand-painted designs? This isn\'t a standard service at chain salons — it\'s what we specialize in.
+
+**Appointment-Only**
+No waiting, no rushed service, no interruptions. Your pedicure receives dedicated, uninterrupted time.
+
+## Book Your Summer Pedicure in Denton, TX
+
+Ready to get your feet sandal-ready? Book your summer pedicure at Athena\'s Beauty in Denton, TX.
+
+**Location:** 2640 W University Dr, Suite 1266, Denton, TX 76201 (Salons by JC, Room #19)
+**Booking:** [nailsbyatenad.booksy.com](https://nailsbyatenad.booksy.com)
+**Phone/Text:** (940) 435-1332
+
+We recommend booking 2-3 days in advance for weekend appointments. Walk-ins are not accepted — appointment only to ensure every client receives dedicated, uninterrupted service.
+
+**Summer tip:** Book your first summer pedicure by mid-May to get ahead of the rush. Once sandal season hits full swing, weekend slots fill fast.
+
+---
+
+*Athena is the founder of Athena\'s Beauty, a custom nail studio in Denton, Texas specializing in builder gel nails, acrylics, Gel-X extensions, dip powder, custom nail art, and professional pedicures. Now located at Salons by JC in Razor Ranch.*`,
+    date: 'May 11, 2026',
+    readTime: '7 min read',
+    category: 'Tips',
+    image: '/acrylic-coral-floral-pedicure.jpg',
+  },
+  {
     id: 'stained-glass-cherry-blossom-2026',
     title: 'Stained Glass Cherry Blossom Nails: Spring 2026\'s Most Artistic Trend',
     excerpt: 'Discover the intricate art of stained glass nail design featuring delicate cherry blossoms and geometric accents — the perfect spring look for nail art lovers in Denton, TX.',
