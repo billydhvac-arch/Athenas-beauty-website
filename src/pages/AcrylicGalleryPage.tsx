@@ -18,6 +18,13 @@ const acrylicGalleryImages: GalleryImage[] = [
     tags: ['Blue', 'French Tips', 'Coffin Shape', 'Acrylic', 'Nude Base', 'Custom Design', 'Elegant', 'Denton TX'],
   },
   {
+    id: 'acrylic-purple-flame-short-square-1',
+    src: '/acrylic-purple-flame-short-square.jpg',
+    title: 'Purple Flame Short Square Acrylic Nails | Hand-Painted Nail Art Denton, TX',
+    description: 'Edgy short square acrylic nails featuring hand-painted purple flame designs on a sheer lavender base. Bold dark-purple flame accents sweep across each nail, creating a striking Y2K-inspired manicure perfect for trendsetters in Denton, TX. This custom nail art combines precise acrylic shaping with artistic freehand flame detailing for a fierce, statement-making look. Ideal for clients seeking unique, eye-catching acrylic designs that stand out from classic styles.',
+    tags: ['Purple', 'Flame Design', 'Short Square', 'Hand Painted', 'Y2K', 'Edgy', 'Acrylic', 'Custom Art', 'Denton TX'],
+  },
+  {
     id: 'acrylic-red-french-rhinestone-matching-1',
     src: '/acrylic-red-french-rhinestone-matching-set.jpg',
     title: 'Red French Tip Acrylic Nails & Matching Pedicure with Rhinestones | Denton, TX',
