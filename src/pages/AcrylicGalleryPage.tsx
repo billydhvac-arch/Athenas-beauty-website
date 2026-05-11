@@ -11,6 +11,13 @@ interface GalleryImage {
 
 const acrylicGalleryImages: GalleryImage[] = [
   {
+    id: 'acrylic-pink-white-gold-bow-french-1',
+    src: '/acrylic-pink-white-gold-bow-french.jpg',
+    title: 'Pink & White French Acrylic Nails with Gold Bow Charms | Custom Nail Art Denton, TX',
+    description: 'Elegant short-to-medium acrylic nails featuring a soft pink base with crisp white French tips accented by shimmering gold chrome detailing. Delicate gold foil wave patterns sweep across select nails, while tiny gold bow charms add a touch of feminine luxury. This custom hand-crafted set combines classic French elegance with modern metallic accents for a versatile, eye-catching manicure. Perfect for clients seeking refined yet trendy acrylic nail art in Denton, TX — ideal for everyday wear or special occasions.',
+    tags: ['Pink', 'White', 'French Tips', 'Gold Chrome', 'Gold Bow', 'Gold Foil', 'Elegant', 'Acrylic', 'Custom Art', 'Denton TX'],
+  },
+  {
     id: 'acrylic-pink-leopard-zebra-bow-1',
     src: '/acrylic-pink-leopard-zebra-bow.jpg',
     title: 'Pink Leopard & Zebra Print Acrylic Nails with Black Bow | Custom Nail Art Denton, TX',
