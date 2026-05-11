@@ -11,6 +11,13 @@ interface GalleryImage {
 
 const acrylicGalleryImages: GalleryImage[] = [
   {
+    id: 'acrylic-pink-leopard-zebra-bow-1',
+    src: '/acrylic-pink-leopard-zebra-bow.jpg',
+    title: 'Pink Leopard & Zebra Print Acrylic Nails with Black Bow | Custom Nail Art Denton, TX',
+    description: 'Fierce long square acrylic nails featuring a bold pink leopard print design paired with black-and-white zebra stripe accents for a wild, mixed-animal-print manicure. A delicate black 3D bow charm on the ring finger adds a touch of feminine glamour to this statement-making set. Hand-crafted with precise acrylic shaping and detailed freehand nail art at Athena\'s Beauty in Denton, TX. Perfect for clients seeking trendy animal print acrylic nails that combine fierce attitude with playful charm.',
+    tags: ['Pink', 'Leopard Print', 'Zebra Print', 'Animal Print', 'Black Bow', 'Long Square', 'Acrylic', 'Custom Art', 'Trendy', 'Denton TX'],
+  },
+  {
     id: 'acrylic-blue-french-coffin-1',
     src: '/acrylic-blue-french-coffin.jpg',
     title: 'Blue French Tip Coffin Acrylic Nails | Custom Nail Art Denton, TX',
