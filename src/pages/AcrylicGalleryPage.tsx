@@ -11,6 +11,13 @@ interface GalleryImage {
 
 const acrylicGalleryImages: GalleryImage[] = [
   {
+    id: 'acrylic-green-nude-heart-valentine-1',
+    src: '/acrylic-green-nude-heart-valentine.jpg',
+    title: 'Green & Nude Heart Acrylic Nails | Valentine\'s Day Nail Art Denton, TX',
+    description: 'Romantic short-to-medium almond acrylic nails featuring a chic green and nude color-blocking design with delicate hand-painted heart accents. Alternating emerald green and sheer nude nails create a balanced, eye-catching look, while tiny green heart details on the nude nails add a sweet, playful touch. This custom Valentine\'s Day-inspired set is hand-crafted at Athena\'s Beauty in Denton, TX — perfect for clients seeking seasonal nail art that\'s festive yet sophisticated.',
+    tags: ['Green', 'Nude', 'Heart Design', 'Valentine', 'Almond Shape', 'Color Block', 'Romantic', 'Acrylic', 'Custom Art', 'Denton TX'],
+  },
+  {
     id: 'acrylic-pink-white-gold-bow-french-1',
     src: '/acrylic-pink-white-gold-bow-french.jpg',
     title: 'Pink & White French Acrylic Nails with Gold Bow Charms | Custom Nail Art Denton, TX',
