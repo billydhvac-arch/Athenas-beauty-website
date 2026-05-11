@@ -11,6 +11,13 @@ interface GalleryImage {
 
 const acrylicGalleryImages: GalleryImage[] = [
   {
+    id: 'acrylic-blue-french-coffin-1',
+    src: '/acrylic-blue-french-coffin.jpg',
+    title: 'Blue French Tip Coffin Acrylic Nails | Custom Nail Art Denton, TX',
+    description: 'Elegant coffin-shaped acrylic nails featuring a sophisticated blue French tip design on a natural nude base. The crisp cobalt-blue tips create a bold yet refined contrast against the soft neutral nail bed, delivering a modern twist on the classic French manicure. Perfect for clients seeking custom French tip acrylic nails in Denton, TX who want a pop of color without sacrificing elegance. Hand-crafted with precise shaping and flawless cuticle work for a long-lasting, professional finish.',
+    tags: ['Blue', 'French Tips', 'Coffin Shape', 'Acrylic', 'Nude Base', 'Custom Design', 'Elegant', 'Denton TX'],
+  },
+  {
     id: 'acrylic-red-french-rhinestone-matching-1',
     src: '/acrylic-red-french-rhinestone-matching-set.jpg',
     title: 'Red French Tip Acrylic Nails & Matching Pedicure with Rhinestones | Denton, TX',
