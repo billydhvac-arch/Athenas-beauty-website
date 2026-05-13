@@ -136,6 +136,167 @@ Same artist. Same passion. Same commitment to quality. Just a fresh new suite in
     featured: true,
   },
   {
+    id: 'cat-eye-nails-denton-2026',
+    title: "Cat Eye Nails in Denton, TX: The Magnetic Trend That's Still Peaking in 2026",
+    excerpt: "If you've scrolled TikTok or Instagram in the last three months, you've seen them: nails that shimmer and shift like a cat's eye gemstone, with a mesmerizing band of light that follows your hands. Cat eye nails — created with magnetic gel polish — have exploded into one of the most requested nail trends of 2026. Here's everything you need to know, and where to get them in Denton, TX.",
+    content: `If you've scrolled TikTok or Instagram in the last three months, you've seen them: nails that shimmer and shift like a cat's eye gemstone, with a mesmerizing band of light that follows your hands as you move. **Cat eye nails** — created with magnetic gel polish — have exploded from a niche technique to one of the most requested nail trends of 2026, generating millions of views under #CatEyeNails and #MagneticGel.
+
+Celebrity nail artists confirm that Hailey Bieber, Khloé Kardashian, and multiple Fashion Week models have sported cat eye manicures this spring. The trend has evolved far beyond basic silver shimmer — 2026's variations include celestial starry cat eye, rose gold circuitry patterns, emerald glitch effects, liquid mercury finishes, and the just-emerged **Diet Coke Brown Cat Eye** that's already trending on TikTok.
+
+Yet in Denton, Texas — home to UNT, TWU, and a community of trend-conscious clients — finding a salon that truly understands cat eye nails is harder than you'd expect. That's why Athena's Beauty invested in premium magnetic gel products and advanced technique training: to bring this viral trend to Denton with professional-grade results that DIY kits and discount salons simply can't match.
+
+## What Are Cat Eye Nails?
+
+Cat eye nails use **magnetic gel polish** — a specialized gel infused with microscopic metallic particles that respond to magnetic fields. During application, a nail technician holds a small magnet over the uncured gel, causing the metallic particles to rise and cluster into a thin, shimmering line that resembles the slit pupil of a cat's eye.
+
+The result? A **dimensional, light-catching effect** that appears to move across the nail surface as you tilt your hands. Unlike standard shimmer polish that sparkles uniformly, cat eye nails create a **focused band of concentrated light** that draws the eye — which is exactly why they perform so well on camera.
+
+### How the Technique Works
+
+1. **Base preparation** — Standard builder gel or natural nail prep with a quality base coat
+2. **Magnetic gel application** — Thin, even layers of magnetic gel polish applied with precision
+3. **Magnet placement** — The critical step: a technician holds a specialized magnet close to the nail surface for 5–10 seconds before curing, pulling the metallic particles into the desired pattern
+4. **Pattern variation** — Different magnet shapes create different effects: straight bands, diagonal slashes, starbursts, wave patterns, or custom directional designs
+5. **Curing \u0026 sealing** — LED/UV cure followed by a high-gloss top coat that preserves the dimensional effect
+
+The technique sounds simple, but the difference between a clean cat eye and a muddy, uneven one comes down to **magnet timing, gel viscosity, and technician experience**. Hold the magnet too long and the particles over-cluster. Too short, and the effect is weak. Wrong angle, and the band wanders off-center.
+
+## 2026 Cat Eye Variations: What's Trending Now
+
+The cat eye trend has matured far beyond the single silver stripe that first went viral. Here are the variations clients are requesting at Athena's Beauty in 2026:
+
+### Classic Silver Cat Eye
+The original. A sleek, liquid-metal silver band on a clear or nude base. Timeless, wearable, and pairs with any outfit. **Best for:** First-time cat eye clients, professionals, everyday elegance.
+
+### Galaxy / Starry Cat Eye
+Multiple magnet passes create intersecting bands that resemble a starry night sky. Add tiny rhinestones at the band intersections for a celestial effect. **Best for:** UNT astronomy students, creative professionals, anyone who wants nails that look like wearable art.
+
+### Rose Gold Circuitry
+Warm rose gold magnetic gel with thin chrome lines drawn over the cat eye band, creating a futuristic circuit-board aesthetic. **Best for:** Tech professionals, gamers, modern bridal parties.
+
+### Emerald Glitch
+Deep green magnetic gel with a deliberately broken, off-center band that looks like a digital glitch. Edgy and unexpected. **Best for:** Trendsetters, art students, anyone tired of "pretty" nails and wants something with attitude.
+
+### Liquid Mercury
+A chrome-dense magnetic gel that creates a pure metallic mirror effect rather than a discrete band. The entire nail surface shifts from silver to gunmetal as you move your hands. **Best for:** Maximum impact, evening events, clients who want their nails to stop conversations.
+
+### Aurora Borealis French
+A cat eye base with traditional French tip overlay — the band runs through the nail bed while crisp white or colored tips frame the top. **Best for:** Clients who love French manicures but want something current.
+
+### Diet Coke Brown Cat Eye — *Just Emerging*
+The newest variation: warm, translucent brown magnetic gel that creates a "cola glass" effect with a subtle amber light band. It's sophisticated, unexpected, and already picking up momentum on TikTok. **Best for:** Fashion-forward clients who want the next trend before it hits mainstream.
+
+---
+
+![Blue Cat Eye Builder Gel with Chrome Accents — Athena's Beauty, Denton TX](/builder-gel-hero.jpg)
+*Blue cat eye builder gel with silver accents and chrome detailing — hand-crafted at Athena's Beauty in Denton, TX*
+
+---
+
+## The "Mirror Dimension" Combo: Cat Eye + Chrome
+
+One of our most popular requests at Athena's Beauty is what we call the **Mirror Dimension combo**: cat eye nails with a chrome powder overlay on top of the magnetic band. The result is a **three-dimensional optical illusion** — the cat eye creates depth and movement, while the chrome layer adds a liquid-metal reflectivity that makes the nails look like molten glass.
+
+This combination requires two advanced techniques working in perfect sequence:
+1. Precise cat eye magnet placement to establish the base dimension
+2. Chrome powder burnishing at the exact right cure stage to avoid dulling the magnetic effect
+
+Most discount salons skip the chrome step because it adds time and requires premium products. At Athena's, we consider it our signature — the **upgrade that turns a trendy nail into a luxury experience**.
+
+## Why Professional Cat Eye Nails Matter
+
+### The DIY Kit Problem
+Drugstore magnetic polishes are fun for experimentation, but they have three fatal flaws for serious nail enthusiasts:
+
+- **Weak magnetic response:** Consumer-grade polishes use lower concentrations of metallic particles, producing a faint, washed-out band that disappears under office lighting
+- **No lasting power:** Without proper builder gel or acrylic structure underneath, the magnetic effect chips and fades within days
+- **Inconsistent results:** DIY magnets are smaller, weaker, and harder to position consistently across all ten nails
+
+### The Discount Salon Problem
+Some Denton-area salons advertise "magnetic nails" but use standard gel with glitter added — not true magnetic gel. The difference is obvious once you know what to look for:
+
+| True Cat Eye Nails | Fake "Magnetic" Nails |
+|-------------------|----------------------|
+| Thin, focused light band that shifts with angle | Uniform sparkle, no dimensional movement |
+| Band appears to sit *below* the nail surface | Glitter sits on top, flat and one-dimensional |
+| Clean edges, precise placement | Muddy, uneven, or missing in spots |
+| Lasts 3+ weeks with proper care | Often chips or loses effect within a week |
+| Requires premium magnetic gel + skilled technique | Standard gel + loose glitter = not the same thing |
+
+## Cat Eye Nails for Different Lengths and Shapes
+
+A common misconception is that cat eye nails require long acrylics. Not true — the technique works beautifully on short, natural nails with builder gel reinforcement.
+
+| Nail Length | Cat Eye Effect |
+|-------------|---------------|
+| **Short / Natural** | Subtle, refined band; perfect for professionals and everyday wear |
+| **Medium / Builder Gel** | Balanced visibility; the sweet spot for most clients |
+| **Long / Acrylic or Gel-X** | Maximum drama; the band has more surface area to travel across |
+
+**Shape recommendations:**
+- **Almond \u0026 Oval:** The band follows the natural curve elegantly; our most-requested shapes for cat eye
+- **Coffin:** The flat top creates a striking contrast with the diagonal band; dramatic and modern
+- **Square:** Clean, architectural look; the band reads as a deliberate design element
+- **Stiletto:** Maximum impact, but requires careful magnet placement to avoid a "warped" appearance
+
+## Cat Eye Nail Maintenance \u0026 Longevity
+
+With proper application and care, cat eye nails last **3–4 weeks** without losing their dimensional effect:
+
+- **Week 1–2:** Full effect, maximum shimmer and movement
+- **Week 3:** Slight mellowing of the band intensity (normal, still beautiful)
+- **Week 4:** Growth visible at cuticle; time for a fill or fresh set
+
+**Care tips to preserve the effect:**
+- Use cuticle oil daily — healthy nails grow better and the magnetic effect stays intact longer
+- Wear gloves for dishwashing and cleaning — harsh chemicals can dull the chrome layer if you opted for the Mirror Dimension combo
+- Avoid picking or peeling — the magnetic gel layer is bonded to your natural nail; peeling damages both
+
+## Where to Get Cat Eye Nails in Denton, TX
+
+Athena's Beauty is located at **2640 W University Dr, Suite 1266, Denton, TX 76201** — inside the Marketplace at Corinthian Square, just minutes from the UNT campus and the University Gardens neighborhood. We specialize in bringing trending nail techniques to Denton with the precision and product quality that Instagram-worthy results demand.
+
+**Our cat eye service includes:**
+- Premium magnetic gel selection (silver, rose gold, emerald, sapphire, copper, and limited-edition seasonal colors)
+- Optional chrome or glitter overlay upgrades
+- Builder gel base for natural nail strength and longevity
+- Custom magnet patterns (straight, diagonal, starburst, wave — your choice)
+- Finished with a high-gloss top coat that preserves the dimensional effect
+
+**Pricing:** Standard cat eye nails start at competitive rates, with the Mirror Dimension combo (cat eye + chrome) as a premium upgrade. [Book your appointment via Booksy →](#book)
+
+## The Bottom Line
+
+Cat eye nails aren't a passing fad — they're a technique that opened an entirely new category of nail art. The magnetic gel category continues to expand with new colors, new magnet shapes, and new creative applications every season. What started as a "TikTok trend" in 2024 has become a standard service request in 2026, and the variations keep evolving.
+
+For Denton clients — UNT students preparing for graduation photos, TWU nursing students needing professional-but-current nails, young professionals at the growing tech offices near Rayzor Ranch — cat eye nails offer the perfect balance: **trendy enough to get compliments, wearable enough for real life**.
+
+And for clients who want something nobody else in Denton has yet? Ask about the **Diet Coke Brown Cat Eye** — the variation that's trending on TikTok this week and hasn't appeared at any other local salon.
+
+---
+
+**Ready to try the trend?** [Book your cat eye nail appointment at Athena's Beauty in Denton, TX →](#book)
+
+*Questions about cat eye colors, nail length, or pricing? DM us on Instagram [@athenasbeauty](https://instagram.com/athenasbeauty) or call the studio — we love talking nails.*
+
+---
+
+**Related:**
+- [Chrome French Acrylic Nails in Denton, TX](/#blog?post=chrome-french-acrylic-nails-denton-2026)
+- [Gel-X Extensions vs Acrylic: Which Is Right for You?](/#blog?post=gelx-vs-acrylic-denton-2026)
+- [Custom Nail Art at Athena's Beauty: Hand-Painted Designs You'll Never Find Anywhere Else](/#blog?post=custom-nail-art-denton-2026)
+- [How to Make Your Manicure Last 3+ Weeks](/#blog?post=manicure-longevity-tips-2026)
+
+---
+
+*Published May 13, 2026 | Athena's Beauty — Premium Nail Salon in Denton, TX | 2640 W University Dr, Suite 1266 | Denton, TX 76201*`,
+    date: 'May 13, 2026',
+    readTime: '8 min read',
+    category: 'Trends',
+    image: '/builder-gel-hero.jpg',
+    featured: true,
+  },
+  {
     id: 'summer-pedicures-denton-tx-2026',
     title: 'Summer Pedicures in Denton, TX: Get Sandal-Ready with Custom Foot Care',
     excerpt: 'Sandal season is here. Discover why summer pedicures are essential foot care, not just a luxury — from trending toe colors to matching mani-pedi combos at Athena\'s Beauty in Denton, TX.',
