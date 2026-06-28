@@ -19,63 +19,162 @@
   <!-- Blog Index -->
   <url>
     <loc>https://athenas-beauty.com/#blog</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
-  <!-- Individual Blog Posts - SEO Optimized for Denton Nail Services -->
+  <!-- Individual Blog Posts -->
   <url>
-    <loc>https://athenas-beauty.com/#blog</loc>
-    <lastmod>2026-03-09</lastmod>
+    <loc>https://athenas-beauty.com/#blog?post=builder-gel-nails-denton-tx-2026</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
-  <!-- Builder Gel Nails Blog Post -->
   <url>
-    <loc>https://athenas-beauty.com/#blog</loc>
-    <lastmod>2026-02-28</lastmod>
+    <loc>https://athenas-beauty.com/#blog?post=gel-x-extensions-denton-tx-2026</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
-  <!-- Gel-X Extensions Blog Post -->
   <url>
-    <loc>https://athenas-beauty.com/#blog</loc>
-    <lastmod>2026-03-06</lastmod>
+    <loc>https://athenas-beauty.com/#blog?post=soap-nails-foggy-french-denton-tx-2026</loc>
+    <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
-  <!-- Custom Nail Art Blog Post -->
   <url>
-    <loc>https://athenas-beauty.com/#blog</loc>
+    <loc>https://athenas-beauty.com/#blog?post=micro-french-manicure-denton-tx-2026</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=new-location-razor-ranch-denton-2026</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=cat-eye-nails-denton-2026</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=summer-pedicures-denton-tx-2026</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=stained-glass-cherry-blossom-2026</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=chrome-french-acrylic-2026</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
-  <!-- Acrylic Nails Blog Post -->
   <url>
-    <loc>https://athenas-beauty.com/#blog</loc>
-    <lastmod>2026-02-25</lastmod>
+    <loc>https://athenas-beauty.com/#blog?post=builder-gel-vs-acrylic-denton-2026</loc>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
-  <!-- Dip Powder Blog Post -->
   <url>
-    <loc>https://athenas-beauty.com/#blog</loc>
+    <loc>https://athenas-beauty.com/#blog?post=gel-x-vs-acrylic-denton-2026</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=custom-nail-art-denton-2026</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=manicure-longevity-tips-2026</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=5-nail-trends-2026</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=how-to-wear-long-nails-denton-2026</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=hand-drawn-bubble-acrylic-denton-2026</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=wedding-nails-denton-2026</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=why-cuticle-care-matters</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=dip-powder-nails-denton-2026</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
-  <!-- Builder Gel vs Acrylic Comparison Blog Post -->
   <url>
-    <loc>https://athenas-beauty.com/#blog</loc>
-    <lastmod>2026-03-03</lastmod>
+    <loc>https://athenas-beauty.com/#blog?post=acrylic-nails-denton-2026</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=builder-gel-nails-denton-2026</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=gel-x-extensions-denton-2026</loc>
+    <lastmod>2026-03-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
