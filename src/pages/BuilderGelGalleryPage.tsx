@@ -78,6 +78,41 @@ const BuilderGelGalleryPage = () => {
     };
   }, [t]);
 
+  // Image Structured Data for SEO
+  useEffect(() => {
+    const imageData = {
+      '@context': 'https://schema.org',
+      '@type': 'ImageGallery',
+      name: 'Builder Gel Nail Gallery | Athena\'s Beauty | Denton, TX',
+      description: 'Browse our builder gel nail gallery in Denton, TX. Natural nail strengthening with custom designs.',
+      url: 'https://athenas-beauty.com/gallery/builder-gel',
+      inLanguage: 'en',
+      about: {
+        '@type': 'Thing',
+        name: 'Builder Gel Nails in Denton, TX',
+      },
+      image: builderGelGalleryImages.map((img) => ({
+        '@type': 'ImageObject',
+        contentUrl: `https://athenas-beauty.com${img.src}`,
+        name: img.title,
+        description: img.description,
+        inLanguage: 'en',
+        about: img.tags.map((tag) => ({ '@type': 'Thing', name: tag })),
+      })),
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(imageData);
+    script.id = 'builder-gel-gallery-schema';
+    document.head.appendChild(script);
+
+    return () => {
+      const existing = document.getElementById('builder-gel-gallery-schema');
+      if (existing) existing.remove();
+    };
+  }, []);
+
   const allTags = Array.from(new Set(builderGelGalleryImages.flatMap(img => img.tags)));
   
   const filteredImages = selectedTag 

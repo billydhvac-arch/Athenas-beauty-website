@@ -133,6 +133,41 @@ const DipGalleryPage = () => {
     };
   }, [t]);
 
+  // Image Structured Data for SEO
+  useEffect(() => {
+    const imageData = {
+      '@context': 'https://schema.org',
+      '@type': 'ImageGallery',
+      name: 'Dip Powder Nail Gallery | Athena\'s Beauty | Denton, TX',
+      description: 'Browse our dip powder nail gallery in Denton, TX. Odor-free, long-lasting manicures with custom designs.',
+      url: 'https://athenas-beauty.com/gallery/dip',
+      inLanguage: 'en',
+      about: {
+        '@type': 'Thing',
+        name: 'Dip Powder Nails in Denton, TX',
+      },
+      image: dipGalleryImages.map((img) => ({
+        '@type': 'ImageObject',
+        contentUrl: `https://athenas-beauty.com${img.src}`,
+        name: img.title,
+        description: img.description,
+        inLanguage: 'en',
+        about: img.tags.map((tag) => ({ '@type': 'Thing', name: tag })),
+      })),
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(imageData);
+    script.id = 'dip-gallery-schema';
+    document.head.appendChild(script);
+
+    return () => {
+      const existing = document.getElementById('dip-gallery-schema');
+      if (existing) existing.remove();
+    };
+  }, []);
+
   const allTags = Array.from(new Set(dipGalleryImages.flatMap(img => img.tags)));
   
   const filteredImages = selectedTag 

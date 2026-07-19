@@ -49,7 +49,42 @@ const SpanishGalleryPage = ({ title, subtitle, images, serviceType, backLink }: 
     };
   }, [title, serviceType, backLink]);
 
-  const allTags = Array.from(new Set(images.flatMap(img => img.tags)));
+  // Image Structured Data for SEO
+  useEffect(() => {
+    const imageData = {
+      '@context': 'https://schema.org',
+      '@type': 'ImageGallery',
+      name: `Galería de ${title} en Denton, TX`,
+      description: subtitle,
+      url: `https://athenas-beauty.com${backLink}`,
+      inLanguage: 'es',
+      about: {
+        '@type': 'Thing',
+        name: `${serviceType} en Denton, TX`,
+      },
+      image: images.map((img) => ({
+        '@type': 'ImageObject',
+        contentUrl: `https://athenas-beauty.com${img.src}`,
+        name: img.title,
+        description: img.description,
+        inLanguage: 'es',
+        about: img.tags.map((tag) => ({ '@type': 'Thing', name: tag })),
+      })),
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(imageData);
+    script.id = 'gallery-schema';
+    document.head.appendChild(script);
+
+    return () => {
+      const existing = document.getElementById('gallery-schema');
+      if (existing) existing.remove();
+    };
+  }, [images, title, subtitle, backLink, serviceType]);
+
+  const allTags = Array.from(new Set(images.flatMap((img) => img.tags)));
   
   const filteredImages = selectedTag 
     ? images.filter(img => img.tags.includes(selectedTag))

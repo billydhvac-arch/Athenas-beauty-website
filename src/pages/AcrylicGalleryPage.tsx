@@ -277,6 +277,41 @@ const AcrylicGalleryPage = () => {
     };
   }, []);
 
+  // Image Structured Data for SEO
+  useEffect(() => {
+    const imageData = {
+      '@context': 'https://schema.org',
+      '@type': 'ImageGallery',
+      name: 'Acrylic Nail Art Gallery | Athena\'s Beauty | Denton, TX',
+      description: 'Browse our acrylic nail art gallery in Denton, TX. 3D designs, French tips, custom artwork & more.',
+      url: 'https://athenas-beauty.com/gallery/acrylic',
+      inLanguage: 'en',
+      about: {
+        '@type': 'Thing',
+        name: 'Acrylic Nails in Denton, TX',
+      },
+      image: acrylicGalleryImages.map((img) => ({
+        '@type': 'ImageObject',
+        contentUrl: `https://athenas-beauty.com${img.src}`,
+        name: img.title,
+        description: img.description,
+        inLanguage: 'en',
+        about: img.tags.map((tag) => ({ '@type': 'Thing', name: tag })),
+      })),
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(imageData);
+    script.id = 'acrylic-gallery-schema';
+    document.head.appendChild(script);
+
+    return () => {
+      const existing = document.getElementById('acrylic-gallery-schema');
+      if (existing) existing.remove();
+    };
+  }, []);
+
   const allTags = Array.from(new Set(acrylicGalleryImages.flatMap(img => img.tags)));
   
   const filteredImages = selectedTag 

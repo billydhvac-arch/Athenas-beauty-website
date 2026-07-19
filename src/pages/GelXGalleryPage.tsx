@@ -105,6 +105,41 @@ const GelXGalleryPage = () => {
     };
   }, [t]);
 
+  // Image Structured Data for SEO
+  useEffect(() => {
+    const imageData = {
+      '@context': 'https://schema.org',
+      '@type': 'ImageGallery',
+      name: 'Gel-X Extensions Gallery | Athena\'s Beauty | Denton, TX',
+      description: 'Browse our Gel-X extensions gallery in Denton, TX. Lightweight, natural-looking nail extensions with custom art.',
+      url: 'https://athenas-beauty.com/gallery/gelx',
+      inLanguage: 'en',
+      about: {
+        '@type': 'Thing',
+        name: 'Gel-X Extensions in Denton, TX',
+      },
+      image: gelXGalleryImages.map((img) => ({
+        '@type': 'ImageObject',
+        contentUrl: `https://athenas-beauty.com${img.src}`,
+        name: img.title,
+        description: img.description,
+        inLanguage: 'en',
+        about: img.tags.map((tag) => ({ '@type': 'Thing', name: tag })),
+      })),
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(imageData);
+    script.id = 'gelx-gallery-schema';
+    document.head.appendChild(script);
+
+    return () => {
+      const existing = document.getElementById('gelx-gallery-schema');
+      if (existing) existing.remove();
+    };
+  }, []);
+
   const allTags = Array.from(new Set(gelXGalleryImages.flatMap(img => img.tags)));
   
   const filteredImages = selectedTag 
