@@ -285,6 +285,18 @@ const Navigation = () => {
           </div>
 
           <div className="border-t border-white/20 pt-4 w-full max-w-xs">
+            <p className="text-white/50 text-sm mb-3 text-center">Policy</p>
+            <div className="flex flex-col gap-3">
+              <Link to="/booking-policy" onClick={() => setIsMobileMenuOpen(false)} className="font-heading text-lg text-white/80 hover:text-gold transition-colors">
+                Booking Policy
+              </Link>
+              <Link to="/es/politica-de-reservas" onClick={() => setIsMobileMenuOpen(false)} className="font-heading text-lg text-white/80 hover:text-gold transition-colors">
+                Política de Reservas
+              </Link>
+            </div>
+          </div>
+
+          <div className="border-t border-white/20 pt-4 w-full max-w-xs">
             <p className="text-white/50 text-sm mb-3 text-center">{t('lang.switch')}</p>
             <div className="flex justify-center gap-4">
               <button

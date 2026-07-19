@@ -383,6 +383,21 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
             alt="Athena's Beauty"
             className="h-12 w-auto mx-auto mb-4 opacity-50"
           />
+          <div className="flex flex-wrap items-center justify-center gap-4 mb-4">
+            <a
+              href="/booking-policy"
+              className="font-body text-xs text-text-secondary hover:text-gold transition-colors"
+            >
+              {t('contact.bookingPolicy', 'Booking Policy')}
+            </a>
+            <span className="text-gray-300">|</span>
+            <a
+              href="/es/politica-de-reservas"
+              className="font-body text-xs text-text-secondary hover:text-gold transition-colors"
+            >
+              {t('contact.bookingPolicyEs', 'Política de Reservas')}
+            </a>
+          </div>
           <p className="font-body text-xs text-text-secondary">
             {t('contact.footer', { year: new Date().getFullYear() })}
           </p>
