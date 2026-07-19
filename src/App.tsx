@@ -27,6 +27,8 @@ import BuilderGelGalleryPage from './pages/BuilderGelGalleryPage';
 import GelXGalleryPage from './pages/GelXGalleryPage';
 import CancellationPolicyPage from './pages/CancellationPolicyPage';
 import SpanishCancellationPolicyPage from './pages/SpanishCancellationPolicyPage';
+import ClientPolicyPage from './pages/ClientPolicyPage';
+import SpanishClientPolicyPage from './pages/SpanishClientPolicyPage';
 import './App.css';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -163,6 +165,9 @@ function App() {
         <Route path="/booking-policy" element={
           <Layout><CancellationPolicyPage /></Layout>
         } />
+        <Route path="/client-policy" element={
+          <Layout><ClientPolicyPage /></Layout>
+        } />
         <Route path="/blog" element={
           <Layout><BlogPage /></Layout>
         } />
@@ -203,6 +208,9 @@ function App() {
         } />
         <Route path="/es/politica-de-reservas" element={
           <Layout><SpanishCancellationPolicyPage /></Layout>
+        } />
+        <Route path="/es/politica-para-clientes" element={
+          <Layout><SpanishClientPolicyPage /></Layout>
         } />
         
         {/* Dashboard (no nav) */}

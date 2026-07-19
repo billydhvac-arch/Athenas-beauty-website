@@ -397,6 +397,20 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
             >
               {t('contact.bookingPolicyEs', 'Política de Reservas')}
             </a>
+            <span className="text-gray-300">|</span>
+            <a
+              href="/client-policy"
+              className="font-body text-xs text-text-secondary hover:text-gold transition-colors"
+            >
+              Client Policy
+            </a>
+            <span className="text-gray-300">|</span>
+            <a
+              href="/es/politica-para-clientes"
+              className="font-body text-xs text-text-secondary hover:text-gold transition-colors"
+            >
+              Política para Clientes
+            </a>
           </div>
           <p className="font-body text-xs text-text-secondary">
             {t('contact.footer', { year: new Date().getFullYear() })}

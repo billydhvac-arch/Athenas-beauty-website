@@ -293,6 +293,12 @@ const Navigation = () => {
               <Link to="/es/politica-de-reservas" onClick={() => setIsMobileMenuOpen(false)} className="font-heading text-lg text-white/80 hover:text-gold transition-colors">
                 Política de Reservas
               </Link>
+              <Link to="/client-policy" onClick={() => setIsMobileMenuOpen(false)} className="font-heading text-lg text-white/80 hover:text-gold transition-colors">
+                Client Policy
+              </Link>
+              <Link to="/es/politica-para-clientes" onClick={() => setIsMobileMenuOpen(false)} className="font-heading text-lg text-white/80 hover:text-gold transition-colors">
+                Política para Clientes
+              </Link>
             </div>
           </div>
 
