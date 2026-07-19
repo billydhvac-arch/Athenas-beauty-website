@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { ArrowRight, Star, MapPin, Calendar, Phone } from 'lucide-react';
+import { ArrowRight, Star, MapPin, Calendar, Phone, Globe } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -11,7 +11,7 @@ interface HeroSectionProps {
 }
 
 const HeroSection = ({ className = '' }: HeroSectionProps) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const sectionRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const imageRef = useRef<HTMLDivElement>(null);
@@ -80,6 +80,38 @@ const HeroSection = ({ className = '' }: HeroSectionProps) => {
             <span className="font-body text-xs text-text-secondary">
               {t('hero.trustBadge')}
             </span>
+          </div>
+
+          {/* Language Selector — Prominent on homepage */}
+          <div className="flex items-center justify-center lg:justify-start mb-4 lg:mb-5">
+            <div className="inline-flex items-center gap-3 bg-black/5 rounded-full px-4 py-2 border border-gold/20">
+              <Globe size={14} className="text-gold" />
+              <span className="font-body text-xs text-black/60 hidden sm:inline">
+                {t('lang.switch')}
+              </span>
+              <div className="flex gap-1.5">
+                <button
+                  onClick={() => i18n.changeLanguage('en')}
+                  className={`px-3 py-1 rounded-full text-xs font-body transition-all duration-200 ${
+                    i18n.language === 'en' || i18n.language.startsWith('en')
+                      ? 'bg-gold text-black font-medium shadow-sm'
+                      : 'text-black/60 hover:text-black hover:bg-black/10'
+                  }`}
+                >
+                  EN
+                </button>
+                <button
+                  onClick={() => i18n.changeLanguage('es')}
+                  className={`px-3 py-1 rounded-full text-xs font-body transition-all duration-200 ${
+                    i18n.language.startsWith('es')
+                      ? 'bg-gold text-black font-medium shadow-sm'
+                      : 'text-black/60 hover:text-black hover:bg-black/10'
+                  }`}
+                >
+                  ES
+                </button>
+              </div>
+            </div>
           </div>
 
           {/* Headline - Smaller on mobile */}
