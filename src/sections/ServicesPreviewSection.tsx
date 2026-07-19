@@ -69,7 +69,7 @@ const ServicesPreviewSection = ({ className = '' }: ServicesPreviewSectionProps)
   }, []);
 
   const goToServices = () => {
-    window.location.hash = 'services-page';
+    window.location.href = '/services';
   };
 
   const openBooksy = () => {

@@ -407,7 +407,7 @@ export default function Dashboard() {
           
           <div className="text-center mt-6">
             <button
-              onClick={() => window.location.hash = ''}
+              onClick={() => window.location.href = '/'}
               className="text-[#E5B84C] hover:underline text-sm inline-flex items-center gap-1"
             >
               <ChevronLeft className="w-4 h-4" />

@@ -766,7 +766,7 @@ const SpanishBlogPage = () => {
     if (selectedPost) {
       setSelectedPost(null);
     } else {
-      window.location.hash = 'es';
+      window.location.href = '/es/';
     }
   };
 
