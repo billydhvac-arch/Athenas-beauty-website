@@ -819,31 +819,84 @@ export default function Dashboard() {
 
           {/* Gallery Tab */}
           {activeTab === 'gallery' && (
-            <div className="space-y-6">
-              <div className="flex items-center justify-between">
-                <h2 className="text-2xl font-bold text-[#F5F5F5]">Gallery Images</h2>
+            <div className="space-y-6 max-w-2xl">
+              <div>
+                <h2 className="text-2xl font-bold text-[#F5F5F5] mb-2">Gallery Management</h2>
                 <p className="text-[#F5F5F5]/50 text-sm">
-                  Gallery management coming soon. Images are currently managed through the file system.
+                  Current gallery images are managed through the development workflow. Here's how to add new photos.
                 </p>
               </div>
 
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-                {GALLERY_IMAGES.map(image => (
-                  <div
-                    key={image.id}
-                    className="bg-[#1A1A1A] border border-[#E5B84C]/20 rounded-lg overflow-hidden"
-                  >
-                    <img
-                      src={image.src}
-                      alt={image.title}
-                      className="w-full aspect-square object-cover"
-                    />
-                    <div className="p-3">
-                      <p className="text-[#F5F5F5] text-sm truncate">{image.title}</p>
-                      <p className="text-[#F5F5F5]/40 text-xs">{image.src}</p>
-                    </div>
+              <div className="bg-[#1A1A1A] border border-[#E5B84C]/20 rounded-lg p-6 space-y-4">
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 rounded-full bg-[#E5B84C]/20 flex items-center justify-center flex-shrink-0">
+                    <span className="text-[#E5B84C] text-sm font-bold">1</span>
                   </div>
-                ))}
+                  <div>
+                    <p className="text-[#F5F5F5] font-medium">Upload your photo</p>
+                    <p className="text-[#F5F5F5]/50 text-sm mt-1">
+                      Send the photo to Kimi Claw in your chat. Include which gallery it belongs to 
+                      (Acrylic, Dip Powder, Builder Gel, or Gel-X) and any details you want in the description.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 rounded-full bg-[#E5B84C]/20 flex items-center justify-center flex-shrink-0">
+                    <span className="text-[#E5B84C] text-sm font-bold">2</span>
+                  </div>
+                  <div>
+                    <p className="text-[#F5F5F5] font-medium">SEO descriptions are auto-written</p>
+                    <p className="text-[#F5F5F5]/50 text-sm mt-1">
+                      Kimi Claw writes SEO-optimized descriptions in both English and Spanish, 
+                      targeting local Denton keywords and trending nail art terms for maximum search visibility.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="w-8 h-8 rounded-full bg-[#E5B84C]/20 flex items-center justify-center flex-shrink-0">
+                    <span className="text-[#E5B84C] text-sm font-bold">3</span>
+                  </div>
+                  <div>
+                    <p className="text-[#F5F5F5] font-medium">Automatic deployment</p>
+                    <p className="text-[#F5F5F5]/50 text-sm mt-1">
+                      The photo is added to the correct gallery, code is updated, and the site is 
+                      redeployed. No technical work needed on your end.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="border-t border-[#E5B84C]/20 pt-4 mt-2">
+                  <p className="text-[#E5B84C] text-sm font-medium mb-2">Current galleries:</p>
+                  <div className="grid grid-cols-2 gap-2">
+                    {[
+                      { name: 'Acrylic Gallery', count: 6, path: '/gallery/acrylic' },
+                      { name: 'Dip Powder Gallery', count: 5, path: '/gallery/dip' },
+                      { name: 'Builder Gel Gallery', count: 3, path: '/gallery/builder-gel' },
+                      { name: 'Gel-X Gallery', count: 4, path: '/gallery/gelx' },
+                    ].map(gallery => (
+                      <a
+                        key={gallery.path}
+                        href={gallery.path}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-between p-3 bg-[#0A0A0A] rounded-lg hover:bg-[#E5B84C]/10 transition-colors border border-[#E5B84C]/10"
+                      >
+                        <span className="text-[#F5F5F5] text-sm">{gallery.name}</span>
+                        <span className="text-[#E5B84C]/70 text-xs">{gallery.count} images</span>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-[#E5B84C]/10 border border-[#E5B84C]/20 rounded-lg p-4">
+                <p className="text-[#E5B84C] text-sm font-medium">💡 Tip for best results:</p>
+                <p className="text-[#F5F5F5]/70 text-sm mt-1">
+                  When uploading, mention the nail style (e.g., "French tips with chrome finish", 
+                  "3D floral acrylic") so the SEO descriptions are accurate and search-engine friendly.
+                </p>
               </div>
             </div>
           )}
