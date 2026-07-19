@@ -729,7 +729,7 @@ const SpanishBlogPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/#blog-es');
+    canonical.setAttribute('href', 'https://athenas-beauty.com/es/blog');
     
     let ogLocale = document.querySelector('meta[property="og:locale"]');
     if (!ogLocale) {

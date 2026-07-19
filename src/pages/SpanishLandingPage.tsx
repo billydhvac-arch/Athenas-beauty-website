@@ -31,7 +31,7 @@ const SpanishLandingPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/#es');
+    canonical.setAttribute('href', 'https://athenas-beauty.com/es/');
     
     let ogTitle = document.querySelector('meta[property="og:title"]');
     if (ogTitle) ogTitle.setAttribute('content', 'Salón de Uñas en Denton, TX | Athena\'s Beauty');

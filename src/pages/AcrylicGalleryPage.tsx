@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowLeft, X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface GalleryImage {
@@ -253,7 +254,7 @@ const AcrylicGalleryPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/#acrylic-gallery');
+    canonical.setAttribute('href', 'https://athenas-beauty.com/gallery/acrylic');
     
     // Update Open Graph title
     let ogTitle = document.querySelector('meta[property="og:title"]');
@@ -301,13 +302,13 @@ const AcrylicGalleryPage = () => {
       {/* Header */}
       <div className="bg-black text-white py-8 px-4">
         <div className="max-w-7xl mx-auto">
-          <button 
-            onClick={() => window.location.hash = 'services'}
+          <Link 
+            to="/services"
             className="inline-flex items-center gap-2 text-gold hover:text-white transition-colors mb-4"
           >
             <ArrowLeft size={20} />
             Back to Services
-          </button>
+          </Link>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl">
             Acrylic <span className="text-gold">Art Gallery</span>
           </h1>

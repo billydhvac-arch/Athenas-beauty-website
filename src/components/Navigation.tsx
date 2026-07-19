@@ -1,15 +1,16 @@
 import { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Lock, Globe } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const Navigation = () => {
   const { t, i18n } = useTranslation();
+  const location = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [showLangMenu, setShowLangMenu] = useState(false);
 
-  const [showLangBanner, setShowLangBanner] = useState(() => {
-    // Show banner if no language preference has been set
+  const [, setShowLangBanner] = useState(() => {
     if (typeof window !== 'undefined') {
       return !localStorage.getItem('i18nextLng');
     }
@@ -20,7 +21,6 @@ const Navigation = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 100);
     };
-
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -36,52 +36,19 @@ const Navigation = () => {
   };
 
   const currentLang = i18n.language.startsWith('es') ? 'es' : 'en';
-
-  const navLinks = [
-    { label: t('nav.work'), href: '#best-work' },
-    { label: t('nav.services'), href: '#services' },
-    { label: t('nav.about'), href: '#why' },
-    { label: t('nav.contact'), href: '#contact' },
-  ];
-
-  const scrollToSection = (href: string) => {
-    const currentHash = window.location.hash;
-    if (currentHash && currentHash !== '' && !href.startsWith(currentHash)) {
-      window.location.hash = '';
-      setTimeout(() => {
-        const element = document.querySelector(href);
-        if (element) {
-          element.scrollIntoView({ behavior: 'smooth' });
-        }
-      }, 100);
-    } else {
-      const element = document.querySelector(href);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-    setIsMobileMenuOpen(false);
-  };
-
-  const goToHome = () => {
-    window.location.hash = '';
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-    setIsMobileMenuOpen(false);
-  };
-
-  const goToBlog = () => {
-    window.location.hash = 'blog';
-    setIsMobileMenuOpen(false);
-  };
-
-  const goToDashboard = () => {
-    window.location.hash = 'dashboard';
-    setIsMobileMenuOpen(false);
-  };
+  const isSpanishPage = location.pathname.startsWith('/es');
 
   const openBooksy = () => {
     window.open('https://nailsbyatenad.booksy.com', '_blank');
     setIsMobileMenuOpen(false);
+  };
+
+  const scrollToSection = (href: string) => {
+    setIsMobileMenuOpen(false);
+    const element = document.querySelector(href);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -94,66 +61,66 @@ const Navigation = () => {
         }`}
       >
         <div className="w-full px-4 sm:px-6 lg:px-12">
-          {/* Desktop Navigation - Logo CENTERED with nav on sides */}
           <div className="hidden lg:flex items-center justify-between h-24 lg:h-28">
-            {/* Left Side Navigation */}
             <div className="flex items-center gap-6">
-              {navLinks.slice(0, 2).map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    scrollToSection(link.href);
-                  }}
-                  className={`font-body text-sm transition-colors duration-200 ${
-                    isScrolled 
-                      ? 'text-white/90 hover:text-gold' 
-                      : 'text-black hover:text-gold'
-                  }`}
-                >
-                  {link.label}
-                </a>
-              ))}
+              <Link
+                to="/"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className={`font-body text-sm transition-colors duration-200 ${
+                  isScrolled 
+                    ? 'text-white/90 hover:text-gold' 
+                    : 'text-black hover:text-gold'
+                }`}
+              >
+                {t('nav.work')}
+              </Link>
+              <Link
+                to="/services"
+                className={`font-body text-sm transition-colors duration-200 ${
+                  isScrolled 
+                    ? 'text-white/90 hover:text-gold' 
+                    : 'text-black hover:text-gold'
+                }`}
+              >
+                {t('nav.services')}
+              </Link>
             </div>
 
-            {/* CENTERED Logo - BIGGER for brand awareness */}
-            <a
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                goToHome();
-              }}
+            <Link
+              to="/"
               className="flex items-center justify-center"
+              onClick={() => setIsMobileMenuOpen(false)}
             >
               <img
                 src="/logo.png"
                 alt="Athena's Beauty"
                 className="h-20 lg:h-24 w-auto drop-shadow-lg transition-transform hover:scale-105"
               />
-            </a>
+            </Link>
 
-            {/* Right Side Navigation */}
             <div className="flex items-center gap-6">
-              {navLinks.slice(2).map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    scrollToSection(link.href);
-                  }}
-                  className={`font-body text-sm transition-colors duration-200 ${
-                    isScrolled 
-                      ? 'text-white/90 hover:text-gold' 
-                      : 'text-black hover:text-gold'
-                  }`}
-                >
-                  {link.label}
-                </a>
-              ))}
               <button
-                onClick={goToBlog}
+                onClick={() => scrollToSection('#why')}
+                className={`font-body text-sm transition-colors duration-200 ${
+                  isScrolled 
+                    ? 'text-white/90 hover:text-gold' 
+                    : 'text-black hover:text-gold'
+                }`}
+              >
+                {t('nav.about')}
+              </button>
+              <button
+                onClick={() => scrollToSection('#contact')}
+                className={`font-body text-sm transition-colors duration-200 ${
+                  isScrolled 
+                    ? 'text-white/90 hover:text-gold' 
+                    : 'text-black hover:text-gold'
+                }`}
+              >
+                {t('nav.contact')}
+              </button>
+              <Link
+                to="/blog"
                 className={`font-body text-sm transition-colors duration-200 ${
                   isScrolled 
                     ? 'text-white/90 hover:text-gold' 
@@ -161,20 +128,17 @@ const Navigation = () => {
                 }`}
               >
                 {t('nav.blog')}
-              </button>
-              
-              <a
-                href="#es"
+              </Link>
+              <Link
+                to="/es/"
                 className={`font-body text-sm transition-colors duration-200 ${
                   isScrolled 
                     ? 'text-white/90 hover:text-gold' 
                     : 'text-black hover:text-gold'
-                }`}
+                } ${isSpanishPage ? 'text-gold' : ''}`}
               >
                 Español
-              </a>
-              
-              {/* Gallery Dropdown */}
+              </Link>
               <div className="relative group">
                 <button
                   className={`font-body text-sm transition-colors duration-200 flex items-center gap-1 ${
@@ -189,34 +153,21 @@ const Navigation = () => {
                   </svg>
                 </button>
                 <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-2">
-                  <a
-                    href="#acrylic-gallery"
-                    className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors"
-                  >
+                  <Link to="/gallery/acrylic" className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors">
                     {t('nav.gallery_acrylic')}
-                  </a>
-                  <a
-                    href="#dip-gallery"
-                    className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors"
-                  >
+                  </Link>
+                  <Link to="/gallery/dip" className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors">
                     {t('nav.gallery_dip')}
-                  </a>
-                  <a
-                    href="#builder-gel-gallery"
-                    className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors"
-                  >
+                  </Link>
+                  <Link to="/gallery/builder-gel" className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors">
                     {t('nav.gallery_builder')}
-                  </a>
-                  <a
-                    href="#gelx-gallery"
-                    className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors"
-                  >
+                  </Link>
+                  <Link to="/gallery/gelx" className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors">
                     {t('nav.gallery_gelx')}
-                  </a>
+                  </Link>
                 </div>
               </div>
 
-              {/* Language Switcher */}
               <div className="relative">
                 <button
                   onClick={() => setShowLangMenu(!showLangMenu)}
@@ -252,8 +203,8 @@ const Navigation = () => {
                 )}
               </div>
 
-              <button
-                onClick={goToDashboard}
+              <Link
+                to="/dashboard"
                 className={`font-body text-xs transition-colors duration-200 opacity-50 hover:opacity-100 ${
                   isScrolled 
                     ? 'text-white/60 hover:text-gold' 
@@ -262,7 +213,7 @@ const Navigation = () => {
                 title="Admin Dashboard"
               >
                 <Lock className="w-3 h-3" />
-              </button>
+              </Link>
               <button
                 onClick={openBooksy}
                 className="bg-gold text-black font-body font-medium text-sm px-5 py-2.5 rounded-full btn-hover"
@@ -272,25 +223,11 @@ const Navigation = () => {
             </div>
           </div>
 
-          {/* Mobile Navigation - Logo centered, menu button on right */}
           <div className="flex lg:hidden items-center justify-between h-20">
-            {/* Logo - BIGGER on mobile */}
-            <a
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-              }}
-              className="flex items-center"
-            >
-              <img
-                src="/logo.png"
-                alt="Athena's Beauty"
-                className="h-16 w-auto drop-shadow-lg"
-              />
-            </a>
+            <Link to="/" className="flex items-center" onClick={() => setIsMobileMenuOpen(false)}>
+              <img src="/logo.png" alt="Athena's Beauty" className="h-16 w-auto drop-shadow-lg" />
+            </Link>
 
-            {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className={`p-2 ${isScrolled ? 'text-white' : 'text-black'}`}
@@ -302,117 +239,51 @@ const Navigation = () => {
         </div>
       </nav>
 
-      {/* Language Selection Banner */}
-      {showLangBanner && (
-        <div className={`fixed z-[99] left-0 right-0 transition-all duration-300 ${
-          isScrolled ? 'top-24 lg:top-28' : 'top-20 lg:top-28'
-        }`}>
-          <div className="bg-gold/95 backdrop-blur-sm text-black py-2 px-4">
-            <div className="max-w-7xl mx-auto flex items-center justify-center gap-4">
-              <span className="font-body text-sm font-medium">{t('lang.switch')}</span>
-              <div className="flex gap-2">
-                <button
-                  onClick={() => toggleLanguage('en')}
-                  className={`px-3 py-1 rounded-full text-xs font-body transition-colors ${
-                    currentLang === 'en' ? 'bg-black text-gold' : 'bg-black/10 hover:bg-black/20'
-                  }`}
-                >
-                  English
-                </button>
-                <button
-                  onClick={() => toggleLanguage('es')}
-                  className={`px-3 py-1 rounded-full text-xs font-body transition-colors ${
-                    currentLang === 'es' ? 'bg-black text-gold' : 'bg-black/10 hover:bg-black/20'
-                  }`}
-                >
-                  Español
-                </button>
-              </div>
-              <button
-                onClick={() => setShowLangBanner(false)}
-                className="ml-2 text-black/60 hover:text-black transition-colors"
-                aria-label="Dismiss"
-              >
-                <X size={14} />
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Mobile Menu */}
       <div
         className={`fixed inset-0 z-[99] bg-black transition-transform duration-300 lg:hidden ${
           isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         <div className="flex flex-col items-center justify-center h-full gap-8">
-          {/* Logo in mobile menu - BIGGER */}
-          <img
-            src="/logo.png"
-            alt="Athena's Beauty"
-            className="h-24 w-auto mb-4"
-          />
-          {navLinks.map((link) => (
-            <button
-              key={link.label}
-              onClick={() => scrollToSection(link.href)}
-              className="font-heading font-bold text-2xl text-white hover:text-gold transition-colors duration-200"
-            >
-              {link.label}
-            </button>
-          ))}
-          <button
-            onClick={goToBlog}
-            className="font-heading font-bold text-2xl text-white hover:text-gold transition-colors duration-200"
-          >
-            {t('nav.blog')}
+          <img src="/logo.png" alt="Athena's Beauty" className="h-24 w-auto mb-4" />
+          
+          <Link to="/" onClick={() => setIsMobileMenuOpen(false)} className="font-heading font-bold text-2xl text-white hover:text-gold transition-colors">
+            {t('nav.work')}
+          </Link>
+          <Link to="/services" onClick={() => setIsMobileMenuOpen(false)} className="font-heading font-bold text-2xl text-white hover:text-gold transition-colors">
+            {t('nav.services')}
+          </Link>
+          <button onClick={() => scrollToSection('#why')} className="font-heading font-bold text-2xl text-white hover:text-gold transition-colors">
+            {t('nav.about')}
           </button>
-          
-          <a
-            href="#es"
-            onClick={() => setIsMobileMenuOpen(false)}
-            className="font-heading font-bold text-2xl text-white hover:text-gold transition-colors duration-200"
-          >
+          <button onClick={() => scrollToSection('#contact')} className="font-heading font-bold text-2xl text-white hover:text-gold transition-colors">
+            {t('nav.contact')}
+          </button>
+          <Link to="/blog" onClick={() => setIsMobileMenuOpen(false)} className="font-heading font-bold text-2xl text-white hover:text-gold transition-colors">
+            {t('nav.blog')}
+          </Link>
+          <Link to="/es/" onClick={() => setIsMobileMenuOpen(false)} className="font-heading font-bold text-2xl text-white hover:text-gold transition-colors">
             Español
-          </a>
+          </Link>
           
-          {/* Mobile Gallery Links */}
           <div className="border-t border-white/20 pt-4 mt-2 w-full max-w-xs">
             <p className="text-white/50 text-sm mb-3 text-center">{t('nav.gallery')}</p>
             <div className="flex flex-col gap-3">
-              <a
-                href="#acrylic-gallery"
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="font-heading text-lg text-white/80 hover:text-gold transition-colors duration-200"
-              >
+              <Link to="/gallery/acrylic" onClick={() => setIsMobileMenuOpen(false)} className="font-heading text-lg text-white/80 hover:text-gold transition-colors">
                 {t('nav.gallery_acrylic')}
-              </a>
-              <a
-                href="#dip-gallery"
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="font-heading text-lg text-white/80 hover:text-gold transition-colors duration-200"
-              >
+              </Link>
+              <Link to="/gallery/dip" onClick={() => setIsMobileMenuOpen(false)} className="font-heading text-lg text-white/80 hover:text-gold transition-colors">
                 {t('nav.gallery_dip')}
-              </a>
-              <a
-                href="#builder-gel-gallery"
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="font-heading text-lg text-white/80 hover:text-gold transition-colors duration-200"
-              >
+              </Link>
+              <Link to="/gallery/builder-gel" onClick={() => setIsMobileMenuOpen(false)} className="font-heading text-lg text-white/80 hover:text-gold transition-colors">
                 {t('nav.gallery_builder')}
-              </a>
-              <a
-                href="#gelx-gallery"
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="font-heading text-lg text-white/80 hover:text-gold transition-colors duration-200"
-              >
+              </Link>
+              <Link to="/gallery/gelx" onClick={() => setIsMobileMenuOpen(false)} className="font-heading text-lg text-white/80 hover:text-gold transition-colors">
                 {t('nav.gallery_gelx')}
-              </a>
+              </Link>
             </div>
           </div>
 
-          {/* Mobile Language Switcher */}
           <div className="border-t border-white/20 pt-4 w-full max-w-xs">
             <p className="text-white/50 text-sm mb-3 text-center">{t('lang.switch')}</p>
             <div className="flex justify-center gap-4">

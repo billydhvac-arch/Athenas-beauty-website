@@ -100,7 +100,7 @@ const BlogPage = () => {
     if (selectedPost) {
       setSelectedPost(null);
     } else {
-      window.location.hash = '';
+      window.location.href = '/';
     }
   };
 

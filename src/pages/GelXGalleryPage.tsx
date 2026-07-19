@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowLeft, X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -85,7 +86,7 @@ const GelXGalleryPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/#gelx-gallery');
+    canonical.setAttribute('href', 'https://athenas-beauty.com/gallery/gelx');
     
     let ogTitle = document.querySelector('meta[property="og:title"]');
     if (ogTitle) ogTitle.setAttribute('content', t('gallery.gelx.metaTitle'));
@@ -129,13 +130,13 @@ const GelXGalleryPage = () => {
       {/* Header */}
       <div className="bg-black text-white py-8 px-4">
         <div className="max-w-7xl mx-auto">
-          <button 
-            onClick={() => window.location.hash = 'services'}
+          <Link 
+            to="/services"
             className="inline-flex items-center gap-2 text-gold hover:text-white transition-colors mb-4"
           >
             <ArrowLeft size={20} />
             {t('gallery.backToServices')}
-          </button>
+          </Link>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl">
             {t('gallery.gelx.title1')} <span className="text-gold">{t('gallery.gelx.title2')}</span>
           </h1>

@@ -1,4 +1,5 @@
 import { useState, useMemo } from 'react';
+import { Link } from 'react-router-dom';
 import { Search, X, ArrowLeft, Star, Clock, Check } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -33,7 +34,7 @@ const ServicesPage = () => {
     {
       id: '3', nameKey: 'acrylic_art', descKey: 'acrylic_art',
       price: '$65.00+', duration: '2h 30min', category: ['Acrylic', 'Dip', 'Art', 'Design'],
-      image: '/nail-artwork.jpg', popular: true, galleryLink: '#acrylic-gallery',
+      image: '/nail-artwork.jpg', popular: true, galleryLink: '/gallery/acrylic',
     },
     {
       id: '4', nameKey: 'acrylic_toes', descKey: 'acrylic_toes',
@@ -151,7 +152,7 @@ const ServicesPage = () => {
   };
 
   const goBack = () => {
-    window.location.hash = '';
+    window.location.href = '/';
   };
 
   return (
@@ -280,12 +281,12 @@ const ServicesPage = () => {
 
                 {/* CTA */}
                 {service.galleryLink && (
-                  <a
-                    href={service.galleryLink}
+                  <Link
+                    to={service.galleryLink}
                     className="w-full mb-2 bg-gold/20 text-gold-dark font-body font-medium text-sm py-2 rounded-full hover:bg-gold hover:text-black transition-colors flex items-center justify-center gap-2"
                   >
                     {t('servicesPage.viewGallery')}
-                  </a>
+                  </Link>
                 )}
                 <button
                   onClick={openBooksy}

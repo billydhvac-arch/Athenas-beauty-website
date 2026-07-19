@@ -1,7 +1,5 @@
-import { useEffect, useRef, useState } from 'react';
-// FORCE REBUILD: 20250319-009
-const REBUILD_MARKER = 'BUILD_20250319_009';
-console.log('[BUILD]', REBUILD_MARKER);
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Navigation from './components/Navigation';
@@ -15,70 +13,43 @@ import FinalCTASection from './sections/FinalCTASection';
 import ContactSection from './sections/ContactSection';
 import ServicesPage from './pages/ServicesPage';
 import BlogPage from './pages/BlogPage';
+import SpanishBlogPage from './pages/SpanishBlogPage';
+import SpanishLandingPage from './pages/SpanishLandingPage';
 import Dashboard from './pages/Dashboard';
 import AcrylicGalleryPage from './pages/AcrylicGalleryPage';
 import DipGalleryPage from './pages/DipGalleryPage';
 import BuilderGelGalleryPage from './pages/BuilderGelGalleryPage';
 import GelXGalleryPage from './pages/GelXGalleryPage';
-import SpanishLandingPage from './pages/SpanishLandingPage';
-import SpanishBlogPage from './pages/SpanishBlogPage';
 import './App.css';
 
 gsap.registerPlugin(ScrollTrigger);
 
-function App() {
+// Layout wrapper with Navigation
+const Layout = ({ children, showNav = true }: { children: React.ReactNode; showNav?: boolean }) => {
+  return (
+    <div className="relative bg-off-white">
+      <div className="grain-overlay" />
+      {showNav && <Navigation />}
+      {children}
+    </div>
+  );
+};
+
+// Home Page
+const HomePage = () => {
   const mainRef = useRef<HTMLDivElement>(null);
 
-  const [currentPage, setCurrentPage] = useState<'home' | 'services' | 'blog' | 'dashboard' | 'acrylic-gallery' | 'dip-gallery' | 'builder-gel-gallery' | 'gelx-gallery' | 'es' | 'blog-es'>('home');
-
   useEffect(() => {
-    // Check URL hash for page routing
-    const handleHashChange = () => {
-      const hash = window.location.hash;
-      if (hash === '#services-page') {
-        setCurrentPage('services');
-      } else if (hash === '#blog') {
-        setCurrentPage('blog');
-      } else if (hash === '#dashboard') {
-        setCurrentPage('dashboard');
-      } else if (hash === '#acrylic-gallery') {
-        setCurrentPage('acrylic-gallery');
-      } else if (hash === '#dip-gallery') {
-        setCurrentPage('dip-gallery');
-      } else if (hash === '#builder-gel-gallery') {
-        setCurrentPage('builder-gel-gallery');
-      } else if (hash === '#gelx-gallery') {
-        setCurrentPage('gelx-gallery');
-      } else if (hash === '#es') {
-        setCurrentPage('es');
-      } else if (hash === '#blog-es') {
-        setCurrentPage('blog-es');
-      } else {
-        setCurrentPage('home');
-      }
-    };
-    
-    handleHashChange();
-    window.addEventListener('hashchange', handleHashChange);
-    
-    return () => window.removeEventListener('hashchange', handleHashChange);
-  }, []);
-
-  useEffect(() => {
-    if (currentPage !== 'home') return;
-    
-    // Only enable snap on desktop (min-width: 1024px)
+    // Only enable snap on desktop
     const isDesktop = window.innerWidth >= 1024;
     if (!isDesktop) return;
     
-    // Wait for all sections to mount before setting up global snap
     const timer = setTimeout(() => {
       const pinned = ScrollTrigger.getAll()
         .filter(st => st.vars.pin)
         .sort((a, b) => a.start - b.start);
       
       const maxScroll = ScrollTrigger.maxScroll(window);
-      
       if (!maxScroll || pinned.length === 0) return;
 
       const pinnedRanges = pinned.map(st => ({
@@ -110,101 +81,10 @@ function App() {
       clearTimeout(timer);
       ScrollTrigger.getAll().forEach(st => st.kill());
     };
-  }, [currentPage]);
-
-  if (currentPage === 'services') {
-    return (
-      <div className="relative bg-off-white">
-        <div className="grain-overlay" />
-        <Navigation />
-        <ServicesPage />
-      </div>
-    );
-  }
-
-  if (currentPage === 'blog') {
-    return (
-      <div className="relative bg-off-white">
-        <div className="grain-overlay" />
-        <Navigation />
-        <BlogPage />
-      </div>
-    );
-  }
-
-  if (currentPage === 'dashboard') {
-    return <Dashboard />;
-  }
-
-  if (currentPage === 'acrylic-gallery') {
-    return (
-      <div className="relative bg-off-white">
-        <div className="grain-overlay" />
-        <Navigation />
-        <AcrylicGalleryPage />
-      </div>
-    );
-  }
-
-  if (currentPage === 'dip-gallery') {
-    return (
-      <div className="relative bg-off-white">
-        <div className="grain-overlay" />
-        <Navigation />
-        <DipGalleryPage />
-      </div>
-    );
-  }
-
-  if (currentPage === 'builder-gel-gallery') {
-    return (
-      <div className="relative bg-off-white">
-        <div className="grain-overlay" />
-        <Navigation />
-        <BuilderGelGalleryPage />
-      </div>
-    );
-  }
-
-  if (currentPage === 'gelx-gallery') {
-    return (
-      <div className="relative bg-off-white">
-        <div className="grain-overlay" />
-        <Navigation />
-        <GelXGalleryPage />
-      </div>
-    );
-  }
-
-  if (currentPage === 'es') {
-    return (
-      <div className="relative bg-off-white">
-        <div className="grain-overlay" />
-        <Navigation />
-        <SpanishLandingPage />
-      </div>
-    );
-  }
-
-  if (currentPage === 'blog-es') {
-    return (
-      <div className="relative bg-off-white">
-        <div className="grain-overlay" />
-        <Navigation />
-        <SpanishBlogPage />
-      </div>
-    );
-  }
+  }, []);
 
   return (
-    <div ref={mainRef} className="relative bg-off-white">
-      {/* Grain Overlay */}
-      <div className="grain-overlay" />
-      
-      {/* Navigation */}
-      <Navigation />
-      
-      {/* Main Content */}
+    <div ref={mainRef} className="relative">
       <main className="relative">
         <HeroSection />
         <BestWorkSection />
@@ -217,7 +97,90 @@ function App() {
       </main>
     </div>
   );
+};
+
+// Scroll to top on route change
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  
+  return null;
+};
+
+// SEO Manager for page-specific meta tags
+const SEOManager = () => {
+  const { pathname } = useLocation();
+  
+  useEffect(() => {
+    // Update hreflang tags based on current page
+    const alternates = document.querySelectorAll('link[rel="alternate"]');
+    alternates.forEach(el => {
+      if (el.getAttribute('hreflang') === 'es') {
+        if (pathname.startsWith('/es')) {
+          el.setAttribute('href', `https://athenas-beauty.com${pathname}`);
+        } else {
+          const esPath = pathname === '/' ? '/es/' : `/es${pathname}`;
+          el.setAttribute('href', `https://athenas-beauty.com${esPath}`);
+        }
+      }
+    });
+  }, [pathname]);
+  
+  return null;
+};
+
+function App() {
+  return (
+    <BrowserRouter>
+      <ScrollToTop />
+      <SEOManager />
+      <Routes>
+        {/* English Routes */}
+        <Route path="/" element={
+          <Layout><HomePage /></Layout>
+        } />
+        <Route path="/services" element={
+          <Layout><ServicesPage /></Layout>
+        } />
+        <Route path="/blog" element={
+          <Layout><BlogPage /></Layout>
+        } />
+        <Route path="/gallery/acrylic" element={
+          <Layout><AcrylicGalleryPage /></Layout>
+        } />
+        <Route path="/gallery/dip" element={
+          <Layout><DipGalleryPage /></Layout>
+        } />
+        <Route path="/gallery/builder-gel" element={
+          <Layout><BuilderGelGalleryPage /></Layout>
+        } />
+        <Route path="/gallery/gelx" element={
+          <Layout><GelXGalleryPage /></Layout>
+        } />
+        
+        {/* Spanish Routes */}
+        <Route path="/es/" element={
+          <Layout><SpanishLandingPage /></Layout>
+        } />
+        <Route path="/es/blog" element={
+          <Layout><SpanishBlogPage /></Layout>
+        } />
+        
+        {/* Dashboard (no nav) */}
+        <Route path="/dashboard" element={
+          <Layout showNav={false}><Dashboard /></Layout>
+        } />
+        
+        {/* Fallback */}
+        <Route path="*" element={
+          <Layout><HomePage /></Layout>
+        } />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
-// Force rebuild Wed Apr  1 03:11:26 PM CST 2026
