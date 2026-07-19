@@ -20,6 +20,8 @@ import AcrylicGalleryPage from './pages/AcrylicGalleryPage';
 import DipGalleryPage from './pages/DipGalleryPage';
 import BuilderGelGalleryPage from './pages/BuilderGelGalleryPage';
 import GelXGalleryPage from './pages/GelXGalleryPage';
+import SpanishLandingPage from './pages/SpanishLandingPage';
+import SpanishBlogPage from './pages/SpanishBlogPage';
 import './App.css';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -27,7 +29,7 @@ gsap.registerPlugin(ScrollTrigger);
 function App() {
   const mainRef = useRef<HTMLDivElement>(null);
 
-  const [currentPage, setCurrentPage] = useState<'home' | 'services' | 'blog' | 'dashboard' | 'acrylic-gallery' | 'dip-gallery' | 'builder-gel-gallery' | 'gelx-gallery'>('home');
+  const [currentPage, setCurrentPage] = useState<'home' | 'services' | 'blog' | 'dashboard' | 'acrylic-gallery' | 'dip-gallery' | 'builder-gel-gallery' | 'gelx-gallery' | 'es' | 'blog-es'>('home');
 
   useEffect(() => {
     // Check URL hash for page routing
@@ -47,6 +49,10 @@ function App() {
         setCurrentPage('builder-gel-gallery');
       } else if (hash === '#gelx-gallery') {
         setCurrentPage('gelx-gallery');
+      } else if (hash === '#es') {
+        setCurrentPage('es');
+      } else if (hash === '#blog-es') {
+        setCurrentPage('blog-es');
       } else {
         setCurrentPage('home');
       }
@@ -166,6 +172,26 @@ function App() {
         <div className="grain-overlay" />
         <Navigation />
         <GelXGalleryPage />
+      </div>
+    );
+  }
+
+  if (currentPage === 'es') {
+    return (
+      <div className="relative bg-off-white">
+        <div className="grain-overlay" />
+        <Navigation />
+        <SpanishLandingPage />
+      </div>
+    );
+  }
+
+  if (currentPage === 'blog-es') {
+    return (
+      <div className="relative bg-off-white">
+        <div className="grain-overlay" />
+        <Navigation />
+        <SpanishBlogPage />
       </div>
     );
   }

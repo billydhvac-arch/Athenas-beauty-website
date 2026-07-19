@@ -163,6 +163,17 @@ const Navigation = () => {
                 {t('nav.blog')}
               </button>
               
+              <a
+                href="#es"
+                className={`font-body text-sm transition-colors duration-200 ${
+                  isScrolled 
+                    ? 'text-white/90 hover:text-gold' 
+                    : 'text-black hover:text-gold'
+                }`}
+              >
+                Español
+              </a>
+              
               {/* Gallery Dropdown */}
               <div className="relative group">
                 <button
@@ -357,6 +368,14 @@ const Navigation = () => {
           >
             {t('nav.blog')}
           </button>
+          
+          <a
+            href="#es"
+            onClick={() => setIsMobileMenuOpen(false)}
+            className="font-heading font-bold text-2xl text-white hover:text-gold transition-colors duration-200"
+          >
+            Español
+          </a>
           
           {/* Mobile Gallery Links */}
           <div className="border-t border-white/20 pt-4 mt-2 w-full max-w-xs">
