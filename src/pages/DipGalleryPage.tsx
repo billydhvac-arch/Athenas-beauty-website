@@ -174,33 +174,29 @@ const DipGalleryPage = () => {
         </div>
       </div>
 
-      {/* Filter Tags */}
+      {/* Filter Dropdown */}
       <div className="bg-white border-b border-gray-200 py-4 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-wrap gap-2">
-            <button
-              onClick={() => setSelectedTag(null)}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                selectedTag === null 
-                  ? 'bg-gold text-black' 
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-              }`}
+          <div className="flex items-center gap-3">
+            <span className="font-body text-sm text-text-secondary">Filter by style:</span>
+            <select
+              value={selectedTag || ''}
+              onChange={(e) => setSelectedTag(e.target.value || null)}
+              className="px-4 py-2 rounded-full bg-white border border-gray-200 font-body text-sm text-black focus:outline-none focus:border-gold transition-colors cursor-pointer min-w-[180px]"
             >
-              {t('gallery.all')}
-            </button>
-            {allTags.map(tag => (
+              <option value="">{t('gallery.all')}</option>
+              {allTags.map((tag) => (
+                <option key={tag} value={tag}>{tag}</option>
+              ))}
+            </select>
+            {selectedTag && (
               <button
-                key={tag}
-                onClick={() => setSelectedTag(tag)}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                  selectedTag === tag 
-                    ? 'bg-gold text-black' 
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
+                onClick={() => setSelectedTag(null)}
+                className="text-sm text-text-secondary hover:text-gold transition-colors"
               >
-                {tag}
+                {t('gallery.clear')}
               </button>
-            ))}
+            )}
           </div>
         </div>
       </div>
