@@ -2,6 +2,7 @@ import { useRef, useLayoutEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Calendar, Gift, Phone } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -10,6 +11,7 @@ interface FinalCTASectionProps {
 }
 
 const FinalCTASection = ({ className = '' }: FinalCTASectionProps) => {
+  const { t } = useTranslation();
   const sectionRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
 
@@ -57,24 +59,23 @@ const FinalCTASection = ({ className = '' }: FinalCTASectionProps) => {
 
           {/* Headline */}
           <h2 className="font-heading font-bold headline-lg text-white uppercase mb-4">
-            READY FOR YOUR
+            {t('finalCTA.headline1')}
             <br />
-            <span className="text-gold">NEW SET?</span>
+            <span className="text-gold">{t('finalCTA.headline2')}</span>
           </h2>
 
           {/* Subheadline */}
           <p className="font-body text-lg text-white/80 mb-6 max-w-xl mx-auto">
-            Book your appointment today. Walk-ins not accepted — 
-            appointment only for the best experience.
+            {t('finalCTA.subheadline')}
           </p>
 
           {/* Location */}
           <div className="mb-8">
-            <p className="font-body text-white/60 text-sm mb-1">Visit us at:</p>
+            <p className="font-body text-white/60 text-sm mb-1">{t('finalCTA.locationLabel')}</p>
             <p className="font-body text-white font-medium">
-              2640 W University Dr, Suite 1266, Denton, TX 76201
+              {t('finalCTA.address')}
             </p>
-            <p className="font-body text-white/60 text-sm">Salons by JC, Room #19</p>
+            <p className="font-body text-white/60 text-sm">{t('finalCTA.room')}</p>
           </div>
 
           {/* CTAs */}
@@ -84,21 +85,20 @@ const FinalCTASection = ({ className = '' }: FinalCTASectionProps) => {
               className="bg-gold text-black font-body font-medium text-sm px-8 py-4 rounded-full btn-hover flex items-center gap-2 shadow-gold"
             >
               <Calendar size={18} />
-              Book Online
+              {t('finalCTA.ctaBook')}
             </button>
             <a
               href="tel:9404351332"
               className="text-gold font-body text-sm hover:underline flex items-center gap-2 border border-gold/50 px-6 py-4 rounded-full"
             >
               <Phone size={16} />
-              Call (940) 435-1332
+              {t('finalCTA.ctaCall')}
             </a>
           </div>
 
           {/* Note */}
           <p className="font-body text-sm text-white/50 mt-8">
-            Message me if you would like a day that I am closed. 
-            I can work out a time to see you.
+            {t('finalCTA.note')}
           </p>
         </div>
       </div>

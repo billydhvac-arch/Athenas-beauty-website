@@ -1,0 +1,332 @@
+{
+  "lang": {
+    "en": "English",
+    "es": "Español",
+    "switch": "Select your language"
+  },
+  "nav": {
+    "work": "Trabajos",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "blog": "Blog",
+    "gallery": "Galería",
+    "gallery_acrylic": "Arte en Acrílico",
+    "gallery_dip": "Dip Powder",
+    "gallery_builder": "Builder Gel",
+    "gallery_gelx": "Extensiones Gel-X",
+    "bookNow": "Reservar",
+    "admin": "Panel Admin"
+  },
+  "hero": {
+    "trustBadge": "35+ reseñas de 5 estrellas en Booksy y Google",
+    "headline1": "UÑAS QUE",
+    "headline2": "TE HACEN SENTIR",
+    "headline3": "SEGURA",
+    "subheadline": "Salón de uñas premium en Denton, Texas, atendiendo a estudiantes de UNT y profesionales locales. Especializados en builder gel, sets completos de acrílico, extensiones Gel-X y arte de uñas personalizado.",
+    "ctaBook": "Reserva tu Cita",
+    "ctaView": "Ver Mi Trabajo",
+    "location": "Denton, TX • Cerca de UNT",
+    "phone": "(940) 435-1332",
+    "openBadge": "Abierto Hoy",
+    "appointmentOnly": "Solo con Cita"
+  },
+  "servicesSection": {
+    "headline1": "CORTES LIMPIOS.",
+    "headline2": "ACABADOS",
+    "headline3": "DETALLADOS.",
+    "description": "Desde el moldeado hasta el cuidado de cutículas, cada paso es preciso—para que tus uñas se mantengan saludables y pulidas.",
+    "cta": "Ver servicios"
+  },
+  "whySection": {
+    "headline": "POR QUÉ ELEGIR",
+    "headlineAccent": "ATHENA'S",
+    "subheadline": "Priorizamos la salud de tus uñas, un trabajo preciso y una experiencia tranquila—en cada visita.",
+    "features": {
+      "sanitized": {
+        "title": "Herramientas Esterilizadas",
+        "description": "Todas las herramientas se esterilizan adecuadamente entre clientes para tu seguridad."
+      },
+      "quality": {
+        "title": "Productos de Calidad",
+        "description": "Usamos solo productos premium para resultados duraderos."
+      },
+      "licensed": {
+        "title": "Profesional Licenciada",
+        "description": "Totalmente licenciada y capacitada en las últimas técnicas de uñas."
+      },
+      "custom": {
+        "title": "Diseños Personalizados",
+        "description": "Cada set se adapta a tu estilo único y preferencias."
+      }
+    }
+  },
+  "servicesPreview": {
+    "headline": "SERVICIOS DE",
+    "headlineAccent": "UÑAS PREMIUM",
+    "headlineLocation": "EN DENTON",
+    "subheadline": "Desde builder gel hasta arte de uñas personalizado, nuestro estudio en Denton ofrece una gama completa de servicios de uñas de lujo diseñados para mantener tus uñas saludables, fuertes y hermosas.",
+    "viewAll": "Ver los 21 Servicios",
+    "alsoAvailable": "También disponible:",
+    "tags": [
+      "Dip Powder",
+      "French Tips",
+      "Ombré",
+      "Manicuras",
+      "Pedicuras",
+      "Esmalte Gel",
+      "Reparación",
+      "Remoción"
+    ],
+    "popularServices": {
+      "acrylic_art": {
+        "name": "Acrílico con Arte",
+        "price": "$65+",
+        "description": "Set completo con arte de uñas personalizado incluido"
+      },
+      "gelx_medium": {
+        "name": "Gel-X Mediano",
+        "price": "$70+",
+        "description": "Extensiones de gel suave, suaves con las uñas"
+      },
+      "builder_gel": {
+        "name": "Builder Gel",
+        "price": "$60+",
+        "description": "Fortalecimiento ligero y resistente"
+      },
+      "acrylic_fill": {
+        "name": "Relleno Acrílico",
+        "price": "$50+",
+        "description": "Mantenimiento para acrílicos existentes"
+      }
+    },
+    "bookNow": "Reservar"
+  },
+  "testimonials": {
+    "headline": "AMOR DE",
+    "headlineAccent": "CLIENTES",
+    "headlineLocation": "EN DENTON",
+    "subheadline": "Descubre por qué Athena's Beauty es la mejor opción en Denton para builder gel, acrílicos y arte de uñas personalizado.",
+    "reviewCount": "35+ reseñas de 5 estrellas en Booksy y Google",
+    "ctaBook": "Reserva tu Cita",
+    "ctaReviews": "Leer todas las reseñas en Booksy",
+    "testimonials": [
+      {
+        "quote": "¡Athena hace un trabajo increíble! Mis uñas siempre se ven perfectas y duran semanas. Es muy detallista y se toma su tiempo.",
+        "author": "Mia R."
+      },
+      {
+        "quote": "¡La mejor técnica de uñas en Denton! Vengo aquí desde hace meses y mis uñas nunca se han visto mejor. ¡Altamente recomendada!",
+        "author": "Jasmine T."
+      },
+      {
+        "quote": "¡Me encantan mis uñas cada vez! La atención al detalle es increíble. Athena realmente escucha lo que quieres.",
+        "author": "Sarah K."
+      }
+    ]
+  },
+  "faq": {
+    "badge": "Preguntas Respondidas",
+    "headline": "Preguntas Frecuentes",
+    "subheadline": "Todo lo que necesitas saber sobre servicios de uñas en Denton, TX—desde precios hasta lo que hace diferente a Athena's Beauty.",
+    "stillQuestions": "¿Aún tienes preguntas?",
+    "call": "Llama o Envía SMS: 940-435-1332",
+    "items": [
+      {
+        "question": "¿Cuánto cuesta el builder gel en Denton, TX?",
+        "answer": "Los servicios de builder gel en Denton típicamente van de $55-$70+. En Athena's Beauty, nuestros sets completos de builder gel comienzan en $60, lo que incluye preparación meticulosa, moldeado personalizado y aplicación de gel premium que dura 3-4 semanas. No nos apresuramos—cada set recibe la atención detallada que merece."
+      },
+      {
+        "question": "¿Cuál es la mejor experiencia de salón de uñas en Denton, TX?",
+        "answer": "La mejor experiencia de salón de uñas es aquella donde nunca te sientes apurada, tu técnica realmente escucha, y el trabajo supera tus expectativas. En Athena's Beauty, hemos construido nuestra reputación en lo que otros salones pasan por alto: atención personalizada, detalle meticuloso y servicio respetuoso. Sin mentalidad de línea de ensamblaje—solo una artista, una cliente, y uñas que valen la pena presumir."
+      },
+      {
+        "question": "¿Dónde puedo obtener arte de uñas personalizado en Denton?",
+        "answer": "Athena's Beauty es el destino en Denton para arte de uñas personalizado. Desde diseños pintados a mano intrincados hasta adornos 3D y estilos de tendencia como chrome French y uñas de vidrio, creamos arte portátil que refleja tu estilo personal. Cada diseño es personalizado—sin stickers, sin atajos, solo pura artesanía."
+      },
+      {
+        "question": "¿Qué son las uñas Gel-X y cuánto cuestan en Denton?",
+        "answer": "Gel-X es un sistema de extensiones de gel suave que es más ligero y flexible que el acrílico. En Denton, los sets completos de Gel-X típicamente comienzan en $65-$85+. En Athena's Beauty, nos especializamos en Gel-X para clientes que quieren longitud sin el peso de los acrílicos tradicionales—perfecto para extensiones de apariencia natural que duran."
+      },
+      {
+        "question": "¿Acrílico vs Builder Gel: Cuál es mejor en Denton?",
+        "answer": "Depende de tus objetivos. Los acrílicos son duraderos y excelentes para longitud dramática. El builder gel es más ligero, más flexible y más saludable para las uñas naturales. En Athena's Beauty, ofrecemos ambos—acrílicos para looks audaces y esculpidos, y builder gel para uñas fuertes y de sensación natural. Durante tu consulta, te recomendaremos lo mejor para tu estilo de vida."
+      }
+    ]
+  },
+  "finalCTA": {
+    "headline1": "¿LISTA PARA TU",
+    "headline2": "NUEVO SET?",
+    "subheadline": "Reserva tu cita hoy. No aceptamos walk-ins—solo con cita para la mejor experiencia.",
+    "locationLabel": "Visítanos en:",
+    "address": "2640 W University Dr, Suite 1266, Denton, TX 76201",
+    "room": "Salons by JC, Cuarto #19",
+    "ctaBook": "Reservar Online",
+    "ctaCall": "Llamar (940) 435-1332",
+    "note": "Envíame un mensaje si quieres un día que esté cerrada. Puedo organizar un horario para verte."
+  },
+  "contact": {
+    "headline": "VAMOS A",
+    "headlineAccent": "CONECTAR",
+    "visit": "Visítanos",
+    "address": "2640 W University Dr, Suite 1266",
+    "salonsByJC": "Salons by JC Cuarto #19",
+    "cityState": "Denton, TX 76201",
+    "phone": "(940) 435-1332",
+    "appointmentOnly": "Solo con Cita",
+    "acceptingNew": "Aceptando nuevas clientas",
+    "viewMap": "Ver en Google Maps",
+    "sendMessage": "Enviar un Mensaje",
+    "name": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "email": "Correo",
+    "emailPlaceholder": "tu@correo.com",
+    "message": "Mensaje",
+    "messagePlaceholder": "¿Cómo podemos ayudarte?",
+    "send": "Enviar",
+    "followUs": "Síguenos",
+    "followText": "Síguenos para inspiración diaria de uñas y contenido detrás de cámaras.",
+    "instagram": "Síguenos en Instagram",
+    "facebook": "Danos Like en Facebook",
+    "tiktok": "Síguenos en TikTok",
+    "booksy": "Reservar en Booksy",
+    "booksyReviews": "35+ reseñas de 5 estrellas",
+    "googleReview": "Reseña en Google",
+    "yelpReview": "Reseña en Yelp",
+    "dialogTitle": "¡Mensaje Enviado!",
+    "dialogBody": "Gracias por contactarnos. Te responderemos lo antes posible.",
+    "dialogOk": "Entendido",
+    "footer": "© {year} Athena's Beauty. Todos los derechos reservados."
+  },
+  "servicesPage": {
+    "back": "Volver al Inicio",
+    "headline": "Nuestros",
+    "headlineAccent": "Servicios",
+    "subheadline": "Explora nuestro menú completo de servicios de uñas. Encuentra tu look perfecto y reserva tu cita hoy.",
+    "searchPlaceholder": "Buscar servicios...",
+    "showing": "Mostrando",
+    "service": "servicio",
+    "services": "servicios",
+    "popular": "Popular",
+    "viewGallery": "Ver Galería",
+    "bookNow": "Reservar",
+    "noResults": "No se encontraron servicios que coincidan con tu búsqueda.",
+    "clearFilters": "Limpiar filtros",
+    "consultation": {
+      "headline": "¿No sabes qué servicio es el adecuado para ti?",
+      "body": "Envíanos un mensaje para una consulta gratuita. Te ayudaremos a elegir el servicio perfecto para tus uñas.",
+      "cta": "Llamar (940) 435-1332"
+    },
+    "categories": {
+      "all": "Todos",
+      "acrylic": "Acrílico",
+      "gelx": "Gel-X",
+      "builderGel": "Builder Gel",
+      "dip": "Dip",
+      "manicure": "Manicura",
+      "pedicure": "Pedicura",
+      "repair": "Reparación"
+    },
+    "serviceNames": {
+      "acrylic_full_set": "Set Completo Acrílico (Un Color)",
+      "acrylic_fill": "Relleno Acrílico",
+      "acrylic_art": "Acrílico/Dip/Gel con Arte",
+      "acrylic_toes": "Set Completo Acrílico para Dedos",
+      "acrylic_two_toes": "Acrílico (Dos) Dedos Solo",
+      "duck_nails": "Uñas Duck",
+      "gelx_small": "Gel-X Corto",
+      "gelx_medium": "Gel-X Mediano",
+      "gelx_long": "Gel-X Largo",
+      "builder_gel": "Builder Gel",
+      "dip_powder": "Uñas Dip Powder (NexGen)",
+      "french_ombre": "Uñas French o Ombré",
+      "basic_mani": "Manicura Básica",
+      "spa_mani": "Manicura Spa",
+      "citrus_pedi": "Pedicura Cítrica",
+      "gel_pedi": "Pedicura Gel OHH (Baño de Gelatina)",
+      "volcano_pedi": "Pedicura Volcán",
+      "gel_polish": "Esmalte Gel Solo",
+      "polish_change": "Cambio de Esmalte",
+      "fix_nail": "Reparación de Uña",
+      "removal": "Remoción de Acrílico/Dip/Gel"
+    },
+    "serviceDescriptions": {
+      "acrylic_full_set": "Extensiones clásicas de acrílico con tu elección de un color sólido. Incluye moldeado y acabado.",
+      "acrylic_fill": "Mantenimiento para acrílicos existentes. Rellena el área de crecimiento y renueva tu look.",
+      "acrylic_art": "Set completo con arte de uñas personalizado, diseños y detalles creativos incluidos.",
+      "acrylic_toes": "Hermosas extensiones de acrílico para dedos. Perfecto para temporada de sandalias.",
+      "acrylic_two_toes": "Mejora de acrílico para solo dos dedos. Ideal para corregir o mejorar uñas específicas.",
+      "duck_nails": "Forma de uña flare de tendencia con punta ancha y dramática. Estilo llamativo.",
+      "gelx_small": "Extensiones de gel suave en longitud corta. Suave con las uñas naturales, flexible y de apariencia natural.",
+      "gelx_medium": "Extensiones de gel suave en longitud media. El equilibrio perfecto entre estilo y practicidad.",
+      "gelx_long": "Extensiones de gel suave en longitud larga. Uñas dramáticas y llamativas.",
+      "builder_gel": "Fortalecimiento ligero de uñas que aumenta la fuerza natural sin volumen excesivo. Perfecto para cultivar uñas saludables con opciones de arte personalizado.",
+      "dip_powder": "Manicura en polvo sin olor y ligera que dura 3-4 semanas. Sin luz UV necesaria.",
+      "french_ombre": "French tips clásicas o hermoso degradado rosa a blanco. Elegancia atemporal.",
+      "basic_mani": "Corte de uñas y cutículas, moldeado y pulido, esmalte de tu elección. Agrega esmalte Gel por $20 extra.",
+      "spa_mani": "Corte de uñas y cutículas, moldeado, exfoliación, mascarilla hidratante, toalla caliente, esmalte. Agrega Gel por $20.",
+      "citrus_pedi": "Corte de uñas, moldeado, limpieza de cutículas, tratamiento de callos, toalla tibia, loción hidratante. Agrega Gel por $20.",
+      "gel_pedi": "Baño de textura de gelatina, cuidado de uñas, tratamiento de callos, parafina, mascarilla hidratante, toalla tibia. Agrega Gel por $20.",
+      "volcano_pedi": "Baño burbujeante y efervescente, exfoliación, mascarilla de colágeno, masaje con piedras calientes, calcetines de colágeno. Agrega Gel por $20.",
+      "gel_polish": "Aplicación de esmalte gel en uñas naturales. Brillo duradero sin extensiones.",
+      "polish_change": "Cambio rápido de esmalte en uñas naturales. Perfecto para un color fresco entre servicios completos.",
+      "fix_nail": "Repara una uña rota o dañada. Arreglo rápido para mantener tu set perfecto.",
+      "removal": "Remoción segura de producto existente sin dañar las uñas naturales."
+    }
+  },
+  "blogPage": {
+    "back": "Volver al Inicio",
+    "headline": "Tendencias y",
+    "headlineAccent": "Consejos",
+    "subheadline": "Consejos expertos de cuidado de uñas, diseños de tendencia y tips exclusivos de la mejor artista de uñas de Denton."
+  },
+  "gallery": {
+    "all": "Todos",
+    "backToServices": "Volver a Servicios",
+    "bookAppointment": "Reservar tu Cita",
+    "noImages": "No se encontraron imágenes con el filtro seleccionado.",
+    "showAll": "Mostrar todas las imágenes",
+    "homeTitle": "Athena's Beauty | Salón de Uñas Premium en Denton, TX | Builder Gel, Acrílicos y Arte Personalizado",
+    "homeDesc": "Salón de uñas premium en Denton, TX especializado en builder gel, sets de acrílico, extensiones Gel-X y arte de uñas personalizado. Reserva tu cita hoy para servicios de uñas de lujo cerca de UNT.",
+    "acrylic": {
+      "metaTitle": "Galería de Arte en Acrílico | Athena's Beauty | Denton, TX",
+      "metaDesc": "Explora nuestra galería de arte en acrílico en Denton, TX. Diseños 3D, French tips, arte personalizado y más. Encuentra inspiración para tu próxima cita en Athena's Beauty.",
+      "title1": "Galería de Arte en",
+      "title2": "Acrílico",
+      "subtitle": "Explora nuestra colección de diseños de acrílico impresionantes. Encuentra inspiración para tu próxima cita o ve la calidad de trabajo que puedes esperar en Athena's Beauty.",
+      "ctaHeadline1": "¿Lista para tu",
+      "ctaHeadline2": "Set de Acrílico?",
+      "ctaBody": "¿Inspirada por lo que ves? Reserva tu cita hoy y creemos algo hermoso juntas."
+    },
+    "builderGel": {
+      "metaTitle": "Galería de Builder Gel | Athena's Beauty | Denton, TX",
+      "metaDesc": "Ve nuestra galería de builder gel en Denton, TX. Fortalecimientos resistentes y ligeros con cat eye, shimmer y arte personalizado. Perfecto para uñas saludables en Athena's Beauty.",
+      "title1": "Galería de",
+      "title2": "Builder Gel",
+      "subtitle": "Descubre la versatilidad del builder gel. Resistente pero ligero, perfecto para fortalecer uñas naturales y crear arte de uñas impresionante.",
+      "ctaHeadline1": "¿Lista para",
+      "ctaHeadline2": "Builder Gel?",
+      "ctaBody": "Resistente, ligero y perfecto para cultivar uñas saludables. ¡Reserva tu cita de builder gel hoy!"
+    },
+    "dip": {
+      "metaTitle": "Galería de Dip Powder | Athena's Beauty | Denton, TX",
+      "metaDesc": "Explora nuestra galería de dip powder en Denton, TX. Diseños sin olor y ligeros que duran 3-4 semanas. French tips, acabados shimmer y arte personalizado en Athena's Beauty.",
+      "title1": "Galería de",
+      "title2": "Dip Powder",
+      "subtitle": "Explora nuestra colección de arte en dip powder. Sin olor, ligero y diseños impresionantes que duran 3-4 semanas sin astillarse.",
+      "ctaHeadline1": "¿Lista para",
+      "ctaHeadline2": "Uñas Dip Powder?",
+      "ctaBody": "Sin luz UV, sin olor y dura 3-4 semanas. ¡Reserva tu cita de dip powder hoy!"
+    },
+    "gelx": {
+      "metaTitle": "Galería de Extensiones Gel-X | Athena's Beauty | Denton, TX",
+      "metaDesc": "Explora nuestra galería de extensiones Gel-X en Denton, TX. Extensiones ligeras de apariencia natural con arte de uñas personalizado. Reserva tu cita de Gel-X en Athena's Beauty.",
+      "title1": "Galería de",
+      "title2": "Gel-X",
+      "subtitle": "Descubre la belleza de las extensiones Gel-X. Ligeras, de apariencia natural y perfectas para creaciones de arte de uñas personalizado.",
+      "ctaHeadline1": "¿Lista para",
+      "ctaHeadline2": "Extensiones Gel-X?",
+      "ctaBody": "Ligeras, de apariencia natural y perfectas para arte de uñas personalizado. ¡Reserva tu cita de Gel-X hoy!"
+    }
+  }
+}

@@ -1,9 +1,20 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Lock } from 'lucide-react';
+import { Menu, X, Lock, Globe } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const Navigation = () => {
+  const { t, i18n } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [showLangMenu, setShowLangMenu] = useState(false);
+
+  const [showLangBanner, setShowLangBanner] = useState(() => {
+    // Show banner if no language preference has been set
+    if (typeof window !== 'undefined') {
+      return !localStorage.getItem('i18nextLng');
+    }
+    return true;
+  });
 
   useEffect(() => {
     const handleScroll = () => {
@@ -14,19 +25,29 @@ const Navigation = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const toggleLanguage = (lang: string) => {
+    i18n.changeLanguage(lang);
+    setShowLangMenu(false);
+    setIsMobileMenuOpen(false);
+    setShowLangBanner(false);
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('i18nextLng', lang);
+    }
+  };
+
+  const currentLang = i18n.language.startsWith('es') ? 'es' : 'en';
+
   const navLinks = [
-    { label: 'Work', href: '#best-work' },
-    { label: 'Services', href: '#services' },
-    { label: 'About', href: '#why' },
-    { label: 'Contact', href: '#contact' },
+    { label: t('nav.work'), href: '#best-work' },
+    { label: t('nav.services'), href: '#services' },
+    { label: t('nav.about'), href: '#why' },
+    { label: t('nav.contact'), href: '#contact' },
   ];
 
   const scrollToSection = (href: string) => {
-    // If we're not on the home page, navigate to home first
     const currentHash = window.location.hash;
     if (currentHash && currentHash !== '' && !href.startsWith(currentHash)) {
       window.location.hash = '';
-      // Wait for navigation then scroll
       setTimeout(() => {
         const element = document.querySelector(href);
         if (element) {
@@ -139,7 +160,7 @@ const Navigation = () => {
                     : 'text-black hover:text-gold'
                 }`}
               >
-                Blog
+                {t('nav.blog')}
               </button>
               
               {/* Gallery Dropdown */}
@@ -151,7 +172,7 @@ const Navigation = () => {
                       : 'text-black hover:text-gold'
                   }`}
                 >
-                  Gallery
+                  {t('nav.gallery')}
                   <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
@@ -161,28 +182,65 @@ const Navigation = () => {
                     href="#acrylic-gallery"
                     className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors"
                   >
-                    Acrylic Art
+                    {t('nav.gallery_acrylic')}
                   </a>
                   <a
                     href="#dip-gallery"
                     className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors"
                   >
-                    Dip Powder
+                    {t('nav.gallery_dip')}
                   </a>
                   <a
                     href="#builder-gel-gallery"
                     className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors"
                   >
-                    Builder Gel
+                    {t('nav.gallery_builder')}
                   </a>
                   <a
                     href="#gelx-gallery"
                     className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors"
                   >
-                    Gel-X Extensions
+                    {t('nav.gallery_gelx')}
                   </a>
                 </div>
               </div>
+
+              {/* Language Switcher */}
+              <div className="relative">
+                <button
+                  onClick={() => setShowLangMenu(!showLangMenu)}
+                  className={`font-body text-sm transition-colors duration-200 flex items-center gap-1 ${
+                    isScrolled 
+                      ? 'text-white/90 hover:text-gold' 
+                      : 'text-black hover:text-gold'
+                  }`}
+                  title={t('lang.switch')}
+                >
+                  <Globe size={14} />
+                  <span className="uppercase text-xs">{currentLang}</span>
+                </button>
+                {showLangMenu && (
+                  <div className="absolute top-full right-0 mt-2 w-32 bg-white rounded-xl shadow-xl py-2 z-[101]">
+                    <button
+                      onClick={() => toggleLanguage('en')}
+                      className={`block w-full text-left px-4 py-2 text-sm transition-colors ${
+                        currentLang === 'en' ? 'text-gold font-medium' : 'text-black hover:bg-gold/10'
+                      }`}
+                    >
+                      {t('lang.en')}
+                    </button>
+                    <button
+                      onClick={() => toggleLanguage('es')}
+                      className={`block w-full text-left px-4 py-2 text-sm transition-colors ${
+                        currentLang === 'es' ? 'text-gold font-medium' : 'text-black hover:bg-gold/10'
+                      }`}
+                    >
+                      {t('lang.es')}
+                    </button>
+                  </div>
+                )}
+              </div>
+
               <button
                 onClick={goToDashboard}
                 className={`font-body text-xs transition-colors duration-200 opacity-50 hover:opacity-100 ${
@@ -198,7 +256,7 @@ const Navigation = () => {
                 onClick={openBooksy}
                 className="bg-gold text-black font-body font-medium text-sm px-5 py-2.5 rounded-full btn-hover"
               >
-                Book Now
+                {t('nav.bookNow')}
               </button>
             </div>
           </div>
@@ -233,6 +291,44 @@ const Navigation = () => {
         </div>
       </nav>
 
+      {/* Language Selection Banner */}
+      {showLangBanner && (
+        <div className={`fixed z-[99] left-0 right-0 transition-all duration-300 ${
+          isScrolled ? 'top-24 lg:top-28' : 'top-20 lg:top-28'
+        }`}>
+          <div className="bg-gold/95 backdrop-blur-sm text-black py-2 px-4">
+            <div className="max-w-7xl mx-auto flex items-center justify-center gap-4">
+              <span className="font-body text-sm font-medium">{t('lang.switch')}</span>
+              <div className="flex gap-2">
+                <button
+                  onClick={() => toggleLanguage('en')}
+                  className={`px-3 py-1 rounded-full text-xs font-body transition-colors ${
+                    currentLang === 'en' ? 'bg-black text-gold' : 'bg-black/10 hover:bg-black/20'
+                  }`}
+                >
+                  English
+                </button>
+                <button
+                  onClick={() => toggleLanguage('es')}
+                  className={`px-3 py-1 rounded-full text-xs font-body transition-colors ${
+                    currentLang === 'es' ? 'bg-black text-gold' : 'bg-black/10 hover:bg-black/20'
+                  }`}
+                >
+                  Español
+                </button>
+              </div>
+              <button
+                onClick={() => setShowLangBanner(false)}
+                className="ml-2 text-black/60 hover:text-black transition-colors"
+                aria-label="Dismiss"
+              >
+                <X size={14} />
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Mobile Menu */}
       <div
         className={`fixed inset-0 z-[99] bg-black transition-transform duration-300 lg:hidden ${
@@ -259,41 +355,64 @@ const Navigation = () => {
             onClick={goToBlog}
             className="font-heading font-bold text-2xl text-white hover:text-gold transition-colors duration-200"
           >
-            Blog
+            {t('nav.blog')}
           </button>
           
           {/* Mobile Gallery Links */}
           <div className="border-t border-white/20 pt-4 mt-2 w-full max-w-xs">
-            <p className="text-white/50 text-sm mb-3 text-center">Galleries</p>
+            <p className="text-white/50 text-sm mb-3 text-center">{t('nav.gallery')}</p>
             <div className="flex flex-col gap-3">
               <a
                 href="#acrylic-gallery"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="font-heading text-lg text-white/80 hover:text-gold transition-colors duration-200"
               >
-                Acrylic Art
+                {t('nav.gallery_acrylic')}
               </a>
               <a
                 href="#dip-gallery"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="font-heading text-lg text-white/80 hover:text-gold transition-colors duration-200"
               >
-                Dip Powder
+                {t('nav.gallery_dip')}
               </a>
               <a
                 href="#builder-gel-gallery"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="font-heading text-lg text-white/80 hover:text-gold transition-colors duration-200"
               >
-                Builder Gel
+                {t('nav.gallery_builder')}
               </a>
               <a
                 href="#gelx-gallery"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="font-heading text-lg text-white/80 hover:text-gold transition-colors duration-200"
               >
-                Gel-X Extensions
+                {t('nav.gallery_gelx')}
               </a>
+            </div>
+          </div>
+
+          {/* Mobile Language Switcher */}
+          <div className="border-t border-white/20 pt-4 w-full max-w-xs">
+            <p className="text-white/50 text-sm mb-3 text-center">{t('lang.switch')}</p>
+            <div className="flex justify-center gap-4">
+              <button
+                onClick={() => toggleLanguage('en')}
+                className={`px-4 py-2 rounded-full text-sm font-body transition-colors ${
+                  currentLang === 'en' ? 'bg-gold text-black' : 'text-white border border-white/30'
+                }`}
+              >
+                {t('lang.en')}
+              </button>
+              <button
+                onClick={() => toggleLanguage('es')}
+                className={`px-4 py-2 rounded-full text-sm font-body transition-colors ${
+                  currentLang === 'es' ? 'bg-gold text-black' : 'text-white border border-white/30'
+                }`}
+              >
+                {t('lang.es')}
+              </button>
             </div>
           </div>
           
@@ -301,7 +420,7 @@ const Navigation = () => {
             onClick={openBooksy}
             className="bg-gold text-black font-body font-medium text-lg px-8 py-3 rounded-full btn-hover mt-4"
           >
-            Book Now
+            {t('nav.bookNow')}
           </button>
         </div>
       </div>

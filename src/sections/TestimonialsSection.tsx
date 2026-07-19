@@ -2,6 +2,7 @@ import { useRef, useLayoutEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Star, Quote, Calendar } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -10,27 +11,12 @@ interface TestimonialsSectionProps {
 }
 
 const TestimonialsSection = ({ className = '' }: TestimonialsSectionProps) => {
+  const { t } = useTranslation();
   const sectionRef = useRef<HTMLDivElement>(null);
   const headerRef = useRef<HTMLDivElement>(null);
   const cardsRef = useRef<(HTMLDivElement | null)[]>([]);
 
-  const testimonials = [
-    {
-      quote: "Athena does amazing work! My nails always look perfect and last for weeks. She's very detailed and takes her time.",
-      author: 'Mia R.',
-      rating: 5,
-    },
-    {
-      quote: "Best nail tech in Denton! I've been coming here for months and my nails have never looked better. Highly recommend!",
-      author: 'Jasmine T.',
-      rating: 5,
-    },
-    {
-      quote: "Love my nails every time! The attention to detail is incredible. Athena really listens to what you want.",
-      author: 'Sarah K.',
-      rating: 5,
-    },
-  ];
+  const testimonials = t('testimonials.testimonials', { returnObjects: true }) as Array<{ quote: string; author: string }>;
 
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
@@ -88,10 +74,10 @@ const TestimonialsSection = ({ className = '' }: TestimonialsSectionProps) => {
         {/* Header */}
         <div ref={headerRef} className="text-center mb-16">
           <h2 className="font-heading font-bold text-3xl lg:text-4xl xl:text-5xl text-black uppercase mb-4">
-            CLIENT <span className="text-gold">LOVE</span> IN DENTON
+            {t('testimonials.headline')} <span className="text-gold">{t('testimonials.headlineAccent')}</span> {t('testimonials.headlineLocation')}
           </h2>
           <p className="font-body text-sm lg:text-base text-text-secondary max-w-xl mx-auto mb-4">
-            See why Athena's Beauty is Denton's top choice for builder gel, acrylics, and custom nail art.
+            {t('testimonials.subheadline')}
           </p>
           <div className="flex items-center justify-center gap-2">
             <div className="flex">
@@ -100,7 +86,7 @@ const TestimonialsSection = ({ className = '' }: TestimonialsSectionProps) => {
               ))}
             </div>
             <span className="font-body text-text-secondary">
-              35+ 5-star reviews on Booksy
+              {t('testimonials.reviewCount')}
             </span>
           </div>
         </div>
@@ -120,14 +106,14 @@ const TestimonialsSection = ({ className = '' }: TestimonialsSectionProps) => {
 
               {/* Stars */}
               <div className="flex gap-1 mb-4">
-                {[...Array(testimonial.rating)].map((_, i) => (
+                {[...Array(5)].map((_, i) => (
                   <Star key={i} size={16} className="fill-gold text-gold" />
                 ))}
               </div>
 
               {/* Quote */}
               <p className="font-body text-black mb-6">
-                "{testimonial.quote}"
+                &ldquo;{testimonial.quote}&rdquo;
               </p>
 
               {/* Author */}
@@ -145,13 +131,13 @@ const TestimonialsSection = ({ className = '' }: TestimonialsSectionProps) => {
             className="bg-black text-gold font-body font-medium text-sm px-8 py-4 rounded-full btn-hover flex items-center gap-2"
           >
             <Calendar size={18} />
-            Book Your Appointment
+            {t('testimonials.ctaBook')}
           </button>
           <button
             onClick={openBooksy}
             className="inline-flex items-center gap-2 text-gold font-body text-sm hover:underline"
           >
-            Read all reviews on Booksy
+            {t('testimonials.ctaReviews')}
             <Star size={14} className="fill-gold" />
           </button>
         </div>

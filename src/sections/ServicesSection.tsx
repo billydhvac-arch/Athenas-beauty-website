@@ -2,6 +2,7 @@ import { useRef, useLayoutEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { ArrowRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -10,6 +11,7 @@ interface ServicesSectionProps {
 }
 
 const ServicesSection = ({ className = '' }: ServicesSectionProps) => {
+  const { t } = useTranslation();
   const sectionRef = useRef<HTMLDivElement>(null);
   const leftCardRef = useRef<HTMLDivElement>(null);
   const topImageRef = useRef<HTMLDivElement>(null);
@@ -56,8 +58,6 @@ const ServicesSection = ({ className = '' }: ServicesSectionProps) => {
         { scaleX: 1, ease: 'none' },
         0.15
       );
-
-      // SETTLE (30% - 70%) - elements hold position
 
       // EXIT (70% - 100%)
       scrollTl.fromTo(
@@ -112,11 +112,11 @@ const ServicesSection = ({ className = '' }: ServicesSectionProps) => {
           className="absolute left-[6vw] top-[16vh] w-[46vw] h-[68vh] bg-off-white rounded-3xl shadow-card card-border p-8 lg:p-12 flex flex-col justify-center"
         >
           <h2 className="font-heading font-bold headline-lg text-text-primary uppercase mb-6">
-            <span className="block">CLEAN CUTS.</span>
+            <span className="block">{t('servicesSection.headline1')}</span>
             <span className="block relative">
-              DETAILED
+              {t('servicesSection.headline2')}
               <br />
-              FINISHES.
+              {t('servicesSection.headline3')}
               {/* Scribble Underline */}
               <svg
                 ref={scribbleRef}
@@ -137,15 +137,14 @@ const ServicesSection = ({ className = '' }: ServicesSectionProps) => {
           </h2>
 
           <p className="font-body body-text text-text-secondary max-w-md mb-8">
-            From shaping to cuticle care, every step is precise—so your nails
-            stay healthy and polished.
+            {t('servicesSection.description')}
           </p>
 
           <button
             onClick={scrollToServices}
             className="flex items-center gap-2 font-body text-sm text-text-primary hover:text-cherry transition-colors duration-200 w-fit"
           >
-            See services
+            {t('servicesSection.cta')}
             <ArrowRight size={16} />
           </button>
         </div>

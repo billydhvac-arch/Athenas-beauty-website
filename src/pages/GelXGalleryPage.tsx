@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { ArrowLeft, X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface GalleryImage {
   id: string;
@@ -8,10 +9,6 @@ interface GalleryImage {
   description: string;
   tags: string[];
 }
-
-// INTENTIONAL_SYNTAX_ERROR_FORCE_REBUILD
-const FORCE_REBUILD_VAR = "BUILD_20250511_009";
-console.log('FORCE_REBUILD_VAR:', FORCE_REBUILD_VAR);
 
 const gelXGalleryImages: GalleryImage[] = [
   {
@@ -66,15 +63,13 @@ const gelXGalleryImages: GalleryImage[] = [
 ];
 
 const GelXGalleryPage = () => {
+  const { t } = useTranslation();
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
-  
-  // DEBUG: Force rebuild check
-  console.log('GelXGalleryPage loaded, images count:', gelXGalleryImages.length);
 
   // SEO Meta Tags
   useEffect(() => {
-    document.title = 'Gel-X Extensions Nail Art Gallery | Athena\'s Beauty | Denton, TX';
+    document.title = t('gallery.gelx.metaTitle');
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -82,7 +77,7 @@ const GelXGalleryPage = () => {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Explore our Gel-X extensions nail gallery in Denton, TX. Lightweight, natural-looking extensions with stunning custom nail art. Book your Gel-X appointment at Athena\'s Beauty.');
+    metaDescription.setAttribute('content', t('gallery.gelx.metaDesc'));
     
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -93,21 +88,21 @@ const GelXGalleryPage = () => {
     canonical.setAttribute('href', 'https://athenas-beauty.com/#gelx-gallery');
     
     let ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) ogTitle.setAttribute('content', 'Gel-X Extensions Nail Art Gallery | Athena\'s Beauty | Denton, TX');
+    if (ogTitle) ogTitle.setAttribute('content', t('gallery.gelx.metaTitle'));
     
     let ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc) ogDesc.setAttribute('content', 'Discover lightweight Gel-X extensions with custom nail art. Natural feel, beautiful designs at Athena\'s Beauty in Denton, TX.');
+    if (ogDesc) ogDesc.setAttribute('content', t('gallery.gelx.metaDesc'));
     
     window.scrollTo(0, 0);
     
     return () => {
-      document.title = 'Athena\'s Beauty | Premium Nail Salon in Denton, TX | Builder Gel, Acrylics & Custom Nail Art';
-      if (metaDescription) metaDescription.setAttribute('content', 'Premium nail salon in Denton, TX specializing in builder gel nails, acrylic full sets, Gel-X extensions, and custom nail art. Book your appointment today for luxury nail services near UNT.');
+      document.title = t('gallery.homeTitle');
+      if (metaDescription) metaDescription.setAttribute('content', t('gallery.homeDesc'));
       if (canonical) canonical.setAttribute('href', 'https://athenas-beauty.com');
-      if (ogTitle) ogTitle.setAttribute('content', 'Athena\'s Beauty | Premium Nail Salon in Denton, TX');
-      if (ogDesc) ogDesc.setAttribute('content', 'Luxury nail artistry in Denton, TX. Specializing in builder gel, acrylics, Gel-X extensions & custom nail art. Book online via Booksy.');
+      if (ogTitle) ogTitle.setAttribute('content', t('gallery.homeTitle'));
+      if (ogDesc) ogDesc.setAttribute('content', t('gallery.homeDesc'));
     };
-  }, []);
+  }, [t]);
 
   const allTags = Array.from(new Set(gelXGalleryImages.flatMap(img => img.tags)));
   
@@ -139,14 +134,13 @@ const GelXGalleryPage = () => {
             className="inline-flex items-center gap-2 text-gold hover:text-white transition-colors mb-4"
           >
             <ArrowLeft size={20} />
-            Back to Services
+            {t('gallery.backToServices')}
           </button>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl">
-            Gel-X <span className="text-gold">Art Gallery</span>
+            {t('gallery.gelx.title1')} <span className="text-gold">{t('gallery.gelx.title2')}</span>
           </h1>
           <p className="text-white/70 mt-4 max-w-2xl text-lg">
-            Discover the beauty of Gel-X extensions. Lightweight, natural-looking, 
-            and perfect for custom nail art creations.
+            {t('gallery.gelx.subtitle')}
           </p>
         </div>
       </div>
@@ -163,7 +157,7 @@ const GelXGalleryPage = () => {
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
               }`}
             >
-              All
+              {t('gallery.all')}
             </button>
             {allTags.map(tag => (
               <button
@@ -270,16 +264,16 @@ const GelXGalleryPage = () => {
       <div className="bg-black text-white py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-serif text-3xl md:text-4xl mb-4">
-            Ready for <span className="text-gold">Gel-X Extensions</span>?
+            {t('gallery.gelx.ctaHeadline1')} <span className="text-gold">{t('gallery.gelx.ctaHeadline2')}</span>
           </h2>
           <p className="text-white/70 mb-8 text-lg">
-            Lightweight, natural-looking, and perfect for custom nail art. Book your Gel-X appointment today!
+            {t('gallery.gelx.ctaBody')}
           </p>
           <a 
             href="#book" 
             className="inline-block bg-gold text-black px-8 py-4 rounded-full font-medium hover:bg-white transition-colors"
           >
-            Book Your Appointment
+            {t('gallery.bookAppointment')}
           </a>
         </div>
       </div>

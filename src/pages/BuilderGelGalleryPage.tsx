@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { ArrowLeft, X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface GalleryImage {
   id: string;
@@ -35,12 +36,13 @@ const builderGelGalleryImages: GalleryImage[] = [
 ];
 
 const BuilderGelGalleryPage = () => {
+  const { t } = useTranslation();
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
 
   // SEO Meta Tags
   useEffect(() => {
-    document.title = 'Builder Gel Nail Art Gallery | Athena\'s Beauty | Denton, TX';
+    document.title = t('gallery.builderGel.metaTitle');
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -48,7 +50,7 @@ const BuilderGelGalleryPage = () => {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'View our builder gel nail gallery in Denton, TX. Strong, lightweight enhancements with cat eye, shimmer & custom art. Perfect for healthy nail growth at Athena\'s Beauty.');
+    metaDescription.setAttribute('content', t('gallery.builderGel.metaDesc'));
     
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -59,21 +61,21 @@ const BuilderGelGalleryPage = () => {
     canonical.setAttribute('href', 'https://athenas-beauty.com/#builder-gel-gallery');
     
     let ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) ogTitle.setAttribute('content', 'Builder Gel Nail Art Gallery | Athena\'s Beauty | Denton, TX');
+    if (ogTitle) ogTitle.setAttribute('content', t('gallery.builderGel.metaTitle'));
     
     let ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc) ogDesc.setAttribute('content', 'Discover builder gel nail designs. Strong yet lightweight, perfect for nail art & healthy growth in Denton, TX.');
+    if (ogDesc) ogDesc.setAttribute('content', t('gallery.builderGel.metaDesc'));
     
     window.scrollTo(0, 0);
     
     return () => {
-      document.title = 'Athena\'s Beauty | Premium Nail Salon in Denton, TX | Builder Gel, Acrylics & Custom Nail Art';
-      if (metaDescription) metaDescription.setAttribute('content', 'Premium nail salon in Denton, TX specializing in builder gel nails, acrylic full sets, Gel-X extensions, and custom nail art. Book your appointment today for luxury nail services near UNT.');
+      document.title = t('gallery.homeTitle');
+      if (metaDescription) metaDescription.setAttribute('content', t('gallery.homeDesc'));
       if (canonical) canonical.setAttribute('href', 'https://athenas-beauty.com');
-      if (ogTitle) ogTitle.setAttribute('content', 'Athena\'s Beauty | Premium Nail Salon in Denton, TX');
-      if (ogDesc) ogDesc.setAttribute('content', 'Luxury nail artistry in Denton, TX. Specializing in builder gel, acrylics, Gel-X extensions & custom nail art. Book online via Booksy.');
+      if (ogTitle) ogTitle.setAttribute('content', t('gallery.homeTitle'));
+      if (ogDesc) ogDesc.setAttribute('content', t('gallery.homeDesc'));
     };
-  }, []);
+  }, [t]);
 
   const allTags = Array.from(new Set(builderGelGalleryImages.flatMap(img => img.tags)));
   
@@ -105,14 +107,13 @@ const BuilderGelGalleryPage = () => {
             className="inline-flex items-center gap-2 text-gold hover:text-white transition-colors mb-4"
           >
             <ArrowLeft size={20} />
-            Back to Services
+            {t('gallery.backToServices')}
           </button>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl">
-            Builder Gel <span className="text-gold">Art Gallery</span>
+            {t('gallery.builderGel.title1')} <span className="text-gold">{t('gallery.builderGel.title2')}</span>
           </h1>
           <p className="text-white/70 mt-4 max-w-2xl text-lg">
-            Discover the versatility of builder gel. Strong yet lightweight, perfect for 
-            natural nail strengthening and stunning nail art creations.
+            {t('gallery.builderGel.subtitle')}
           </p>
         </div>
       </div>
@@ -129,7 +130,7 @@ const BuilderGelGalleryPage = () => {
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
               }`}
             >
-              All
+              {t('gallery.all')}
             </button>
             {allTags.map(tag => (
               <button
@@ -236,16 +237,16 @@ const BuilderGelGalleryPage = () => {
       <div className="bg-black text-white py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-serif text-3xl md:text-4xl mb-4">
-            Ready for <span className="text-gold">Builder Gel</span>?
+            {t('gallery.builderGel.ctaHeadline1')} <span className="text-gold">{t('gallery.builderGel.ctaHeadline2')}</span>
           </h2>
           <p className="text-white/70 mb-8 text-lg">
-            Strong, lightweight, and perfect for growing healthy nails. Book your builder gel appointment today!
+            {t('gallery.builderGel.ctaBody')}
           </p>
           <a 
             href="#book" 
             className="inline-block bg-gold text-black px-8 py-4 rounded-full font-medium hover:bg-white transition-colors"
           >
-            Book Your Appointment
+            {t('gallery.bookAppointment')}
           </a>
         </div>
       </div>
