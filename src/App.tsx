@@ -26,6 +26,7 @@ import DipGalleryPage from './pages/DipGalleryPage';
 import BuilderGelGalleryPage from './pages/BuilderGelGalleryPage';
 import GelXGalleryPage from './pages/GelXGalleryPage';
 import CancellationPolicyPage from './pages/CancellationPolicyPage';
+import SpanishCancellationPolicyPage from './pages/SpanishCancellationPolicyPage';
 import './App.css';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -199,6 +200,9 @@ function App() {
         } />
         <Route path="/es/galeria/gelx" element={
           <Layout><SpanishGelXGallery /></Layout>
+        } />
+        <Route path="/es/politica-de-reservas" element={
+          <Layout><SpanishCancellationPolicyPage /></Layout>
         } />
         
         {/* Dashboard (no nav) */}
