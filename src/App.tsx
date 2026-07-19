@@ -15,6 +15,11 @@ import ServicesPage from './pages/ServicesPage';
 import BlogPage from './pages/BlogPage';
 import SpanishBlogPage from './pages/SpanishBlogPage';
 import SpanishLandingPage from './pages/SpanishLandingPage';
+import SpanishServicesPage from './pages/SpanishServicesPage';
+import SpanishAcrylicGallery from './pages/SpanishAcrylicGallery';
+import SpanishDipGallery from './pages/SpanishDipGallery';
+import SpanishBuilderGelGallery from './pages/SpanishBuilderGelGallery';
+import SpanishGelXGallery from './pages/SpanishGelXGallery';
 import Dashboard from './pages/Dashboard';
 import AcrylicGalleryPage from './pages/AcrylicGalleryPage';
 import DipGalleryPage from './pages/DipGalleryPage';
@@ -173,8 +178,23 @@ function App() {
         <Route path="/es/" element={
           <Layout><SpanishLandingPage /></Layout>
         } />
+        <Route path="/es/servicios" element={
+          <Layout><SpanishServicesPage /></Layout>
+        } />
         <Route path="/es/blog" element={
           <Layout><SpanishBlogPage /></Layout>
+        } />
+        <Route path="/es/galeria/acrilico" element={
+          <Layout><SpanishAcrylicGallery /></Layout>
+        } />
+        <Route path="/es/galeria/dip" element={
+          <Layout><SpanishDipGallery /></Layout>
+        } />
+        <Route path="/es/galeria/builder-gel" element={
+          <Layout><SpanishBuilderGelGallery /></Layout>
+        } />
+        <Route path="/es/galeria/gelx" element={
+          <Layout><SpanishGelXGallery /></Layout>
         } />
         
         {/* Dashboard (no nav) */}
