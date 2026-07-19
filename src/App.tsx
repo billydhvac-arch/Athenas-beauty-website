@@ -110,23 +110,31 @@ const ScrollToTop = () => {
   return null;
 };
 
-// SEO Manager for page-specific meta tags
+// SEO Manager for page-specific meta tags and hreflang
 const SEOManager = () => {
   const { pathname } = useLocation();
   
   useEffect(() => {
     // Update hreflang tags based on current page
-    const alternates = document.querySelectorAll('link[rel="alternate"]');
-    alternates.forEach(el => {
-      if (el.getAttribute('hreflang') === 'es') {
-        if (pathname.startsWith('/es')) {
-          el.setAttribute('href', `https://athenas-beauty.com${pathname}`);
-        } else {
-          const esPath = pathname === '/' ? '/es/' : `/es${pathname}`;
-          el.setAttribute('href', `https://athenas-beauty.com${esPath}`);
-        }
-      }
-    });
+    const enHref = `https://athenas-beauty.com${pathname}`;
+    const esHref = pathname === '/' ? 'https://athenas-beauty.com/es/' : `https://athenas-beauty.com/es${pathname}`;
+    
+    // Find or create hreflang tags
+    let enLink = document.querySelector('link[hreflang="en-us"]');
+    let esLink = document.querySelector('link[hreflang="es-us"]');
+    let xDefaultLink = document.querySelector('link[hreflang="x-default"]');
+    
+    if (enLink) enLink.setAttribute('href', enHref);
+    if (esLink) esLink.setAttribute('href', esHref);
+    if (xDefaultLink) xDefaultLink.setAttribute('href', enHref);
+    
+    // Update canonical
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) canonical.setAttribute('href', enHref);
+    
+    // Update OG URL
+    let ogUrl = document.querySelector('meta[property="og:url"]');
+    if (ogUrl) ogUrl.setAttribute('content', enHref);
   }, [pathname]);
   
   return null;
