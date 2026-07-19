@@ -25,6 +25,7 @@ import AcrylicGalleryPage from './pages/AcrylicGalleryPage';
 import DipGalleryPage from './pages/DipGalleryPage';
 import BuilderGelGalleryPage from './pages/BuilderGelGalleryPage';
 import GelXGalleryPage from './pages/GelXGalleryPage';
+import CancellationPolicyPage from './pages/CancellationPolicyPage';
 import './App.css';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -157,6 +158,9 @@ function App() {
         } />
         <Route path="/services" element={
           <Layout><ServicesPage /></Layout>
+        } />
+        <Route path="/booking-policy" element={
+          <Layout><CancellationPolicyPage /></Layout>
         } />
         <Route path="/blog" element={
           <Layout><BlogPage /></Layout>
