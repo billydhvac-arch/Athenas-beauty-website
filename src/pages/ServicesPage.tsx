@@ -148,6 +148,9 @@ const ServicesPage = () => {
   }, [searchQuery, selectedCategory, t]);
 
   const openBooksy = () => {
+    import('../utils/pixelTracking').then(({ trackBookingClick }) => {
+      trackBookingClick();
+    });
     window.open('https://nailsbyatenad.booksy.com', '_blank');
   };
 

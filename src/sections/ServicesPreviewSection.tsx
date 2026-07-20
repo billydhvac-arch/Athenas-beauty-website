@@ -73,6 +73,9 @@ const ServicesPreviewSection = ({ className = '' }: ServicesPreviewSectionProps)
   };
 
   const openBooksy = () => {
+    import('../utils/pixelTracking').then(({ trackBookingClick }) => {
+      trackBookingClick();
+    });
     window.open('https://nailsbyatenad.booksy.com', '_blank');
   };
 

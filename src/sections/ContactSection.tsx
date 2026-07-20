@@ -136,6 +136,11 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                 <Phone size={18} className="text-gold flex-shrink-0" />
                 <a
                   href="tel:9404351332"
+                  onClick={() => {
+                    import('../utils/pixelTracking').then(({ trackContactClick }) => {
+                      trackContactClick('phone');
+                    });
+                  }}
                   className="font-body text-sm text-black hover:text-gold transition-colors"
                 >
                   {t('contact.phone')}
@@ -321,6 +326,11 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
               href="https://nailsbyatenad.booksy.com"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => {
+                import('../utils/pixelTracking').then(({ trackBookingClick }) => {
+                  trackBookingClick();
+                });
+              }}
               className="flex items-center gap-3 w-full p-4 rounded-xl bg-gold hover:bg-gold-dark transition-colors mt-3"
             >
               <Calendar size={24} className="text-black" />

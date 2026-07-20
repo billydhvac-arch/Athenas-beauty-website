@@ -40,6 +40,9 @@ const HeroSection = ({ className = '' }: HeroSectionProps) => {
   }, []);
 
   const openBooksy = () => {
+    import('../utils/pixelTracking').then(({ trackBookingClick }) => {
+      trackBookingClick();
+    });
     window.open('https://nailsbyatenad.booksy.com', '_blank');
   };
 
