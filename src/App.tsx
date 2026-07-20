@@ -29,6 +29,8 @@ import CancellationPolicyPage from './pages/CancellationPolicyPage';
 import SpanishCancellationPolicyPage from './pages/SpanishCancellationPolicyPage';
 import ClientPolicyPage from './pages/ClientPolicyPage';
 import SpanishClientPolicyPage from './pages/SpanishClientPolicyPage';
+import HealthSafetyPolicyPage from './pages/HealthSafetyPolicyPage';
+import SpanishHealthSafetyPolicyPage from './pages/SpanishHealthSafetyPolicyPage';
 import './App.css';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -168,6 +170,9 @@ function App() {
         <Route path="/client-policy" element={
           <Layout><ClientPolicyPage /></Layout>
         } />
+        <Route path="/health-safety-policy" element={
+          <Layout><HealthSafetyPolicyPage /></Layout>
+        } />
         <Route path="/blog" element={
           <Layout><BlogPage /></Layout>
         } />
@@ -211,6 +216,9 @@ function App() {
         } />
         <Route path="/es/politica-para-clientes" element={
           <Layout><SpanishClientPolicyPage /></Layout>
+        } />
+        <Route path="/es/politica-de-salud" element={
+          <Layout><SpanishHealthSafetyPolicyPage /></Layout>
         } />
         
         {/* Dashboard (no nav) */}

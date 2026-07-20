@@ -411,6 +411,20 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
             >
               Política para Clientes
             </a>
+            <span className="text-gray-300">|</span>
+            <a
+              href="/health-safety-policy"
+              className="font-body text-xs text-text-secondary hover:text-gold transition-colors"
+            >
+              Health & Safety
+            </a>
+            <span className="text-gray-300">|</span>
+            <a
+              href="/es/politica-de-salud"
+              className="font-body text-xs text-text-secondary hover:text-gold transition-colors"
+            >
+              Salud y Seguridad
+            </a>
           </div>
           <p className="font-body text-xs text-text-secondary">
             {t('contact.footer', { year: new Date().getFullYear() })}

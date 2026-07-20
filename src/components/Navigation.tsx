@@ -299,6 +299,12 @@ const Navigation = () => {
               <Link to="/es/politica-para-clientes" onClick={() => setIsMobileMenuOpen(false)} className="font-heading text-lg text-white/80 hover:text-gold transition-colors">
                 Política para Clientes
               </Link>
+              <Link to="/health-safety-policy" onClick={() => setIsMobileMenuOpen(false)} className="font-heading text-lg text-white/80 hover:text-gold transition-colors">
+                Health & Safety
+              </Link>
+              <Link to="/es/politica-de-salud" onClick={() => setIsMobileMenuOpen(false)} className="font-heading text-lg text-white/80 hover:text-gold transition-colors">
+                Salud y Seguridad
+              </Link>
             </div>
           </div>
 
