@@ -249,6 +249,27 @@ const acrylicGalleryImages: GalleryImage[] = [
     description: 'Beautiful short almond acrylic nails in a vibrant teal-blue shade with delicate 3D floral embellishments. Tiny hand-sculpted white flowers with pearl centers adorn select nails, creating a dimensional, garden-inspired manicure. The glossy teal base catches light beautifully, while the 3D floral details add texture and feminine charm. This custom acrylic set is perfect for clients seeking nature-inspired nail art in Denton, TX — ideal for spring, summer, or anyone who loves floral designs with a modern twist.',
     tags: ['Teal', 'Blue', '3D Flowers', 'Floral', 'Pearls', 'Short Almond', 'Glossy', 'Acrylic', 'Custom Art', 'Denton TX'],
   },
+  {
+    id: 'acrylic-yellow-floral-gold-wire-1',
+    src: '/acrylic-yellow-floral-gold-wire.jpg',
+    title: 'Yellow Acrylic Nails with Hand-Painted Flowers & Gold Wire Accents | Denton TX',
+    description: 'Cheerful short almond acrylic nails in a bright sunshine-yellow shade featuring delicate hand-painted floral details and elegant gold wire accents. Tiny yellow daisies with brown centers bloom on select nails, while gold metallic outlining adds a luxurious, jewelry-inspired touch. The nude base on accent nails creates a warm, natural contrast that highlights the artistry. This custom set is perfect for clients seeking playful yet sophisticated acrylic nail art in Denton, TX — ideal for spring, summer, or anyone who loves floral designs with a modern metallic twist.',
+    tags: ['Yellow', 'Floral', 'Hand Painted', 'Gold Wire', 'Gold Accents', 'Short Almond', 'Daisies', 'Acrylic', 'Custom Art', 'Denton TX'],
+  },
+  {
+    id: 'acrylic-fruit-salad-mix-1',
+    src: '/acrylic-fruit-salad-mix.jpg',
+    title: 'Fruit Salad Acrylic Nails | Mixed Fruit Nail Art | Denton TX',
+    description: 'Fun and vibrant short acrylic nails featuring a playful mixed-fruit design — each nail showcases a different hand-painted fruit: orange slices, blueberries, strawberries, grapes, watermelon, cherries, and lemons. Bright, juicy colors pop against a soft nude base, creating a fresh, summery manicure that looks good enough to eat. This custom fruit nail art set is perfect for clients seeking unique, conversation-starting acrylic nails in Denton, TX. Ideal for summer vacations, tropical getaways, or anyone who loves bold, whimsical nail designs.',
+    tags: ['Fruit', 'Orange', 'Strawberry', 'Blueberry', 'Watermelon', 'Cherry', 'Lemon', 'Grapes', 'Hand Painted', 'Short Nails', 'Colorful', 'Acrylic', 'Custom Art', 'Denton TX'],
+  },
+  {
+    id: 'acrylic-red-burgundy-butterfly-1',
+    src: '/acrylic-red-burgundy-butterfly.jpg',
+    title: 'Red Burgundy Acrylic Nails with White Butterfly Accents | Denton TX',
+    description: 'Elegant medium-length square acrylic nails in a rich, deep burgundy-red shade featuring delicate white butterfly accents on select nails. The glossy wine-red base exudes sophistication and confidence, while the ethereal white butterflies add a touch of feminine grace and movement. This custom acrylic set strikes the perfect balance between bold and delicate — ideal for clients seeking refined yet eye-catching nail art in Denton, TX. Perfect for fall, winter, date nights, or anyone who loves deep red nails with artistic details.',
+    tags: ['Red', 'Burgundy', 'Wine Red', 'Butterfly', 'White Accents', 'Medium Square', 'Glossy', 'Elegant', 'Acrylic', 'Custom Art', 'Denton TX'],
+  },
 ];
 
 const AcrylicGalleryPage = () => {
