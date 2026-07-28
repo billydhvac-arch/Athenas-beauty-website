@@ -228,6 +228,27 @@ const acrylicGalleryImages: GalleryImage[] = [
     description: 'Custom acrylic artwork with detailed design elements',
     tags: ['Art', 'Custom Design'],
   },
+  {
+    id: 'acrylic-black-polka-dot-french-dragonfly-1',
+    src: '/acrylic-black-polka-dot-french-dragonfly.jpg',
+    title: 'Black Polka Dot French Tip Acrylic Nails with Dragonfly Accent | Denton TX',
+    description: 'Elegant short square acrylic nails featuring a classic French tip design with a playful twist — crisp black polka dots line the white French tips for a retro-chic look. A delicate hand-painted dragonfly accent on the ring finger adds an artistic, nature-inspired detail that elevates this set from classic to custom. The sheer nude base creates a natural, healthy appearance while the precise dotwork showcases meticulous nail art technique. Perfect for clients seeking unique French tip acrylic nails in Denton, TX that blend timeless elegance with whimsical personality.',
+    tags: ['French Tips', 'Polka Dots', 'Black and White', 'Dragonfly', 'Hand Painted', 'Short Square', 'Acrylic', 'Custom Art', 'Elegant', 'Denton TX'],
+  },
+  {
+    id: 'acrylic-pink-marble-french-sweater-1',
+    src: '/acrylic-pink-marble-french-sweater.jpg',
+    title: 'Pink Marble French Tip Acrylic Nails | Trendy Nail Art Denton, TX',
+    description: 'Stunning long coffin acrylic nails featuring a soft pink marble French tip design that blends smoky rose and white tones for a dreamy, ethereal effect. The marble gradient creates a luxurious, high-end look reminiscent of rose quartz and soft clouds. This trending nail art style is perfect for clients seeking elegant yet eye-catching acrylic nails in Denton, TX. The elongated coffin shape enhances the dramatic marble pattern, making this set ideal for special occasions, photoshoots, or anyone who wants their nails to make a statement.',
+    tags: ['Pink', 'Marble', 'French Tips', 'Smoke Effect', 'Coffin Shape', 'Long Nails', 'Trendy', 'Acrylic', 'Custom Art', 'Denton TX'],
+  },
+  {
+    id: 'acrylic-teal-blue-3d-floral-1',
+    src: '/acrylic-teal-blue-3d-floral.jpg',
+    title: 'Teal Blue Acrylic Nails with 3D Floral Accents | Denton TX Nail Salon',
+    description: 'Beautiful short almond acrylic nails in a vibrant teal-blue shade with delicate 3D floral embellishments. Tiny hand-sculpted white flowers with pearl centers adorn select nails, creating a dimensional, garden-inspired manicure. The glossy teal base catches light beautifully, while the 3D floral details add texture and feminine charm. This custom acrylic set is perfect for clients seeking nature-inspired nail art in Denton, TX — ideal for spring, summer, or anyone who loves floral designs with a modern twist.',
+    tags: ['Teal', 'Blue', '3D Flowers', 'Floral', 'Pearls', 'Short Almond', 'Glossy', 'Acrylic', 'Custom Art', 'Denton TX'],
+  },
 ];
 
 const AcrylicGalleryPage = () => {
