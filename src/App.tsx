@@ -51,6 +51,19 @@ const HomePage = () => {
   const mainRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    // Reset meta tags for home page
+    document.title = "Athena's Beauty | Premium Nail Salon in Denton, TX | Builder Gel, Acrylics & Custom Nail Art";
+    let metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'Premium nail salon in Denton, TX specializing in builder gel nails, acrylic full sets, Gel-X extensions, and custom nail art. Book your appointment today for luxury nail services near UNT.');
+    }
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) {
+      canonical.setAttribute('href', 'https://athenas-beauty.com');
+    }
+  }, []);
+
+  useEffect(() => {
     // Only enable snap on desktop
     const isDesktop = window.innerWidth >= 1024;
     if (!isDesktop) return;

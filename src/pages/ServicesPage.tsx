@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, X, ArrowLeft, Star, Clock, Check } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
@@ -19,6 +19,15 @@ const ServicesPage = () => {
   const { t } = useTranslation();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
+
+  // SEO Meta Tags
+  useEffect(() => {
+    document.title = 'Nail Services & Pricing | Athena\'s Beauty | Denton, TX';
+    let metaDescription = document.querySelector('meta[name="description"]');
+    if (metaDescription) {
+      metaDescription.setAttribute('content', 'View our full nail service menu and pricing at Athena\'s Beauty in Denton, TX. Acrylics, builder gel, Gel-X, dip powder, manicures, pedicures & custom nail art. Book online today.');
+    }
+  }, []);
 
   const services: Service[] = [
     {

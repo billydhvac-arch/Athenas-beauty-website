@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ArrowLeft, Calendar, Clock, ArrowRight, Tag } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
@@ -196,6 +196,23 @@ const BlogPage = () => {
   const { t } = useTranslation();
   const [selectedPost, setSelectedPost] = useState<BlogPost | null>(null);
   const [searchQuery, setSearchQuery] = useState('');
+
+  // SEO Meta Tags
+  useEffect(() => {
+    if (selectedPost) {
+      document.title = `${selectedPost.title} | Athena's Beauty Blog`;
+      let metaDescription = document.querySelector('meta[name="description"]');
+      if (metaDescription) {
+        metaDescription.setAttribute('content', selectedPost.excerpt);
+      }
+    } else {
+      document.title = 'Nail Trends & Tips Blog | Athena\'s Beauty | Denton, TX';
+      let metaDescription = document.querySelector('meta[name="description"]');
+      if (metaDescription) {
+        metaDescription.setAttribute('content', 'Explore the latest nail trends, nail care tips, and salon insights from Athena\'s Beauty in Denton, TX. Builder gel, acrylics, gel-X, nail art trends and more.');
+      }
+    }
+  }, [selectedPost]);
 
   const filteredPosts = blogPosts.filter((post) => {
     const query = searchQuery.toLowerCase();
