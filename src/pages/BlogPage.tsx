@@ -373,6 +373,8 @@ Whether you're a UNT junior who needs nails that survive dorm laundry day, a TWU
     category: 'Trends',
     image: '/acrylic-pink-white-gold-bow-french.jpg',
   },
+  {
+    id: 'gel-x-extensions-denton-tx-2026',
     title: "Gel-X Extensions in Denton, TX: The Smarter Alternative to Acrylics for 2026",
     excerpt: "Discover Gel-X extensions in Denton, TX. Lightweight, natural-looking nail extensions with no damage. Learn why Gel-X is the smartest alternative to acrylics in 2026.",
     content: `# Gel-X Extensions in Denton, TX: The Smarter Alternative to Acrylics for 2026
