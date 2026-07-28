@@ -252,9 +252,9 @@ const acrylicGalleryImages: GalleryImage[] = [
   {
     id: 'acrylic-yellow-floral-gold-wire-1',
     src: '/acrylic-yellow-floral-gold-wire.jpg',
-    title: 'Yellow Acrylic Nails with Hand-Painted Flowers & Gold Wire Accents | Denton TX',
-    description: 'Cheerful short almond acrylic nails in a bright sunshine-yellow shade featuring delicate hand-painted floral details and elegant gold wire accents. Tiny yellow daisies with brown centers bloom on select nails, while gold metallic outlining adds a luxurious, jewelry-inspired touch. The nude base on accent nails creates a warm, natural contrast that highlights the artistry. This custom set is perfect for clients seeking playful yet sophisticated acrylic nail art in Denton, TX — ideal for spring, summer, or anyone who loves floral designs with a modern metallic twist.',
-    tags: ['Yellow', 'Floral', 'Hand Painted', 'Gold Wire', 'Gold Accents', 'Short Almond', 'Daisies', 'Acrylic', 'Custom Art', 'Denton TX'],
+    title: 'Yellow French Tip Acrylic Nails with Daisy Flowers & Gold Wire Accents | Denton TX',
+    description: 'Cheerful almond-shaped acrylic nails featuring sunny yellow French tips with hand-painted yellow daisy flowers and elegant gold wire accents. Tiny white and yellow daisies with brown centers bloom on the nude base, while gold metallic outlining and wire details add a luxurious, jewelry-inspired touch. The warm yellow French tips create a playful yet sophisticated look perfect for clients seeking bright, floral acrylic nail art in Denton, TX. Ideal for spring, summer, or anyone who loves cheerful manicures with modern metallic details.',
+    tags: ['Yellow', 'French Tips', 'Daisy', 'Floral', 'Hand Painted', 'Gold Wire', 'Gold Accents', 'Almond Shape', 'Spring', 'Summer', 'Acrylic', 'Custom Art', 'Denton TX'],
   },
   {
     id: 'acrylic-fruit-salad-mix-1',
@@ -294,9 +294,9 @@ const acrylicGalleryImages: GalleryImage[] = [
   {
     id: 'acrylic-neon-mix-checkered-gold-1',
     src: '/acrylic-neon-mix-checkered-gold.jpg',
-    title: 'Neon Mix Acrylic Nails with Checkered Pattern & Gold Accents | Denton TX',
-    description: 'Eye-catching short almond acrylic nails featuring a bold mixed-design concept — neon lime green, hot pink, and deep purple nails are paired with a striking black-and-white checkered accent nail and delicate gold embellishments. Tiny gold studs and metallic details add luxury to the playful, high-contrast palette. This custom set is perfect for clients seeking edgy, trend-forward acrylic nails in Denton, TX. The eclectic mix of neon colors, checkerboard print, and gold accents makes this manicure ideal for fashion-forward clients, festival season, or anyone who loves Y2K-inspired nail art.',
-    tags: ['Neon', 'Lime Green', 'Hot Pink', 'Purple', 'Checkered', 'Black and White', 'Gold Accents', 'Studs', 'Short Almond', 'Edgy', 'Y2K', 'Acrylic', 'Custom Art', 'Denton TX'],
+    title: 'Nude Base Acrylic Nails with Hand-Painted Yellow Flowers & Gold Wire | Denton TX',
+    description: 'Elegant nude-base acrylic nails featuring hand-painted yellow floral details and delicate gold wire accents. Tiny yellow blossoms with brown centers bloom on select nails, while gold metallic outlining and wire details create a luxurious, jewelry-inspired effect. The sheer nude base keeps the look natural and sophisticated, perfect for clients seeking understated yet artistic nail art in Denton, TX. This custom set blends feminine florals with modern metallic detailing for a versatile, eye-catching manicure ideal for spring, summer, bridal events, or everyday wear.',
+    tags: ['Nude', 'Yellow', 'Floral', 'Hand Painted', 'Gold Wire', 'Gold Accents', 'Short Almond', 'Elegant', 'Spring', 'Summer', 'Bridal', 'Acrylic', 'Custom Art', 'Denton TX'],
   },
 ];
 
