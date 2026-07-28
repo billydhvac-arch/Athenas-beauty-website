@@ -377,6 +377,20 @@ const BlogPage = () => {
     }
   }, [selectedPost]);
 
+  const getRelatedPosts = (currentPost: BlogPost) => {
+    return blogPosts
+      .filter((post) => post.id !== currentPost.id && post.category === currentPost.category)
+      .slice(0, 3);
+  };
+
+  const getGalleryLink = (post: BlogPost) => {
+    if (post.title.toLowerCase().includes('acrylic')) return '/gallery/acrylic';
+    if (post.title.toLowerCase().includes('builder gel') || post.title.toLowerCase().includes('biab')) return '/gallery/builder-gel';
+    if (post.title.toLowerCase().includes('gel-x')) return '/gallery/gel-x';
+    if (post.title.toLowerCase().includes('dip')) return '/gallery/dip';
+    return null;
+  };
+
   const filteredPosts = blogPosts.filter((post) => {
     const query = searchQuery.toLowerCase();
     return (
@@ -438,6 +452,55 @@ const BlogPage = () => {
               {selectedPost.content}
             </div>
           </div>
+
+          {/* Related Posts */}
+          {getRelatedPosts(selectedPost).length > 0 && (
+            <div className="mt-16 pt-12 border-t border-black/10">
+              <h2 className="font-heading font-bold text-xl lg:text-2xl text-black mb-8">
+                Related Articles
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {getRelatedPosts(selectedPost).map((post) => (
+                  <button
+                    key={post.id}
+                    onClick={() => setSelectedPost(post)}
+                    className="text-left group"
+                  >
+                    <img
+                      src={post.image}
+                      alt={post.title}
+                      className="w-full h-48 object-cover rounded-2xl mb-4 group-hover:opacity-90 transition-opacity"
+                    />
+                    <span className="px-2 py-1 bg-gold/10 text-gold-dark text-xs font-body rounded-full">
+                      {post.category}
+                    </span>
+                    <h3 className="font-body font-semibold text-sm text-black mt-2 group-hover:text-gold transition-colors line-clamp-2">
+                      {post.title}
+                    </h3>
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Gallery Link */}
+          {getGalleryLink(selectedPost) && (
+            <div className="mt-12 p-8 bg-gold/5 rounded-3xl">
+              <h3 className="font-heading font-bold text-lg text-black mb-2">
+                See These Designs in Our Gallery
+              </h3>
+              <p className="font-body text-sm text-text-secondary mb-4">
+                Browse real client work and find inspiration for your next appointment.
+              </p>
+              <a
+                href={getGalleryLink(selectedPost)!}
+                className="inline-flex items-center gap-2 px-6 py-3 bg-gold text-black font-body text-sm rounded-full hover:bg-gold-dark transition-colors"
+              >
+                View Gallery
+                <ArrowRight size={16} />
+              </a>
+            </div>
+          )}
         </div>
       </div>
     );
