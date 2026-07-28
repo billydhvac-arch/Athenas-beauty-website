@@ -89,6 +89,20 @@ const dipGalleryImages: GalleryImage[] = [
     description: 'Elegant short dip powder nails with luxurious gold foil accents, created at Athena\'s Beauty in Denton, TX. Features a sophisticated gold foil design on durable dip powder for a chic, long-lasting manicure perfect for everyday wear.',
     tags: ['Dip Powder', 'Short Nails', 'Gold Foil', 'Elegant', 'Denton TX'],
   },
+  {
+    id: 'dip-patriotic-starburst-nude-1',
+    src: '/dip-patriotic-starburst-nude.jpg',
+    title: 'Patriotic Starburst Dip Powder Nails | Red White Blue Nail Art Denton, TX',
+    description: 'Stunning nude-base dip powder nails featuring hand-painted patriotic starburst designs in vibrant red, cobalt blue, and crisp white. Each almond-shaped nail showcases a unique constellation of stars and sparkles, creating a festive yet elegant manicure perfect for Fourth of July celebrations, Memorial Day, or year-round patriotic flair. The sheer nude base keeps the look refined while the bold star details make a statement. Created with long-lasting dip powder formula at Athena\'s Beauty in Denton, TX — chip-free for 3-4 weeks.',
+    tags: ['Dip Powder', 'Patriotic', 'Red White Blue', 'Starburst', 'Hand Painted', 'Nude Base', 'Almond Shape', 'Fourth of July', 'Memorial Day', 'Denton TX'],
+  },
+  {
+    id: 'dip-lavender-glitter-oval-1',
+    src: '/dip-lavender-glitter-oval.jpg',
+    title: 'Lavender Glitter Dip Powder Nails | Denton TX Nail Salon',
+    description: 'Beautiful medium-length oval dip powder nails in a soft lavender-purple shade with delicate silver micro-glitter throughout. The subtle shimmer catches light beautifully, creating a dreamy, ethereal effect that\'s both elegant and playful. This solid-color dip set is perfect for clients seeking low-maintenance, long-lasting nails in Denton, TX who want a pop of color without bold patterns. The oval shape flatters all finger types, and the dip powder formula ensures 3-4 weeks of chip-free wear. Ideal for spring, summer, bridal events, or anyone who loves pastel manicures.',
+    tags: ['Dip Powder', 'Lavender', 'Purple', 'Glitter', 'Micro Glitter', 'Oval Shape', 'Pastel', 'Elegant', 'Spring', 'Summer', 'Bridal', 'Denton TX'],
+  },
 ];
 
 const DipGalleryPage = () => {
