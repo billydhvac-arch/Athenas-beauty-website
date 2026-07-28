@@ -270,6 +270,34 @@ const acrylicGalleryImages: GalleryImage[] = [
     description: 'Elegant medium-length square acrylic nails in a rich, deep burgundy-red shade featuring delicate white butterfly accents on select nails. The glossy wine-red base exudes sophistication and confidence, while the ethereal white butterflies add a touch of feminine grace and movement. This custom acrylic set strikes the perfect balance between bold and delicate — ideal for clients seeking refined yet eye-catching nail art in Denton, TX. Perfect for fall, winter, date nights, or anyone who loves deep red nails with artistic details.',
     tags: ['Red', 'Burgundy', 'Wine Red', 'Butterfly', 'White Accents', 'Medium Square', 'Glossy', 'Elegant', 'Acrylic', 'Custom Art', 'Denton TX'],
   },
+  {
+    id: 'acrylic-pink-floral-polka-dot-nude-1',
+    src: '/acrylic-pink-floral-polka-dot-nude.jpg',
+    title: 'Pink Nude Acrylic Nails with Hand-Painted Flowers & Polka Dots | Denton TX',
+    description: 'Delicate short almond acrylic nails in a soft nude-pink base featuring hand-painted pink floral details and playful black polka dot accents. Tiny pink cherry blossoms with yellow centers bloom on select nails, while black-and-white polka dots on accent nails add a retro-chic contrast. This custom set blends feminine florals with whimsical dotwork for a versatile, eye-catching manicure. Perfect for clients seeking romantic yet trendy acrylic nail art in Denton, TX — ideal for spring, bridal events, or anyone who loves delicate floral designs with a playful twist.',
+    tags: ['Pink', 'Nude', 'Floral', 'Hand Painted', 'Polka Dots', 'Cherry Blossom', 'Short Almond', 'Romantic', 'Acrylic', 'Custom Art', 'Denton TX'],
+  },
+  {
+    id: 'acrylic-colorful-abstract-yin-yang-1',
+    src: '/acrylic-colorful-abstract-yin-yang.jpg',
+    title: 'Colorful Abstract Acrylic Nails with Yin-Yang Art | Denton TX',
+    description: 'Bold almond-shaped acrylic nails featuring a vibrant abstract color-block design in electric blue, sunny yellow, and coral orange. Each nail showcases a unique artistic composition — some with smooth gradient transitions, others with graphic yin-yang symbols and playful dot accents. This custom set is perfect for clients seeking statement-making, artsy acrylic nails in Denton, TX. The bright, energetic palette and creative abstract patterns make this manicure ideal for summer festivals, art students, or anyone who loves expressive, colorful nail art.',
+    tags: ['Blue', 'Yellow', 'Orange', 'Abstract', 'Yin Yang', 'Color Block', 'Gradient', 'Almond Shape', 'Bold', 'Acrylic', 'Custom Art', 'Denton TX'],
+  },
+  {
+    id: 'acrylic-blue-marble-starry-night-1',
+    src: '/acrylic-blue-marble-starry-night.jpg',
+    title: 'Blue Marble Starry Night Acrylic Nails | Denton TX Nail Salon',
+    description: 'Stunning almond-shaped acrylic nails in a deep navy-blue base with mesmerizing white marble swirls that evoke a starry night sky. The glossy dark-blue surface features delicate white veining and subtle shimmer, creating a cosmic, galaxy-inspired effect that catches light like distant stars. This custom acrylic set is perfect for clients seeking sophisticated yet dreamy nail art in Denton, TX. The celestial marble pattern makes this manicure ideal for evening events, winter months, or anyone who loves cosmic and celestial-themed designs.',
+    tags: ['Blue', 'Navy', 'Marble', 'Starry Night', 'Galaxy', 'White Swirls', 'Shimmer', 'Almond Shape', 'Glossy', 'Acrylic', 'Custom Art', 'Denton TX'],
+  },
+  {
+    id: 'acrylic-neon-mix-checkered-gold-1',
+    src: '/acrylic-neon-mix-checkered-gold.jpg',
+    title: 'Neon Mix Acrylic Nails with Checkered Pattern & Gold Accents | Denton TX',
+    description: 'Eye-catching short almond acrylic nails featuring a bold mixed-design concept — neon lime green, hot pink, and deep purple nails are paired with a striking black-and-white checkered accent nail and delicate gold embellishments. Tiny gold studs and metallic details add luxury to the playful, high-contrast palette. This custom set is perfect for clients seeking edgy, trend-forward acrylic nails in Denton, TX. The eclectic mix of neon colors, checkerboard print, and gold accents makes this manicure ideal for fashion-forward clients, festival season, or anyone who loves Y2K-inspired nail art.',
+    tags: ['Neon', 'Lime Green', 'Hot Pink', 'Purple', 'Checkered', 'Black and White', 'Gold Accents', 'Studs', 'Short Almond', 'Edgy', 'Y2K', 'Acrylic', 'Custom Art', 'Denton TX'],
+  },
 ];
 
 const AcrylicGalleryPage = () => {
