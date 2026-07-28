@@ -1,0 +1,332 @@
+{
+  "lang": {
+    "en": "English",
+    "es": "Español",
+    "switch": "Selecciona tu idioma"
+  },
+  "nav": {
+    "work": "Work",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "blog": "Blog",
+    "gallery": "Gallery",
+    "gallery_acrylic": "Acrylic Art",
+    "gallery_dip": "Dip Powder",
+    "gallery_builder": "Builder Gel",
+    "gallery_gelx": "Gel-X Extensions",
+    "bookNow": "Book Now",
+    "admin": "Admin Dashboard"
+  },
+  "hero": {
+    "trustBadge": "35+ 5-star reviews on Booksy & Google",
+    "headline1": "NAILS THAT",
+    "headline2": "MAKE YOU FEEL",
+    "headline3": "CONFIDENT",
+    "subheadline": "Premium nail salon in Denton, Texas, serving UNT students and local professionals. Specializing in builder gel nails, acrylic full sets, Gel-X extensions, and custom nail art.",
+    "ctaBook": "Book Your Appointment",
+    "ctaView": "View My Work",
+    "location": "Denton, TX • Near UNT",
+    "phone": "(940) 435-1332",
+    "openBadge": "Open Today",
+    "appointmentOnly": "By Appointment"
+  },
+  "servicesSection": {
+    "headline1": "CLEAN CUTS.",
+    "headline2": "DETAILED",
+    "headline3": "FINISHES.",
+    "description": "From shaping to cuticle care, every step is precise—so your nails stay healthy and polished.",
+    "cta": "See services"
+  },
+  "whySection": {
+    "headline": "WHY CHOOSE",
+    "headlineAccent": "ATHENA'S",
+    "subheadline": "We prioritize nail health, precise work, and a calm experience—every single visit.",
+    "features": {
+      "sanitized": {
+        "title": "Sanitized Tools",
+        "description": "All tools are properly sanitized between clients for your safety."
+      },
+      "quality": {
+        "title": "Quality Products",
+        "description": "We use only premium nail products for long-lasting results."
+      },
+      "licensed": {
+        "title": "Licensed Professional",
+        "description": "Fully licensed and trained in the latest nail techniques."
+      },
+      "custom": {
+        "title": "Custom Designs",
+        "description": "Every set is tailored to your unique style and preferences."
+      }
+    }
+  },
+  "servicesPreview": {
+    "headline": "PREMIUM",
+    "headlineAccent": "NAIL SERVICES",
+    "headlineLocation": "IN DENTON",
+    "subheadline": "From builder gel to custom nail art, our Denton studio offers a full range of luxury nail services designed to keep your nails healthy, strong, and beautiful.",
+    "viewAll": "View All 21 Services",
+    "alsoAvailable": "Also available:",
+    "tags": [
+      "Dip Powder",
+      "French Tips",
+      "Ombré",
+      "Manicures",
+      "Pedicures",
+      "Gel Polish",
+      "Nail Repair",
+      "Removal"
+    ],
+    "popularServices": {
+      "acrylic_art": {
+        "name": "Acrylic with Art",
+        "price": "$65+",
+        "description": "Full set with custom nail art included"
+      },
+      "gelx_medium": {
+        "name": "Gel-X Medium",
+        "price": "$70+",
+        "description": "Soft gel extensions, gentle on nails"
+      },
+      "builder_gel": {
+        "name": "Builder Gel",
+        "price": "$60+",
+        "description": "Strong, lightweight nail enhancement"
+      },
+      "acrylic_fill": {
+        "name": "Acrylic Fill",
+        "price": "$50+",
+        "description": "Maintenance for existing acrylics"
+      }
+    },
+    "bookNow": "Book Now"
+  },
+  "testimonials": {
+    "headline": "CLIENT",
+    "headlineAccent": "LOVE",
+    "headlineLocation": "IN DENTON",
+    "subheadline": "See why Athena's Beauty is Denton's top choice for builder gel, acrylics, and custom nail art.",
+    "reviewCount": "35+ 5-star reviews on Booksy & Google",
+    "ctaBook": "Book Your Appointment",
+    "ctaReviews": "Read all reviews on Booksy",
+    "testimonials": [
+      {
+        "quote": "Athena does amazing work! My nails always look perfect and last for weeks. She's very detailed and takes her time.",
+        "author": "Mia R."
+      },
+      {
+        "quote": "Best nail tech in Denton! I've been coming here for months and my nails have never looked better. Highly recommend!",
+        "author": "Jasmine T."
+      },
+      {
+        "quote": "Love my nails every time! The attention to detail is incredible. Athena really listens to what you want.",
+        "author": "Sarah K."
+      }
+    ]
+  },
+  "faq": {
+    "badge": "Questions Answered",
+    "headline": "Frequently Asked Questions",
+    "subheadline": "Everything you need to know about nail services in Denton, TX — from pricing to what makes Athena's Beauty different.",
+    "stillQuestions": "Still have questions?",
+    "call": "Call or Text: 940-435-1332",
+    "items": [
+      {
+        "question": "How much does builder gel cost in Denton, TX?",
+        "answer": "Builder gel services in Denton typically range from $55-$70+. At Athena's Beauty, our builder gel full sets start at $60, which includes meticulous prep, custom shaping, and premium gel application that lasts 3-4 weeks. We don't rush — each set receives the detailed attention it deserves."
+      },
+      {
+        "question": "What is the best nail salon experience in Denton, TX?",
+        "answer": "The best nail salon experience is one where you never feel rushed, your technician actually listens, and the work exceeds expectations. At Athena's Beauty, we've built our reputation on what other salons miss: personalized attention, meticulous detail, and respectful service. No assembly-line mentality — just one artist, one client, and nails worth showing off."
+      },
+      {
+        "question": "Where can I get custom nail art in Denton?",
+        "answer": "Athena's Beauty is Denton's destination for custom nail art. From intricate hand-painted designs to 3D embellishments and trending styles like chrome French and stained glass nails, we create wearable art that reflects your personal style. Every design is custom — no stickers, no shortcuts, just pure artistry."
+      },
+      {
+        "question": "What are Gel-X nails and how much do they cost in Denton?",
+        "answer": "Gel-X is a soft gel extension system that's lighter and more flexible than acrylic. In Denton, Gel-X full sets typically start at $65-$85+. At Athena's Beauty, we specialize in Gel-X for clients who want length without the heaviness of traditional acrylics — perfect for natural-looking extensions that last."
+      },
+      {
+        "question": "Acrylic vs Builder Gel: Which is better in Denton?",
+        "answer": "It depends on your goals. Acrylics are durable and great for dramatic length. Builder gel is lighter, more flexible, and healthier for natural nails. At Athena's Beauty, we offer both — acrylics for bold, sculpted looks and builder gel for strong, natural-feeling nails. During your consultation, we'll recommend what's best for your lifestyle."
+      }
+    ]
+  },
+  "finalCTA": {
+    "headline1": "READY FOR YOUR",
+    "headline2": "NEW SET?",
+    "subheadline": "Book your appointment today. Walk-ins not accepted — appointment only for the best experience.",
+    "locationLabel": "Visit us at:",
+    "address": "2640 W University Dr, Suite 1266, Denton, TX 76201",
+    "room": "Salons by JC, Room #19",
+    "ctaBook": "Book Online",
+    "ctaCall": "Call (940) 435-1332",
+    "note": "Message me if you would like a day that I am closed. I can work out a time to see you."
+  },
+  "contact": {
+    "headline": "LET'S",
+    "headlineAccent": "CONNECT",
+    "visit": "Visit Us",
+    "address": "2640 W University Dr, Suite 1266",
+    "salonsByJC": "Salons by JC Room #19",
+    "cityState": "Denton, TX 76201",
+    "phone": "(940) 435-1332",
+    "appointmentOnly": "By Appointment Only",
+    "acceptingNew": "Accepting new clients",
+    "viewMap": "View on Google Maps",
+    "sendMessage": "Send a Message",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "message": "Message",
+    "messagePlaceholder": "How can we help?",
+    "send": "Send",
+    "followUs": "Follow Us",
+    "followText": "Follow for daily nail inspiration and behind-the-scenes content.",
+    "instagram": "Follow on Instagram",
+    "facebook": "Like us on Facebook",
+    "tiktok": "Follow on TikTok",
+    "booksy": "Book on Booksy",
+    "booksyReviews": "35+ 5-star reviews",
+    "googleReview": "Review on Google",
+    "yelpReview": "Review us on Yelp",
+    "dialogTitle": "Message Sent!",
+    "dialogBody": "Thank you for reaching out. We'll get back to you as soon as possible.",
+    "dialogOk": "Got it",
+    "footer": "© {year} Athena's Beauty. All rights reserved."
+  },
+  "servicesPage": {
+    "back": "Back to Home",
+    "headline": "Our",
+    "headlineAccent": "Services",
+    "subheadline": "Browse our complete menu of nail services. Find your perfect look and book your appointment today.",
+    "searchPlaceholder": "Search services...",
+    "showing": "Showing",
+    "service": "service",
+    "services": "services",
+    "popular": "Popular",
+    "viewGallery": "View Gallery",
+    "bookNow": "Book Now",
+    "noResults": "No services found matching your search.",
+    "clearFilters": "Clear filters",
+    "consultation": {
+      "headline": "Not sure which service is right for you?",
+      "body": "Message us for a free consultation. We'll help you choose the perfect service for your nails.",
+      "cta": "Call (940) 435-1332"
+    },
+    "categories": {
+      "all": "All",
+      "acrylic": "Acrylic",
+      "gelx": "Gel-X",
+      "builderGel": "Builder Gel",
+      "dip": "Dip",
+      "manicure": "Manicure",
+      "pedicure": "Pedicure",
+      "repair": "Repair"
+    },
+    "serviceNames": {
+      "acrylic_full_set": "Acrylic Full Set (One Color)",
+      "acrylic_fill": "Acrylic Fill",
+      "acrylic_art": "Acrylic/Dip/Gel with Art Work",
+      "acrylic_toes": "Acrylic Full Set for Toes",
+      "acrylic_two_toes": "Acrylic (Two) Toes Only",
+      "duck_nails": "Duck Nails",
+      "gelx_small": "Gel-X Small",
+      "gelx_medium": "Gel-X Medium",
+      "gelx_long": "Gel-X Long",
+      "builder_gel": "Builder Gel",
+      "dip_powder": "Dipping Powder Nails (NexGen)",
+      "french_ombre": "French Nails or Ombré Nails",
+      "basic_mani": "Basic Manicure",
+      "spa_mani": "Spa Manicure",
+      "citrus_pedi": "Citrus Pedicure",
+      "gel_pedi": "Gel OHH Pedicure (Jelly Bath)",
+      "volcano_pedi": "Volcano Pedicure",
+      "gel_polish": "Gel Polish Only",
+      "polish_change": "Nail Polish Change",
+      "fix_nail": "Fixing of a Nail",
+      "removal": "Acrylic/Dip/Gel Removal"
+    },
+    "serviceDescriptions": {
+      "acrylic_full_set": "Classic acrylic extensions with your choice of one solid color. Includes shaping and finishing.",
+      "acrylic_fill": "Maintenance for existing acrylics. Fill in the growth area and refresh your look.",
+      "acrylic_art": "Full set with custom nail art, designs, and creative details included.",
+      "acrylic_toes": "Beautiful acrylic extensions for toes. Perfect for sandal season.",
+      "acrylic_two_toes": "Acrylic enhancement for two toes only. Great for correcting or enhancing specific nails.",
+      "duck_nails": "Trendy flared nail shape with a wide, dramatic tip. Statement-making style.",
+      "gelx_small": "Soft gel extensions in small/short length. Gentle on natural nails, flexible and natural-looking.",
+      "gelx_medium": "Soft gel extensions in medium length. The perfect balance of style and practicality.",
+      "gelx_long": "Soft gel extensions in long length. Dramatic, eye-catching nails.",
+      "builder_gel": "Strong, lightweight nail enhancement that builds natural nail strength without bulk. Perfect for growing healthy nails with custom art options.",
+      "dip_powder": "Odour-free, lightweight powder manicure that lasts 3-4 weeks. No UV light needed.",
+      "french_ombre": "Classic French tips or beautiful pink-to-white ombré gradient. Timeless elegance.",
+      "basic_mani": "Nail and cuticle trimming, shaping and buffing, polish of your choice. Add Gel polish for extra $20.",
+      "spa_mani": "Nail and cuticle trimming, shaping, exfoliating scrub, hydrating mask, hot towel, polish. Add Gel for $20.",
+      "citrus_pedi": "Nail trimming, shaping, cuticle cleaning, callus treatment, warm towel, moisturizing lotion. Add Gel for $20.",
+      "gel_pedi": "Jelly texture bath, nail care, callus treatment, paraffin wax, hydrating mask, warm towel. Add Gel for $20.",
+      "volcano_pedi": "Bubbling & fizzing bath, exfoliating scrub, collagen mask, hot stone massage, collagen socks. Add Gel for $20.",
+      "gel_polish": "Gel polish application on natural nails. Long-lasting shine without extensions.",
+      "polish_change": "Quick polish change on natural nails. Perfect for a fresh color between full services.",
+      "fix_nail": "Repair a broken or damaged nail. Quick fix to keep your set looking perfect.",
+      "removal": "Safe removal of existing product without damaging natural nails."
+    }
+  },
+  "blogPage": {
+    "back": "Back to Home",
+    "headline": "Nail Trends &",
+    "headlineAccent": "Tips",
+    "subheadline": "Expert nail care advice, trending designs, and insider tips from Denton's top nail artist."
+  },
+  "gallery": {
+    "all": "All",
+    "backToServices": "Back to Services",
+    "bookAppointment": "Book Your Appointment",
+    "noImages": "No images found with the selected filter.",
+    "showAll": "Show all images",
+    "homeTitle": "Athena's Beauty | Premium Nail Salon in Denton, TX | Builder Gel, Acrylics & Custom Nail Art",
+    "homeDesc": "Premium nail salon in Denton, TX specializing in builder gel nails, acrylic full sets, Gel-X extensions, and custom nail art. Book your appointment today for luxury nail services near UNT.",
+    "acrylic": {
+      "metaTitle": "Acrylic Nail Art Gallery | Athena's Beauty | Denton, TX",
+      "metaDesc": "Browse our acrylic nail art gallery in Denton, TX. 3D designs, French tips, custom artwork & more. Find inspiration for your next nail appointment at Athena's Beauty.",
+      "title1": "Acrylic",
+      "title2": "Art Gallery",
+      "subtitle": "Browse our collection of stunning acrylic nail designs. Find inspiration for your next appointment or see the quality of work you can expect at Athena's Beauty.",
+      "ctaHeadline1": "Ready for Your",
+      "ctaHeadline2": "Acrylic Set?",
+      "ctaBody": "Inspired by what you see? Book your appointment today and let's create something beautiful together."
+    },
+    "builderGel": {
+      "metaTitle": "Builder Gel Nail Art Gallery | Athena's Beauty | Denton, TX",
+      "metaDesc": "View our builder gel nail gallery in Denton, TX. Strong, lightweight enhancements with cat eye, shimmer & custom art. Perfect for healthy nail growth at Athena's Beauty.",
+      "title1": "Builder Gel",
+      "title2": "Art Gallery",
+      "subtitle": "Discover the versatility of builder gel. Strong yet lightweight, perfect for natural nail strengthening and stunning nail art creations.",
+      "ctaHeadline1": "Ready for",
+      "ctaHeadline2": "Builder Gel?",
+      "ctaBody": "Strong, lightweight, and perfect for growing healthy nails. Book your builder gel appointment today!"
+    },
+    "dip": {
+      "metaTitle": "Dip Powder Nail Art Gallery | Athena's Beauty | Denton, TX",
+      "metaDesc": "Explore our dip powder nail gallery in Denton, TX. Odor-free, lightweight designs that last 3-4 weeks. French tips, shimmer finishes & custom art at Athena's Beauty.",
+      "title1": "Dip Powder",
+      "title2": "Art Gallery",
+      "subtitle": "Explore our dip powder nail art collection. Odor-free, lightweight, and stunning designs that last 3-4 weeks without chipping.",
+      "ctaHeadline1": "Ready for",
+      "ctaHeadline2": "Dip Powder Nails?",
+      "ctaBody": "No UV light needed, odor-free, and lasts 3-4 weeks. Book your dip powder appointment today!"
+    },
+    "gelx": {
+      "metaTitle": "Gel-X Extensions Nail Art Gallery | Athena's Beauty | Denton, TX",
+      "metaDesc": "Explore our Gel-X extensions nail gallery in Denton, TX. Lightweight, natural-looking extensions with stunning custom nail art. Book your Gel-X appointment at Athena's Beauty.",
+      "title1": "Gel-X",
+      "title2": "Art Gallery",
+      "subtitle": "Discover the beauty of Gel-X extensions. Lightweight, natural-looking, and perfect for custom nail art creations.",
+      "ctaHeadline1": "Ready for",
+      "ctaHeadline2": "Gel-X Extensions?",
+      "ctaBody": "Lightweight, natural-looking, and perfect for custom nail art. Book your Gel-X appointment today!"
+    }
+  }
+}

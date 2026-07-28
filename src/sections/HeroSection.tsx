@@ -1,7 +1,8 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { ArrowRight, Star, MapPin, Calendar, Phone } from 'lucide-react';
+import { ArrowRight, Star, MapPin, Calendar, Phone, Globe } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -10,6 +11,7 @@ interface HeroSectionProps {
 }
 
 const HeroSection = ({ className = '' }: HeroSectionProps) => {
+  const { t, i18n } = useTranslation();
   const sectionRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
   const imageRef = useRef<HTMLDivElement>(null);
@@ -38,6 +40,9 @@ const HeroSection = ({ className = '' }: HeroSectionProps) => {
   }, []);
 
   const openBooksy = () => {
+    import('../utils/pixelTracking').then(({ trackBookingClick }) => {
+      trackBookingClick();
+    });
     window.open('https://nailsbyatenad.booksy.com', '_blank');
   };
 
@@ -76,22 +81,52 @@ const HeroSection = ({ className = '' }: HeroSectionProps) => {
               ))}
             </div>
             <span className="font-body text-xs text-text-secondary">
-              35+ 5-star reviews on Booksy
+              {t('hero.trustBadge')}
             </span>
+          </div>
+
+          {/* Language Selector — Prominent on homepage */}
+          <div className="flex items-center justify-center lg:justify-start mb-4 lg:mb-5">
+            <div className="inline-flex items-center gap-3 bg-black/5 rounded-full px-4 py-2 border border-gold/20">
+              <Globe size={14} className="text-gold" />
+              <span className="font-body text-xs text-black/60 hidden sm:inline">
+                {t('lang.switch')}
+              </span>
+              <div className="flex gap-1.5">
+                <button
+                  onClick={() => i18n.changeLanguage('en')}
+                  className={`px-3 py-1 rounded-full text-xs font-body transition-all duration-200 ${
+                    i18n.language === 'en' || i18n.language.startsWith('en')
+                      ? 'bg-gold text-black font-medium shadow-sm'
+                      : 'text-black/60 hover:text-black hover:bg-black/10'
+                  }`}
+                >
+                  EN
+                </button>
+                <button
+                  onClick={() => i18n.changeLanguage('es')}
+                  className={`px-3 py-1 rounded-full text-xs font-body transition-all duration-200 ${
+                    i18n.language.startsWith('es')
+                      ? 'bg-gold text-black font-medium shadow-sm'
+                      : 'text-black/60 hover:text-black hover:bg-black/10'
+                  }`}
+                >
+                  ES
+                </button>
+              </div>
+            </div>
           </div>
 
           {/* Headline - Smaller on mobile */}
           <h1 className="font-heading font-bold text-3xl sm:text-4xl lg:text-5xl xl:text-6xl text-black uppercase mb-3 lg:mb-5 text-center lg:text-left leading-none">
-            <span className="block">NAILS THAT</span>
-            <span className="block text-gold">MAKE YOU FEEL</span>
-            <span className="block">CONFIDENT</span>
+            <span className="block">{t('hero.headline1')}</span>
+            <span className="block text-gold">{t('hero.headline2')}</span>
+            <span className="block">{t('hero.headline3')}</span>
           </h1>
 
           {/* Subheadline */}
           <p className="font-body text-sm lg:text-base text-text-secondary mb-5 lg:mb-6 max-w-md mx-auto lg:mx-0 text-center lg:text-left px-2 lg:px-0">
-            Premium nail salon in Denton, Texas, serving UNT students and local professionals.
-            <br className="hidden sm:block" />
-            Specializing in builder gel nails, acrylic full sets, Gel-X extensions, and custom nail art.
+            {t('hero.subheadline')}
           </p>
 
           {/* CTAs */}
@@ -101,13 +136,13 @@ const HeroSection = ({ className = '' }: HeroSectionProps) => {
               className="w-full sm:w-auto bg-black text-gold font-body font-medium text-sm px-5 lg:px-8 py-3 lg:py-4 rounded-full btn-hover flex items-center justify-center gap-2"
             >
               <Calendar size={16} />
-              Book Your Appointment
+              {t('hero.ctaBook')}
             </button>
             <button
               onClick={scrollToWork}
               className="flex items-center gap-2 font-body text-sm text-black hover:text-gold transition-colors duration-200 px-4 py-2"
             >
-              View My Work
+              {t('hero.ctaView')}
               <ArrowRight size={16} />
             </button>
           </div>
@@ -116,11 +151,11 @@ const HeroSection = ({ className = '' }: HeroSectionProps) => {
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-2 sm:gap-4 text-text-secondary">
             <div className="flex items-center gap-1.5">
               <MapPin size={14} className="text-gold" />
-              <span className="font-body text-xs">Denton, TX • Near UNT</span>
+              <span className="font-body text-xs">{t('hero.location')}</span>
             </div>
             <a href="tel:9404351332" className="flex items-center gap-1.5 hover:text-gold transition-colors">
               <Phone size={14} className="text-gold" />
-              <span className="font-body text-xs">(940) 435-1332</span>
+              <span className="font-body text-xs">{t('hero.phone')}</span>
             </a>
           </div>
         </div>
@@ -147,8 +182,8 @@ const HeroSection = ({ className = '' }: HeroSectionProps) => {
                   <Calendar className="text-gold" size={16} />
                 </div>
                 <div>
-                  <p className="font-heading font-bold text-white text-sm">Open Today</p>
-                  <p className="font-body text-xs text-white/70">By Appointment</p>
+                  <p className="font-heading font-bold text-white text-sm">{t('hero.openBadge')}</p>
+                  <p className="font-body text-xs text-white/70">{t('hero.appointmentOnly')}</p>
                 </div>
               </div>
             </div>

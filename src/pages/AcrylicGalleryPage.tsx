@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowLeft, X, ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface GalleryImage {
@@ -253,7 +254,7 @@ const AcrylicGalleryPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/#acrylic-gallery');
+    canonical.setAttribute('href', 'https://athenas-beauty.com/gallery/acrylic');
     
     // Update Open Graph title
     let ogTitle = document.querySelector('meta[property="og:title"]');
@@ -273,6 +274,41 @@ const AcrylicGalleryPage = () => {
       if (canonical) canonical.setAttribute('href', 'https://athenas-beauty.com');
       if (ogTitle) ogTitle.setAttribute('content', 'Athena\'s Beauty | Premium Nail Salon in Denton, TX');
       if (ogDesc) ogDesc.setAttribute('content', 'Luxury nail artistry in Denton, TX. Specializing in builder gel, acrylics, Gel-X extensions & custom nail art. Book online via Booksy.');
+    };
+  }, []);
+
+  // Image Structured Data for SEO
+  useEffect(() => {
+    const imageData = {
+      '@context': 'https://schema.org',
+      '@type': 'ImageGallery',
+      name: 'Acrylic Nail Art Gallery | Athena\'s Beauty | Denton, TX',
+      description: 'Browse our acrylic nail art gallery in Denton, TX. 3D designs, French tips, custom artwork & more.',
+      url: 'https://athenas-beauty.com/gallery/acrylic',
+      inLanguage: 'en',
+      about: {
+        '@type': 'Thing',
+        name: 'Acrylic Nails in Denton, TX',
+      },
+      image: acrylicGalleryImages.map((img) => ({
+        '@type': 'ImageObject',
+        contentUrl: `https://athenas-beauty.com${img.src}`,
+        name: img.title,
+        description: img.description,
+        inLanguage: 'en',
+        about: img.tags.map((tag) => ({ '@type': 'Thing', name: tag })),
+      })),
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(imageData);
+    script.id = 'acrylic-gallery-schema';
+    document.head.appendChild(script);
+
+    return () => {
+      const existing = document.getElementById('acrylic-gallery-schema');
+      if (existing) existing.remove();
     };
   }, []);
 
@@ -301,13 +337,13 @@ const AcrylicGalleryPage = () => {
       {/* Header */}
       <div className="bg-black text-white py-8 px-4">
         <div className="max-w-7xl mx-auto">
-          <button 
-            onClick={() => window.location.hash = 'services'}
+          <Link 
+            to="/services"
             className="inline-flex items-center gap-2 text-gold hover:text-white transition-colors mb-4"
           >
             <ArrowLeft size={20} />
             Back to Services
-          </button>
+          </Link>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl">
             Acrylic <span className="text-gold">Art Gallery</span>
           </h1>
@@ -318,33 +354,29 @@ const AcrylicGalleryPage = () => {
         </div>
       </div>
 
-      {/* Filter Tags */}
+      {/* Filter Dropdown */}
       <div className="bg-white border-b border-gray-200 py-4 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-wrap gap-2">
-            <button
-              onClick={() => setSelectedTag(null)}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                selectedTag === null 
-                  ? 'bg-gold text-black' 
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-              }`}
+          <div className="flex items-center gap-3">
+            <span className="font-body text-sm text-text-secondary">Filter by style:</span>
+            <select
+              value={selectedTag || ''}
+              onChange={(e) => setSelectedTag(e.target.value || null)}
+              className="px-4 py-2 rounded-full bg-white border border-gray-200 font-body text-sm text-black focus:outline-none focus:border-gold transition-colors cursor-pointer min-w-[180px]"
             >
-              All
-            </button>
-            {allTags.map(tag => (
+              <option value="">All categories</option>
+              {allTags.map((tag) => (
+                <option key={tag} value={tag}>{tag}</option>
+              ))}
+            </select>
+            {selectedTag && (
               <button
-                key={tag}
-                onClick={() => setSelectedTag(tag)}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                  selectedTag === tag 
-                    ? 'bg-gold text-black' 
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
+                onClick={() => setSelectedTag(null)}
+                className="text-sm text-text-secondary hover:text-gold transition-colors"
               >
-                {tag}
+                Clear filter
               </button>
-            ))}
+            )}
           </div>
         </div>
       </div>

@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowLeft, X, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 interface GalleryImage {
   id: string;
@@ -10,7 +12,6 @@ interface GalleryImage {
 }
 
 const dipGalleryImages: GalleryImage[] = [
-  // Real dip powder work - SEO optimized for Denton TX nail salon
   {
     id: 'dip-sour-apple-glitter-1',
     src: '/dip-sour-apple-glitter.jpg',
@@ -91,12 +92,13 @@ const dipGalleryImages: GalleryImage[] = [
 ];
 
 const DipGalleryPage = () => {
+  const { t } = useTranslation();
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
 
   // SEO Meta Tags
   useEffect(() => {
-    document.title = 'Dip Powder Nail Art Gallery | Athena\'s Beauty | Denton, TX';
+    document.title = t('gallery.dip.metaTitle');
     
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
@@ -104,7 +106,7 @@ const DipGalleryPage = () => {
       metaDescription.setAttribute('name', 'description');
       document.head.appendChild(metaDescription);
     }
-    metaDescription.setAttribute('content', 'Explore our dip powder nail gallery in Denton, TX. Odor-free, lightweight designs that last 3-4 weeks. French tips, shimmer finishes & custom art at Athena\'s Beauty.');
+    metaDescription.setAttribute('content', t('gallery.dip.metaDesc'));
     
     let canonical = document.querySelector('link[rel="canonical"]');
     if (!canonical) {
@@ -112,22 +114,57 @@ const DipGalleryPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/#dip-gallery');
+    canonical.setAttribute('href', 'https://athenas-beauty.com/gallery/dip');
     
     let ogTitle = document.querySelector('meta[property="og:title"]');
-    if (ogTitle) ogTitle.setAttribute('content', 'Dip Powder Nail Art Gallery | Athena\'s Beauty | Denton, TX');
+    if (ogTitle) ogTitle.setAttribute('content', t('gallery.dip.metaTitle'));
     
     let ogDesc = document.querySelector('meta[property="og:description"]');
-    if (ogDesc) ogDesc.setAttribute('content', 'Explore stunning dip powder nail designs. Odor-free, long-lasting manicures in Denton, TX.');
+    if (ogDesc) ogDesc.setAttribute('content', t('gallery.dip.metaDesc'));
     
     window.scrollTo(0, 0);
     
     return () => {
-      document.title = 'Athena\'s Beauty | Premium Nail Salon in Denton, TX | Builder Gel, Acrylics & Custom Nail Art';
-      if (metaDescription) metaDescription.setAttribute('content', 'Premium nail salon in Denton, TX specializing in builder gel nails, acrylic full sets, Gel-X extensions, and custom nail art. Book your appointment today for luxury nail services near UNT.');
+      document.title = t('gallery.homeTitle');
+      if (metaDescription) metaDescription.setAttribute('content', t('gallery.homeDesc'));
       if (canonical) canonical.setAttribute('href', 'https://athenas-beauty.com');
-      if (ogTitle) ogTitle.setAttribute('content', 'Athena\'s Beauty | Premium Nail Salon in Denton, TX');
-      if (ogDesc) ogDesc.setAttribute('content', 'Luxury nail artistry in Denton, TX. Specializing in builder gel, acrylics, Gel-X extensions & custom nail art. Book online via Booksy.');
+      if (ogTitle) ogTitle.setAttribute('content', t('gallery.homeTitle'));
+      if (ogDesc) ogDesc.setAttribute('content', t('gallery.homeDesc'));
+    };
+  }, [t]);
+
+  // Image Structured Data for SEO
+  useEffect(() => {
+    const imageData = {
+      '@context': 'https://schema.org',
+      '@type': 'ImageGallery',
+      name: 'Dip Powder Nail Gallery | Athena\'s Beauty | Denton, TX',
+      description: 'Browse our dip powder nail gallery in Denton, TX. Odor-free, long-lasting manicures with custom designs.',
+      url: 'https://athenas-beauty.com/gallery/dip',
+      inLanguage: 'en',
+      about: {
+        '@type': 'Thing',
+        name: 'Dip Powder Nails in Denton, TX',
+      },
+      image: dipGalleryImages.map((img) => ({
+        '@type': 'ImageObject',
+        contentUrl: `https://athenas-beauty.com${img.src}`,
+        name: img.title,
+        description: img.description,
+        inLanguage: 'en',
+        about: img.tags.map((tag) => ({ '@type': 'Thing', name: tag })),
+      })),
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(imageData);
+    script.id = 'dip-gallery-schema';
+    document.head.appendChild(script);
+
+    return () => {
+      const existing = document.getElementById('dip-gallery-schema');
+      if (existing) existing.remove();
     };
   }, []);
 
@@ -156,50 +193,45 @@ const DipGalleryPage = () => {
       {/* Header */}
       <div className="bg-black text-white py-8 px-4">
         <div className="max-w-7xl mx-auto">
-          <button 
-            onClick={() => window.location.hash = 'services'}
+          <Link 
+            to="/services"
             className="inline-flex items-center gap-2 text-gold hover:text-white transition-colors mb-4"
           >
             <ArrowLeft size={20} />
-            Back to Services
-          </button>
+            {t('gallery.backToServices')}
+          </Link>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl">
-            Dip Powder <span className="text-gold">Art Gallery</span>
+            {t('gallery.dip.title1')} <span className="text-gold">{t('gallery.dip.title2')}</span>
           </h1>
           <p className="text-white/70 mt-4 max-w-2xl text-lg">
-            Explore our dip powder nail art collection. Odor-free, lightweight, and stunning designs 
-            that last 3-4 weeks without chipping.
+            {t('gallery.dip.subtitle')}
           </p>
         </div>
       </div>
 
-      {/* Filter Tags */}
+      {/* Filter Dropdown */}
       <div className="bg-white border-b border-gray-200 py-4 px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-wrap gap-2">
-            <button
-              onClick={() => setSelectedTag(null)}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                selectedTag === null 
-                  ? 'bg-gold text-black' 
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-              }`}
+          <div className="flex items-center gap-3">
+            <span className="font-body text-sm text-text-secondary">Filter by style:</span>
+            <select
+              value={selectedTag || ''}
+              onChange={(e) => setSelectedTag(e.target.value || null)}
+              className="px-4 py-2 rounded-full bg-white border border-gray-200 font-body text-sm text-black focus:outline-none focus:border-gold transition-colors cursor-pointer min-w-[180px]"
             >
-              All
-            </button>
-            {allTags.map(tag => (
+              <option value="">{t('gallery.all')}</option>
+              {allTags.map((tag) => (
+                <option key={tag} value={tag}>{tag}</option>
+              ))}
+            </select>
+            {selectedTag && (
               <button
-                key={tag}
-                onClick={() => setSelectedTag(tag)}
-                className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                  selectedTag === tag 
-                    ? 'bg-gold text-black' 
-                    : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                }`}
+                onClick={() => setSelectedTag(null)}
+                className="text-sm text-text-secondary hover:text-gold transition-colors"
               >
-                {tag}
+                {t('gallery.clear')}
               </button>
-            ))}
+            )}
           </div>
         </div>
       </div>
@@ -236,15 +268,14 @@ const DipGalleryPage = () => {
           ))}
         </div>
         
-        {/* Empty State - No Images */}
         {filteredImages.length === 0 && (
           <div className="text-center py-16">
-            <p className="text-gray-500 text-lg">No images found with the selected filter.</p>
+            <p className="text-gray-500 text-lg">{t('gallery.noImages')}</p>
             <button
               onClick={() => setSelectedTag(null)}
               className="mt-4 text-gold hover:underline"
             >
-              Show all images
+              {t('gallery.showAll')}
             </button>
           </div>
         )}
@@ -305,16 +336,16 @@ const DipGalleryPage = () => {
       <div className="bg-black text-white py-16 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-serif text-3xl md:text-4xl mb-4">
-            Ready for <span className="text-gold">Dip Powder Nails</span>?
+            {t('gallery.dip.ctaHeadline1')} <span className="text-gold">{t('gallery.dip.ctaHeadline2')}</span>
           </h2>
           <p className="text-white/70 mb-8 text-lg">
-            No UV light needed, odor-free, and lasts 3-4 weeks. Book your dip powder appointment today!
+            {t('gallery.dip.ctaBody')}
           </p>
           <a 
             href="#book" 
             className="inline-block bg-gold text-black px-8 py-4 rounded-full font-medium hover:bg-white transition-colors"
           >
-            Book Your Appointment
+            {t('gallery.bookAppointment')}
           </a>
         </div>
       </div>

@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { MapPin, Phone, Instagram, Send, Clock, Calendar } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
+import { useTranslation } from 'react-i18next';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -11,6 +12,7 @@ interface ContactSectionProps {
 }
 
 const ContactSection = ({ className = '' }: ContactSectionProps) => {
+  const { t } = useTranslation();
   const sectionRef = useRef<HTMLDivElement>(null);
   const headingRef = useRef<HTMLDivElement>(null);
   const columnsRef = useRef<(HTMLDivElement | null)[]>([]);
@@ -89,7 +91,7 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
         {/* Heading */}
         <div ref={headingRef} className="text-center mb-16 lg:mb-24">
           <h2 className="font-heading font-bold headline-lg text-black uppercase">
-            LET'S <span className="text-gold">CONNECT</span>
+            {t('contact.headline')} <span className="text-gold">{t('contact.headlineAccent')}</span>
           </h2>
         </div>
 
@@ -105,7 +107,7 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                 <MapPin size={18} className="text-gold" />
               </div>
               <h3 className="font-heading font-bold text-lg text-black">
-                Visit Us
+                {t('contact.visit')}
               </h3>
             </div>
 
@@ -119,13 +121,13 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                     rel="noopener noreferrer"
                     className="font-body text-sm text-black font-medium hover:text-gold transition-colors"
                   >
-                    2640 W University Dr, Suite 1266
+                    {t('contact.address')}
                   </a>
                   <p className="font-body text-sm text-text-secondary">
-                    Salons by JC Room #19
+                    {t('contact.salonsByJC')}
                   </p>
                   <p className="font-body text-sm text-text-secondary">
-                    Denton, TX 76201
+                    {t('contact.cityState')}
                   </p>
                 </div>
               </div>
@@ -134,9 +136,14 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                 <Phone size={18} className="text-gold flex-shrink-0" />
                 <a
                   href="tel:9404351332"
+                  onClick={() => {
+                    import('../utils/pixelTracking').then(({ trackContactClick }) => {
+                      trackContactClick('phone');
+                    });
+                  }}
                   className="font-body text-sm text-black hover:text-gold transition-colors"
                 >
-                  (940) 435-1332
+                  {t('contact.phone')}
                 </a>
               </div>
 
@@ -144,10 +151,10 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                 <Clock size={18} className="text-gold mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-body text-sm text-black font-medium">
-                    By Appointment Only
+                    {t('contact.appointmentOnly')}
                   </p>
                   <p className="font-body text-xs text-text-secondary">
-                    Accepting new clients
+                    {t('contact.acceptingNew')}
                   </p>
                 </div>
               </div>
@@ -163,7 +170,7 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
               <div className="text-center">
                 <MapPin size={24} className="text-gold mx-auto mb-2" />
                 <p className="font-body text-xs text-text-secondary">
-                  View on Google Maps
+                  {t('contact.viewMap')}
                 </p>
               </div>
             </a>
@@ -179,14 +186,14 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                 <Send size={18} className="text-gold" />
               </div>
               <h3 className="font-heading font-bold text-lg text-black">
-                Send a Message
+                {t('contact.sendMessage')}
               </h3>
             </div>
 
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <label className="font-body text-xs text-text-secondary mb-1 block">
-                  Name
+                  {t('contact.name')}
                 </label>
                 <input
                   type="text"
@@ -195,14 +202,14 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                     setFormData({ ...formData, name: e.target.value })
                   }
                   className="w-full px-4 py-3 rounded-xl bg-off-white border border-black/10 font-body text-sm text-black focus:outline-none focus:border-gold transition-colors"
-                  placeholder="Your name"
+                  placeholder={t('contact.namePlaceholder')}
                   required
                 />
               </div>
 
               <div>
                 <label className="font-body text-xs text-text-secondary mb-1 block">
-                  Email
+                  {t('contact.email')}
                 </label>
                 <input
                   type="email"
@@ -211,14 +218,14 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                     setFormData({ ...formData, email: e.target.value })
                   }
                   className="w-full px-4 py-3 rounded-xl bg-off-white border border-black/10 font-body text-sm text-black focus:outline-none focus:border-gold transition-colors"
-                  placeholder="your@email.com"
+                  placeholder={t('contact.emailPlaceholder')}
                   required
                 />
               </div>
 
               <div>
                 <label className="font-body text-xs text-text-secondary mb-1 block">
-                  Message
+                  {t('contact.message')}
                 </label>
                 <textarea
                   value={formData.message}
@@ -227,7 +234,7 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                   }
                   rows={3}
                   className="w-full px-4 py-3 rounded-xl bg-off-white border border-black/10 font-body text-sm text-black focus:outline-none focus:border-gold transition-colors resize-none"
-                  placeholder="How can we help?"
+                  placeholder={t('contact.messagePlaceholder')}
                   required
                 />
               </div>
@@ -236,7 +243,7 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                 type="submit"
                 className="w-full bg-black text-gold font-body font-medium text-sm px-6 py-3 rounded-full btn-hover flex items-center justify-center gap-2"
               >
-                Send
+                {t('contact.send')}
                 <Send size={16} />
               </button>
             </form>
@@ -252,12 +259,12 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                 <Instagram size={18} className="text-gold" />
               </div>
               <h3 className="font-heading font-bold text-lg text-black">
-                Follow Us
+                {t('contact.followUs')}
               </h3>
             </div>
 
             <p className="font-body text-sm text-text-secondary mb-6">
-              Follow for daily nail inspiration and behind-the-scenes content.
+              {t('contact.followText')}
             </p>
 
             {/* Instagram */}
@@ -271,7 +278,7 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                   @nails_by_atenad
                 </p>
                 <p className="font-body text-xs text-text-secondary">
-                  Follow on Instagram
+                  {t('contact.instagram')}
                 </p>
               </div>
             </button>
@@ -288,7 +295,7 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
               </svg>
               <div className="text-left">
                 <p className="font-body text-sm text-black font-medium">
-                  Like us on Facebook
+                  {t('contact.facebook')}
                 </p>
                 <p className="font-body text-xs text-text-secondary">
                   Follow our page
@@ -309,7 +316,7 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
                   @nails_by_atenad
                 </p>
                 <p className="font-body text-xs text-text-secondary">
-                  Follow on TikTok
+                  {t('contact.tiktok')}
                 </p>
               </div>
             </button>
@@ -319,15 +326,20 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
               href="https://nailsbyatenad.booksy.com"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => {
+                import('../utils/pixelTracking').then(({ trackBookingClick }) => {
+                  trackBookingClick();
+                });
+              }}
               className="flex items-center gap-3 w-full p-4 rounded-xl bg-gold hover:bg-gold-dark transition-colors mt-3"
             >
               <Calendar size={24} className="text-black" />
               <div className="text-left">
                 <p className="font-body text-sm text-black font-medium">
-                  Book on Booksy
+                  {t('contact.booksy')}
                 </p>
                 <p className="font-body text-xs text-black/70">
-                  35+ 5-star reviews
+                  {t('contact.booksyReviews')}
                 </p>
               </div>
             </a>
@@ -344,7 +356,7 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
               </svg>
               <div className="text-left">
                 <p className="font-body text-sm text-black font-medium">
-                  Review on Google
+                  {t('contact.googleReview')}
                 </p>
                 <p className="font-body text-xs text-text-secondary">
                   Leave a Google review
@@ -364,7 +376,7 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
               </svg>
               <div className="text-left">
                 <p className="font-body text-sm text-black font-medium">
-                  Review us on Yelp
+                  {t('contact.yelpReview')}
                 </p>
                 <p className="font-body text-xs text-text-secondary">
                   Find us on Yelp
@@ -381,8 +393,51 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
             alt="Athena's Beauty"
             className="h-12 w-auto mx-auto mb-4 opacity-50"
           />
+          <div className="flex flex-wrap items-center justify-center gap-4 mb-4">
+            <a
+              href="/booking-policy"
+              className="font-body text-xs text-text-secondary hover:text-gold transition-colors"
+            >
+              {t('contact.bookingPolicy', 'Booking Policy')}
+            </a>
+            <span className="text-gray-300">|</span>
+            <a
+              href="/es/politica-de-reservas"
+              className="font-body text-xs text-text-secondary hover:text-gold transition-colors"
+            >
+              {t('contact.bookingPolicyEs', 'Política de Reservas')}
+            </a>
+            <span className="text-gray-300">|</span>
+            <a
+              href="/client-policy"
+              className="font-body text-xs text-text-secondary hover:text-gold transition-colors"
+            >
+              Client Policy
+            </a>
+            <span className="text-gray-300">|</span>
+            <a
+              href="/es/politica-para-clientes"
+              className="font-body text-xs text-text-secondary hover:text-gold transition-colors"
+            >
+              Política para Clientes
+            </a>
+            <span className="text-gray-300">|</span>
+            <a
+              href="/health-safety-policy"
+              className="font-body text-xs text-text-secondary hover:text-gold transition-colors"
+            >
+              Health & Safety
+            </a>
+            <span className="text-gray-300">|</span>
+            <a
+              href="/es/politica-de-salud"
+              className="font-body text-xs text-text-secondary hover:text-gold transition-colors"
+            >
+              Salud y Seguridad
+            </a>
+          </div>
           <p className="font-body text-xs text-text-secondary">
-            © {new Date().getFullYear()} Athena's Beauty. All rights reserved.
+            {t('contact.footer', { year: new Date().getFullYear() })}
           </p>
         </div>
       </div>
@@ -392,10 +447,10 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
         <DialogContent className="bg-white rounded-3xl border border-gold/20 shadow-card">
           <DialogHeader>
             <DialogTitle className="font-heading font-bold text-xl text-black">
-              Message Sent!
+              {t('contact.dialogTitle')}
             </DialogTitle>
             <DialogDescription className="font-body text-sm text-text-secondary">
-              Thank you for reaching out. We'll get back to you as soon as possible.
+              {t('contact.dialogBody')}
             </DialogDescription>
           </DialogHeader>
           <div className="flex justify-center mt-4">
@@ -403,7 +458,7 @@ const ContactSection = ({ className = '' }: ContactSectionProps) => {
               onClick={() => setShowDialog(false)}
               className="bg-black text-gold font-body font-medium text-sm px-6 py-2 rounded-full btn-hover"
             >
-              Got it
+              {t('contact.dialogOk')}
             </button>
           </div>
         </DialogContent>

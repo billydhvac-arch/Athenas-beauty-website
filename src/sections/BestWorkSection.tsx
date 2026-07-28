@@ -113,7 +113,7 @@ const BestWorkSection = ({ className = '' }: BestWorkSectionProps) => {
   };
 
   const goToServices = () => {
-    window.location.hash = 'services-page';
+    window.location.href = '/services';
   };
 
   return (
