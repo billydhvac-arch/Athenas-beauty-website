@@ -61,7 +61,7 @@ const HomePage = () => {
     }
     let canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) {
-      canonical.setAttribute('href', 'https://athenas-beauty.com');
+      canonical.setAttribute('href', 'https://www.athenas-beauty.com');
     }
   }, []);
 
@@ -142,8 +142,8 @@ const SEOManager = () => {
   
   useEffect(() => {
     // Update hreflang tags based on current page
-    const enHref = `https://athenas-beauty.com${pathname}`;
-    const esHref = pathname === '/' ? 'https://athenas-beauty.com/es/' : `https://athenas-beauty.com/es${pathname}`;
+    const enHref = `https://www.athenas-beauty.com${pathname}`;
+    const esHref = pathname === '/' ? 'https://www.athenas-beauty.com/es/' : `https://www.athenas-beauty.com/es${pathname}`;
     
     // Find or create hreflang tags
     let enLink = document.querySelector('link[hreflang="en-us"]');

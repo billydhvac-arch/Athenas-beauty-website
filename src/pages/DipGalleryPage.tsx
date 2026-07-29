@@ -128,7 +128,7 @@ const DipGalleryPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/gallery/dip');
+    canonical.setAttribute('href', 'https://www.athenas-beauty.com/gallery/dip');
     
     let ogTitle = document.querySelector('meta[property="og:title"]');
     if (ogTitle) ogTitle.setAttribute('content', t('gallery.dip.metaTitle'));
@@ -141,7 +141,7 @@ const DipGalleryPage = () => {
     return () => {
       document.title = t('gallery.homeTitle');
       if (metaDescription) metaDescription.setAttribute('content', t('gallery.homeDesc'));
-      if (canonical) canonical.setAttribute('href', 'https://athenas-beauty.com');
+      if (canonical) canonical.setAttribute('href', 'https://www.athenas-beauty.com');
       if (ogTitle) ogTitle.setAttribute('content', t('gallery.homeTitle'));
       if (ogDesc) ogDesc.setAttribute('content', t('gallery.homeDesc'));
     };
@@ -154,7 +154,7 @@ const DipGalleryPage = () => {
       '@type': 'ImageGallery',
       name: 'Dip Powder Nail Gallery | Athena\'s Beauty | Denton, TX',
       description: 'Browse our dip powder nail gallery in Denton, TX. Odor-free, long-lasting manicures with custom designs.',
-      url: 'https://athenas-beauty.com/gallery/dip',
+      url: 'https://www.athenas-beauty.com/gallery/dip',
       inLanguage: 'en',
       about: {
         '@type': 'Thing',
@@ -162,7 +162,7 @@ const DipGalleryPage = () => {
       },
       image: dipGalleryImages.map((img) => ({
         '@type': 'ImageObject',
-        contentUrl: `https://athenas-beauty.com${img.src}`,
+        contentUrl: `https://www.athenas-beauty.com${img.src}`,
         name: img.title,
         description: img.description,
         inLanguage: 'en',

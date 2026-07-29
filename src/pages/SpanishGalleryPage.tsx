@@ -40,7 +40,7 @@ const SpanishGalleryPage = ({ title, subtitle, images, serviceType, backLink }: 
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', `https://athenas-beauty.com${backLink}`);
+    canonical.setAttribute('href', `https://www.athenas-beauty.com${backLink}`);
     
     window.scrollTo(0, 0);
     
@@ -56,7 +56,7 @@ const SpanishGalleryPage = ({ title, subtitle, images, serviceType, backLink }: 
       '@type': 'ImageGallery',
       name: `Galería de ${title} en Denton, TX`,
       description: subtitle,
-      url: `https://athenas-beauty.com${backLink}`,
+      url: `https://www.athenas-beauty.com${backLink}`,
       inLanguage: 'es',
       about: {
         '@type': 'Thing',
@@ -64,7 +64,7 @@ const SpanishGalleryPage = ({ title, subtitle, images, serviceType, backLink }: 
       },
       image: images.map((img) => ({
         '@type': 'ImageObject',
-        contentUrl: `https://athenas-beauty.com${img.src}`,
+        contentUrl: `https://www.athenas-beauty.com${img.src}`,
         name: img.title,
         description: img.description,
         inLanguage: 'es',

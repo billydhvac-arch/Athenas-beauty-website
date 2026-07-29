@@ -11,7 +11,7 @@ const TWUPage = () => {
     }
     let canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) {
-      canonical.setAttribute('href', 'https://athenas-beauty.com/twu');
+      canonical.setAttribute('href', 'https://www.athenas-beauty.com/twu');
     }
   }, []);
 

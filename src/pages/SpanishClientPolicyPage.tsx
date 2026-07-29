@@ -20,7 +20,7 @@ const SpanishClientPolicyPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/es/politica-para-clientes');
+    canonical.setAttribute('href', 'https://www.athenas-beauty.com/es/politica-para-clientes');
     
     window.scrollTo(0, 0);
     

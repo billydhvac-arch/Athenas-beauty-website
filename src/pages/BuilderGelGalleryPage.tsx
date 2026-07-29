@@ -59,7 +59,7 @@ const BuilderGelGalleryPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/gallery/builder-gel');
+    canonical.setAttribute('href', 'https://www.athenas-beauty.com/gallery/builder-gel');
     
     let ogTitle = document.querySelector('meta[property="og:title"]');
     if (ogTitle) ogTitle.setAttribute('content', t('gallery.builderGel.metaTitle'));
@@ -72,7 +72,7 @@ const BuilderGelGalleryPage = () => {
     return () => {
       document.title = t('gallery.homeTitle');
       if (metaDescription) metaDescription.setAttribute('content', t('gallery.homeDesc'));
-      if (canonical) canonical.setAttribute('href', 'https://athenas-beauty.com');
+      if (canonical) canonical.setAttribute('href', 'https://www.athenas-beauty.com');
       if (ogTitle) ogTitle.setAttribute('content', t('gallery.homeTitle'));
       if (ogDesc) ogDesc.setAttribute('content', t('gallery.homeDesc'));
     };
@@ -85,7 +85,7 @@ const BuilderGelGalleryPage = () => {
       '@type': 'ImageGallery',
       name: 'Builder Gel Nail Gallery | Athena\'s Beauty | Denton, TX',
       description: 'Browse our builder gel nail gallery in Denton, TX. Natural nail strengthening with custom designs.',
-      url: 'https://athenas-beauty.com/gallery/builder-gel',
+      url: 'https://www.athenas-beauty.com/gallery/builder-gel',
       inLanguage: 'en',
       about: {
         '@type': 'Thing',
@@ -93,7 +93,7 @@ const BuilderGelGalleryPage = () => {
       },
       image: builderGelGalleryImages.map((img) => ({
         '@type': 'ImageObject',
-        contentUrl: `https://athenas-beauty.com${img.src}`,
+        contentUrl: `https://www.athenas-beauty.com${img.src}`,
         name: img.title,
         description: img.description,
         inLanguage: 'en',

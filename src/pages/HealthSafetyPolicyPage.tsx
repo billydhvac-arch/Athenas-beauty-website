@@ -20,7 +20,7 @@ const HealthSafetyPolicyPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/health-safety-policy');
+    canonical.setAttribute('href', 'https://www.athenas-beauty.com/health-safety-policy');
     
     window.scrollTo(0, 0);
     

@@ -20,7 +20,7 @@ const ClientPolicyPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/client-policy');
+    canonical.setAttribute('href', 'https://www.athenas-beauty.com/client-policy');
     
     window.scrollTo(0, 0);
     

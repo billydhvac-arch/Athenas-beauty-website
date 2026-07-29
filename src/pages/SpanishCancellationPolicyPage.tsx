@@ -20,7 +20,7 @@ const SpanishCancellationPolicyPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/es/politica-de-reservas');
+    canonical.setAttribute('href', 'https://www.athenas-beauty.com/es/politica-de-reservas');
     
     window.scrollTo(0, 0);
     

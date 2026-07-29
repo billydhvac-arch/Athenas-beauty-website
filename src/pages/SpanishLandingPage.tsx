@@ -31,7 +31,7 @@ const SpanishLandingPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/es/');
+    canonical.setAttribute('href', 'https://www.athenas-beauty.com/es/');
     
     let ogTitle = document.querySelector('meta[property="og:title"]');
     if (ogTitle) ogTitle.setAttribute('content', 'Salón de Uñas en Denton, TX | Athena\'s Beauty');
@@ -59,8 +59,8 @@ const SpanishLandingPage = () => {
       '@type': 'NailSalon',
       name: 'Salón de Uñas Athena\'s Beauty - Denton, TX',
       description: 'Salón de uñas premium en Denton, TX. Especialistas en acrílico, Gel-X, builder gel y arte de uñas personalizado.',
-      image: 'https://athenas-beauty.com/hero_portrait.jpg',
-      url: 'https://athenas-beauty.com/#es',
+      image: 'https://www.athenas-beauty.com/hero_portrait.jpg',
+      url: 'https://www.athenas-beauty.com/#es',
       telephone: '+1-940-435-1332',
       address: {
         '@type': 'PostalAddress',
@@ -110,7 +110,7 @@ const SpanishLandingPage = () => {
     return () => {
       document.title = t('gallery.homeTitle');
       if (metaDescription) metaDescription.setAttribute('content', t('gallery.homeDesc'));
-      if (canonical) canonical.setAttribute('href', 'https://athenas-beauty.com');
+      if (canonical) canonical.setAttribute('href', 'https://www.athenas-beauty.com');
       if (ogTitle) ogTitle.setAttribute('content', t('gallery.homeTitle'));
       if (ogDesc) ogDesc.setAttribute('content', t('gallery.homeDesc'));
       if (ogLocale) ogLocale.setAttribute('content', 'en_US');

@@ -21,7 +21,7 @@ const CancellationPolicyPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/booking-policy');
+    canonical.setAttribute('href', 'https://www.athenas-beauty.com/booking-policy');
     
     window.scrollTo(0, 0);
     

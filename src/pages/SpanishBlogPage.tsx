@@ -729,7 +729,7 @@ const SpanishBlogPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/es/blog');
+    canonical.setAttribute('href', 'https://www.athenas-beauty.com/es/blog');
     
     let ogLocale = document.querySelector('meta[property="og:locale"]');
     if (!ogLocale) {
@@ -744,7 +744,7 @@ const SpanishBlogPage = () => {
     return () => {
       document.title = t('gallery.homeTitle');
       if (metaDescription) metaDescription.setAttribute('content', t('gallery.homeDesc'));
-      if (canonical) canonical.setAttribute('href', 'https://athenas-beauty.com');
+      if (canonical) canonical.setAttribute('href', 'https://www.athenas-beauty.com');
       if (ogLocale) ogLocale.setAttribute('content', 'en_US');
     };
   }, [t]);

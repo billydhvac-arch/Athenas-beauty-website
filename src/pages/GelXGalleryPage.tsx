@@ -86,7 +86,7 @@ const GelXGalleryPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/gallery/gelx');
+    canonical.setAttribute('href', 'https://www.athenas-beauty.com/gallery/gelx');
     
     let ogTitle = document.querySelector('meta[property="og:title"]');
     if (ogTitle) ogTitle.setAttribute('content', t('gallery.gelx.metaTitle'));
@@ -99,7 +99,7 @@ const GelXGalleryPage = () => {
     return () => {
       document.title = t('gallery.homeTitle');
       if (metaDescription) metaDescription.setAttribute('content', t('gallery.homeDesc'));
-      if (canonical) canonical.setAttribute('href', 'https://athenas-beauty.com');
+      if (canonical) canonical.setAttribute('href', 'https://www.athenas-beauty.com');
       if (ogTitle) ogTitle.setAttribute('content', t('gallery.homeTitle'));
       if (ogDesc) ogDesc.setAttribute('content', t('gallery.homeDesc'));
     };
@@ -112,7 +112,7 @@ const GelXGalleryPage = () => {
       '@type': 'ImageGallery',
       name: 'Gel-X Extensions Gallery | Athena\'s Beauty | Denton, TX',
       description: 'Browse our Gel-X extensions gallery in Denton, TX. Lightweight, natural-looking nail extensions with custom art.',
-      url: 'https://athenas-beauty.com/gallery/gelx',
+      url: 'https://www.athenas-beauty.com/gallery/gelx',
       inLanguage: 'en',
       about: {
         '@type': 'Thing',
@@ -120,7 +120,7 @@ const GelXGalleryPage = () => {
       },
       image: gelXGalleryImages.map((img) => ({
         '@type': 'ImageObject',
-        contentUrl: `https://athenas-beauty.com${img.src}`,
+        contentUrl: `https://www.athenas-beauty.com${img.src}`,
         name: img.title,
         description: img.description,
         inLanguage: 'en',

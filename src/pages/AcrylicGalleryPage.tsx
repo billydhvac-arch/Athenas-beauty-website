@@ -324,7 +324,7 @@ const AcrylicGalleryPage = () => {
       canonical.setAttribute('rel', 'canonical');
       document.head.appendChild(canonical);
     }
-    canonical.setAttribute('href', 'https://athenas-beauty.com/gallery/acrylic');
+    canonical.setAttribute('href', 'https://www.athenas-beauty.com/gallery/acrylic');
     
     // Update Open Graph title
     let ogTitle = document.querySelector('meta[property="og:title"]');
@@ -341,7 +341,7 @@ const AcrylicGalleryPage = () => {
       // Reset to home page meta when leaving
       document.title = 'Athena\'s Beauty | Premium Nail Salon in Denton, TX | Builder Gel, Acrylics & Custom Nail Art';
       if (metaDescription) metaDescription.setAttribute('content', 'Premium nail salon in Denton, TX specializing in builder gel nails, acrylic full sets, Gel-X extensions, and custom nail art. Book your appointment today for luxury nail services near UNT.');
-      if (canonical) canonical.setAttribute('href', 'https://athenas-beauty.com');
+      if (canonical) canonical.setAttribute('href', 'https://www.athenas-beauty.com');
       if (ogTitle) ogTitle.setAttribute('content', 'Athena\'s Beauty | Premium Nail Salon in Denton, TX');
       if (ogDesc) ogDesc.setAttribute('content', 'Luxury nail artistry in Denton, TX. Specializing in builder gel, acrylics, Gel-X extensions & custom nail art. Book online via Booksy.');
     };
@@ -354,7 +354,7 @@ const AcrylicGalleryPage = () => {
       '@type': 'ImageGallery',
       name: 'Acrylic Nail Art Gallery | Athena\'s Beauty | Denton, TX',
       description: 'Browse our acrylic nail art gallery in Denton, TX. 3D designs, French tips, custom artwork & more.',
-      url: 'https://athenas-beauty.com/gallery/acrylic',
+      url: 'https://www.athenas-beauty.com/gallery/acrylic',
       inLanguage: 'en',
       about: {
         '@type': 'Thing',
@@ -362,7 +362,7 @@ const AcrylicGalleryPage = () => {
       },
       image: acrylicGalleryImages.map((img) => ({
         '@type': 'ImageObject',
-        contentUrl: `https://athenas-beauty.com${img.src}`,
+        contentUrl: `https://www.athenas-beauty.com${img.src}`,
         name: img.title,
         description: img.description,
         inLanguage: 'en',
