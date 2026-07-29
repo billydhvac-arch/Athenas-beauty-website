@@ -147,6 +147,29 @@ const Navigation = () => {
                       : 'text-black hover:text-gold'
                   }`}
                 >
+                  Students
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </button>
+                <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-xl shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 py-2">
+                  <Link to="/unt" className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors">
+                    🦅 UNT Students
+                  </Link>
+                  <Link to="/twu" className="block px-4 py-2 text-sm text-black hover:bg-gold/10 hover:text-gold-dark transition-colors">
+                    🎀 TWU Students
+                  </Link>
+                </div>
+              </div>
+
+              <div className="relative group">
+                <button
+                  className={`font-body text-sm transition-colors duration-200 flex items-center gap-1 ${
+                    isScrolled 
+                      ? 'text-white/90 hover:text-gold' 
+                      : 'text-black hover:text-gold'
+                  }`}
+                >
                   {t('nav.gallery')}
                   <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -265,6 +288,18 @@ const Navigation = () => {
           <Link to="/es/" onClick={() => setIsMobileMenuOpen(false)} className="font-heading font-bold text-2xl text-white hover:text-gold transition-colors">
             Español
           </Link>
+          
+          <div className="border-t border-white/20 pt-4 mt-2 w-full max-w-xs">
+            <p className="text-white/50 text-sm mb-3 text-center">For Students</p>
+            <div className="flex flex-col gap-3">
+              <Link to="/unt" onClick={() => setIsMobileMenuOpen(false)} className="font-heading text-lg text-white/80 hover:text-gold transition-colors">
+                🦅 UNT Students
+              </Link>
+              <Link to="/twu" onClick={() => setIsMobileMenuOpen(false)} className="font-heading text-lg text-white/80 hover:text-gold transition-colors">
+                🎀 TWU Students
+              </Link>
+            </div>
+          </div>
           
           <div className="border-t border-white/20 pt-4 mt-2 w-full max-w-xs">
             <p className="text-white/50 text-sm mb-3 text-center">{t('nav.gallery')}</p>
