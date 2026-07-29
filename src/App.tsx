@@ -31,6 +31,8 @@ import ClientPolicyPage from './pages/ClientPolicyPage';
 import SpanishClientPolicyPage from './pages/SpanishClientPolicyPage';
 import HealthSafetyPolicyPage from './pages/HealthSafetyPolicyPage';
 import SpanishHealthSafetyPolicyPage from './pages/SpanishHealthSafetyPolicyPage';
+import UNTPage from './pages/UNTPage';
+import TWUPage from './pages/TWUPage';
 import './App.css';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -200,6 +202,14 @@ function App() {
         } />
         <Route path="/gallery/gelx" element={
           <Layout><GelXGalleryPage /></Layout>
+        } />
+        
+        {/* Campus Landing Pages */}
+        <Route path="/unt" element={
+          <Layout><UNTPage /></Layout>
+        } />
+        <Route path="/twu" element={
+          <Layout><TWUPage /></Layout>
         } />
         
         {/* Spanish Routes */}
