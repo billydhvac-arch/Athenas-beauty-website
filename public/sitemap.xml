@@ -3,23 +3,63 @@
   <!-- Homepage -->
   <url>
     <loc>https://athenas-beauty.com/</loc>
-    <lastmod>2026-03-09</lastmod>
+    <lastmod>2026-07-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
   <!-- Services Page -->
   <url>
-    <loc>https://athenas-beauty.com/#services-page</loc>
-    <lastmod>2026-03-09</lastmod>
+    <loc>https://athenas-beauty.com/services</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Gallery Pages -->
+  <url>
+    <loc>https://athenas-beauty.com/gallery/acrylic</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://athenas-beauty.com/gallery/dip</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://athenas-beauty.com/gallery/builder-gel</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://athenas-beauty.com/gallery/gelx</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Student Landing Pages -->
+  <url>
+    <loc>https://athenas-beauty.com/unt</loc>
+    <lastmod>2026-07-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://athenas-beauty.com/twu</loc>
+    <lastmod>2026-07-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <!-- Blog Index -->
   <url>
-    <loc>https://athenas-beauty.com/#blog</loc>
-    <lastmod>2026-06-29</lastmod>
+    <loc>https://athenas-beauty.com/blog</loc>
+    <lastmod>2026-07-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -177,5 +217,19 @@
     <lastmod>2026-03-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  
+  <!-- New Blog Posts July 2026 -->
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=back-to-school-nails-denton-tx-2026</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://athenas-beauty.com/#blog?post=biab-structured-manicure-denton-tx-2026</loc>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
