@@ -27,6 +27,112 @@ const blogPosts: BlogPost[] = [
     featured: true,
   },
   {
+    id: 'micro-french-manicure-denton-tx-2026',
+    title: "Micro-French Manicure in Denton, TX: August 2026's #1 Requested Nail Trend",
+    excerpt: "Discover the micro-French manicure trend dominating Denton, TX in August 2026. Ultra-thin precision tips, chrome accents & pearl finishes. Book your appointment at Athena's Beauty today.",
+    content: `# Micro-French Manicure in Denton, TX: August 2026's #1 Requested Nail Trend
+
+**Meta Title:** Micro-French Manicure Denton TX | August 2026 Trend at Athena's Beauty
+**Meta Description:** Discover the micro-French manicure trend dominating Denton, TX in August 2026. Ultra-thin precision tips, chrome accents & pearl finishes. Book at Athena's Beauty today.
+
+If you've opened TikTok or Instagram lately, you've seen it: the ultra-thin, barely-there colored tip that looks like it was drawn with a single-hair brush. The **micro-French manicure** has officially dethroned the classic white-tip French as 2026's most requested nail design — and at Athena's Beauty in Denton, TX, it's become the #1 ask from UNT students, working professionals, and brides alike.
+
+But here's what most people don't realize: the micro-French is one of the easiest trends to love and one of the hardest techniques to execute perfectly. When it's done right, it's minimal, elegant, and impossibly chic. When it's done wrong? Thick, wobbly lines, uneven tips, and nails that chip before the weekend. If you've ever walked out of a salon with "French tips" that looked more like whiteout corrections, you already know the difference.
+
+In this guide, we'll break down exactly what makes the micro-French special, which color variations are trending this August, and why precision matters more than ever for this look.
+
+## What Is a Micro-French Manicure?
+
+The classic French manicure features a bold white smile line across the tip — typically 2-3 millimeters thick. The **micro-French** shrinks that line down to a whisper-thin stripe, sometimes as fine as half a millimeter. The result is subtle, architectural, and modern. It reads as "polished" rather than "done up," which is exactly why it's dominating the "clean girl" aesthetic movement on social media.
+
+Unlike traditional French tips that rely on guides or stickers (which often create thick, uniform edges), micro-French lines are typically hand-painted using a fine detail brush. This requires steady hands, proper magnification, and an understanding of how thin gel polish behaves at the free edge. The line must be crisp, consistent across all ten nails, and positioned at exactly the same height — one wobble and the entire look shifts from "minimalist luxury" to "sloppy DIY."
+
+At Athena's Beauty in Denton, we create micro-French designs on builder gel overlays, Gel-X extensions, and natural nails. The technique works beautifully on any nail system, but the key is always the same: precision application and a smooth apex that supports the thin line work without adding bulk.
+
+## Trending Micro-French Color Variations for August 2026
+
+While the classic white micro-French remains timeless, August 2026 has introduced a wave of creative color twists that clients in Denton are requesting every week. Here are the top variations trending right now:
+
+**Peridot Green Micro-French**
+August's birthstone color is having a major moment. Soft, olive-tinged green tips over a milky nude base create a fresh, unexpected look that's perfect for late summer. This variation has been spotted across TikTok and Instagram as the "it" color for August 2026.
+
+**Pearl Chrome Micro-French**
+The biggest evolution in chrome for 2026: pearl chrome. Warm, seashell iridescence that shifts in the light. According to the August 2026 Global Trend Report, pearl chrome over a sheer jelly base is the defining finish of the season. It's what Hailey Bieber and Kylie Jenner's nail artists are using right now.
+
+**Denim Blue Cat-Eye Micro-French**
+Denim blue cat-eye has 250M+ TikTok views and is being called "the trend everyone overlooks." The magnetic velvet effect paired with a micro-French tip line creates depth and dimension that static colors can't match.
+
+**Neutral Chrome / "Old Money" Micro-French**
+Champagne, soft gold, and silver-neutral chrome tips over a sheer base. The 2026 Met Gala cemented chrome as a red-carpet staple. This is the "quiet luxury" nail trend — timeless, expensive-looking, and office-appropriate.
+
+**Colored Micro-French (Rainbow Tips)**
+Each nail gets a different micro-tip color — butter yellow, sage green, baby blue, coral red. This multi-color French variation is exploding on TikTok as a playful back-to-school look for UNT and TWU students.
+
+**Nude + Gold Micro-French**
+A warm nude base with whisper-thin gold lines creates what we're calling "quiet luxury nails." This variation has become a favorite among professionals in Denton who want office-appropriate nails that still feel special.
+
+Each of these variations can be customized to your skin tone, personal style, and the occasion. At Athena's Beauty, we match the base shade to your natural nail bed for that seamless, elongating effect that makes fingers look longer and more elegant.
+
+## Why Precision Matters: The Difference Between "Trendy" and "Messy"
+
+The micro-French is unforgiving. Because the design element is so thin, every imperfection is magnified. A line that's too thick looks like a classic French that's been shrunk down awkwardly. A line that's crooked or uneven across nails destroys the symmetry that makes this trend so satisfying. And if the underlying nail structure is thick or lumpy — a common problem with poorly applied acrylics — the delicate tip line looks like an afterthought on a bulky base.
+
+This is why so many "micro-French" attempts fail. Reviews from nail salons across Denton consistently mention the same quality issues: thick sidewalls, uneven application, bubbling under the polish, and tips that start lifting within days. When you're paying for a precision design, these flaws aren't just disappointing — they're visible from across the room.
+
+The foundation matters as much as the art. A proper micro-French requires:
+- Thin, structured nail enhancements (no bulky acrylic)
+- A smooth apex that doesn't add unnecessary thickness
+- Proper nail prep to prevent lifting
+- Fine-detail brushes and steady technique
+- Quality gel products that self-level without running
+
+At Athena's Beauty, every micro-French set is created with the same philosophy we apply to our custom nail art: time, precision, and zero shortcuts. We don't rush. We don't use stickers or stamps for the smile line. And we never sacrifice nail structure for speed. The result is a micro-French that looks as good on day 21 as it does on day 1.
+
+## Micro-French + Short Square: The August 2026 Power Combo
+
+Here's something the trend reports are confirming: **short square is the dominant nail shape for August 2026**. And it pairs perfectly with the micro-French.
+
+Why? Because the micro-French is a detail-oriented design that shows best on clean, structured shapes. Short square nails provide the ideal canvas — the straight free edge gives the micro-tip a crisp landing zone, and the shorter length keeps the look practical for students and professionals.
+
+UNT students tell us the same thing: they want nails that look amazing in class, at work, and at weekend brunch — without the maintenance headache of long extensions. The short square + micro-French combo delivers exactly that: maximum style, minimum fuss.
+
+If you prefer almond or oval shapes, the micro-French works beautifully there too. The key is the nail structure underneath — smooth, thin, and properly shaped. That's where builder gel and BIAB (Builder in a Bottle) come in, creating a strong, natural-looking foundation that supports delicate art without adding bulk.
+
+## How Long Does a Micro-French Manicure Last?
+
+With proper application and care, a micro-French manicure on builder gel or Gel-X can last **3 to 4 weeks** without chipping or significant wear. The thin tip line itself is sealed under a high-quality no-wipe top coat, which protects the color from fading and the edge from peeling.
+
+To extend the life of your micro-French nails:
+- Apply cuticle oil daily to keep nails flexible
+- Wear gloves when cleaning or washing dishes
+- Avoid using your nails as tools (opening cans, scraping labels)
+- Schedule maintenance fills every 2-3 weeks to keep lines crisp
+- Moisturize your hands regularly — healthy skin frames beautiful nails
+
+Because the micro-French design is so minimal, it actually wears better than heavy nail art or chunky glitter. There's less to lift, less to catch, and less to fade. That's part of its appeal: it's the rare trend that's both beautiful *and* practical.
+
+## Book Your Micro-French Manicure at Athena's Beauty in Denton
+
+If you've been scrolling TikTok saving micro-French inspiration, it's time to turn those screenshots into your actual nails. Athena's Beauty in Denton, TX specializes in the precise, thin-line technique that makes this trend look expensive — not amateur.
+
+Whether you want a classic white micro-French, a chrome-accented statement set, or the viral peridot green variation everyone's requesting this August, we'll customize the design to your nail shape, lifestyle, and personal style. Every appointment is private, unhurried, and dedicated entirely to your nails.
+
+**Athena's Beauty at Salons by JC — Razor Ranch, Denton**
+📍 2640 W University Dr, Suite 1266, Denton, TX 76201 (Room #19)
+📅 **Book online:** [nailsbyatenad.booksy.com](https://nailsbyatenad.booksy.com)
+📞 **Call or text:** (940) 435-1332
+
+*Appointment only — no walk-ins. Book 2-3 days ahead for weekend slots.*
+
+---
+
+*Athena is the founder of Athena's Beauty, a custom nail studio in Denton, Texas specializing in micro-French manicures, builder gel nails, Gel-X extensions, chrome finishes, and detailed custom nail art. Located at Salons by JC in Razor Ranch, serving UNT students, TWU staff, and Denton locals who demand precision and artistry.*`,
+    date: 'August 3, 2026',
+    readTime: '7 min read',
+    category: 'Trends',
+    image: 'https://images.pexels.com/photos/13456848/pexels-photo-13456848.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
     id: 'back-to-school-nails-denton-tx-2026',
     title: "Back-to-School Nails in Denton, TX: The Ultimate Guide for UNT & TWU Students",
     excerpt: "The ultimate back-to-school nail guide for UNT & TWU students in Denton, TX. Discover 5 trending styles, major-specific picks, and why Athena's Beauty is the student favorite. Book now.",
