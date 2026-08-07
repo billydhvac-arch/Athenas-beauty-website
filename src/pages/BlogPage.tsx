@@ -130,7 +130,7 @@ Whether you want a classic white micro-French, a chrome-accented statement set, 
     date: 'August 3, 2026',
     readTime: '7 min read',
     category: 'Trends',
-    image: 'https://images.pexels.com/photos/13456848/pexels-photo-13456848.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/micro-french-black-tips.jpg',
   },
   {
     id: 'back-to-school-nails-denton-tx-2026',
