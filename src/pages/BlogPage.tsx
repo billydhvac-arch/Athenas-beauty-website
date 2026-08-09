@@ -246,6 +246,193 @@ Whether you're a UNT junior who needs nails that survive dorm laundry day, a TWU
     image: '/acrylic-pink-white-gold-bow-french.jpg',
   },
   {
+    id: 'jelly-glaze-nails-denton-tx-2026',
+    title: "Jelly Glaze & Syrup Nails in Denton, TX: The Complete Guide to 2026's Most-Requested Finish",
+    excerpt: "Discover jelly glaze & syrup nails in Denton, TX. Athena's Beauty creates the viral Hailey Bieber manicure — translucent glow that lasts 3+ weeks. Book now.",
+    content: `# Jelly Glaze & Syrup Nails in Denton, TX: The Complete Guide to 2026's Most-Requested Finish
+
+**Meta Title:** Jelly Glaze Nails Denton TX | Syrup Manicure Guide | Athena's Beauty  
+**Meta Description:** Discover jelly glaze & syrup nails in Denton, TX. Athena's Beauty creates the viral Hailey Bieber manicure — translucent glow that lasts 3+ weeks. Book now.
+
+---
+
+If you've scrolled TikTok lately, you've seen them. Nails that look like they're made of hand-blown glass — sheer, luminous, and impossibly glossy. They catch the light differently than any manicure you've worn before. Not holographic. Not chrome. Something softer, deeper, more expensive-looking. **Jelly glaze nails** — also called syrup nails — are the technique behind the 2026 manicure moment, and they're about to change how you think about nail polish entirely.
+
+With over **500 million TikTok views** on #jellyglaze and a fresh celebrity endorsement from Hailey Bieber on July 27, 2026, this isn't a niche trend anymore. It's the defining finish of the year. And in Denton, TX, there's exactly one salon where the technique is treated as a specialty rather than an afterthought.
+
+At **Athena's Beauty**, jelly glaze isn't just a service on a menu. It's a carefully constructed layering technique that demands the right products, the right timing, and an understanding of how light interacts with translucent gel. Whether you're a UNT student wanting the viral "glazed jelly" look for back-to-school, a bride-to-be searching for something timeless, or simply someone who wants nails that look like they cost twice what you paid — this guide covers everything.
+
+---
+
+## What Are Jelly Glaze Nails? Understanding the Technique
+
+Jelly glaze nails are built on a deceptively simple idea: **translucency plus dimension**. The base layer is a "jelly" gel polish — a sheer, tinted formula that allows the natural nail (or a perfectly smooth builder gel base) to show through. Instead of a solid block of color, you get depth. The nail doesn't look painted. It looks dipped in something precious.
+
+The "glaze" comes from the overlay. After the jelly base cures, a technician applies a non-wipe top coat, cures it briefly, then burnishes a fine pearlescent or iridescent chrome powder over the surface. The result is a soft, glowing finish that shifts subtly as you move your hands — like sunlight on water, or the inside of a seashell. Mirellé Inspo's August 2026 report described it as "glossy hard candy on the nail rather than painted color." That's exactly right.
+
+### Jelly Glaze vs. Glazed Donut vs. Syrup Nails
+
+These three terms get used interchangeably online, but they're not the same thing:
+
+- **Glazed donut nails** (the original Hailey Bieber look from 2022) use an opaque or near-opaque nude/pink base with a pearl chrome overlay. No translucency.
+- **Jelly nails** are the sheer, candy-colored base without any chrome overlay. Transparent and playful.
+- **Jelly glaze nails** combine both: the translucent jelly base with the pearlescent chrome glaze on top. This is the 2026 evolution — more sophisticated, more dimensional, and infinitely more photogenic.
+- **Syrup nails** use the same sheer base but applied as a gradient, deepening toward the tip for a softer, more natural effect.
+
+At Athena's, we specialize in **jelly glaze** — the full layered technique. But we also offer syrup gradients and pure jelly finishes for clients who want to customize the look.
+
+---
+
+## 5 Jelly Glaze Styles Everyone's Booking at Athena's Beauty
+
+### 1. Peach Fuzz Glaze — The Signature Glow
+
+The most-requested jelly glaze at Athena's. A warm, sheer peach base with a pearl-white chrome overlay creates what we call "sunset silk" — warm, ethereal, and flattering on every skin tone. This is the closest to Hailey Bieber's updated 2026 look, and it's the style that's driving the most DMs to our Instagram.
+
+**Best for:** First-time jelly glaze clients, brides, everyday luxury  
+**Price:** $95–$110 (builder gel base + jelly glaze)  
+**Longevity:** 3–4 weeks
+
+### 2. Icy Lavender Glaze — The Futuristic Favorite
+
+A cool, translucent lavender base with a blue-shift aurora chrome overlay. The result is "electric orchid" — futuristic without being cold, feminine without being predictable. This shade has become a breakout favorite among TWU students who want something that stands out in Denton's creative crowd.
+
+**Best for:** Cool skin tones, artistic personalities, statement manicures  
+**Price:** $90–$115  
+**Pair it with:** Short almond or short square shape for maximum impact
+
+### 3. Matcha Green Glaze — The Quiet Luxury Pick
+
+A soft, sheer matcha base with a gold iridescent chrome overlay creates what nail artists call "digital forest." It's earthy yet high-tech, subtle yet impossible to ignore. This is the jelly glaze for clients who usually wear neutrals but want something with more personality than beige.
+
+**Best for:** Olive and warm skin tones, nature-inspired aesthetics, fall preview  
+**Price:** $90–$110  
+**Trend note:** Aligns perfectly with the Augtober early-fall palette
+
+### 4. Cherry Red Glaze — The Juicy Statement
+
+Translucent cherry red jelly base with a soft pearl glaze. Unlike opaque red — which can read heavy or aggressive — cherry red glaze is juicy, playful, and light. It's the manicure equivalent of a ripe strawberry. Nail expert Maryna Slynko called it "one of the happiest shades of late summer," and our clients agree.
+
+**Best for:** Summer-to-fall transition, bold personalities, high-impact social content  
+**Price:** $85–$105  
+**Availability:** By request; consultation recommended for skin-tone matching
+
+### 5. Milky Nude Glaze — The Invisible Luxury
+
+The most subtle and arguably the most sophisticated. A barely-there milky nude jelly base with a champagne chrome overlay creates nails that simply look expensive. No color statement. Just flawless, glowing, healthy-looking nails that work in every setting — from UNT lectures to wedding receptions.
+
+**Best for:** Conservative workplaces, bridal parties, clients who want "better than natural"  
+**Price:** $85–$100  
+**Also known as:** "Cloud Dancer" (Pantone 2026) or "Vanilla Veil"
+
+---
+
+## How Long Do Jelly Glaze Nails Last?
+
+Jelly glaze nails last **3–4 weeks** with proper care. The finish itself is as durable as standard gel polish — what matters is the base underneath. At Athena's, we never apply jelly glaze over unprotected natural nails. The sheer nature of jelly polish means any imperfection in the base will show through.
+
+| Base Structure | Longevity | Best For |
+|---------------|-----------|----------|
+| **Builder Gel Overlay** | 3–4 weeks | Natural nails, seamless regrowth, glass-like finish |
+| **Gel-X Extensions** | 3–4 weeks | Added length, maximum durability, premium experience |
+| **BIAB / Structured Manicure** | 3–4 weeks | "Clean girl" aesthetic, natural look with strength |
+| **Natural Nail (not recommended)** | 2–3 weeks | Only if nails are naturally strong and flawless |
+
+### Jelly Glaze Aftercare
+
+- Apply cuticle oil daily. The glossy finish highlights dry cuticles more than opaque polish.
+- Wear gloves for cleaning and dishes. Harsh chemicals can dull the chrome overlay over time.
+- Avoid picking at edges. Jelly glaze shows lifting more visibly than opaque colors.
+- Book fills at 3 weeks. The "lit-from-within" glow is most striking on fresh, smooth gel.
+
+---
+
+## Why Jelly Glaze Costs More — And Why It's Worth It
+
+Jelly glaze is a premium service for a reason. The technique requires:
+
+**A perfectly smooth base.** Any bump, ridge, or imperfection is magnified by the sheer polish. We spend extra time on base preparation — filing, buffing, and building the nail architecture with builder gel before a single drop of jelly color touches the nail.
+
+**Precision product layering.** The jelly base must be thin enough to stay translucent but thick enough to create color depth. The chrome overlay requires a specific cure time — too long and the powder won't adhere; too short and it smudges. The final top coat must be perfectly even or the glaze looks streaky.
+
+**Premium products.** Not all jelly gels are created equal. Athena's uses professional-grade jelly formulas with true translucency (not just watered-down opaque polish) and cosmetic-grade chrome powders that create genuine dimension rather than flat shimmer.
+
+**Appointment-only timing.** Jelly glaze cannot be rushed. A walk-in salon doing 20-minute manicures simply cannot execute this technique. At Athena's, every jelly glaze appointment gets 75–90 minutes.
+
+The result? Nails that look like they belong on a red carpet. Nails that get stopped in grocery store lines. Nails that photograph like editorial beauty shots — because essentially, that's what they are.
+
+---
+
+## Why Choose Athena's Beauty for Jelly Glaze Nails in Denton?
+
+**We're the Only Denton Salon Specializing in This Finish.** No competitor — not Bella Nail Bar, not Shine Nails & Spa, not VIP Nails Lounge — markets jelly glaze expertise. We're not adding it to a menu. We're building our reputation around it.
+
+**We Understand the Layering Science.** Jelly base viscosity. Chrome powder particle size. Cure time calibration. Top coat refractive index. These variables determine whether your manicure looks like hand-blown glass or a smudged window.
+
+**We Customize for Your Skin Tone.** Peach fuzz reads differently on fair skin than on deep skin. Icy lavender can look ethereal or ashy depending on undertone. We consult on color matching before application — because jelly glaze is sheer, the interaction with your natural nail tone is part of the final look.
+
+**We Combine Techniques.** Jelly glaze base with chrome French tips. Jelly glaze with delicate micro-art. Jelly glaze over cat-eye magnetic gel for a triple-layer dimensional effect. Most salons do one technique per nail. We build experiences.
+
+---
+
+## Frequently Asked Questions
+
+**How much do jelly glaze nails cost in Denton?**  
+Builder gel overlay with jelly glaze starts at $85. Gel-X extensions with jelly glaze range from $95–$125. The jelly glaze technique itself requires premium products and extended appointment time, which is reflected in the pricing.
+
+**Can I get jelly glaze on short nails?**  
+Absolutely. In fact, short almond and short square — August 2026's dominant shapes — are ideal for jelly glaze. The sheer finish creates the illusion of longer, more elegant nails without added length.
+
+**Does jelly glaze damage nails?**  
+No. The jelly polish is standard gel with cosmetic additives. Any potential damage comes from improper removal — which is why Athena's always includes professional soak-off removal with our services.
+
+**How is jelly glaze different from regular gel polish?**  
+Regular gel polish is opaque and uniform. Jelly gel is translucent and dimensional. Regular gel looks painted. Jelly glaze looks dipped in light.
+
+**Can you do jelly glaze on toes?**  
+Yes — jelly glaze pedicures are one of our most requested summer services. The sheer finish looks stunning on toes and holds up beautifully through sandal season.
+
+**What's the difference between jelly glaze and lip gloss nails?**  
+Lip gloss nails use opaque nude/pink bases with high shine. Jelly glaze uses sheer, tinted bases that let the natural nail show through. Lip gloss = painted shine. Jelly glaze = lit-from-within glow.
+
+---
+
+## Ready for Nails That Look Like Glass?
+
+Jelly glaze isn't a trend you chase for a week and forget. It's a finish that changes how you feel about your hands. The way light moves through translucent gel. The way your nails look expensive without trying too hard. The way strangers ask where you got them done.
+
+In Denton, TX, there's one place that understands the technique well enough to make it repeatable. One place where "glazed" isn't a buzzword — it's a chemistry.
+
+**[Book Your Jelly Glaze Appointment →](https://nailsbyatenad.booksy.com)**
+
+**Location:** Athena's Beauty at Salons by JC  
+2640 W University Dr, Suite 1266  
+Denton, TX 76201 (Room #19)
+
+**Phone/Text:** (940) 435-1332  
+**Instagram:** [@nails_by_atenad](https://instagram.com/nails_by_atenad)
+
+*Appointment only — no walk-ins. Jelly glaze services require 75–90 minutes. Book 3–5 days in advance for weekend slots.*
+
+---
+
+**Related Articles:**
+- [Cat-Eye Nails in Denton, TX](/#blog?post=cat-eye-nails-denton-tx-2026) — Layer cat-eye magnetic gel under jelly glaze for triple dimension
+- [Builder Gel Nails in Denton, TX: The Complete Guide](/#blog?post=builder-gel-nails-denton-tx-2026) — The perfect base for jelly glaze durability
+- [Chrome French Acrylic Nails](/#blog?post=chrome-french-acrylic-2026) — Combine chrome and jelly glaze for editorial looks
+- [BIAB / Structured Manicure Guide](/#blog?post=biab-structured-manicure-denton-tx-2026) — Natural nail strength before jelly glaze
+
+---
+
+*Published August 4, 2026*  
+*Athena's Beauty | Premium Nail Salon in Denton, TX*  
+*Jelly Glaze Nails • Cat-Eye Nails • Builder Gel • Gel-X • Chrome French • Custom Nail Art*`,
+    date: 'August 4, 2026',
+    readTime: '9 min read',
+    category: 'Trends',
+    image: 'https://images.pexels.com/photos/6830805/pexels-photo-6830805.jpeg?auto=compress&cs=tinysrgb&w=800',
+  },
+  {
     id: 'biab-structured-manicure-denton-tx-2026',
     title: "What Are BIAB Nails? Denton's Complete Guide to the Structured Manicure Revolution",
     excerpt: "Discover BIAB nails in Denton, TX. Learn why structured manicures are 2026's top nail trend, how they strengthen natural nails, and book at Athena's Beauty.",
