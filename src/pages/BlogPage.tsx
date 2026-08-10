@@ -803,7 +803,7 @@ Whether you're a student at UNT or TWU looking for low-maintenance nails, a busy
     date: 'June 25, 2026',
     readTime: '7 min read',
     category: 'Trends',
-    image: '/chrome-french.jpg',
+    image: '/chrome-french-acrylic.jpg',
     featured: true,
   },
   {
