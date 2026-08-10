@@ -610,7 +610,7 @@ Whether you want a single pearl accent for understated elegance, a full 3D sculp
     date: 'April 28, 2026',
     readTime: '10 min read',
     category: 'Trends',
-    image: 'https://images.pexels.com/photos/9398360/pexels-photo-9398360.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: '/acrylic-3d-flower-charm.jpg',
   },
     {
     id: 'biab-structured-manicure-denton-tx-2026',
