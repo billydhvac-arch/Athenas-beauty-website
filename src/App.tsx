@@ -1,3 +1,4 @@
+import BlogPostPage from './pages/BlogPostPage';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
@@ -190,6 +191,9 @@ function App() {
         } />
         <Route path="/blog" element={
           <Layout><BlogPage /></Layout>
+        } />
+        <Route path="/blog/:slug" element={
+          <Layout><BlogPostPage /></Layout>
         } />
         <Route path="/gallery/acrylic" element={
           <Layout><AcrylicGalleryPage /></Layout>
