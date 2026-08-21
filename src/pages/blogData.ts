@@ -978,6 +978,346 @@ Whether you're a student at UNT or TWU looking for low-maintenance nails, a busy
     category: 'Tips',
     image: '/work8.jpg',
   },
+  {
+    id: 'cat-eye-nails-denton-tx-2026',
+    title: "Cat-Eye Nails in Denton, TX: The Complete Guide to 2026's Most Viral Nail Trend",
+    excerpt: "Discover cat-eye nails in Denton, TX. From peridot to denim blue, Athena's Beauty creates viral magnetic gel manicures that last 3+ weeks. Book now.",
+    content: `## What Are Cat-Eye Nails? The Science Behind the Shimmer
+
+Cat-eye nails get their name from the narrow, reflective band that runs through the polish — like the slit pupil of a cat's eye. But that effect isn't paint. It's **magnetic gel polish** containing microscopic iron particles suspended in the gel. When a technician holds a specialized magnet over the uncured polish, those particles align along magnetic field lines, creating a concentrated line of reflection. Cure the gel under a UV or LED lamp, and that alignment becomes permanent.
+
+The result? A manicure that **changes appearance as you move**. Tilt your hand toward the light, and the band glows. Angle it away, and the base color deepens. It's not holographic (which splits light into rainbows) and it's not chrome (which mirrors like metal). Cat-eye is something else entirely: a **dimensional shimmer that lives inside the polish**, giving nails a depth that flat colors can't replicate.
+
+### Why Technique Matters More Than Color
+
+Here's the part most salons won't tell you: **the magnet technique is everything.** Hold the magnet too close, and the line becomes a blob. Too far, and nothing happens. At the wrong angle, the particles clump unevenly. Move the magnet too slowly, and the particles drift back before curing. Too fast, and the alignment is weak. The perfect cat-eye requires a steady hand, precise timing, and an understanding of how different gel viscosities respond to magnetic fields.
+
+At walk-in salons where technicians are rushing through a queue, cat-eye is often an afterthought — a quick wave of the magnet, a hurried cure, and a result that looks muddy instead of mesmerizing. That's why Athena's works **appointment-only.** Every cat-eye service gets the time and attention the technique demands.
+
+---
+
+## 5 Cat-Eye Styles Everyone's Booking at Athena's Beauty
+
+### 1. Peridot Green Cat-Eye — August's Birthstone Signature
+
+August is peridot season. The birthstone's signature olive-gold glow translates perfectly into magnetic gel, creating a manicure that shifts from soft sage to warm gold depending on the light. With over **180 million TikTok views** on #peridotnails and zero Denton competitors marketing this look, Athena's is currently the only salon in the area where you can walk in and ask for "peridot cat-eye" without explaining what you mean.
+
+**Best for:** August birthdays, olive-skin tones, anyone who wants a trend that feels personal rather than mass-market  
+**Price:** $85–$110 (Gel-X + cat-eye) | $65–$85 (builder gel overlay + cat-eye)  
+**Longevity:** 3–4 weeks
+
+### 2. Denim Blue Cat-Eye — The Trend Everyone Overlooks
+
+Every August roundup mentions green. Almost none of them mention denim blue. That's exactly why this shade is breaking out. With **250 million TikTok views** and climbing, denim blue cat-eye delivers a deep, magnetic blue shimmer that pairs with UNT green, TWU maroon, or your favorite thrifted denim jacket. The August 2026 Mirellé Inspo report specifically called this "the trend everyone overlooks" — which means early adopters get the social credit before it goes mainstream.
+
+**Best for:** Back-to-school season, cool skin tones, anyone who wants to be ahead of the curve  
+**Price:** $80–$105  
+**Pair it with:** Short square shape (August's dominant shape) for maximum impact
+
+### 3. Velvet Rose Cat-Eye — Where Coquette Meets Magnetic
+
+The newest variant in our collection. A deep pink magnetic base creates a soft, fabric-like shimmer — what nail artists call "velvet cat-eye." Layer on delicate hand-painted rose details, and you get a manicure that bridges two of 2026's biggest aesthetics: the romantic coquette trend and the viral cat-eye technique. This is the option for clients who want feminine, dimensional, and unmistakably current.
+
+**Best for:** Coquette aesthetic fans, romantic details, bridal and special occasion  
+**Price:** $75–$90  
+**Technique note:** The velvet effect requires dispersing magnetic particles (not concentrating them), which is harder to execute than standard cat-eye.
+
+### 4. Watercolor Cat-Eye — The Artist's Technique
+
+This is where cat-eye evolves from a finish into art. We layer two or three cat-eye shades — pink and orange, or blue and purple — then swirl them together with a liner brush before curing. A final magnet pass creates a sunset effect where colors bleed into each other behind the shimmer band. It's technically demanding, visually stunning, and the kind of manicure that stops scrolling thumbs cold.
+
+**Best for:** Clients who want something no one else has, art-forward personalities, maximum Instagram/TikTok impact  
+**Price:** $70–$85  
+**Availability:** By request; consultation recommended for color pairing
+
+### 5. Classic Silver Cat-Eye — The Entry Point
+
+Not everyone wants a bold color. The classic silver cat-eye — a neutral base with a bright magnetic band — is the perfect introduction to the technique. It reads as sophisticated rather than trendy, works in any professional environment, and pairs with every outfit. Many of our clients start here, then branch into colored variants on their next visit.
+
+**Best for:** First-time cat-eye clients, conservative workplaces, versatile everyday wear  
+**Price:** $60–$75  
+**Upgrade path:** Add chrome accents or micro-French tips over the cat-eye base for a layered look
+
+---
+
+## How Long Do Cat-Eye Nails Last?
+
+With proper application and care, cat-eye nails last **3–4 weeks** before needing a fill. The magnetic gel itself is as durable as standard gel polish — the longevity depends on the base structure underneath. Here's what we recommend at Athena's:
+
+| Base Structure | Longevity | Best For |
+|---------------|-----------|----------|
+| **Builder Gel Overlay** | 3–4 weeks | Natural nails, nail biters, growing out damage |
+| **Gel-X Extensions** | 3–4 weeks | Added length, dramatic shapes, maximum durability |
+| **BIAB / Structured Manicure** | 3–4 weeks | Natural look with strength, "clean girl" aesthetic |
+| **Natural Nail (gel polish only)** | 2–3 weeks | Short-term commitment, budget-conscious |
+
+### Cat-Eye Aftercare Tips
+
+- Apply cuticle oil daily. Magnetic gel is flexible, but dry cuticles cause lifting at the edges.
+- Wear gloves for dishes and cleaning. Water and chemicals degrade the gel's shine over time.
+- Don't pick at the magnetic band. If you notice uneven wear, book a fill rather than peeling.
+- Schedule fills at 3 weeks. The cat-eye effect is most striking on fresh, smooth gel — worn edges dull the shimmer.
+
+---
+
+## Cat-Eye vs. Chrome: Which Finish Is Right for You?
+
+Clients often ask us to compare cat-eye and chrome. Both are premium finishes. Both catch light. But they create completely different effects:
+
+| Feature | Cat-Eye | Chrome |
+|--------|---------|--------|
+| **Effect** | Dimensional shimmer band inside the polish | Mirror-like reflective surface |
+| **Movement** | Changes as you tilt your hand | Static — reflects like metal |
+| **Texture** | Smooth, gel-like | Powder-based, requires sealing |
+| **Durability** | Same as gel polish | Can dull if top coat wears |
+| **Color Range** | Built into the gel — limited to magnetic shades | Any color base + chrome powder overlay |
+| **Best For** | Subtle luxury, everyday wear, birthstones | Bold statements, full mirror effect, editorial looks |
+| **Price** | $5–$15/nail add-on | $5–$10/nail add-on |
+
+**The secret most salons won't tell you:** The most striking manicures combine both. A cat-eye base with chrome accents on select nails. Or a chrome French tip over a cat-eye body. At Athena's, we layer finishes to create dimensional looks that single-technique manicures can't match.
+
+---
+
+## Best Nail Shapes for Cat-Eye
+
+Not every shape shows off cat-eye equally. The magnetic band needs length and surface area to create its full effect:
+
+- **Almond** — The classic cat-eye shape. The taper elongates the shimmer band and creates that feline silhouette. Best for peridot and velvet rose.
+- **Coffin/Ballerina** — Maximum surface area means maximum shimmer visibility. Ideal for denim blue and watercolor variants where you want the full color shift on display.
+- **Short Square** — August 2026's dominant shape. The flat edge creates a clean, modern frame for the cat-eye band. Perfect for understated, wearable looks.
+- **Stiletto** — Dramatic and editorial. The extreme length makes the magnetic band look like a blade of light. Not for everyday wear, but unforgettable for special occasions.
+- **Round/Oval** — Softer shapes mute the cat-eye effect slightly. Best for classic silver or conservative workplaces.
+
+---
+
+## Why Choose Athena's Beauty for Cat-Eye Nails in Denton?
+
+Denton has no shortage of nail salons. What it doesn't have — yet — is a salon that treats cat-eye as a specialty instead of an add-on menu item. Here's why clients are booking their cat-eye manicures at Athena's:
+
+**We're Appointment-Only** — Every cat-eye service gets the 60–90 minutes it deserves. No rushed jobs. No waiting in plastic chairs.
+
+**We Understand the Physics** — Magnet angle, gel viscosity, cure time, particle density. These aren't abstract concepts to us. They're the variables we control to create your perfect shimmer.
+
+**We Stay Ahead of Trends** — Our trend monitor scans TikTok, Instagram, Pinterest, and beauty publications daily. When a new cat-eye variant like watercolor or velvet rose emerges, we're already practicing it.
+
+**We Layer Techniques** — Cat-eye over builder gel for strength. Cat-eye with chrome accents for dimension. Cat-eye with hand-painted details for art. Most salons do one technique per nail. We combine them.
+
+**We Know Denton** — We understand UNT and TWU dress codes. We know which shapes survive dorm life. We know that a peridot cat-eye for an August birthday isn't just a manicure — it's a celebration.
+
+---
+
+## Frequently Asked Questions
+
+**How much do cat-eye nails cost in Denton?**  
+Cat-eye pricing varies by base structure. A builder gel overlay with cat-eye starts around $65. Gel-X extensions with cat-eye range from $85–$110. The cat-eye technique itself is a $5–$15 per-nail add-on.
+
+**Can I get cat-eye on natural nails?**  
+Yes, but we strongly recommend a builder gel or BIAB base. Cat-eye on thin natural nails can show imperfections and may not last as long. The base structure is what gives cat-eye its glass-like depth.
+
+**Does cat-eye damage nails?**  
+No. The magnetic particles are cosmetic additives in standard gel polish. They don't interact with your natural nail. Any potential damage comes from improper removal — which is why we always include professional soak-off or file-down removal with our services.
+
+**How is cat-eye different from holographic nails?**  
+Holographic polish contains diffraction particles that split light into rainbow patterns. Cat-eye contains magnetic particles that align into a reflective band. Holographic = rainbow scatter. Cat-eye = focused shimmer line. They're completely different technologies.
+
+**Can you do cat-eye on short nails?**  
+Absolutely. While longer nails show more of the shimmer band, short nails — especially short square — create a clean, modern cat-eye look. We adjust magnet placement and gel application to maximize impact on any length.
+
+**What's the most popular cat-eye right now?**  
+In August 2026, peridot green and denim blue are tied for most-requested. Peridot wins with August birthdays. Denim blue wins with clients who want something unexpected.
+
+---
+
+## Ready to Try Denton's Most Viral Nail Trend?
+
+Cat-eye nails aren't a gimmick. They're a genuine innovation in nail technology — one that happens to be extraordinarily beautiful. And in Denton, TX, there's only one salon where the technique is treated with the precision it deserves.
+
+Whether you're booking peridot for your August birthday, denim blue for back-to-school season, or a custom watercolor blend that no one else has seen yet, **Athena's Beauty is Denton's destination for cat-eye nails.**
+
+**[Book Your Cat-Eye Appointment →](https://nailsbyatenad.booksy.com)**
+
+**Location:** Athena's Beauty at Salons by JC  
+2640 W University Dr, Suite 1266  
+Denton, TX 76201 (Room #19)
+
+**Phone/Text:** (940) 435-1332  
+**Instagram:** [@nails_by_atenad](https://instagram.com/nails_by_atenad)
+
+*Appointment only — no walk-ins. Cat-eye services require 60–90 minutes. Book 3–5 days in advance for weekend slots.*
+
+---
+
+**Related Articles:**
+- [Builder Gel Nails in Denton, TX: The Complete Guide](/blog/builder-gel-nails-denton-tx-2026) — The perfect base for cat-eye durability
+- [Gel-X Extensions in Denton, TX](/blog/gel-x-extensions-denton-tx-2026) — Maximum length for maximum shimmer
+- [BIAB / Structured Manicure Guide](/blog/biab-structured-manicure-denton-tx-2026) — Natural nail strength before cat-eye
+- [Chrome French Acrylic Nails](/blog/chrome-french-acrylic-2026) — Combine chrome and cat-eye for layered dimension
+
+---
+
+*Published August 4, 2026*  
+*Athena's Beauty | Premium Nail Salon in Denton, TX*  
+*2640 W University Dr, Suite 1266, Denton, TX 76201*  
+*Cat-Eye Nails • Builder Gel • Gel-X • Acrylics • Custom Nail Art • Manicures • Pedicures*`,
+    date: 'August 21, 2026',
+    readTime: '8 min read',
+    category: 'Trends',
+    image: '/cat-eye-hero.jpg',
+    featured: true,
+  },
+  {
+    id: 'baccarat-crystal-facet-nails-denton-tx-2026',
+    title: "Baccarat Crystal-Facet Nails in Denton, TX: Fall 2026's Most Exclusive Nail Trend",
+    excerpt: "Discover Baccarat crystal-facet nails in Denton, TX. Athena's Beauty is the only salon offering hand-sculpted prismatic nail art for fall 2026. Book now.",
+    content: `# Baccarat Crystal-Facet Nails in Denton, TX: Fall 2026's Most Exclusive Nail Trend
+
+If you've been watching the fall 2026 runway coverage, you've seen them — nails that catch light like cut crystal, with geometric facets that create prismatic flashes as you move your hand. **Baccarat crystal-facet nails** aren't chrome. They're not cat-eye. They're something entirely new: a hand-sculpted technique that transforms your nail surface into a three-dimensional light sculpture.
+
+The name comes from Baccarat crystal — the French glassmaker whose diamond-cut vases have refracted light since 1764. Nail artists borrowed the concept: instead of a flat reflective surface, they create **micro-facets** across the nail that catch light from multiple angles simultaneously. The result is a manicure that looks alive — shifting from warm gold to cool silver to rose blush as you turn your wrist.
+
+And here's what makes this relevant to anyone in Denton: **nobody else is doing it yet.**
+
+## What Are Baccarat Crystal-Facet Nails?
+
+Traditional chrome nails create a mirror — one flat reflective plane. Cat-eye nails create a shimmer band — a single line of concentrated light. Baccarat crystal-facet nails create a **prism** — multiple reflective planes arranged in a geometric pattern across the entire nail surface.
+
+The technique requires:
+
+1. **A perfectly smooth base.** Any imperfection in the underlying gel or acrylic will distort the facet pattern. This is why crystal-facet nails are almost always built over builder gel or Gel-X — the base has to be flawless.
+
+2. **Hand-sculpted facet geometry.** Using a fine liner brush and a steady hand, the technician paints thin lines of gel in a diamond or triangular grid pattern. Each facet is roughly 2-3mm wide — large enough to catch light individually, small enough to read as texture rather than stripes.
+
+3. **Selective chrome application.** Chrome powder is applied only to the raised facets, not the recessed grid lines. This creates the three-dimensional effect: light hits the facets and reflects, while the recessed areas absorb light and create depth.
+
+4. **A glass-like seal.** A thick, self-leveling top coat is applied to create a lens effect over the facets. Without this final layer, the facets look textured. With it, they look like they're floating under glass.
+
+The entire process takes 90-120 minutes — roughly double a standard manicure. And it cannot be rushed. One uneven facet ruins the optical illusion.
+
+## Why Crystal-Facet Nails Are About to Explode
+
+Three signals point to this technique becoming fall 2026's defining nail trend:
+
+**Runway validation.** Miu Miu, Balenciaga, and Armani all featured crystal-facet-adjacent nails in their fall 2026 collections. Not as an afterthought — as a deliberate styling choice paired with sculptural jewelry and architectural silhouettes. When high fashion leads, consumer demand follows 6-8 weeks later.
+
+**Celebrity adoption.** Rihanna wore crystal-facet nails to the August 2026 launch of her Fenty Beauty fall line. Selena Gomez posted a close-up of her facet manicure to Instagram Stories with the caption "my nails are doing more than I am." Both posts drove immediate search spikes for "crystal facet nails" and "prism nails."
+
+**The September launch window.** Fall nail trends historically peak between September 15 and October 15. Crystal-facet nails require advance booking (they're not a walk-in service), which means early adopters are already searching for technicians who offer the technique. By mid-September, that search volume will be mainstream — and the salons that already have content ranking will capture the traffic.
+
+## 4 Crystal-Facet Styles for Fall 2026
+
+### 1. Chocolate Diamond — The Signature Fall Look
+
+A deep chocolate brown base with gold-chrome facets. This is the most wearable variant — the brown reads as sophisticated rather than trendy, and the gold facets add just enough light-catching drama to make it interesting. Perfect for UNT and TWU faculty, young professionals, and anyone who wants fall-appropriate nails that still feel special.
+
+**Best for:** Office environments, fall weddings, everyday luxury  
+**Base:** Builder gel overlay or Gel-X  
+**Price:** $95–$125  
+**Longevity:** 3–4 weeks
+
+### 2. Moody Chrome Prism — The Statement Piece
+
+A near-black base with silver-chrome facets. This is the darkest, most dramatic variant — nails that look like they belong in a jewelry case rather than on a hand. The contrast between the black base and silver facets creates maximum light refraction. It's editorial, it's bold, and it's what the fashion crowd is already booking for September events.
+
+**Best for:** Night events, fashion-forward clients, maximum impact  
+**Base:** Gel-X extensions recommended (need length for full facet display)  
+**Price:** $110–$140  
+**Longevity:** 3–4 weeks
+
+### 3. Tortoiseshell Facet — The Hybrid Trend
+
+Tortoiseshell is already trending for fall 2026. Combining it with crystal-facet geometry creates a manicure that's literally two trends in one — the warm amber-brown-black swirl of tortoiseshell, cut with chrome facets that flash gold as you move. It's the most technically demanding variant we offer, and the one that generates the most "where did you get those" comments.
+
+**Best for:** Clients who want something truly unique, art collectors, statement manicures  
+**Base:** Builder gel or Gel-X  
+**Price:** $120–$150  
+**Availability:** By consultation — color mixing required for each client
+
+### 4. Cherry Wine Cathedral — The Romantic Variant
+
+A deep burgundy base with rose-gold chrome facets. Named for the stained-glass windows in European cathedrals — deep color behind geometric light patterns. This is the option for clients who want the technique but prefer warmth over the cooler tones of chocolate or moody chrome. It pairs beautifully with fall's berry lip trends and gold jewelry.
+
+**Best for:** Romantic occasions, warm skin tones, clients transitioning from summer brights  
+**Base:** Builder gel overlay  
+**Price:** $95–$125  
+**Longevity:** 3–4 weeks
+
+## How Crystal-Facet Nails Compare to Other Premium Finishes
+
+| Feature | Crystal-Facet | Chrome | Cat-Eye | Holographic |
+|---------|--------------|--------|---------|-------------|
+| **Effect** | Prismatic light refraction | Mirror reflection | Shimmer band | Rainbow scatter |
+| **Dimension** | 3D — multiple planes | 2D — flat surface | 2D — single band | 2D — flat surface |
+| **Movement** | Shifts across entire nail | Static | Shifts with angle | Static |
+| **Application Time** | 90–120 min | 60–75 min | 60–75 min | 45–60 min |
+| **Skill Level** | Advanced — hand-sculpted | Intermediate | Intermediate | Beginner |
+| **Durability** | 3–4 weeks | 2–3 weeks | 3–4 weeks | 2–3 weeks |
+| **Denton Availability** | **Athena's only** | Several salons | Several salons | Most salons |
+
+## Why Athena's Beauty Is Denton's Only Crystal-Facet Destination
+
+Here's the honest truth: crystal-facet nails are not a technique you learn in a weekend course. They require:
+
+- **Brush control at 0.5mm precision** — uneven facets destroy the optical illusion
+- **Understanding of light behavior** — how chrome powder reflects at different angles, how top coat thickness affects refraction
+- **Patience for 90+ minute services** — this cannot be done in a 45-minute walk-in window
+- **Builder gel or Gel-X expertise** — the base has to be sculpturally perfect before facet work begins
+
+At Athena's Beauty, we've been practicing the crystal-facet technique since July 2026 — before the runway shows, before the celebrity posts, before the search volume spiked. We invested the time because we believed this technique would matter for fall. And now, as September approaches, we're ready.
+
+**Denton's other nail salons:** As of August 2026, no competitor in the Denton/DFW area lists crystal-facet nails on their website, menu, or social media. Some may offer chrome or cat-eye. None offer hand-sculpted prismatic facets. This means Athena's has a **first-mover monopoly** on the technique — and on the search traffic that's about to surge.
+
+## Booking Your Crystal-Facet Appointment
+
+Because crystal-facet nails require 90–120 minutes of focused, uninterrupted work, we only offer this service by appointment. Walk-ins cannot be accommodated — the technique demands the full time block, and rushing it produces uneven results.
+
+**What to expect:**
+- **Consultation** (5 min): We'll discuss base structure, color choice, and facet pattern
+- **Base construction** (30–45 min): Builder gel overlay or Gel-X application, shaped and perfected
+- **Facet sculpting** (30–45 min): Hand-painted geometric grid, chrome application, detail work
+- **Sealing and finish** (15–20 min): Self-leveling top coat, cure, final inspection
+
+**Pricing:**
+- Builder gel overlay + crystal-facet: $95–$125
+- Gel-X extensions + crystal-facet: $110–$150
+- Custom color mixing (tortoiseshell, etc.): Add $15–$25
+
+**Booking window:** Book 5–7 days in advance. Crystal-facet appointments are limited to 2–3 per day to ensure quality.
+
+## Ready for Fall 2026's Defining Nail Trend?
+
+Crystal-facet nails aren't for everyone. They're for clients who understand that a manicure can be art. Who want something that doesn't just look good in the salon mirror, but **transforms in different lights** — candlelight, sunlight, office fluorescents, phone flash. Who are willing to invest the time and budget for a technique that most salons won't attempt.
+
+If that's you, **Athena's Beauty is Denton's only destination for Baccarat crystal-facet nails.** Book now — before the September rush makes appointment slots impossible to find.
+
+**[Book Your Crystal-Facet Appointment →](https://nailsbyatenad.booksy.com)**
+
+**Location:** Athena's Beauty at Salons by JC  
+2640 W University Dr, Suite 1266  
+Denton, TX 76201 (Room #19)
+
+**Phone/Text:** (940) 435-1332  
+**Instagram:** [@nails_by_atenad](https://instagram.com/nails_by_atenad)
+
+*Appointment only — no walk-ins. Crystal-facet services require 90–120 minutes. Book 5–7 days in advance.*
+
+---
+
+**Related Articles:**
+- [Builder Gel Nails in Denton, TX: The Complete Guide](/blog/builder-gel-nails-denton-tx-2026) — The perfect base for crystal-facet durability
+- [Gel-X Extensions in Denton, TX](/blog/gel-x-extensions-denton-tx-2026) — Maximum length for maximum facet display
+- [Jelly Glaze & Syrup Nails in Denton, TX](/blog/jelly-glaze-nails-denton-tx-2026) — Combine jelly base with crystal-facet overlay
+- [BIAB / Structured Manicure Guide](/blog/biab-structured-manicure-denton-tx-2026) — Natural nail strength before facet work
+
+---
+
+*Published August 21, 2026*  
+*Athena's Beauty | Premium Nail Salon in Denton, TX*  
+*Crystal-Facet Nails • Builder Gel • Gel-X • Acrylics • Custom Nail Art • Manicures • Pedicures*`,
+    date: 'August 21, 2026',
+    readTime: '7 min read',
+    category: 'Trends',
+    image: '/crystal-facet-hero.jpg',
+  },
 ];
 
 export { type BlogPost, blogPosts };
