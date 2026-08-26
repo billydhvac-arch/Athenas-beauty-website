@@ -161,6 +161,25 @@ const ServicesPreviewSection = ({ className = '' }: ServicesPreviewSectionProps)
             ))}
           </div>
         </div>
+        {/* Blog Link Banner — SEO Internal Link */}
+        <div className="mt-12 lg:mt-16 max-w-3xl mx-auto">
+          <div className="bg-black rounded-2xl lg:rounded-3xl p-6 lg:p-8 text-center">
+            <h3 className="font-heading font-bold text-lg lg:text-xl text-gold mb-2">
+              What's Trending in Denton Nail Art
+            </h3>
+            <p className="font-body text-sm text-white/70 mb-4">
+              From viral TikTok trends to seasonal must-haves — read our latest guides on cat-eye nails, jelly glaze, micro-French, and more.
+            </p>
+            <button
+              onClick={() => window.location.href = '/blog'}
+              className="inline-flex items-center gap-2 bg-gold text-black font-body font-medium text-sm px-6 py-3 rounded-full hover:bg-gold-dark transition-colors"
+            >
+              Read the Blog
+              <ArrowRight size={16} />
+            </button>
+          </div>
+        </div>
+
       </div>
     </section>
   );

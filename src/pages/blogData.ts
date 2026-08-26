@@ -1318,6 +1318,141 @@ Denton, TX 76201 (Room #19)
     category: 'Trends',
     image: '/crystal-facet-hero.jpg',
   },
+  {
+    id: 'tortoiseshell-nails-denton-tx-2026',
+    title: 'Tortoiseshell Nails in Denton, TX: The Definitive Fall 2026 Guide',
+    excerpt: "Discover tortoiseshell nails in Denton, TX. Athena's Beauty creates the viral fall 2026 manicure — amber, caramel & black swirls that pair with every sweater. Book now.",
+    content: `There's a reason tortoiseshell nails are being called the **"most requested autumn design"** for Fall 2026. The look — warm amber, caramel, and chocolate-brown swirled together with inky black accents — captures something no single-color manicure can. It feels expensive. It feels seasonal. And most importantly, it looks incredible against every fall wardrobe staple from oatmeal knits to olive trenches.
+
+At **Athena's Beauty in Denton, TX**, we're already booking tortoiseshell appointments two weeks out. Here's everything you need to know about the trend, how we execute it, and why it should be your next set.
+
+---
+
+## What Are Tortoiseshell Nails?
+
+Tortoiseshell nails (sometimes called "tortie nails") mimic the mottled pattern of real tortoiseshell — a marbled blend of **amber, caramel, chestnut brown, and black** that swirls organically across each nail. No two nails look identical, which is part of the charm.
+
+The technique can be executed in several ways:
+- **Hand-painted gel art** — freeform marbling with a fine brush
+- **Amber/caramel jelly layers** — building translucent color depth
+- **Foil and chrome accents** — adding gold or copper shimmer for dimension
+- **3D gel overlays** — raised texture that catches light like real shell
+
+The result sits somewhere between **artisan luxury and natural beauty** — polished enough for a boardroom, artistic enough for a gallery opening.
+
+---
+
+## 5 Tortoiseshell Variations We're Booking at Athena's
+
+### 1. Classic Tortoiseshell
+The OG. Warm amber base with hand-painted chocolate and black marbling. Best on **medium-to-long almond or coffin shapes** where the pattern has room to breathe.
+
+**Best for:** First-time tortoiseshell clients, fall wedding guests, anyone who wants a timeless autumn look  
+**Price:** $75–$90 (builder gel base + hand-painted art)  
+**Duration:** 90 minutes
+
+### 2. Gold-Flecked Tortoiseshell
+Same warm palette, but with **micro gold leaf or foil flakes** pressed into the design. The metallic catches light and elevates the look from "fall casual" to "holiday party ready." This is the version that went viral on TikTok in late August 2026.
+
+**Best for:** Holiday season prep, clients who love a little extra  
+**Price:** $85–$100 (builder gel + gold accents)  
+**Duration:** 105 minutes
+
+### 3. Tortoiseshell French Tips
+The micro-French silhouette gets a fall makeover. Instead of white tips, we paint a thin tortoiseshell pattern along the free edge — warm amber melting into a nude or sheer pink base. Subtle, sophisticated, and totally unique.
+
+**Best for:** Professionals who need understated art, short nail lovers  
+**Price:** $70–$85  
+**Duration:** 75 minutes
+
+### 4. Jelly Glaze Tortoiseshell
+Our signature hybrid. We layer **translucent amber and caramel jelly polishes** over a builder gel base, then hand-marble black accents through the wet layers. The result is dimensional, glowing, and unlike anything a standard polish manicure can achieve.
+
+**Best for:** Clients who loved our jelly glaze posts and want something autumn-themed  
+**Price:** $90–$110  
+**Duration:** 105 minutes
+
+### 5. Tortoiseshell + Cat-Eye Combo
+The ultimate power move. A **magnetic cat-eye base in deep amber or copper** provides shifting shimmer, then we hand-paint tortoiseshell marbling over the top. Two viral trends in one manicure. This is the set that gets stopped on the street.
+
+**Best for:** Trend risk-takers, content creators, anyone who wants their nails to be the conversation  
+**Price:** $95–$120  
+**Duration:** 120 minutes
+
+---
+
+## Why Tortoiseshell Nails Work for Fall 2026
+
+### They're Universally Flattering
+The warm brown and amber palette complements **every skin tone** — from fairest fair to deepest deep. Unlike trendy neons or pastels that wash some people out, tortoiseshell is designed by nature to look good on everyone.
+
+### They Pair With Everything
+Sweaters. Leather jackets. Denim. Camel coats. Tortoiseshell doesn't compete with your outfit — it **anchors it**. The neutral-warm tones act like an accessory that happens to be on your fingertips.
+
+### They're Already Viral
+Tortoiseshell was named the **#1 fall nail trend** by Mirellé Inspo, Vogue, and multiple beauty editors for 2026. Pinterest searches are up **+340%** since July. The trend has crossed from "fashion insider" to "mainstream request" — and we're the only Denton salon with a dedicated blog post and service menu for it.
+
+---
+
+## How Long Do Tortoiseshell Nails Last?
+
+With a **builder gel base** (our standard), tortoiseshell nails last **3–4 weeks** with normal care. The hand-painted art is sealed under a high-gloss or matte top coat, so the design won't chip or fade.
+
+**Pro tip:** The marbling actually hides grow-out better than solid colors. Many clients find their tortoiseshell set looks good for a full month before needing a fill.
+
+---
+
+## Why Get Tortoiseshell Nails at Athena's Beauty?
+
+**We Don't Rush Hand-Painted Art.** Tortoiseshell requires freeform marbling with a fine brush — no stamps, no stickers, no shortcuts. A walk-in salon doing 20-minute manicures simply cannot execute this. At Athena's, every tortoiseshell set gets **75–120 minutes** depending on complexity.
+
+**We Customize the Palette.** Some clients want more amber, others more chocolate, some want the black minimal or dramatic. We adjust the color ratio to match your skin tone, wardrobe, and personal style.
+
+**We Combine Techniques.** Tortoiseshell over cat-eye. Tortoiseshell with gold foil. Tortoiseshell French tips. Most salons offer one technique per menu. We build combinations.
+
+**Zero Local Competition.** As of August 2026, no other Denton nail salon — not Bella Nail Bar, not Shine Nails & Spa, not VIP Nails Lounge — is marketing tortoiseshell expertise. We're first to own this keyword.
+
+---
+
+## FAQ
+
+**How much do tortoiseshell nails cost in Denton?**  
+Builder gel overlay with tortoiseshell art starts at $75. Gel-X extensions with tortoiseshell range from $85–$120 depending on length, complexity, and add-ons like gold foil or cat-eye base.
+
+**Can I get tortoiseshell on short nails?**  
+Absolutely. Short almond and short square are ideal for tortoiseshell French tips or a concentrated marbled accent nail. The pattern reads beautifully even on shorter lengths.
+
+**Do tortoiseshell nails damage natural nails?**  
+Not when applied correctly. At Athena's, we use builder gel as a protective base layer. The art sits on top — your natural nail underneath stays healthy and intact.
+
+**What's the difference between tortoiseshell and brown marble nails?**  
+Tortoiseshell specifically uses the **amber-caramel-brown-black** color family with organic, irregular swirls. Brown marble is broader — it can be any brown shade with white or grey veining. Tortoiseshell is warmer, more dimensional, and more distinctly autumn.
+
+**Can you do tortoiseshell on toes?**  
+Yes! Tortoiseshell pedicures are stunning through fall and winter. The warm tones look incredible against boots, booties, and holiday open-toe moments.
+
+**How do I book?**  
+We operate **appointment-only** at Salons by JC in Denton (2640 W University Dr, Suite 1266). [Book online via Booksy](https://nailsbyatenad.booksy.com) or call/text **(940) 435-1332**.
+
+---
+
+## Related Reading
+
+- [Cat-Eye Nails in Denton, TX](/blog/cat-eye-nails-denton-tx-2026) — Layer cat-eye magnetic gel under tortoiseshell for ultimate dimension
+- [Jelly Glaze & Syrup Nails in Denton, TX](/blog/jelly-glaze-nails-denton-tx-2026) — Our signature translucent technique, now in autumn colors
+- [Builder Gel Nails in Denton, TX: The Complete Guide](/blog/builder-gel-nails-denton-tx-2026) — The protective base that makes tortoiseshell last
+- [Micro-French Manicure in Denton, TX](/blog/micro-french-manicure-denton-tx-2026) — The perfect canvas for tortoiseshell French tips
+
+---
+
+*Athena's Beauty | Custom Nail Art & Premium Enhancements | Denton, TX*  
+*📍 2640 W University Dr, Suite 1266, Denton, TX 76201 | 📞 (940) 435-1332*  
+*By appointment only. Follow [@nails_by_atenad](https://instagram.com/nails_by_atenad) for daily work.*`,
+    date: 'August 25, 2026',
+    readTime: '8 min read',
+    category: 'Trends',
+    image: '/builder-gel-thumb.jpg',
+  },
 ];
 
-export { type BlogPost, blogPosts };
+export { type BlogPost, blogPosts }; 

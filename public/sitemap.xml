@@ -2,113 +2,133 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://athenas-beauty.com/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <loc>https://www.athenas-beauty.com/</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Services Page -->
   <url>
-    <loc>https://athenas-beauty.com/services</loc>
-    <lastmod>2026-07-29</lastmod>
+    <loc>https://www.athenas-beauty.com/services</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Gallery Pages -->
   <url>
-    <loc>https://athenas-beauty.com/gallery/acrylic</loc>
-    <lastmod>2026-07-29</lastmod>
+    <loc>https://www.athenas-beauty.com/gallery/acrylic</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://athenas-beauty.com/gallery/dip</loc>
-    <lastmod>2026-07-29</lastmod>
+    <loc>https://www.athenas-beauty.com/gallery/dip</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://athenas-beauty.com/gallery/builder-gel</loc>
-    <lastmod>2026-07-29</lastmod>
+    <loc>https://www.athenas-beauty.com/gallery/builder-gel</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://athenas-beauty.com/gallery/gelx</loc>
-    <lastmod>2026-07-29</lastmod>
+    <loc>https://www.athenas-beauty.com/gallery/gelx</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Student Landing Pages -->
   <url>
-    <loc>https://athenas-beauty.com/unt</loc>
-    <lastmod>2026-07-29</lastmod>
+    <loc>https://www.athenas-beauty.com/unt</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://athenas-beauty.com/twu</loc>
-    <lastmod>2026-07-29</lastmod>
+    <loc>https://www.athenas-beauty.com/twu</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+
+  <!-- Policy Pages -->
+  <url>
+    <loc>https://www.athenas-beauty.com/booking-policy</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.athenas-beauty.com/client-policy</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.athenas-beauty.com/health-safety-policy</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 
   <!-- Blog Index -->
   <url>
-    <loc>https://athenas-beauty.com/blog</loc>
-    <lastmod>2026-08-20</lastmod>
+    <loc>https://www.athenas-beauty.com/blog</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <!-- Individual Blog Posts -->
   <url>
-    <loc>https://athenas-beauty.com/blog/builder-gel-nails-denton-tx-2026</loc>
-    <lastmod>2026-08-20</lastmod>
+    <loc>https://www.athenas-beauty.com/blog/builder-gel-nails-denton-tx-2026</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://athenas-beauty.com/blog/gel-x-extensions-denton-tx-2026</loc>
-    <lastmod>2026-08-20</lastmod>
+    <loc>https://www.athenas-beauty.com/blog/gel-x-extensions-denton-tx-2026</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://athenas-beauty.com/blog/soap-nails-foggy-french-denton-tx-2026</loc>
+    <loc>https://www.athenas-beauty.com/blog/soap-nails-foggy-french-denton-tx-2026</loc>
     <lastmod>2026-05-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://athenas-beauty.com/blog/micro-french-manicure-denton-tx-2026</loc>
-    <lastmod>2026-04-21</lastmod>
+    <loc>https://www.athenas-beauty.com/blog/micro-french-manicure-denton-tx-2026</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://athenas-beauty.com/blog/chrome-french-acrylic-2026</loc>
+    <loc>https://www.athenas-beauty.com/blog/chrome-french-acrylic-2026</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.athenas-beauty.com/blog/custom-nail-art-denton-2026</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://athenas-beauty.com/blog/custom-nail-art-denton-2026</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://athenas-beauty.com/blog/manicure-longevity-tips-2026</loc>
+    <loc>https://www.athenas-beauty.com/blog/manicure-longevity-tips-2026</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -116,54 +136,79 @@
 
   <!-- New Blog Posts July-August 2026 -->
   <url>
-    <loc>https://athenas-beauty.com/blog/back-to-school-nails-denton-tx-2026</loc>
-    <lastmod>2026-07-28</lastmod>
+    <loc>https://www.athenas-beauty.com/blog/back-to-school-nails-denton-tx-2026</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://athenas-beauty.com/blog/biab-structured-manicure-denton-tx-2026</loc>
-    <lastmod>2026-07-28</lastmod>
+    <loc>https://www.athenas-beauty.com/blog/biab-structured-manicure-denton-tx-2026</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://athenas-beauty.com/blog/jelly-glaze-nails-denton-tx-2026</loc>
-    <lastmod>2026-08-20</lastmod>
+    <loc>https://www.athenas-beauty.com/blog/jelly-glaze-nails-denton-tx-2026</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.athenas-beauty.com/blog/summerween-nails-denton-tx-2026</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://athenas-beauty.com/blog/summerween-nails-denton-tx-2026</loc>
-    <lastmod>2026-08-20</lastmod>
+    <loc>https://www.athenas-beauty.com/blog/gem-nails-3d-sculpted-art-denton-tx-2026</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://athenas-beauty.com/blog/gem-nails-3d-sculpted-art-denton-tx-2026</loc>
-    <lastmod>2026-08-20</lastmod>
+    <loc>https://www.athenas-beauty.com/blog/cat-eye-nails-denton-tx-2026</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.athenas-beauty.com/blog/baccarat-crystal-facet-nails-denton-tx-2026</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.athenas-beauty.com/blog/tortoiseshell-nails-denton-tx-2026</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Spanish Pages -->
+  <url>
+    <loc>https://www.athenas-beauty.com/es/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.athenas-beauty.com/es/servicios</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
-
-
-
   <url>
-    <loc>https://athenas-beauty.com/blog/cat-eye-nails-denton-tx-2026</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://athenas-beauty.com/blog/baccarat-crystal-facet-nails-denton-tx-2026</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.athenas-beauty.com/es/blog</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>

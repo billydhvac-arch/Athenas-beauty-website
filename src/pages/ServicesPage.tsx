@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { Search, X, ArrowLeft, Star, Clock, Check } from 'lucide-react';
+import { Search, X, ArrowLeft, Star, Clock, Check, BookOpen } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 interface Service {
@@ -329,6 +329,54 @@ const ServicesPage = () => {
             </button>
           </div>
         )}
+
+        {/* From the Blog — Internal Links for SEO */}
+        <div className="mt-16 mb-8">
+          <div className="flex items-center gap-3 mb-6">
+            <BookOpen size={20} className="text-gold" />
+            <h3 className="font-heading font-bold text-xl text-black">
+              Trending on the Blog
+            </h3>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <Link
+              to="/blog/cat-eye-nails-denton-tx-2026"
+              className="bg-white rounded-2xl p-5 shadow-card card-border card-hover group"
+            >
+              <span className="text-xs font-body text-gold uppercase tracking-wider">Trend Alert</span>
+              <h4 className="font-heading font-bold text-base text-black mt-1 group-hover:text-gold transition-colors">
+                Cat-Eye Nails in Denton, TX
+              </h4>
+              <p className="font-body text-sm text-text-secondary mt-2">
+                Magnetic gel, peridot green & denim blue — the viral trend everyone's booking.
+              </p>
+            </Link>
+            <Link
+              to="/blog/jelly-glaze-nails-denton-tx-2026"
+              className="bg-white rounded-2xl p-5 shadow-card card-border card-hover group"
+            >
+              <span className="text-xs font-body text-gold uppercase tracking-wider">Most Requested</span>
+              <h4 className="font-heading font-bold text-base text-black mt-1 group-hover:text-gold transition-colors">
+                Jelly Glaze & Syrup Nails
+              </h4>
+              <p className="font-body text-sm text-text-secondary mt-2">
+                The Hailey Bieber manicure — translucent glow that lasts 3+ weeks.
+              </p>
+            </Link>
+            <Link
+              to="/blog/builder-gel-nails-denton-tx-2026"
+              className="bg-white rounded-2xl p-5 shadow-card card-border card-hover group"
+            >
+              <span className="text-xs font-body text-gold uppercase tracking-wider">Service Guide</span>
+              <h4 className="font-heading font-bold text-base text-black mt-1 group-hover:text-gold transition-colors">
+                Builder Gel Complete Guide
+              </h4>
+              <p className="font-body text-sm text-text-secondary mt-2">
+                Stronger, healthier natural nails. Why builder gel is 2026's fastest-growing enhancement.
+              </p>
+            </Link>
+          </div>
+        </div>
 
         {/* Bottom CTA */}
         <div className="mt-16 text-center bg-black rounded-3xl p-8 lg:p-12">
